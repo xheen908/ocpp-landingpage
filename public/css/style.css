@@ -296,7 +296,10 @@ input[type=number] {
     background: #000;
 }
 
+/* Base state: Hidden until JS reveals them */
 .article-row-stack {
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     inset: 0;
     width: 100%;
@@ -351,10 +354,6 @@ input[type=number] {
     flex: 1;
     text-align: left;
 }
-
-/* Base state for stack items */
-.article-row-stack[data-index="0"] { z-index: 10; }
-.article-row-stack[data-index="1"] { z-index: 5; opacity: 0; transform: scale(0.9); }
 
 @media (max-width: 767px) {
     .article-stack-section { height: auto !important; }

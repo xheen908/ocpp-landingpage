@@ -162,31 +162,38 @@ document.addEventListener('DOMContentLoaded', () => {
             stackItems.forEach((item, index) => {
                 const itemStep = 1 / totalItems;
                 const itemStart = index * itemStep;
-                const itemEnd = (index + 1) * itemStep;
                 
                 let itemProgress = (totalProgress - itemStart) / itemStep;
                 itemProgress = Math.max(0, Math.min(1, itemProgress));
 
+                // Layering logic: Active item gets highest z-index
+                item.style.zIndex = totalItems - index;
+
                 if (index < totalItems - 1) {
                     if (itemProgress > 0.5) {
+                        // Exit phase (flying out)
                         const factor = (itemProgress - 0.5) * 2;
                         item.style.transform = `translateX(${-factor * 120}%) translateY(${-factor * 20}px) rotate(${-factor * 5}deg)`;
                         item.style.opacity = 1 - factor;
                         item.style.pointerEvents = 'none';
-                    } else {
+                        item.style.visibility = 'visible';
+                    } else if (itemProgress > 0) {
+                        // Active phase (sitting still)
                         item.style.transform = 'translateX(0) translateY(0) rotate(0)';
                         item.style.opacity = '1';
                         item.style.pointerEvents = 'auto';
+                        item.style.visibility = 'visible';
+                    } else {
+                        // Waiting phase (hidden below the current one)
+                        item.style.opacity = '0';
+                        item.style.visibility = 'hidden';
+                        item.style.pointerEvents = 'none';
                     }
                 } else {
+                    // Last item settles in
                     item.style.opacity = itemProgress > 0 ? '1' : '0';
+                    item.style.visibility = itemProgress > 0 ? 'visible' : 'hidden';
                     item.style.transform = `scale(${0.95 + (itemProgress * 0.05)})`;
-                }
-
-                if (totalProgress > itemEnd && index < totalItems - 1) {
-                    item.style.visibility = 'hidden';
-                } else {
-                    item.style.visibility = 'visible';
                 }
             });
         };
