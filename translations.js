@@ -1,29 +1,29 @@
 const translations = {
     "de-de": {
-        "h1": "BEFREIEN SIE IHRE CONTAINER.<br>ESPR-COMPLIANCE IN 24H.<br><span class=\"gradient-text\">REVENUE THROUGH ROYALTY FEES.</span>",
-        "sub": "Sichern Sie Ihren Export nach Europa. Wir liefern die digitale Zoll-Autobahn für asiatische Exporteure. Automatisierte Payouts in USDT/EUR direkt in Ihre Corporate Wallet bei jedem Wiederverkauf.",
+        "h1": "Die SaaS-Lösung für Ihren Export.<br>ESPR-Compliance & NFTs.<br><span class=\"gradient-text\">REVENUE THROUGH ROYALTY FEES.</span>",
+        "sub": "Wir tokenisieren Ihre Lieferkette als SaaS: Generieren Sie fälschungssichere NFTs (DPPs) ohne Krypto-Hürden. Account Abstraction und Invisible Wallets sichern Ihnen ein nahtloses passives Einkommen bei jedem Wiederverkauf in Europa.",
         "cta": "Export-Check 2027 starten",
         "mHeader": "Strategisches Partner-Audit",
         "footerH2": "FIRST MOVER: BATTERIES & TEXTILES.",
         "footerP": "Werden Sie der erste Exporteur, dessen Ware den Zoll 2027 passiert. Wir suchen strategische Partner für den Sektoreinstieg.",
         "contact": "Audit anfordern",
         "copy": "&copy; 2026 OCPP-Solution UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
-        "s1h": "Customs Clearance 2027",
-        "s1p": "Vermeiden Sie Container-Stillstand in EU-Häfen. Automatisierte DPP-Abwicklung für reibungslose Verzollung.",
+        "s1h": "NFTs as a Service",
+        "s1p": "Vollautomatisierte Generierung von Digitalen Produktpässen für Ihre Container. Wir abstrahieren die Blockchain.",
         "s2h": "Smart Contract Royalties",
-        "s2p": "Jeder Wiederverkauf Ihrer Ware in Europa generiert eine automatisierte Royalty Fee. Ihr Produkt wird zum Profit-Center.",
-        "p1t": "Port of Entry",
-        "p1h": "Zero Port Delays.",
-        "p1d": "Vollständige ESPR-Compliance für asiatische Exporteure. Der Zoll-Flaschenhals wird zur Autobahn.",
+        "s2p": "Unsere SaaS-Plattform wandelt Compliance in Profit. Erhalten Sie bei jedem Resell Payouts direkt in Ihr Firmenkonto.",
+        "p1t": "SaaS Infrastructure",
+        "p1h": "Invisible Wallets.",
+        "p1d": "Kein technisches Vorwissen, keine Seed-Phrases. Unsere Account Abstraction Technologie läuft komplett im Hintergrund.",
         "p2t": "The Royalty Revolution",
-        "p2h": "Passive Revenue.",
-        "p2d": "Programmierbare Gebühren beim Resell. Payouts in USDT/EUR direkt in Ihre Corporate Wallet.",
+        "p2h": "Tokenized Exports.",
+        "p2d": "Programmierbare Smart Contracts schütten Gebühren in Fiat/USDT bei jedem Weiterverkauf automatisch an Sie aus.",
         "p3t": "EU Provenance Trust",
-        "p3h": "European Expertise.",
-        "p3d": "On-Chain Technologie (Base L2) kombiniert mit deutscher Regulierungskompetenz.",
+        "p3h": "B2B SaaS-Plattform.",
+        "p3d": "Das sichere Web3-Backend (Base L2) kombiniert mit dem Nutzererlebnis von klassischem Online-Banking.",
         "p4t": "Unforgeable Identity",
         "p4h": "NXP Secure Hardware.",
-        "p4d": "Physische Anker (NTAG 424 DNA) sichern den Wert Ihrer Marke vom Werk bis zum Recycling.",
+        "p4d": "Physische Anker verknüpfen Ihre Ware mit unseren NFTs und sichern den Wert Ihrer Marke vom Werk bis zum Recycling.",
         "quote": "\"Der EU-Marktzugang 2027 ist kein Risiko mehr, sondern ein Wettbewerbsvorteil gegenüber der Konkurrenz.\"",
         "quotesub": "— OCPP-LABS // THE EXPORT GATEWAY",
         "badge": "Specialized for Batteries & Textiles // SEA Export",
@@ -37,16 +37,16 @@ const translations = {
         "metaDesc": "OCPP-Labs (Duisburg) bietet ESPR-Compliance für Batterien & Textilien. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
         "faqs": [
             {
-                "q": "Was ist der DPP nach EU-ESPR 2027?",
-                "a": "Ab 2027 müssen Batterien und Textilien lückenlos trackbar sein. OCPP-Labs (Duisburg) bietet hierfür die industrielle Infrastruktur für asiatische Exporteure."
+                "q": "Was ist Ihre NFT as a Service Lösung?",
+                "a": "Unsere SaaS-Plattform tokenisiert Ihre Supply-Chain und generiert für jedes Produkt vollautomatisch nicht-kopierbare NFTs (Digitale Produktpässe) für den EU-Export."
             },
             {
-                "q": "Warum NTAG 424 DNA Security?",
-                "a": "QR-Codes sind kopierbar. Wir nutzen NXP Secure Hardware zur fälschungssicheren Verknüpfung von Ware und Daten."
+                "q": "Warum NXP Secure Hardware?",
+                "a": "QR-Codes sind leicht kopierbar. Wir nutzen kryptographische NTAG 424 DNA Chips, um eine fälschungssichere Brücke zwischen der physischen Ware und dem NFT zu schlagen."
             },
             {
-                "q": "Wie funktionieren Royalties?",
-                "a": "Durch Smart Contracts auf der Base Blockchain erhalten Hersteller bei jedem Wiederverkauf automatisierte Gebühren direkt in ihre Wallet."
+                "q": "Wie funktionieren Royalties ohne Krypto-Wallet?",
+                "a": "Durch Account Abstraction und Invisible Wallets übernimmt unsere SaaS-Plattform die gesamte Blockchain-Komplexität. Sie erhalten Ihre Royalty-Fees bei jedem Wiederverkauf in Euro oder USDT als klassische Firmenauszahlung."
             }
         ],
         "legal": {
@@ -76,30 +76,30 @@ const translations = {
         }
     },
     "en-us": {
-        "h1": "FREE YOUR CONTAINERS.<br>ESPR-COMPLIANCE IN 24H.<br><span class=\"gradient-text\">REVENUE THROUGH ROYALTY FEES.</span>",
-        "sub": "Secure your export to Europe. We provide the digital customs highway for Asian exporters. Automated payouts in USDT/EUR directly to your corporate wallet on every resale.",
+        "h1": "The SaaS Solution for your Export.<br>ESPR Compliance & NFTs.<br><span class=\"gradient-text\">REVENUE THROUGH ROYALTY FEES.</span>",
+        "sub": "We tokenize your supply chain as a SaaS: Generate tamper-proof NFTs (DPPs) with zero crypto hurdles. Account Abstraction and Invisible Wallets secure seamless passive income on every resale in Europe.",
         "cta": "Start Export-Check 2027",
         "mHeader": "Strategic Partner Audit",
         "footerH2": "FIRST MOVER: BATTERIES & TEXTILES.",
         "footerP": "Be the first exporter whose goods clear EU customs with zero friction. We are selecting strategic partners for the 2027 transition.",
         "contact": "Request Audit",
         "copy": "&copy; 2026 OCPP-Solution UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
-        "s1h": "Customs Clearance 2027",
-        "s1p": "Prevent container stranding at EU ports. Automated DPP processing ensures smooth and rapid customs entry.",
+        "s1h": "NFTs as a Service",
+        "s1p": "Fully automated generation of Digital Product Passports for your containers. We completely abstract the blockchain.",
         "s2h": "Smart Contract Royalties",
-        "s2p": "Every resale of your goods within Europe triggers an automated royalty fee. Transform your products into lifelong profit centers.",
-        "p1t": "Port of Entry",
-        "p1h": "Zero Port Delays.",
-        "p1d": "Full ESPR compliance for Asian exporters. Turn the customs bottleneck into a fast lane.",
+        "s2p": "Our SaaS platform turns compliance into profit. Receive payouts directly to your corporate account on every resell.",
+        "p1t": "SaaS Infrastructure",
+        "p1h": "Invisible Wallets.",
+        "p1d": "No technical prerequisites, no seed phrases. Our Account Abstraction technology runs entirely in the background.",
         "p2t": "The Royalty Revolution",
-        "p2h": "Passive Revenue.",
-        "p2d": "Programmable fees on every resell. Payouts in USDT/EUR directly into your corporate wallet.",
+        "p2h": "Tokenized Exports.",
+        "p2d": "Programmable smart contracts automatically disburse fees in fiat/USDT to you on every resale.",
         "p3t": "EU Provenance Trust",
-        "p3h": "European Expertise.",
-        "p3d": "On-chain technology (Base L2) backed by German regulatory expertise.",
+        "p3h": "B2B SaaS Platform.",
+        "p3d": "The secure Web3 backend (Base L2) combined with the user experience of traditional online banking.",
         "p4t": "Unforgeable Identity",
         "p4h": "NXP Secure Hardware.",
-        "p4d": "Physical anchors (NTAG 424 DNA) secure your brand value from factory to recycling.",
+        "p4d": "Physical anchors link your goods with our NFTs and secure your brand value from factory to recycling.",
         "quote": "\"EU market access 2027 is no longer a risk. It’s your ultimate competitive advantage in the global market.\"",
         "quotesub": "— OCPP-LABS // THE EXPORT GATEWAY",
         "badge": "Specialized for Batteries & Textiles // SEA Export",
@@ -113,16 +113,16 @@ const translations = {
         "metaDesc": "OCPP-Labs (Duisburg) provides ESPR compliance for batteries & textiles. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
         "faqs": [
             {
-                "q": "What is the DPP under EU-ESPR 2027?",
-                "a": "From 2027, batteries and textiles must be fully traceable. OCPP-Labs (Duisburg) provides the industrial infrastructure for Asian exporters."
+                "q": "What is your NFT as a Service solution?",
+                "a": "Our SaaS platform tokenizes your supply chain and automatically generates unforgeable NFTs (Digital Product Passports) for your EU exports."
             },
             {
-                "q": "Why NTAG 424 DNA Security?",
-                "a": "QR codes can be copied. We use NXP Secure Hardware to create an unforgeable link between goods and data."
+                "q": "Why use NXP Secure Hardware?",
+                "a": "QR codes are easily copied. We utilize cryptographic NTAG 424 DNA chips to create a tamper-proof bridge between the physical goods and their NFT."
             },
             {
-                "q": "How do royalties work?",
-                "a": "Using smart contracts on the Base blockchain, manufacturers receive automated fees in their wallet on every resale."
+                "q": "How do royalties work without a crypto wallet?",
+                "a": "Through Account Abstraction and Invisible Wallets, our SaaS platform handles all blockchain complexity. You receive your royalty fees on every resale directly in euros or USDT."
             }
         ],
         "legal": {
@@ -152,30 +152,30 @@ const translations = {
         }
     },
     "vi-vn": {
-        "h1": "GIẢI PHÓNG CONTAINER.<br>TUÂN THỦ ESPR TRONG 24H.<br><span class=\"gradient-text\">DOANH THU TỪ PHÍ BẢN QUYỀN.</span>",
-        "sub": "Bảo đảm xuất khẩu sang Châu Âu. Chúng tôi cung cấp xa lộ hải quan kỹ thuật số cho các nhà xuất khẩu Châu Á. Thanh toán tự động bằng USDT/EUR trực tiếp vào ví doanh nghiệp.",
+        "h1": "Giải pháp SaaS cho Xuất khẩu.<br>Tuân thủ ESPR & NFTs.<br><span class=\"gradient-text\">DOANH THU TỪ PHÍ BẢN QUYỀN.</span>",
+        "sub": "Token hóa chuỗi cung ứng bằng SaaS: Khởi tạo NFT không thể làm giả (DPP) mà không gặp rào cản tiền điện tử. Account Abstraction và Ví vô hình đảm bảo thu nhập thụ động liền mạch trên mọi lần bán lại.",
         "cta": "Bắt đầu Kiểm tra Xuất khẩu 2027",
         "mHeader": "Kiểm tra Đối tác Chiến lược",
         "footerH2": "DẪN ĐẦU: PIN & DỆT MAY.",
         "footerP": "Hãy là nhà xuất khẩu đầu tiên làm thủ tục hải quan EU mà không gặp trở ngại nào. Chúng tôi đang tuyển chọn đối tác chiến lược.",
         "contact": "Yêu cầu Kiểm tra",
         "copy": "&copy; 2026 OCPP-Solution UG // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG. TẤT CẢ QUYỀN ĐƯỢC BẢO LƯU.",
-        "s1h": "Thông quan Hải quan 2027",
-        "s1p": "Ngăn chặn tình trạng container bị kẹt tại các cảng EU. Quy trình DPP tự động đảm bảo nhập cảnh nhanh chóng.",
+        "s1h": "NFTs as a Service",
+        "s1p": "Tự động hóa số hóa Hộ chiếu Sản phẩm cho container của bạn. Chúng tôi trừu tượng hóa blockchain.",
         "s2h": "Phí Bản quyền Smart Contract",
-        "s2p": "Mỗi khi hàng hóa bán lại tại Châu Âu, một khoản phí bản quyền tự động sẽ được kích hoạt. Biến sản phẩm thành lợi nhuận vĩnh viễn.",
-        "p1t": "Cổng vào EU",
-        "p1h": "Không Trì hoãn tại Cảng.",
-        "p1d": "Tuân thủ ESPR đầy đủ cho các nhà xuất khẩu châu Á. Biến nút thắt hải quan thành làn đường ưu tiên.",
+        "s2p": "Nền tảng SaaS biến tuân thủ thành lợi nhuận. Nhận thanh toán trực tiếp vào tài khoản công ty với mọi lần bán lại.",
+        "p1t": "Hạ tầng SaaS",
+        "p1h": "Ví Vô hình.",
+        "p1d": "Không yêu cầu kỹ thuật, không có key lưu trữ. Công nghệ Account Abstraction hoạt động 100% trong nền.",
         "p2t": "Cách mạng Bản quyền",
-        "p2h": "Doanh thu Thụ động.",
-        "p2d": "Phí có thể lập trình trên mỗi lần bán lại. Thanh toán USDT/EUR trực tiếp vào ví doanh nghiệp.",
+        "p2h": "Xuất khẩu qua Token.",
+        "p2d": "Hợp đồng thông minh phân bổ doanh thu tự động bằng fiat/USDT cho bạn trên mỗi lần bán lại.",
         "p3t": "Niềm tin Nguồn gốc EU",
-        "p3h": "Chuyên môn Châu Âu.",
-        "p3d": "Công nghệ chuỗi khối (Base L2) được hỗ trợ bởi chuyên môn quy định của Đức.",
-        "p4t": "Định danh Không thể Làm giả",
+        "p3h": "Nền tảng SaaS B2B.",
+        "p3d": "Hạ tầng Web3 bảo mật (Base L2) kết hợp với trải nghiệm như ngân hàng trực tuyến truyền thống.",
+        "p4t": "Định danh Bí mật",
         "p4h": "Phần cứng Bảo mật NXP.",
-        "p4d": "Mỏ neo vật lý (NTAG 424 DNA) bảo vệ giá trị thương hiệu từ nhà máy đến nhà máy tái chế.",
+        "p4d": "Mỏ neo vật lý liên kết hàng hóa với NFT, bảo vệ giá trị thương hiệu từ nhà máy đến tái chế.",
         "quote": "\"Truy cập thị trường EU 2027 không còn là rủi ro. Đó là lợi thế cạnh tranh tối thượng của bạn trên thị trường toàn cầu.\"",
         "quotesub": "— OCPP-LABS // CỔNG XUẤT KHẨU CHÂU ÂU",
         "badge": "Pin & Dệt may // SEA Export",
@@ -189,8 +189,12 @@ const translations = {
         "metaDesc": "OCPP-Labs (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin và dệt may. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
         "faqs": [
             {
-                "q": "DPP theo EU-ESPR 2027 là gì?",
-                "a": "Từ năm 2027, pin và dệt may phải có khả năng truy xuất nguồn gốc đầy đủ. OCPP-Labs cung cấp hạ tầng này."
+                "q": "Giải pháp NFT as a Service là gì?",
+                "a": "Nền tảng SaaS của chúng tôi token hóa chuỗi cung ứng và tự động tạo ra những NFT (Hộ chiếu Sản phẩm Số) không thể làm giả."
+            },
+            {
+                "q": "Royalty mà không cần ví Crypto ư?",
+                "a": "Thông qua Account Abstraction và Ví Vô hình, nền tảng của chúng tôi ẩn toàn bộ sự phức tạp của blockchain. Bạn nhận phí bản quyền bằng Euro / USDT."
             }
         ],
         "legal": {
@@ -220,30 +224,30 @@ const translations = {
         }
     },
     "th-th": {
-        "h1": "ปลดล็อกตู้สินค้าของคุณ.<br>ยืนยันมาตรฐาน ESPR ใน 24 ชม.<br><span class=\"gradient-text\">รายได้จากค่าลิขสิทธิ์อัตโนมัติ.</span>",
-        "sub": "รับประกันการส่งออกสู่ยุโรป เราจัดเตรียมทางด่วนศุลกากรดิจิทัลสำหรับผู้ส่งออกชาวเอเชีย จ่ายผลตอบแทนอัตโนมัติเป็น USDT/EUR เข้ากระเป๋าเงินบริษัทโดยตรง",
+        "h1": "โซลูชัน SaaS สำหรับการส่งออก.<br>มาตรฐาน ESPR และ NFTs.<br><span class=\"gradient-text\">รายได้จากค่าลิขสิทธิ์.</span>",
+        "sub": "เราทำให้ห่วงโซ่อุปทานของคุณเป็นโทเคนผ่าน SaaS: สร้าง NFT (DPP) ที่ปลอดภัย โดยไม่มีอุปสรรคทางคริปโต ด้วย Account Abstraction และ Invisible Wallets",
         "cta": "เริ่มการตรวจสอบการส่งออก 2027",
         "mHeader": "การประเมินพันธมิตรรเชิงกลยุทธ์",
         "footerH2": "ผู้นำกลุ่มแรก: แบตเตอรี่และสิ่งทอ",
         "footerP": "เป็นผู้ส่งออกรายแรกที่สินค้าผ่านพิธีการศุลกากร EU ได้อย่างรวดเร็วในปี 2027 เรากำลังเปิดรับพันธมิตรเชิงกลยุทธ์",
         "contact": "ขอรับการประเมิน",
         "copy": "&copy; 2026 OCPP-Solution UG // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง สงวนลิขสิทธิ์ทั้งหมด",
-        "s1h": "การผ่านศุลกากรปี 2027",
-        "s1p": "ป้องกันตู้คอนเทนเนอร์ค้างที่ท่าเรือ EU ด้วยกระบวนการ DPP อัตโนมัติ",
+        "s1h": "NFTs as a Service",
+        "s1p": "สร้างพาสปอร์ตผลิตภัณฑ์ดิจิทัลอัตโนมัติสำหรับตู้คอนเทนเนอร์ของคุณ เราขจัดความซับซ้อนของบล็อกเชน",
         "s2h": "ค่าลิขสิทธิ์จาก Smart Contract",
-        "s2p": "ทุกการขายต่อสินค้าของคุณในยุโรปจะมีการหักค่าธรรมเนียมลิขสิทธิ์ส่งคืนหาคุณโดยอัตโนมัติ",
-        "p1t": "ทางผ่านการค้า",
-        "p1h": "ไร้ความล่าช้าที่ท่าเรือ",
-        "p1d": "ปฏิบัติตามกฎ ESPR อย่างครบถ้วนสำหรับผู้ส่งออกชาวเอเชีย เปลี่ยนคอขวดศุลกากรเป็นช่องทางด่วนพิเศษ",
+        "s2p": "แพลตฟอร์ม SaaS เปลี่ยนการทำตามกฎหมายให้เป็นกำไร รับเงินเข้าบัญชีบริษัทโดยตรงบนทุกการขายต่อ",
+        "p1t": "โครงสร้างพื้นฐาน SaaS",
+        "p1h": "Invisible Wallets.",
+        "p1d": "ไม่มีเงื่อนไขความรู้ทางเทคนิค ไม่มีรหัสผ่าน เทคโนโลยี Account Abstraction ทำงานเบื้องหลังอัตโนมัติ 100%",
         "p2t": "การปฏิวัติค่าลิขสิทธิ์",
-        "p2h": "รายได้อัตโนมัติ",
-        "p2d": "กำหนดค่าธรรมเนียมในทุกการขายต่อ จ่ายเป็น USDT/EUR เข้ากระเป๋าเงินบริษัทโดยตรง",
-        "p3t": "ความเชี่ยวชาญจากยุโรป",
-        "p3h": "เทคโนโลยี Base L2",
-        "p3d": "มาตรฐานเยอรมันและเทคโนโลยีบล็อกเชน สร้างความไว้วางใจสูงสุดในตลาด EU",
-        "p4t": "อัตลักษณ์ที่ปลอมแปลงไม่ได้",
-        "p4h": "ฮาร์ดแวร์ความปลอดภัย NXP",
-        "p4d": "เชื่อมโยงสินค้าเข้ากับพาสปอร์ตดิจิทัลด้วย NTAG 424 DNA ปกป้องคุณค่าของแบรนด์คุณ",
+        "p2h": "Tokenized Exports.",
+        "p2d": "Smart contract จ่ายค่าลิขสิทธิ์ในรูปแบบ Fiat/USDT ให้คุณโดยอัตโนมัติเมื่อเกิดการขายต่อ",
+        "p3t": "ความไว้วางใจของยุโรป",
+        "p3h": "แพลตฟอร์ม SaaS B2B",
+        "p3d": "ระบบหลังบ้าน Web3 ที่ปลอดภัยสุดยอด (Base L2) มอบประสบการณ์เสมือนบริการธนาคารออนไลน์ทั่วไป",
+        "p4t": "การระบุที่ปลอมแปลงไม่ได้",
+        "p4h": "ฮาร์ดแวร์ NXP",
+        "p4d": "ตัวเชื่อมต่อฮาร์ดแวร์ผสานสินค้าของคุณเข้ากับ NFT ปกป้องคุณค่าของแบรนด์คุณจากโรงงานสู่การรีไซเคิล",
         "quote": "\"การเข้าถึงตลาด EU 2027 จะไม่ใช่ความเสี่ยงอีกต่อไป แต่มันคืออาวุธลับในการแข่งขันระดับสากลของคุณ\"",
         "quotesub": "— OCPP-LABS // ช่องทางสู่การส่งออกยุโรป",
         "badge": "แบตเตอรี่และสิ่งทอ // SEA Export",
@@ -257,8 +261,12 @@ const translations = {
         "metaDesc": "OCPP-Labs (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่และสิ่งทอ พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
         "faqs": [
             {
-                "q": "DPP ตามกฎ EU-ESPR 2027 คืออะไร?",
-                "a": "ตั้งแต่ปี 2027 แบตเตอรี่และสิ่งทอต้องสามารถตรวจสอบย้อนกลับได้ทั้งหมด OCPP-Labs จัดหาโครงสร้างพื้นฐานนี้"
+                "q": "NFT as a Service ของคุณคืออะไร?",
+                "a": "แพลตฟอร์ม SaaS ของเราทำให้ห่วงโซ่อุปทานของคุณเป็นโทะเคน และสร้าง NFT (Digital Product Passport) ให้โดยอัตโนมัติและไม่สามารถปลอมแปลงได้"
+            },
+            {
+                "q": "ได้ค่าลิขสิทธิ์โดยไม่ต้องมีกระเป๋าคริปโต?",
+                "a": "ผ่าน Account Abstraction และ Invisible Wallets แพลตฟอร์มของเราจัดการความซับซ้อนของบล็อคเชนให้ คุณแค่รับค่าลิขสิทธิ์เป็นยูโรหรือ USDT"
             }
         ],
         "legal": {
@@ -288,30 +296,30 @@ const translations = {
         }
     },
     "zh-cn": {
-        "h1": "释放您的货物容器。<br>24 小时完成 ESPR 合规。<br><span class=\"gradient-text\">通过版税费用获取收益。</span>",
-        "sub": "保障您的欧洲出口之路。我们为亚洲出口商提供“数字海关快车道”。货品每次转售产生的版税将以 USDT/EUR 形式自动拨付至您的企业钱包。",
+        "h1": "出口专属 SaaS 解决方案。<br>ESPR 合规与 NFTs。<br><span class=\"gradient-text\">通过版税费用获取收益。</span>",
+        "sub": "我们将您的供应链代币化：毫无加密门槛地生成防篡改的 NFT (DPP)。利用账户抽象化 (Account Abstraction) 和隐形钱包，从欧洲的每一次转售中稳获被动收入。",
         "cta": "开启 2027 出口合规检查",
         "mHeader": "战略合作伙伴审计",
         "footerH2": "首批试点：电池与纺织品",
         "footerP": "成为首批无障碍通过 2027 欧盟海关的出口商。我们正在寻找战略合作伙伴。",
         "contact": "申请审计",
         "copy": "&copy; 2026 OCPP-Solution UG // 出口安全与被动收益。保留所有权利。",
-        "s1h": "2027 快速清关",
-        "s1p": "防止集装箱在欧盟港口滞留。自动化的 DPP 处理确保海关高效放行。",
+        "s1h": "NFTs as a Service",
+        "s1p": "为您的集装箱全自动生成数字产品护照。我们帮您屏蔽了所有区块链的复杂性。",
         "s2h": "智能合约版税",
-        "s2p": "您的货品在欧洲的每一次转售都会自动触发版税。让产品成为您的终身利润中心。",
-        "p1t": "海关入口",
-        "p1h": "零港口延误。",
-        "p1d": "为亚洲出口商提供全面的 ESPR 合规保障。将海关瓶颈转化为贸易快车道。",
+        "s2p": "我们的 SaaS 平台将合规成本转化为利润。每次转售时货款由于自动执行会直接打入您的企业账户。",
+        "p1t": "SaaS 基础架构",
+        "p1h": "隐形钱包。",
+        "p1d": "无需技术背景，不需要助记词。我们的账户抽象化技术完全在无缝的后台运行。",
         "p2t": "版税革命",
-        "p2h": "被动收益。",
-        "p2d": "针对每一次转售设置版税。收益直接以 USDT/EUR 形式发送至您的企业钱包。",
-        "p3t": "欧洲技术底蕴",
-        "p3h": "技术支撑 (Base L2)。",
-        "p3d": "链上技术结合德国监管专业知识。为您的欧盟市场之路提供顶级信任背书。",
+        "p2h": "出口代币化。",
+        "p2d": "可编程的智能合约会在每次转售时自动向企业发放分配的法币或 USDT。",
+        "p3t": "欧洲信任机制",
+        "p3h": "B2B SaaS 平台。",
+        "p3d": "安全的 Web3 后端 (Base L2) 结合了如同传统网上银行业务办理般的流畅体验。",
         "p4t": "不可证伪标识",
-        "p4h": "NXP 高端硬件。",
-        "p4d": "基于 NTAG 424 DNA 的物理锚点，从生产到回收全生命周期保护品牌价值。",
+        "p4h": "NXP 高端加密硬件。",
+        "p4d": "通过物理锚点将您的产品与我们的 NFT 绑定，从出厂到后续回收生命周期里保护您的品牌。",
         "quote": "“2027 年欧盟市场准入不再是一个风险。它是您在全球市场中脱颖而出的终极竞争优势。”",
         "quotesub": "— OCPP-LABS // 欧盟出口门户",
         "badge": "电池与纺织品 // 东南亚出口",
@@ -325,8 +333,16 @@ const translations = {
         "metaDesc": "OCPP-Labs (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
         "faqs": [
             {
-                "q": "什么是 EU-ESPR 2027 框架下的 DPP？",
-                "a": "从 2027 年起，电池和纺织品必须完全可追溯。OCPP-Labs (杜伊斯堡) 为亚洲出口商提供基础设施。"
+                "q": "什么是 NFT as a Service 解决方案？",
+                "a": "我们的 SaaS 平台使您的供应链实现了代币化，可以自动为出口欧盟的产品生成不可伪造的各种 NFT 即数字产品护照。"
+            },
+            {
+                "q": "为什么使用 NXP 等安全硬件？",
+                "a": "简单的二维码极其容易被复制。我们利用密码学的 NTAG 424 DNA 芯片，在实物商品及其 NFT 和数据之间建立万无一失的防篡改物理桥梁。"
+            },
+            {
+                "q": "没有加密钱包如何运作版税流？",
+                "a": "得益于账户抽象和安全隐形钱包的支持下，SaaS 底核能隐藏处理全链端交互的复杂性过程。每次转售发生时所产生的版税将直接以欧元或 USDT 充入帐户里。"
             }
         ],
         "legal": {
@@ -356,30 +372,30 @@ const translations = {
         }
     },
     "zh-tw": {
-        "h1": "釋放您的貨物容器。<br>24 小時完成 ESPR 合規。<br><span class=\"gradient-text\">透過版稅費用獲取收益。</span>",
-        "sub": "保障您的歐洲出口之路。我們為亞洲出口商提供“數位海關快車道”。貨品每次轉售產生的版稅將以 USDT/EUR 形式自動撥付至您的企業錢包。",
+        "h1": "出口專屬 SaaS 解決方案。<br>ESPR 合規與 NFTs。<br><span class=\"gradient-text\">透過版稅費用獲取收益。</span>",
+        "sub": "我們將您的供應鏈代幣化：毫無加密門檻地生成防篡改的 NFT (DPP)。利用帳戶抽象化 (Account Abstraction) 和隱形錢包，從歐洲的每一次轉售中穩獲被動收入。",
         "cta": "開啟 2027 出口合規檢查",
         "mHeader": "戰略合作夥伴審計",
         "footerH2": "首批試點：電池與紡織品",
         "footerP": "成為首批無障礙通過 2027 歐盟海關的出口商。我們正在尋找戰略合作夥伴。",
         "contact": "申請審計",
         "copy": "&copy; 2026 OCPP-Solution UG // 出口安全與被動收益。保留所有權利。",
-        "s1h": "2027 快速清關",
-        "s1p": "防止貨櫃在歐盟港口滯留。自動化的 DPP 處理確保海關高效放行。",
+        "s1h": "NFTs as a Service",
+        "s1p": "為您的貨櫃全自動生成數位產品護照。我們幫您屏蔽了所有區塊鏈的複雜度。",
         "s2h": "智能合約版稅",
-        "s2p": "您的貨品 in 歐洲的每一次轉售都會自動觸發版稅。讓產品成為您的終身利潤中心。",
-        "p1t": "海關入口",
-        "p1h": "零港口延误。",
-        "p1d": "為亞洲出口商提供全面的 ESPR 合規保障。將海關瓶頸轉化為貿易快車道。",
+        "s2p": "我們的 SaaS 平台將合規成本轉化為利潤。每次轉售時貨款得益自動執行會直接打入您的企業帳戶。",
+        "p1t": "SaaS 基礎架構",
+        "p1h": "隱形錢包。",
+        "p1d": "無需技術背景，不需要助記詞。我們的帳戶抽象化技術完全在無縫的後台運行。",
         "p2t": "版稅革命",
-        "p2h": "被動收益。",
-        "p2d": "針對每一次轉售設置版稅。收益直接以 USDT/EUR 發送至您的企業錢包。",
-        "p3t": "歐洲技術底蘊",
-        "p3h": "技術支撐 (Base L2)。",
-        "p3d": "鏈上技術結合德國監管專業知識。為您的歐盟市場之路提供頂級信任背書。",
+        "p2h": "出口代幣化。",
+        "p2d": "可編程的智能合約會自動在每次產品轉售時向註冊企業發放分配法幣或 USDT 退款。",
+        "p3t": "歐洲信任機制",
+        "p3h": "B2B SaaS 平台。",
+        "p3d": "安全的 Web3 後端 (Base L2) 結合了如同傳統網上銀行業務一般的流暢體感。",
         "p4t": "不可證偽標識",
         "p4h": "NXP 高端硬體。",
-        "p4d": "基於 NTAG 424 DNA 的物理錨點，從生產到回收全生命周期保護品牌價值。",
+        "p4d": "透過物理錨點將您的產品與我們的 NFT 綁定，從出廠到後續回收整個生命週期內保護您的品牌。",
         "quote": "“歐盟市場進入是眼前的門檻。受控的二級市場是未來利潤。”",
         "quotesub": "— OCPP-LABS // 歐盟出口門戶",
         "badge": "電池與紡織品 // 东南亚出口",
@@ -393,8 +409,16 @@ const translations = {
         "metaDesc": "OCPP-Labs (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
         "faqs": [
             {
-                "q": "什麼是 EU-ESPR 2027 框架下的 DPP？",
-                "a": "從 2027 年起，電池和紡織品必須完全可追溯。OCPP-Labs (杜伊斯堡) 為亞洲出口商提供基礎設施。"
+                "q": "什麼是 NFT as a Service 解決方案？",
+                "a": "我們的 SaaS 平台使供應鏈代幣化，自動為出口歐盟的商品生成安全無法偽造的各種 NFT (即數位產品護照)。"
+            },
+            {
+                "q": "為什麼使用 NXP 等安全硬體？",
+                "a": "傳統的 QR Code 極易被複製拷貝。我們利用先進密碼學 NTAG 424 DNA 晶片，在真實世界商品及其鏈上的 NFT 數據間建立防篡改物理橋樑。"
+            },
+            {
+                "q": "沒有加密錢包能夠運作版稅流嗎？",
+                "a": "得益於帳戶抽象化以及隱形錢包的使用，SaaS 核心技術隱藏了全鏈互動的一切高昂複雜學習成本。產品每次轉售所產生的版稅直接以等值歐元或 USDT 直接發放充入。"
             }
         ],
         "legal": {
