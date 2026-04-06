@@ -154,6 +154,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (burgerClose) burgerClose.addEventListener('click', closeSidebar);
     if (sidebarBackdrop) sidebarBackdrop.addEventListener('click', closeSidebar);
 
+    const menuContactTrigger = document.getElementById('menu-contact-trigger');
+    if (menuContactTrigger) {
+        menuContactTrigger.addEventListener('click', () => {
+            closeSidebar();
+            setTimeout(openModal, 400); // Wait for sidebar to slide out
+        });
+    }
+
     // Auto-close on link click so the menu doesn't freeze the page navigation
     if (sidebarDrawer) {
         const sidebarLinks = sidebarDrawer.querySelectorAll('a');
