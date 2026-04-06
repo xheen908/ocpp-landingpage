@@ -1,17 +1,17 @@
 <nav class="sticky top-0 z-[100] px-8 py-4 flex justify-between items-center apple-glass border-b border-white/5 transition-all duration-500">
     
-    <!-- Burger Menu Trigger (Left, Build 15.3) -->
-    <div class="flex items-center">
+    <!-- Left Section: Burger Menu & Logo (Build 15.5) -->
+    <div class="flex items-center gap-4">
         <button id="burger-trigger" class="p-2 -ml-2 text-white/50 hover:text-[#a88c5a] transition-colors focus:outline-none">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
-    </div>
-    <!-- Centered Logo -->
-    <div class="text-xl font-extrabold tracking-tighter absolute left-1/2 -translate-x-1/2">
-        <a href="/<%= t.lang %>/" class="group flex items-center hover:opacity-80 transition-all">
-            <span class="bg-gradient-to-tr from-[#a88c5a] to-[#d4af37] bg-clip-text text-transparent">OCPP-Labs</span>
-            <span class="text-white/30 group-hover:text-white/60 transition-colors">.com</span>
-        </a>
+
+        <div class="text-xl font-extrabold tracking-tighter">
+            <a href="/<%= t.lang %>/" class="group flex items-center hover:opacity-80 transition-all">
+                <span class="bg-gradient-to-tr from-[#a88c5a] to-[#d4af37] bg-clip-text text-transparent">OCPP-Labs</span>
+                <span class="text-white/30 group-hover:text-white/60 transition-colors">.com</span>
+            </a>
+        </div>
     </div>
 
     <!-- Global Language Dropdown (Build 12.1) -->
