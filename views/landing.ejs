@@ -74,107 +74,135 @@
 
     <%- include('partials/header', { t }) %>
 
-    <main class="max-w-6xl mx-auto px-6 py-20 md:py-32">
-        <!-- Hero Section: Build 8.1 Split-Screen -->
-        <div class="grid lg:grid-cols-2 gap-16 items-center mb-32">
-            <div class="text-left animate-fade-in">
-                <div id="hero-badge" class="badge-market"><%= t.badge %></div>
-                <h1 id="h1-text" class="text-4xl md:text-[4.2rem] font-extrabold mb-8 leading-[1.05] tracking-[-0.04em]">
-                    <%- t.h1 %>
+    <main class="max-w-7xl mx-auto px-6 py-20 md:py-40">
+        <!-- Hero Section: Build 9.0 Immersive -->
+        <div class="grid lg:grid-cols-2 gap-20 items-center mb-48">
+            <div class="text-left animate-fade-in relative z-10">
+                <div class="absolute -top-20 -left-20 w-64 h-64 bg-[#a88c5a]/10 blur-[120px] rounded-full pointer-events-none"></div>
+                <div id="hero-badge" class="badge-market !mb-6"><%= t.badge %></div>
+                <h1 id="h1-text" class="text-5xl md:text-[5rem] font-black mb-8 leading-[0.95] tracking-tighter uppercase whitespace-pre-line">
+                    <span class="gradient-text"><%- t.h1 %></span>
                 </h1>
-                <p id="sub-text" class="text-lg md:text-xl text-white/50 max-w-xl mb-12 font-medium leading-relaxed">
+                <p id="sub-text" class="text-xl md:text-2xl text-white/40 max-w-xl mb-12 font-medium leading-relaxed">
                     <%= t.sub %>
                 </p>
                 
-                <div class="flex flex-wrap gap-6">
-                    <button id="v2-hero-trigger" class="pill-btn pill-btn-primary uppercase tracking-widest">
+                <div class="flex flex-wrap gap-8 items-center">
+                    <button id="v2-hero-trigger" class="pill-btn pill-btn-primary px-12 py-5 text-xs uppercase tracking-[0.3em] font-black">
                         <%= t.cta %>
                     </button>
-                    <div class="flex items-center gap-4 px-6 py-2 rounded-full border border-white/5 bg-white/2 overflow-hidden backdrop-blur-sm">
-                        <span class="text-[9px] font-bold tracking-widest text-[#a88c5a] uppercase">ESPR 2027 Ready</span>
+                    <div class="flex items-center gap-4 px-6 py-3 rounded-2xl border border-white/5 bg-white/2 backdrop-blur-md">
+                        <div class="flex -space-x-2">
+                            <div class="w-6 h-6 rounded-full bg-[#a88c5a] border-2 border-black flex items-center justify-center text-[10px] font-bold text-black italic">E</div>
+                            <div class="w-6 h-6 rounded-full bg-white border-2 border-black flex items-center justify-center text-[10px] font-bold text-black italic">S</div>
+                            <div class="w-6 h-6 rounded-full bg-[#a88c5a] border-2 border-black flex items-center justify-center text-[10px] font-bold text-black italic">P</div>
+                        </div>
+                        <span class="text-[10px] font-black tracking-widest text-white/60 uppercase">ESPR 2027 Compliance Standard ready</span>
                     </div>
                 </div>
             </div>
             
             <div class="relative group animate-float">
-                <div class="absolute -inset-4 bg-gradient-to-tr from-[#a88c5a]/20 to-transparent blur-3xl opacity-30 group-hover:opacity-50 transition-opacity"></div>
-                <div class="relative apple-glass rounded-[3rem] overflow-hidden border border-white/10 shadow-2xl">
-                    <img src="/assets/hero-elite.png" alt="High-Value Goods with Digital Passport" class="w-full aspect-[4/5] object-cover mix-blend-lighten opacity-90 transition-transform duration-1000 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-                    <div class="absolute bottom-8 left-8 right-8 p-6 apple-glass-dark rounded-2xl border-white/5 translate-y-4 group-hover:translate-y-0 transition-transform">
-                        <div class="text-[10px] font-bold tracking-[0.2em] uppercase text-[#a88c5a] mb-1">Asset Security</div>
-                        <div class="text-sm font-medium text-white/70">Batteries, Textiles & Luxury Exports</div>
+                <div class="absolute -inset-10 bg-gradient-to-tr from-[#a88c5a]/20 to-transparent blur-[100px] opacity-40 group-hover:opacity-60 transition-opacity duration-1000"></div>
+                <div class="relative apple-glass rounded-[4rem] overflow-hidden border border-white/10 shadow-[0_0_100px_rgba(0,0,0,0.8)]">
+                    <img src="/assets/hero-elite.png" alt="High-Value Goods at Harbor" class="w-full aspect-[4/5] object-cover mix-blend-lighten opacity-95 transition-transform duration-1000 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-10 left-10 right-10 p-8 apple-glass-dark rounded-[2rem] border-white/10 backdrop-blur-3xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
+                        <div class="flex items-center gap-4 mb-3">
+                            <div class="w-2 h-2 rounded-full bg-[#a88c5a] animate-pulse"></div>
+                            <div class="text-[10px] font-black tracking-[0.3em] uppercase text-[#a88c5a]">Asset Status: Blocked</div>
+                        </div>
+                        <div class="text-lg font-bold text-white/90 leading-tight">Securing Batteries, Textiles & Luxury Exports against EU Customs barriers.</div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Tech Authority Bar -->
-        <div class="flex flex-wrap justify-start gap-12 mb-48 opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-700">
-            <div class="flex items-center gap-3">
-                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">Base L2 Infrastructure</span>
+        <!-- Tech Authority Bar: Build 9.0 Minimalist -->
+        <div class="flex flex-wrap justify-between items-center gap-10 mb-56 py-10 border-y border-white/5 opacity-50 hover:opacity-100 transition-all duration-1000 bg-gradient-to-x from-transparent via-white/[0.02] to-transparent">
+            <div class="flex items-center gap-4 group">
+                <div class="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-[#a88c5a]/50 transition-colors">
+                    <svg class="text-white/40 group-hover:text-[#a88c5a]" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6" y2="6"></line><line x1="6" y1="18" x2="6" y2="18"></line></svg>
+                </div>
+                <span class="text-[11px] font-black tracking-[0.3em] uppercase">Base L2 Infrastructure</span>
             </div>
-            <div class="flex items-center gap-3 border-l border-white/10 pl-12">
-                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">NXP Secure Identity</span>
+            <div class="flex items-center gap-4 group">
+                <div class="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-[#a88c5a]/50 transition-colors">
+                    <svg class="text-white/40 group-hover:text-[#a88c5a]" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                <span class="text-[11px] font-black tracking-[0.3em] uppercase">NXP Secure Identity</span>
             </div>
-            <div class="flex items-center gap-3 border-l border-white/10 pl-12">
-                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">NTAG 424 DNA Integrated</span>
+            <div class="flex items-center gap-4 group">
+                <div class="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-[#a88c5a]/50 transition-colors">
+                    <svg class="text-white/40 group-hover:text-[#a88c5a]" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <span class="text-[11px] font-black tracking-[0.3em] uppercase">ERC-4337 Full Abstraction</span>
             </div>
         </div>
 
-        <!-- Strategy Slider -->
-        <div class="mb-48">
-            <div class="swiper mySwiper">
+        <!-- Strategy Slider: Build 9.0 Premium -->
+        <div class="mb-56">
+            <div class="swiper mySwiper !overflow-visible">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url('/assets/slider-1.png')">
-                        <div class="swiper-overlay">
-                            <span class="section-header" style="color: #a88c5a;">SaaS Platform</span>
-                            <h3 id="slide1-h" class="text-4xl font-bold mb-4"><%= t.s1h %></h3>
-                            <p id="slide1-p" class="text-lg text-white/50 max-w-xl"><%= t.s1p %></p>
+                    <div class="swiper-slide !rounded-[4rem] border border-white/10 shadow-2xl" style="background-image: url('/assets/slider-1.png')">
+                        <div class="swiper-overlay !p-12 md:!p-20">
+                            <span class="section-header !text-[#a88c5a] !mb-6">Software Layer</span>
+                            <h3 id="slide1-h" class="text-4xl md:text-6xl font-black mb-6 tracking-tighter uppercase"><%= t.s1h %></h3>
+                            <p id="slide1-p" class="text-lg md:text-xl text-white/50 max-w-2xl font-medium !mb-0 leading-relaxed"><%= t.s1p %></p>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('/assets/slider-2.png')">
-                        <div class="swiper-overlay">
-                            <span class="section-header" style="color: #a88c5a;">Passive Income</span>
-                            <h3 id="slide2-h" class="text-4xl font-bold mb-4"><%= t.s2h %></h3>
-                            <p id="slide2-p" class="text-lg text-white/50 max-w-xl"><%= t.s2p %></p>
+                    <div class="swiper-slide !rounded-[4rem] border border-white/10 shadow-2xl" style="background-image: url('/assets/slider-2.png')">
+                        <div class="swiper-overlay !p-12 md:!p-20">
+                            <span class="section-header !text-[#a88c5a] !mb-6">Monetization Engine</span>
+                            <h3 id="slide2-h" class="text-4xl md:text-6xl font-black mb-6 tracking-tighter uppercase"><%= t.s2h %></h3>
+                            <p id="slide2-p" class="text-lg md:text-xl text-white/50 max-w-2xl font-medium !mb-0 leading-relaxed"><%= t.s2p %></p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination !-bottom-12"></div>
             </div>
         </div>
 
         <%- include('partials/features', { t }) %>
 
-        <!-- Revenue Calculator Section -->
-        <div class="mb-48 p-12 md:p-20 apple-glass rounded-[4rem] relative overflow-hidden">
-            <div class="flex flex-col md:flex-row gap-16 items-center">
-                <div class="flex-1 text-left">
-                    <div class="section-header">Revenue Stream Mastery</div>
-                    <h2 class="text-4xl font-bold mb-6"><%= t.calcH %></h2>
-                    <p class="text-lg text-white/40 mb-10 leading-relaxed font-medium">
-                        Verwandeln Sie Compliance in Profit. Rechnen Sie aus, wie viel passives Einkommen Ihr Exportvolumen generieren kann.
-                    </p>
-                </div>
-                <div class="flex-1 w-full flex flex-col gap-8">
-                    <div class="calculator-field">
-                        <label class="block text-[10px] font-bold uppercase tracking-widest text-white/30 mb-3"><%= t.calcV %></label>
-                        <input type="number" id="calc-volume" value="100000" class="w-full text-2xl font-bold bg-white/5 border-white/10 rounded-2xl p-6">
-                    </div>
-                    <div class="grid grid-cols-2 gap-8">
-                        <div class="calculator-field">
-                            <label class="block text-[10px] font-bold uppercase tracking-widest text-white/30 mb-3"><%= t.calcR %></label>
-                            <input type="number" id="calc-rate" value="20" class="w-full text-2xl font-bold bg-white/5 border-white/10 rounded-2xl p-6">
+        <!-- Revenue Calculator Section: Build 9.0 Dashboard Style -->
+        <div class="mb-56 p-1 bg-gradient-to-br from-white/10 to-transparent rounded-[4.5rem]">
+            <div class="p-12 md:p-24 apple-glass rounded-[4.4rem] relative overflow-hidden backdrop-blur-3xl">
+                <div class="absolute -top-40 -right-40 w-96 h-96 bg-[#a88c5a]/5 blur-[120px] rounded-full"></div>
+                
+                <div class="flex flex-col xl:flex-row gap-20 items-center relative z-10">
+                    <div class="flex-1 text-left">
+                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                            Revenue Stream Mastery
                         </div>
-                        <div class="calculator-field">
-                            <label class="block text-[10px] font-bold uppercase tracking-widest text-white/30 mb-3"><%= t.calcF %></label>
-                            <input type="number" id="calc-fee" value="1.00" step="0.1" class="w-full text-2xl font-bold bg-white/5 border-white/10 rounded-2xl p-6">
-                        </div>
+                        <h2 class="text-5xl md:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9]"><%= t.calcH %></h2>
+                        <p class="text-xl text-white/40 mb-12 leading-relaxed font-bold">
+                            Turn strict EU compliance into a high-yield profit center. Calculate the passive income potential of your export volume.
+                        </p>
                     </div>
-                    <div class="mt-8 p-8 bg-white/5 rounded-[2rem] border border-white/10 text-center">
-                        <div class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#a88c5a] mb-2"><%= t.calcP %></div>
-                        <div id="calc-result" class="text-5xl font-extrabold gradient-text">20.000 €</div>
+                    <div class="flex-1 w-full flex flex-col gap-8 bg-black/40 p-10 md:p-14 rounded-[3.5rem] border border-white/5 shadow-inner">
+                        <div class="calculator-field">
+                            <label class="block text-[11px] font-black uppercase tracking-[0.2em] text-[#a88c5a] mb-4 opacity-70"><%= t.calcV %></label>
+                            <input type="number" id="calc-volume" value="100000" class="w-full text-3xl font-black bg-white/2 border border-white/10 rounded-2xl p-8 focus:!border-[#a88c5a] focus:!ring-0 transition-all outline-none">
+                        </div>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="calculator-field">
+                                <label class="block text-[11px] font-black uppercase tracking-[0.2em] text-[#a88c5a] mb-4 opacity-70"><%= t.calcR %></label>
+                                <input type="number" id="calc-rate" value="20" class="w-full text-3xl font-black bg-white/2 border border-white/10 rounded-2xl p-8 focus:!border-[#a88c5a] focus:!ring-0 transition-all outline-none">
+                            </div>
+                            <div class="calculator-field">
+                                <label class="block text-[11px] font-black uppercase tracking-[0.2em] text-[#a88c5a] mb-4 opacity-70"><%= t.calcF %></label>
+                                <input type="number" id="calc-fee" value="1.00" step="0.1" class="w-full text-3xl font-black bg-white/2 border border-white/10 rounded-2xl p-8 focus:!border-[#a88c5a] focus:!ring-0 transition-all outline-none">
+                            </div>
+                        </div>
+                        <div class="mt-10 p-10 bg-gradient-to-br from-[#a88c5a]/20 to-transparent rounded-[2.5rem] border border-[#a88c5a]/20 text-center shadow-2xl relative overflow-hidden group">
+                            <div class="absolute inset-0 bg-[#a88c5a]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+                            <div class="relative z-10">
+                                <div class="text-[11px] font-black uppercase tracking-[0.3em] text-[#a88c5a] mb-4"><%= t.calcP %></div>
+                                <div id="calc-result" class="text-6xl md:text-7xl font-black gradient-text">20.000 €</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
