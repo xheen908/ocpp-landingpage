@@ -279,7 +279,7 @@ input[type=number] {
 /* Flying Article Stack (Build 19.0) */
 .article-stack-section {
     position: relative;
-    height: 300vh; /* Scroll depth for 2 article blocks */
+    height: 600vh; /* Long scroll for 6 epic articles */
     width: 100%;
     margin-bottom: 20vh;
 }

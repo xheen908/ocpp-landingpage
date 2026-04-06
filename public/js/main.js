@@ -52,23 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (event.target === modal) closeModal();
     });
 
-    // Revenue Calculator Logic
-    const updateCalculator = () => {
-        if (!calcVolume || !calcRate || !calcFee || !calcResult) return;
-        
-        const volume = parseFloat(calcVolume.value) || 0;
-        const rate = parseFloat(calcRate.value) || 0;
-        const fee = parseFloat(calcFee.value) || 0;
-        
-        const profit = volume * (rate / 100) * fee;
-        calcResult.innerText = profit.toLocaleString('de-DE') + ' €';
-    };
-
-    if (calcVolume) calcVolume.addEventListener('input', updateCalculator);
-    if (calcRate) calcRate.addEventListener('input', updateCalculator);
-    if (calcFee) calcFee.addEventListener('input', updateCalculator);
-
-    // Form Submission
+    // Form Submission (Build 11.1)
     if (leadForm) {
         leadForm.addEventListener('submit', async (event) => {
             event.preventDefault();
@@ -77,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const consent = document.getElementById('privacy-consent');
             if (!status || !button || !consent) return;
 
-            // GDPR Validation (Build 11.1)
             if (!consent.checked) {
                 status.classList.remove('hidden');
                 status.innerText = 'PLEASE AGREE TO THE PRIVACY POLICY.';
@@ -88,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
             status.classList.remove('hidden');
             status.innerText = 'Sending...';
             button.disabled = true;
-            button.style.opacity = '0.5';
 
             const formData = new FormData(leadForm);
             const data = Object.fromEntries(formData.entries());
@@ -108,7 +90,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         closeModal();
                         status.classList.add('hidden');
                         button.disabled = false;
-                        button.style.opacity = '1';
                     }, 3000);
                 } else {
                     throw new Error();
@@ -117,7 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 status.innerText = 'ERROR. PLEASE TRY AGAIN.';
                 status.style.color = '#ef4444';
                 button.disabled = false;
-                button.style.opacity = '1';
             }
         });
     }
@@ -127,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const burgerClose = document.getElementById('burger-close');
     const sidebarDrawer = document.getElementById('sidebar-drawer');
     const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+    const sidebarLinks = sidebarDrawer?.querySelectorAll('a');
 
     const openSidebar = () => {
         if (!sidebarDrawer || !sidebarBackdrop) return;
@@ -147,38 +128,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (burgerTrigger) burgerTrigger.addEventListener('click', openSidebar);
     if (burgerClose) burgerClose.addEventListener('click', closeSidebar);
     if (sidebarBackdrop) sidebarBackdrop.addEventListener('click', closeSidebar);
+    if (sidebarLinks) sidebarLinks.forEach(link => link.addEventListener('click', closeSidebar));
 
     const menuContactTrigger = document.getElementById('menu-contact-trigger');
     if (menuContactTrigger) {
         menuContactTrigger.addEventListener('click', () => {
             closeSidebar();
-            setTimeout(openModal, 400); // Wait for sidebar to slide out
+            setTimeout(openModal, 400);
         });
     }
 
-    // Auto-close on link click so the menu doesn't freeze the page navigation
-    if (sidebarDrawer) {
-        const sidebarLinks = sidebarDrawer.querySelectorAll('a');
-        sidebarLinks.forEach(link => {
-            link.addEventListener('click', closeSidebar);
-        });
-    }
-
-    // Guard against Safari/iOS BFCache freezing the body overflow
-    window.addEventListener('pageshow', (event) => {
-        if (event.persisted) {
-            closeSidebar();
-        }
-    });
-
-    // Flying Article Stack (Build 19.0)
+    // Flying Article Stack (Build 20.0 - Dynamic Multi-Slide)
     const articleStack = document.getElementById('article-stack');
     const stackItems = document.querySelectorAll('.article-row-stack');
     const stackProgress = document.getElementById('stack-progress-fill');
 
     if (articleStack && stackItems.length > 0) {
         const handleStackScroll = () => {
-            // Disable on mobile for better UX (controlled by CSS media query heights, but JS check is safer)
             if (window.innerWidth < 768) return;
 
             const rect = articleStack.getBoundingClientRect();
@@ -186,38 +152,43 @@ document.addEventListener('DOMContentLoaded', () => {
             const sectionHeight = rect.height;
             const windowHeight = window.innerHeight;
 
-            let progress = -sectionTop / (sectionHeight - windowHeight);
-            progress = Math.max(0, Math.min(1, progress));
+            let totalProgress = -sectionTop / (sectionHeight - windowHeight);
+            totalProgress = Math.max(0, Math.min(1, totalProgress));
 
-            if (stackProgress) stackProgress.style.width = `${progress * 100}%`;
+            if (stackProgress) stackProgress.style.width = `${totalProgress * 100}%`;
 
-            // Transition logic for 2 items
-            // Range 0.0 - 1.0
+            const totalItems = stackItems.length;
             
-            // Item 0 (SaaS): Stays at 0 until ~40%, then flies left to -150%
-            const item0 = stackItems[0];
-            const item1 = stackItems[1];
+            stackItems.forEach((item, index) => {
+                const itemStep = 1 / totalItems;
+                const itemStart = index * itemStep;
+                const itemEnd = (index + 1) * itemStep;
+                
+                let itemProgress = (totalProgress - itemStart) / itemStep;
+                itemProgress = Math.max(0, Math.min(1, itemProgress));
 
-            if (progress <= 0.45) {
-                // Initial State
-                item0.style.transform = 'translateX(0)';
-                item0.style.opacity = '1';
-                item1.style.opacity = '0';
-                item1.style.transform = 'scale(0.95)';
-            } else if (progress > 0.45 && progress < 0.8) {
-                // Transitioning
-                const factor = (progress - 0.45) / 0.35; // 0 to 1
-                item0.style.transform = `translateX(${-factor * 120}%) translateY(${-factor * 20}px) rotate(${-factor * 5}deg)`;
-                item0.style.opacity = 1 - factor;
+                if (index < totalItems - 1) {
+                    if (itemProgress > 0.5) {
+                        const factor = (itemProgress - 0.5) * 2;
+                        item.style.transform = `translateX(${-factor * 120}%) translateY(${-factor * 20}px) rotate(${-factor * 5}deg)`;
+                        item.style.opacity = 1 - factor;
+                        item.style.pointerEvents = 'none';
+                    } else {
+                        item.style.transform = 'translateX(0) translateY(0) rotate(0)';
+                        item.style.opacity = '1';
+                        item.style.pointerEvents = 'auto';
+                    }
+                } else {
+                    item.style.opacity = itemProgress > 0 ? '1' : '0';
+                    item.style.transform = `scale(${0.95 + (itemProgress * 0.05)})`;
+                }
 
-                item1.style.opacity = factor;
-                item1.style.transform = `scale(${0.95 + factor * 0.05})`;
-            } else {
-                // End state
-                item0.style.opacity = '0';
-                item1.style.opacity = '1';
-                item1.style.transform = 'scale(1)';
-            }
+                if (totalProgress > itemEnd && index < totalItems - 1) {
+                    item.style.visibility = 'hidden';
+                } else {
+                    item.style.visibility = 'visible';
+                }
+            });
         };
 
         window.addEventListener('scroll', () => {
