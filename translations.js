@@ -70,9 +70,9 @@ const translations = {
         "tech": {
             "nav": "Technologie",
             "title": "Technologie & Vertrieb",
-            "subtitle": "Die Vorteile der Blockchain für Ihren globalen Handel.",
-            "sidebar": "Automatisierte Zahlungen und fälschungssichere Herkunftsnachweise durch Web3-Infrastruktur.",
-            "content": "<h3>Blockchain als Vertriebsmotor</h3><p>Der Vertrieb von morgen ist digital und global. Durch den Einsatz von Blockchain-Technologie (Base L2) transformieren wir herkömmliche Lieferketten in Umsatztreiber.</p><h3>Vorteile der Blockchain</h3><p>1. <strong>Automatisierte Royalties:</strong> Smart Contracts garantieren, dass Sie an jedem Weiterverkauf Ihrer Produkte mitverdienen, direkt in Ihre Wallet.<br>2. <strong>Fälschungssicherheit:</strong> Ein Digitaler Produktpass (DPP) sichert die Echtheit und schützt Ihre Marke vor Plagiaten.<br>3. <strong>Transparenz:</strong> Lückenlose Nachverfolgung stärkt das Vertrauen der Handelspartner und Endkunden.</p><h3>Ihr Wettbewerbsvorteil</h3><p>Nutzen Sie modernste Technologie, um neue Absatzmärkte in Europa zu erschließen und Compliance-Anforderungen mühelos zu erfüllen.</p>"
+            "subtitle": "Die Infrastruktur für Ihren globalen Handel – ohne Krypto-Hürden.",
+            "sidebar": "Konto-Abstraktion (Account Abstraction) eliminiert Seed-Phrases und Gas-Gebühren. Ihre 'Invisible Wallet' agiert unsichtbar im Hintergrund.",
+            "content": "<h3>Web3-Vorteile ohne die Komplexität</h3><p>Viele Exporteure meiden Begriffe wie Blockchain – und das oft zu Recht, aufgrund mangelnder Benutzerfreundlichkeit. Durch <strong>Account Abstraction</strong> und <strong>Invisible Wallets</strong> machen wir die Technologie für Sie völlig unsichtbar. Keine Seed-Phrases, keine Gas-Gebühren, kein technisches Vorwissen nötig.</p><h3>Ihre Vorteile auf Autopilot</h3><p>1. <strong>Automatisierte Payouts:</strong> Smart Contracts garantieren, dass Sie an jedem Weiterverkauf Ihrer Produkte mitverdienen. Die Auszahlung erfolgt direkt in Euro oder USDT – Ihre Invisible Wallet wickelt den Hintergrundprozess ab.<br>2. <strong>Reibungslose Compliance:</strong> Der Digitale Produktpass (DPP) sichert die Echtheit und schützt Ihre Marke vor Plagiaten – alles vollautomatisiert durch Web3-Infrastruktur im Backend.<br>3. <strong>B2B-Fokus:</strong> Wir bieten die industrielle Schnittstelle. Sie profitieren von Blockchain-Sicherheit, ohne jemals mit der Blockchain selbst interagieren zu müssen.</p><h3>Ihr Wettbewerbsvorteil</h3><p>Nutzen Sie die manipulationssichere Architektur, um neue Umsatzströme in Europa zu erschließen – mit dem Nutzungserlebnis, das Sie von klassischem Online-Banking gewohnt sind.</p>"
         }
     },
     "en-us": {
@@ -146,9 +146,9 @@ const translations = {
         "tech": {
             "nav": "Technology",
             "title": "Technology & Sales",
-            "subtitle": "The advantages of Blockchain for your global trade.",
-            "sidebar": "Automated payments and unforgeable proof of origin through Web3 infrastructure.",
-            "content": "<h3>Blockchain as a Sales Engine</h3><p>The sales of tomorrow are digital and global. By using Blockchain technology (Base L2), we transform traditional supply chains into revenue drivers.</p><h3>Advantages of Blockchain</h3><p>1. <strong>Automated Royalties:</strong> Smart contracts guarantee that you earn on every resale of your products, directly to your wallet.<br>2. <strong>Counterfeit Protection:</strong> A Digital Product Passport (DPP) secures authenticity and protects your brand from plagiarism.<br>3. <strong>Transparency:</strong> Seamless tracking strengthens the trust of trading partners and end customers.</p><h3>Your Competitive Advantage</h3><p>Use cutting-edge technology to open up new sales markets in Europe and effortlessly fulfill compliance requirements.</p>"
+            "subtitle": "The infrastructure for your global trade — without crypto hurdles.",
+            "sidebar": "Account Abstraction eliminates seed phrases and gas fees. Your 'Invisible Wallet' operates invisibly in the background.",
+            "content": "<h3>Web3 Benefits Without the Complexity</h3><p>Many exporters avoid terms like blockchain — and often rightly so, due to its lack of usability. Through <strong>Account Abstraction</strong> and <strong>Invisible Wallets</strong>, we make the technology completely invisible to you. No seed phrases, no gas fees, no technical prerequisites required.</p><h3>Your Advantages on Autopilot</h3><p>1. <strong>Automated Payouts:</strong> Smart contracts guarantee that you earn on every resale of your products. Payouts are made directly into your corporate account in euros or USDT — your Invisible Wallet handles everything in the background.<br>2. <strong>Frictionless Compliance:</strong> A Digital Product Passport (DPP) secures authenticity and protects your brand from plagiarism — fully automated by backend Web3 infrastructure.<br>3. <strong>B2B Focus:</strong> We offer the industrial interface. You benefit from blockchain security without ever having to interact with a blockchain yourself.</p><h3>Your Competitive Advantage</h3><p>Use tamper-proof architecture to open up new revenue streams in Europe — with the user experience you expect from traditional online banking.</p>"
         }
     },
     "vi-vn": {
@@ -214,9 +214,9 @@ const translations = {
         "tech": {
             "nav": "Công nghệ",
             "title": "Công nghệ & Bán hàng",
-            "subtitle": "Lợi ích của Blockchain cho thương mại toàn cầu của bạn.",
-            "sidebar": "Thanh toán tự động và bằng chứng xuất xứ không thể giả mạo thông qua hạ tầng Web3.",
-            "content": "<h3>Blockchain là Động lực Bán hàng</h3><p>Bán hàng trong tương lai là kỹ thuật số và toàn cầu. Bằng cách sử dụng công nghệ Blockchain (Base L2), chúng tôi chuyển đổi chuỗi cung ứng truyền thống thành nguồn tạo doanh thu.</p><h3>Lợi ích của Blockchain</h3><p>1. <strong>Phí bản quyền tự động:</strong> Hợp đồng thông minh đảm bảo bạn kiếm được tiền trên mỗi lần bán lại sản phẩm của mình, trực tiếp vào ví của bạn.<br>2. <strong>Bảo vệ Chống Giả mạo:</strong> Hộ chiếu Sản phẩm Kỹ thuật số (DPP) đảm bảo tính xác thực và bảo vệ thương hiệu của bạn khỏi hàng nhái.<br>3. <strong>Tính Minh bạch:</strong> Theo dõi liền mạch tăng cường sự tin tưởng của các đối tác thương mại và khách hàng cuối.</p><h3>Lợi thế Cạnh tranh của Bạn</h3><p>Sử dụng công nghệ cắt vát để mở ra các thị trường bán hàng mới ở Châu Âu và dễ dàng đáp ứng các yêu cầu tuân thủ.</p>"
+            "subtitle": "Hạ tầng cho thương mại toàn cầu của bạn — không có rào cản từ tiền điện tử.",
+            "sidebar": "Account Abstraction loại bỏ cụm từ hạt giống (seed phrase) và phí gas. 'Ví vô hình' của bạn hoạt động hoàn toàn ở chế độ nền.",
+            "content": "<h3>Lợi ích Web3 mà không hề phức tạp</h3><p>Nhiều nhà xuất khẩu tránh các thuật ngữ như blockchain — và thường là có lý do, do thiếu tính khả dụng. Thông qua <strong>Account Abstraction</strong> (Trừu tượng hóa tài khoản) và <strong>Ví vô hình</strong>, chúng tôi làm cho công nghệ hoàn toàn biến mất khỏi tầm mắt của bạn. Không cần lưu trữ key, không phí gas, không yêu cầu kiến thức kỹ thuật.</p><h3>Lợi ích trên chế độ Tự động hóa</h3><p>1. <strong>Thanh toán tự động:</strong> Hợp đồng thông minh đảm bảo bạn nhận được tiền từ mọi lần bán lại sản phẩm của mình. Quá trình thanh toán bằng USDT/EUR diễn ra trực tiếp — Ví vô hình xử lý quy trình nền.<br>2. <strong>Tuân thủ dễ dàng:</strong> Hộ chiếu Sản phẩm Số (DPP) bảo vệ thương hiệu khỏi hàng giả — được tự động hóa hoàn toàn nhờ hạ tầng Web3 backend.<br>3. <strong>Tập trung B2B:</strong> Tận hưởng an ninh dữ liệu blockchain mà không bao giờ phải tương tác trực tiếp với nó.</p><h3>Lợi thế Cạnh tranh</h3><p>Tạo ra dòng doanh thu mới ở Châu Âu bằng kiến trúc chống giả mạo, với trải nghiệm người dùng giống hệt ngân hàng trực tuyến truyền thống.</p>"
         }
     },
     "th-th": {
@@ -282,9 +282,9 @@ const translations = {
         "tech": {
             "nav": "เทคโนโลยี",
             "title": "เทคโนโลยีและการขาย",
-            "subtitle": "ข้อได้เปรียบของ Blockchain สำหรับการค้าระดับโลกของคุณ",
-            "sidebar": "การชำระเงินอัตโนมัติและหลักฐานยืนยันแหล่งที่มาที่ปลอมแปลงไม่ได้ผ่านโครงสร้างพื้นฐาน Web3",
-            "content": "<h3>Blockchain ในฐานะกลไกขับเคลื่อนการขาย</h3><p>การขายในอนาคตคือดิจิทัลและระดับโลก ด้วยการใช้เทคโนโลยี Blockchain (Base L2) เราแปลงห่วงโซ่อุปทานแบบดั้งเดิมให้กลายเป็นตัวขับเคลื่อนรายได้</p><h3>ข้อได้เปรียบของ Blockchain</h3><p>1. <strong>ค่าลิขสิทธิ์อัตโนมัติ:</strong> Smart contracts รับประกันว่าคุณจะได้รับเงินทุกครั้งที่มีการขายต่อผลิตภัณฑ์ของคุณ โดยตรงเข้าสู้กระเป๋าเงินของคุณ<br>2. <strong>การป้องกันการปลอมแปลง:</strong> Digital Product Passport (DPP) ตรวจสอบความถูกต้องและปกป้องแบรนด์ของคุณจากการลอกเลียนแบบ<br>3. <strong>ความโปร่งใส:</strong> การติดตามที่ราบรื่นช่วยเสริมสร้างความไว้วางใจของคู่ค้าและลูกค้าปลายทาง</p><h3>ข้อได้เปรียบทางการแข่งขันของคุณ</h3><p>ใช้เทคโนโลยีล้ำสมัยเพื่อเปิดตลาดการขายใหม่ในยุโรปและตอบสนองข้อกำหนดต่างๆ ได้อย่างง่ายดาย</p>"
+            "subtitle": "โครงสร้างพื้นฐานสำหรับค้าระดับโลกของคุณ — ไร้ปัญหาเกี่ยวกับคริปโต",
+            "sidebar": "Account Abstraction ขจัด Seed Phrase และค่าแก๊สต่างๆ 'กระเป๋าเงินล่องหน' ของคุณทำงานอยู่เบื้องหลังอย่างเงียบเชียบ",
+            "content": "<h3>ประโยชน์ของ Web3 ที่ไม่ซับซ้อน</h3><p>ผู้ส่งออกหลายรายหลีกเลี่ยงคำว่า บล็อกเชน ซึ่งก็สมเหตุสมผล เนื่องจากความยากในการใช้งาน ผ่านเทคโนโลยี <strong>Account Abstraction</strong> และ <strong>Invisible Wallets (กระเป๋าเงินล่องหน)</strong> เราซ่อนความซับซ้อนของเทคโนโลยีทั้งหมด ไม่ต้องจำรหัสผ่าน ไม่เสียค่าแก๊ส และไม่ต้องมีความรู้ด้านเทคนิค</p><h3>ข้อดีของคุณในระบบอัตโนมัติ</h3><p>1. <strong>ผลตอบแทนอัตโนมัติ:</strong> Smart contracts รับประกันว่าคุณจะได้รับเงินทุกครั้งที่มีการขายต่อผลิตภัณฑ์ของคุณ ผลตอบแทนจะโอนตรงเป็นยูโรหรือ USDT — กระเป๋าเงินล่องหนจัดการขั้นตอนทั้งหมดให้คุณ<br>2. <strong>ปฏิบัติตามกฎง่ายดาย:</strong> Digital Product Passport (DPP) ปกป้องแบรนด์ของคุณจากการปลอมแปลงผ่านระบบ Web3 ที่ทำงานเบื้องหลังอัตโนมัติ<br>3. <strong>โฟกัสการค้า B2B:</strong> ได้รับความปลอดภัยสูงของบล็อกเชน โดยไม่จำเป็นต้องเข้าถึงบล็อกเชนโดยตรง</p><h3>ข้อได้เปรียบทางการแข่งขัน</h3><p>ใช้สถาปัตยกรรมที่ไม่มีใครปลอมแปลงได้เพื่อรับรายได้ใหม่ๆ ในยุโรป — ด้วยประสบการณ์การใช้งานที่เหมือนกับบริการธนาคารออนไลน์ทั่วไป</p>"
         }
     },
     "zh-cn": {
@@ -350,9 +350,9 @@ const translations = {
         "tech": {
             "nav": "技术",
             "title": "技术与销售",
-            "subtitle": "区块链在全球贸易中的优势。",
-            "sidebar": "通过 Web3 基础设施实现自动化支付和不可伪造的原产地证明。",
-            "content": "<h3>作为销售引擎的区块链</h3><p>未来的销售是数字化和全球化的。通过使用区块链技术 (Base L2)，我们将传统的供应链转变为收入驱动力。</p><h3>区块链的优势</h3><p>1. <strong>自动化版税:</strong> 智能合约确保您可以从产品的每次转售中获利，直接存入您的钱包。<br>2. <strong>防伪保护:</strong> 数字产品护照 (DPP) 确保真实性并保护您的品牌免受剽窃。<br>3. <strong>透明度:</strong> 无缝跟踪增强了贸易伙伴和最终客户的信任。</p><h3>您的竞争优势</h3><p>利用尖端技术开拓欧洲的新销售市场，并轻松满足合规要求。</p>"
+            "subtitle": "您的全球贸易基础设施 —— 没有任何加密门槛。",
+            "sidebar": "账户抽象化 (Account Abstraction) 消除了助记词和 Gas 费。您的 '隐形钱包' 完全在后台安全运行。",
+            "content": "<h3>没有复杂性的 Web3 优势</h3><p>许多出口商避开“区块链”这个词，由于其糟糕的用户体验，这往往是正确的。通过 <strong>账户抽象化 (Account Abstraction)</strong> 和 <strong>隐形钱包 (Invisible Wallets)</strong>，技术对您来说将是不可见的。无需助记词、无 Gas 手续费、无需技术背景。</p><h3>自动化的核心优势</h3><p>1. <strong>自运转版税:</strong> 智能合约确保您的产品在欧洲的每次转售都能为您带来收益。这些款项将以企业支付形式自动结算——您的隐形钱包在后台自动处理一切。<br>2. <strong>无摩擦合规:</strong> 数字产品护照 (DPP) 确保真实性并防止品牌被剽窃——全部由后台 Web3 基础设施自动处理。<br>3. <strong>B2B 商业接口:</strong> 我们提供工业级接口。您可以享受区块链带来的数据安全，而无需真正触碰它。</p><h3>您的竞争优势</h3><p>使用防篡改的基础架构，在欧洲开辟新的被动收入流 —— 其用户体验如同使用传统的网上银行一样流畅。</p>"
         }
     },
     "zh-tw": {
@@ -418,9 +418,9 @@ const translations = {
         "tech": {
             "nav": "技術",
             "title": "技術與銷售",
-            "subtitle": "區塊鏈在全球貿易中的優勢。",
-            "sidebar": "透過 Web3 基礎設施實現自動化支付和不可偽造的原產地證明。",
-            "content": "<h3>作為銷售引擎的區塊鏈</h3><p>未來的銷售是數位化和全球化的。透過使用區塊鏈技術 (Base L2)，我們將傳統的供應鏈轉變為收入驅動力。</p><h3>區塊鏈的優勢</h3><p>1. <strong>自動化版稅:</strong> 智能合約確保您可以從產品的每次轉售中獲利，直接存入您的錢包。<br>2. <strong>防偽保護:</strong> 數位產品護照 (DPP) 確保真實性並保護您的品牌免受剽竊。<br>3. <strong>透明度:</strong> 無縫跟蹤增強了貿易夥伴和最終客戶的信任。</p><h3>您的競爭優勢</h3><p>利用尖端技術開拓歐洲的新銷售市場，並輕鬆滿足合規要求。</p>"
+            "subtitle": "您的全球貿易基礎設施 —— 沒有任何加密門檻。",
+            "sidebar": "帳戶抽象化 (Account Abstraction) 消除了助記詞和 Gas 費。您的 '隱形錢包' 完全在後台安全運行。",
+            "content": "<h3>沒有複雜性的 Web3 優勢</h3><p>許多出口商避開“區塊鏈”這個詞，由於其糟糕的用戶體驗，這往往是正確的。透過 <strong>帳戶抽象化 (Account Abstraction)</strong> 和 <strong>隱形錢包 (Invisible Wallets)</strong>，技術對您來說將是不可見的。無需助記詞、無 Gas 手續費、無需技術背景。</p><h3>自動化的核心優勢</h3><p>1. <strong>自運轉版稅:</strong> 智能合約確保您的產品在歐洲的每次轉售都能為您帶來收益。這些款項將以企業支付形式自動結算——您的隱形錢包在後台自動處理一切。<br>2. <strong>無摩擦合規:</strong> 數位產品護照 (DPP) 確保真實性並防止品牌被剽竊——全部由後台 Web3 基礎設施自動處理。<br>3. <strong>B2B 商業接口:</strong> 我們提供工業級接口。您可以享受區塊鏈帶來的數據安全，而無需真正觸碰它。</p><h3>您的競爭優勢</h3><p>使用防篡改的基礎架構，在歐洲開闢新的被動收入流 —— 其用戶體驗如同使用傳統的網路銀行一樣流暢。</p>"
         }
     }
 };
