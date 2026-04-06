@@ -1,16 +1,13 @@
-<footer class="p-12 border-t border-white/5 text-center">
-    <div class="flex flex-wrap justify-center gap-8 mb-8 text-[10px] font-bold uppercase tracking-[0.2em] text-white/30">
+<footer class="py-6 px-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center gap-4 text-white/30 text-[10px] tracking-widest uppercase mt-8 md:mt-12 w-full">
+    <div id="copyright" class="order-2 md:order-1 opacity-70">
+        &copy; 2025-2026 ocpp-labs.com
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-6 font-bold tracking-[0.2em] order-1 md:order-2">
         <a href="/<%= t.lang %>/about" class="hover:text-[#a88c5a] transition-colors"><%= t.aboutUs?.nav || 'About Us' %></a>
         <a href="/<%= t.lang %>/legal/imprint" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.imprint %></a>
         <a href="/<%= t.lang %>/legal/privacy" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.privacy %></a>
         <a href="/<%= t.lang %>/legal/terms" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.terms %></a>
-    </div>
-    
-    <div class="text-white/20 text-sm font-medium tracking-widest uppercase mb-4">
-        OCPP-Labs // Global Compliance
-    </div>
-    <div id="copyright" class="text-white/40 text-[10px] tracking-widest uppercase">
-        <%- t.copy %>
     </div>
 </footer>
 
