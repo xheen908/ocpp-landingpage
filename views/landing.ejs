@@ -140,52 +140,67 @@
             </div>
         </div>
 
-        <!-- Sticky Scroll Reveal Section: Build 16.0 (Apple-Style) -->
-        <div id="tech-reveal" class="sticky-reveal-section mb-56">
-            <div class="sticky-reveal-wrapper">
+        <!-- Advanced Scroll Storytelling Section: Build 17.0 (The Flying Experience) -->
+        <div id="tech-story" class="scroll-story-section mb-56">
+            <div class="scroll-story-wrapper">
                 
-                <!-- Slide 1: SaaS platform -->
-                <div class="reveal-slide active" style="background-image: url('/assets/slider-1.png')" data-index="0">
-                    <div class="reveal-overlay">
-                        <div class="reveal-content">
-                            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
-                                Automation Layer
-                            </span>
-                            <h3 class="text-5xl md:text-8xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
-                                <%- t.s1h %>
-                            </h3>
-                            <p class="text-xl md:text-2xl text-white/50 max-w-2xl font-medium leading-relaxed">
-                                <%= t.s1p %>
-                            </p>
-                        </div>
+                <!-- Background Parallax Layers -->
+                <div id="bg-1" class="parallax-bg active" style="background-image: url('/assets/slider-1.png')"></div>
+                <div id="bg-2" class="parallax-bg" style="background-image: url('/assets/slider-2.png')"></div>
+
+                <!-- Story Beats -->
+                
+                <!-- Beat 1: The Problem Text -->
+                <div class="story-layer" data-start="0" data-end="0.15">
+                    <div class="fly-text">
+                        <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                            High Stakes
+                        </span>
+                        <h3 class="text-4xl md:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                            Your goods are <br><span class="gradient-text">stranded.</span>
+                        </h3>
                     </div>
                 </div>
 
-                <!-- Slide 2: Passive Income -->
-                <div class="reveal-slide inactive" style="background-image: url('/assets/slider-2.png')" data-index="1">
-                    <div class="reveal-overlay">
-                        <div class="reveal-content">
-                            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
-                                Revenue Stream
-                            </span>
-                            <h3 class="text-5xl md:text-8xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
-                                <%- t.s2h %>
-                            </h3>
-                            <p class="text-xl md:text-2xl text-white/50 max-w-2xl font-medium leading-relaxed">
-                                <%= t.s2p %>
-                            </p>
-                        </div>
+                <!-- Beat 2: Image 1 Flying In -->
+                <div class="story-layer" data-start="0.15" data-end="0.35">
+                    <img src="/assets/slider-1.png" class="fly-image" alt="SaaS Scanning">
+                </div>
+
+                <!-- Beat 3: SaaS Solution Text -->
+                <div class="story-layer" data-start="0.35" data-end="0.55">
+                    <div class="fly-text">
+                        <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                            Automated SaaS
+                        </span>
+                        <h3 class="text-4xl md:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                            <%- t.s1h %>
+                        </h3>
+                        <p class="text-xl text-white/50 max-w-xl mx-auto"><%= t.s1p %></p>
                     </div>
                 </div>
 
-                <!-- Dynamic Progress UI -->
+                <!-- Beat 4: Asset 2 Flying In -->
+                <div class="story-layer" data-start="0.6" data-end="0.8">
+                    <img src="/assets/slider-2.png" class="fly-image" alt="Royalty Flow">
+                </div>
+
+                <!-- Beat 5: Passive Income Text -->
+                <div class="story-layer" data-start="0.8" data-end="1.0">
+                    <div class="fly-text">
+                        <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                            Financial Engine
+                        </span>
+                        <h3 class="text-4xl md:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                            <%- t.s2h %>
+                        </h3>
+                        <p class="text-xl text-white/50 max-w-xl mx-auto"><%= t.s2p %></p>
+                    </div>
+                </div>
+
+                <!-- Progress UI -->
                 <div class="reveal-progress-container">
-                    <div id="reveal-progress-fill" class="reveal-progress-fill"></div>
-                </div>
-
-                <div class="reveal-nav-hint">
-                    <div class="nav-dot active" data-index="0"></div>
-                    <div class="nav-dot" data-index="1"></div>
+                    <div id="story-progress-fill" class="reveal-progress-fill"></div>
                 </div>
             </div>
         </div>

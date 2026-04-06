@@ -177,58 +177,84 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Sticky Scroll Reveal System (Build 16.0)
-    const revealSection = document.getElementById('tech-reveal');
-    const revealSlides = document.querySelectorAll('.reveal-slide');
-    const progressFill = document.getElementById('reveal-progress-fill');
-    const navDots = document.querySelectorAll('.nav-dot');
+    // Advanced Scroll Storytelling System (Build 17.0 - "The Flying Experience")
+    const storySection = document.getElementById('tech-story');
+    const storyLevels = document.querySelectorAll('.story-layer');
+    const storyProgress = document.getElementById('story-progress-fill');
+    const bg1 = document.getElementById('bg-1');
+    const bg2 = document.getElementById('bg-2');
 
-    if (revealSection && revealSlides.length > 0) {
-        const handleRevealScroll = () => {
-            const sectionRect = revealSection.getBoundingClientRect();
+    if (storySection && storyLevels.length > 0) {
+        const handleStoryScroll = () => {
+            const sectionRect = storySection.getBoundingClientRect();
             const sectionTop = sectionRect.top;
             const sectionHeight = sectionRect.height;
             const windowHeight = window.innerHeight;
 
-            // Calculate progress (0 to 1) based on how much of the section has been scrolled
-            // We start counting when top of section hits top of window
-            // and end when bottom of section hits bottom of window
-            let progress = -sectionTop / (sectionHeight - windowHeight);
-            progress = Math.max(0, Math.min(1, progress));
+            // Global Progress (0 to 1)
+            let globalProgress = -sectionTop / (sectionHeight - windowHeight);
+            globalProgress = Math.max(0, Math.min(1, globalProgress));
 
-            if (progressFill) progressFill.style.width = `${progress * 100}%`;
+            if (storyProgress) storyProgress.style.width = `${globalProgress * 100}%`;
 
-            // Transition logic for 2 slides
-            // Slide 0: 0% to 50% progress
-            // Slide 1: 50% to 100% progress
-            const threshold = 0.5;
-            
-            if (progress < threshold) {
-                // Show Slide 1
-                revealSlides[0].classList.add('active');
-                revealSlides[0].classList.remove('inactive');
-                revealSlides[1].classList.add('inactive');
-                revealSlides[1].classList.remove('active');
-                
-                if (navDots[0]) navDots[0].classList.add('active');
-                if (navDots[1]) navDots[1].classList.remove('active');
+            // Background Parallax Switch
+            if (globalProgress > 0.5) {
+                if (bg1) bg1.classList.remove('active');
+                if (bg2) bg2.classList.add('active');
             } else {
-                // Show Slide 2
-                revealSlides[0].classList.add('inactive');
-                revealSlides[0].classList.remove('active');
-                revealSlides[1].classList.add('active');
-                revealSlides[1].classList.remove('inactive');
-
-                if (navDots[0]) navDots[0].classList.remove('active');
-                if (navDots[1]) navDots[1].classList.add('active');
+                if (bg1) bg1.classList.add('active');
+                if (bg2) bg2.classList.remove('active');
             }
+
+            storyLevels.forEach((layer) => {
+                const start = parseFloat(layer.dataset.start);
+                const end = parseFloat(layer.dataset.end);
+                const duration = end - start;
+                
+                // Calculate local progress within this beat's range
+                let localProgress = (globalProgress - start) / duration;
+                localProgress = Math.max(0, Math.min(1, localProgress));
+
+                const img = layer.querySelector('.fly-image');
+                const text = layer.querySelector('.fly-text');
+
+                // ENTRANCE (0 to 0.5 local progress)
+                // EXIT (0.5 to 1 local progress)
+                
+                if (globalProgress >= start && globalProgress <= end) {
+                    layer.classList.add('active');
+                    
+                    if (localProgress < 0.5) {
+                        // Incoming
+                        const inFactor = localProgress * 2; // 0 to 1
+                        layer.style.opacity = inFactor;
+                        
+                        if (img) {
+                            layer.style.transform = `translateX(${(1 - inFactor) * 100}px) scale(${0.8 + inFactor * 0.2})`;
+                        } else if (text) {
+                            layer.style.transform = `translateY(${(1 - inFactor) * 50}px) scale(${0.9 + inFactor * 0.1})`;
+                        }
+                    } else {
+                        // Outgoing
+                        const outFactor = (localProgress - 0.5) * 2; // 0 to 1
+                        layer.style.opacity = 1 - outFactor;
+                        
+                        if (img) {
+                            layer.style.transform = `translateY(${-outFactor * 100}px) scale(${1 + outFactor * 0.1})`;
+                        } else if (text) {
+                            layer.style.transform = `translateY(${-outFactor * 50}px) scale(1)`;
+                        }
+                    }
+                } else {
+                    layer.classList.remove('active');
+                    layer.style.opacity = 0;
+                }
+            });
         };
 
         window.addEventListener('scroll', () => {
-            window.requestAnimationFrame(handleRevealScroll);
+            window.requestAnimationFrame(handleStoryScroll);
         });
-        
-        // Initial check
-        handleRevealScroll();
+        handleStoryScroll();
     }
 });
