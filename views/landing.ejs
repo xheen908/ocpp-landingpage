@@ -140,47 +140,57 @@
             </div>
         </div>
 
-        <!-- Interactive Article Sections: Build 18.0 (Modern Alternating Layout) -->
-        <div class="space-y-32 mb-64">
-            
-            <!-- Article 1: SaaS platform (Image Left) -->
-            <div class="article-row reveal-on-scroll">
-                <div class="article-image-container reveal-left">
-                    <img src="/assets/slider-1.png" alt="SaaS Scanning Platform">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                </div>
-                <div class="article-text-container reveal-right">
-                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
-                        The Automation Layer
+        <!-- Flying Article Stack: Build 19.0 (Interactive Flow) -->
+        <div id="article-stack" class="article-stack-section mb-64">
+            <div class="sticky-reveal-wrapper article-stack-wrapper">
+                
+                <!-- Slide 1: SaaS platform -->
+                <div class="article-row-stack" data-index="0">
+                    <div class="article-row">
+                        <div class="article-image-container">
+                            <img src="/assets/slider-1.png" alt="SaaS Scanning Platform">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        </div>
+                        <div class="article-text-container">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                The Automation Layer
+                            </div>
+                            <h3 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%- t.s1h %>
+                            </h3>
+                            <p class="text-xl text-white/40 leading-relaxed font-medium">
+                                <%= t.s1p %>
+                            </p>
+                        </div>
                     </div>
-                    <h3 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
-                        <%- t.s1h %>
-                    </h3>
-                    <p class="text-xl text-white/40 leading-relaxed font-medium">
-                        <%= t.s1p %>
-                    </p>
+                </div>
+
+                <!-- Slide 2: Passive Income -->
+                <div class="article-row-stack" data-index="1">
+                    <div class="article-row article-row-reverse">
+                        <div class="article-image-container">
+                            <img src="/assets/slider-2.png" alt="Royalty Revenue Stream">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        </div>
+                        <div class="article-text-container text-right md:text-left">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                The Financial Engine
+                            </div>
+                            <h3 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%- t.s2h %>
+                            </h3>
+                            <p class="text-xl text-white/40 leading-relaxed font-medium">
+                                <%= t.s2p %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progress UI -->
+                <div class="reveal-progress-container !left-[8%]">
+                    <div id="stack-progress-fill" class="reveal-progress-fill"></div>
                 </div>
             </div>
-
-            <!-- Article 2: Passive Income (Image Right) -->
-            <div class="article-row article-row-reverse reveal-on-scroll">
-                <div class="article-image-container reveal-right">
-                    <img src="/assets/slider-2.png" alt="Royalty Revenue Stream">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                </div>
-                <div class="article-text-container reveal-left text-right md:text-left">
-                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
-                        The Financial Engine
-                    </div>
-                    <h3 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
-                        <%- t.s2h %>
-                    </h3>
-                    <p class="text-xl text-white/40 leading-relaxed font-medium">
-                        <%= t.s2p %>
-                    </p>
-                </div>
-            </div>
-
         </div>
 
         <%- include('partials/features', { t }) %>

@@ -177,24 +177,58 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Interactive Article Scroll (Build 18.0)
-    const articleRows = document.querySelectorAll('.reveal-on-scroll');
-    if (articleRows.length > 0) {
-        const observerOptions = {
-            threshold: 0.2, // Trigger when 20% of the row is visible
-            rootMargin: '0px 0px -50px 0px'
+    // Flying Article Stack (Build 19.0)
+    const articleStack = document.getElementById('article-stack');
+    const stackItems = document.querySelectorAll('.article-row-stack');
+    const stackProgress = document.getElementById('stack-progress-fill');
+
+    if (articleStack && stackItems.length > 0) {
+        const handleStackScroll = () => {
+            // Disable on mobile for better UX (controlled by CSS media query heights, but JS check is safer)
+            if (window.innerWidth < 768) return;
+
+            const rect = articleStack.getBoundingClientRect();
+            const sectionTop = rect.top;
+            const sectionHeight = rect.height;
+            const windowHeight = window.innerHeight;
+
+            let progress = -sectionTop / (sectionHeight - windowHeight);
+            progress = Math.max(0, Math.min(1, progress));
+
+            if (stackProgress) stackProgress.style.width = `${progress * 100}%`;
+
+            // Transition logic for 2 items
+            // Range 0.0 - 1.0
+            
+            // Item 0 (SaaS): Stays at 0 until ~40%, then flies left to -150%
+            const item0 = stackItems[0];
+            const item1 = stackItems[1];
+
+            if (progress <= 0.45) {
+                // Initial State
+                item0.style.transform = 'translateX(0)';
+                item0.style.opacity = '1';
+                item1.style.opacity = '0';
+                item1.style.transform = 'scale(0.95)';
+            } else if (progress > 0.45 && progress < 0.8) {
+                // Transitioning
+                const factor = (progress - 0.45) / 0.35; // 0 to 1
+                item0.style.transform = `translateX(${-factor * 120}%) translateY(${-factor * 20}px) rotate(${-factor * 5}deg)`;
+                item0.style.opacity = 1 - factor;
+
+                item1.style.opacity = factor;
+                item1.style.transform = `scale(${0.95 + factor * 0.05})`;
+            } else {
+                // End state
+                item0.style.opacity = '0';
+                item1.style.opacity = '1';
+                item1.style.transform = 'scale(1)';
+            }
         };
 
-        const articleObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    // Once visible, we can stop observing this specific element
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, observerOptions);
-
-        articleRows.forEach(row => articleObserver.observe(row));
+        window.addEventListener('scroll', () => {
+            window.requestAnimationFrame(handleStackScroll);
+        });
+        handleStackScroll();
     }
 });
