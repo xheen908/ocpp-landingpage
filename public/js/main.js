@@ -128,6 +128,32 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Sidebar Drawer (Build 15.3)
+    const burgerTrigger = document.getElementById('burger-trigger');
+    const burgerClose = document.getElementById('burger-close');
+    const sidebarDrawer = document.getElementById('sidebar-drawer');
+    const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+
+    const openSidebar = () => {
+        if (!sidebarDrawer || !sidebarBackdrop) return;
+        sidebarBackdrop.style.opacity = '1';
+        sidebarBackdrop.style.pointerEvents = 'auto';
+        sidebarDrawer.style.transform = 'translateX(0)';
+        document.body.style.overflow = 'hidden';
+    };
+
+    const closeSidebar = () => {
+        if (!sidebarDrawer || !sidebarBackdrop) return;
+        sidebarBackdrop.style.opacity = '0';
+        sidebarBackdrop.style.pointerEvents = 'none';
+        sidebarDrawer.style.transform = 'translateX(-100%)';
+        document.body.style.overflow = '';
+    };
+
+    if (burgerTrigger) burgerTrigger.addEventListener('click', openSidebar);
+    if (burgerClose) burgerClose.addEventListener('click', closeSidebar);
+    if (sidebarBackdrop) sidebarBackdrop.addEventListener('click', closeSidebar);
+
     // Swiper Initialization
     if (typeof Swiper !== 'undefined') {
         new Swiper(".mySwiper", {
