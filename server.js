@@ -92,6 +92,18 @@ app.get('/:langCode/about', (req, res) => {
     res.render('about', { t });
 });
 
+// Technology & Sales Route (Build 16.0)
+app.get('/:langCode/technology', (req, res) => {
+    const langCode = req.params.langCode.toLowerCase();
+    
+    if (!supportedLangs.includes(langCode)) {
+        return res.redirect('/en-us/technology');
+    }
+
+    const t = translations[langCode];
+    res.render('technology', { t });
+});
+
 // Handle missing trailing slash
 app.get('/:langCode', (req, res) => {
     const langCode = req.params.langCode.toLowerCase();
