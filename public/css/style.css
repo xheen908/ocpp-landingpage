@@ -56,34 +56,61 @@ body {
     padding: 5rem;
 }
 .pill-btn {
+    position: relative;
     border-radius: 9999px;
-    padding: 1.25rem 2.5rem;
-    font-weight: 600;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    font-size: 0.875rem;
-    letter-spacing: 0.02em;
+    padding: 1.25rem 3rem;
+    font-weight: 800;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
     cursor: pointer;
-    border: none;
-    display: inline-block;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
 }
+
 .pill-btn-primary {
-    background-color: #ffffff;
+    background: #ffffff;
     color: #000000;
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
 }
+
+.pill-btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, #a88c5a 0%, #e2cd9d 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: -1;
+}
+
 .pill-btn-primary:hover {
-    background-color: #f0f0f0;
-    transform: scale(1.02);
-    box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(168, 140, 90, 0.4), inset 0 0 0 1px rgba(255,255,255,0.2);
 }
+
+.pill-btn-primary:hover::before {
+    opacity: 1;
+}
+
 .pill-btn-secondary {
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
 }
+
 .pill-btn-secondary:hover {
     background: rgba(255, 255, 255, 0.1);
-    transform: scale(1.02);
+    transform: translateY(-2px);
+    border-color: #a88c5a;
+    color: #a88c5a;
+    box-shadow: 0 10px 30px rgba(168, 140, 90, 0.15);
 }
 input, textarea {
     background: rgba(255, 255, 255, 0.03);
