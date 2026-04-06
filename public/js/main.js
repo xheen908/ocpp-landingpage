@@ -154,6 +154,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (burgerClose) burgerClose.addEventListener('click', closeSidebar);
     if (sidebarBackdrop) sidebarBackdrop.addEventListener('click', closeSidebar);
 
+    // Auto-close on link click so the menu doesn't freeze the page navigation
+    if (sidebarDrawer) {
+        const sidebarLinks = sidebarDrawer.querySelectorAll('a');
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', closeSidebar);
+        });
+    }
+
+    // Guard against Safari/iOS BFCache freezing the body overflow
+    window.addEventListener('pageshow', (event) => {
+        if (event.persisted) {
+            closeSidebar();
+        }
+    });
+
     // Swiper Initialization
     if (typeof Swiper !== 'undefined') {
         new Swiper(".mySwiper", {
