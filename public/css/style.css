@@ -1,0 +1,206 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000; /* OLED True Black */
+    color: #ffffff;
+    letter-spacing: -0.015em;
+}
+.gradient-text {
+    background: linear-gradient(135deg, #ffffff 0%, #a88c5a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.apple-glass {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.apple-glass:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.mesh-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: 
+    radial-gradient(at 0% 0%, hsla(20,10%,10%,1) 0, transparent 40%), 
+    radial-gradient(at 100% 0%, hsla(50,10%,10%,1) 0, transparent 40%);
+    opacity: 0.5;
+}
+.swiper {
+    width: 100%;
+    height: 600px;
+    border-radius: 4rem; /* High-end rounded corners */
+    overflow: hidden;
+}
+.swiper-slide {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, transparent 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem;
+}
+.pill-btn {
+    border-radius: 9999px;
+    padding: 1.25rem 2.5rem;
+    font-weight: 600;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.pill-btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+}
+.pill-btn-primary:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+    box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
+}
+.pill-btn-secondary {
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.pill-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.02);
+}
+input, textarea {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #a88c5a;
+}
+.section-header {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #a88c5a; /* Deep Gold */
+    margin-bottom: 1.5rem;
+}
+.badge-market {
+    background: rgba(168, 140, 90, 0.15);
+    color: #a88c5a;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+/* Modal Styles */
+#contact-modal.active {
+    display: flex !important;
+    opacity: 1 !important;
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+#contact-modal.active > div {
+    animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+    from { transform: scale(0.9) translateY(20px); opacity: 0; }
+    to { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* Modal Scroll Lock */
+body.modal-open {
+    overflow: hidden;
+}
+
+/* Selection Highlight */
+::selection {
+    background: rgba(168, 140, 90, 0.3);
+    color: white;
+}
+
+/* Flag Switcher Enhancements */
+.flag-link {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flag-link:hover {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.1);
+}
+.flag-link.active {
+    opacity: 1;
+    position: relative;
+}
+.flag-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #a88c5a;
+}
+.fi {
+    border-radius: 50%; /* Pure Circle Flags */
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Revenue Calculator Styling */
+.calculator-field input {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.calculator-field input:focus {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: #a88c5a !important;
+    box-shadow: 0 0 30px rgba(168, 140, 90, 0.2);
+    transform: scale(1.02);
+}
+
+/* Hide Spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}

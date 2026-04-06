@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # Die Landingpage App
+  nodejs-app:
+    build: .
+    container_name: ocpp-landing-app
+    restart: always
+    ports:
+      - "12000:12000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=production
+      - PORT=12000
+    networks:
+      - ocpp-network
+
+  # Cloudflare Tunnel
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: ocpp-tunnel
+    restart: always
+    environment:
+      - TUNNEL_TOKEN=${CF_TUNNEL_TOKEN}
+    command: tunnel run
+    networks:
+      - ocpp-network
+
+networks:
+  ocpp-network:
+    driver: bridge

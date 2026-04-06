@@ -1,0 +1,28 @@
+<nav class="sticky top-0 z-50 p-6 flex justify-between items-center apple-glass border-b border-white/5">
+    <div class="text-xl font-bold tracking-tight">
+        <a href="/<%= t.lang %>/" class="hover:opacity-80 transition-opacity">
+            <span>OCPP<span class="text-white/40">Labs</span></span>
+        </a>
+    </div>
+    <!-- URL-Based Language Switcher with Flags (SES-Proof) -->
+    <div class="flex gap-4" id="lang-switcher">
+        <a href="/de-de/" class="flag-link <%= t.lang === 'de-de' ? 'active' : '' %>" title="Deutsch">
+            <span class="fi fi-de"></span>
+        </a>
+        <a href="/en-us/" class="flag-link <%= t.lang === 'en-us' ? 'active' : '' %>" title="English">
+            <span class="fi fi-gb"></span>
+        </a>
+        <a href="/vi-vn/" class="flag-link <%= t.lang === 'vi-vn' ? 'active' : '' %>" title="Tiếng Việt">
+            <span class="fi fi-vn"></span>
+        </a>
+        <a href="/th-th/" class="flag-link <%= t.lang === 'th-th' ? 'active' : '' %>" title="ไทย">
+            <span class="fi fi-th"></span>
+        </a>
+        <a href="/zh-cn/" class="flag-link <%= t.lang === 'zh-cn' ? 'active' : '' %>" title="简体中文">
+            <span class="fi fi-cn"></span>
+        </a>
+        <a href="/zh-tw/" class="flag-link <%= t.lang === 'zh-tw' ? 'active' : '' %>" title="繁體中文">
+            <span class="fi fi-tw"></span>
+        </a>
+    </div>
+</nav>
