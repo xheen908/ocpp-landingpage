@@ -63,6 +63,35 @@ app.get('/:langCode/', (req, res) => {
     res.render('landing', { t });
 });
 
+// Parameterized Route for Legal Documents (Build 10.1)
+app.get('/:langCode/legal/:type', (req, res) => {
+    const langCode = req.params.langCode.toLowerCase();
+    const type = req.params.type.toLowerCase(); // imprint, privacy, terms
+    
+    if (!supportedLangs.includes(langCode)) {
+        return res.redirect('/en-us/');
+    }
+
+    const t = translations[langCode];
+    if (!t.legal.content[type]) {
+        return res.redirect(`/${langCode}/`);
+    }
+
+    res.render('legal', { t, type });
+});
+
+// Strategic "About Us" Route (Build 15.0)
+app.get('/:langCode/about', (req, res) => {
+    const langCode = req.params.langCode.toLowerCase();
+    
+    if (!supportedLangs.includes(langCode)) {
+        return res.redirect('/en-us/about');
+    }
+
+    const t = translations[langCode];
+    res.render('about', { t });
+});
+
 // Handle missing trailing slash
 app.get('/:langCode', (req, res) => {
     const langCode = req.params.langCode.toLowerCase();
@@ -79,21 +108,23 @@ app.post('/api/contact', async (req, res) => {
     fs.appendFileSync(path.join(__dirname, 'requests.log'), logEntry);
     
     const transporter = nodemailer.createTransport({
-        host: process.env.MAIL_HOST || 'smtp.gmail.com',
-        port: process.env.MAIL_PORT || 587,
+        service: 'gmail',
         auth: {
+            type: 'OAuth2',
             user: process.env.MAIL_USER,
-            pass: process.env.MAIL_PASS
+            clientId: process.env.OAUTH_CLIENT_ID,
+            clientSecret: process.env.OAUTH_CLIENT_SECRET,
+            refreshToken: process.env.OAUTH_REFRESH_TOKEN
         }
     });
 
     try {
-        if (process.env.MAIL_USER && process.env.MAIL_PASS) {
+        if (process.env.MAIL_USER && process.env.OAUTH_REFRESH_TOKEN) {
             await transporter.sendMail({
                 from: `"OCPP-Labs Lead" <${process.env.MAIL_USER}>`,
                 to: process.env.MAIL_USER, 
-                subject: `New SEA-Lead: ${name} (${email})`,
-                text: message,
+                subject: `New Lead: ${name} (${email})`,
+                text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
                 html: `<b>Name:</b> ${name}<br><b>Email:</b> ${email}<br><br><b>Message:</b><br>${message}`
             });
         }

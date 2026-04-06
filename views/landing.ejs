@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OCPP-Labs | <%= t.badge %></title>
+    <title><%= t.metaTitle %></title>
+    <meta name="description" content="<%= t.metaDesc %>">
     
-    <!-- SEO: Canonical and Hreflang Tags -->
+    <!-- SEO: Canonical and Hreflang Clusters (Global AI Indexing) -->
     <link rel="canonical" href="https://ocpp-labs.com/<%= t.lang %>/">
     <link rel="alternate" hreflang="de-de" href="https://ocpp-labs.com/de-de/">
     <link rel="alternate" hreflang="en-us" href="https://ocpp-labs.com/en-us/">
@@ -15,15 +16,58 @@
     <link rel="alternate" hreflang="zh-tw" href="https://ocpp-labs.com/zh-tw/">
     <link rel="alternate" hreflang="x-default" href="https://ocpp-labs.com/en-us/">
 
+    <!-- JSON-LD Structured Data (Machine Readability & AI Agents) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://ocpp-labs.com/#organization",
+          "name": "OCPP Solution UG",
+          "url": "https://ocpp-labs.com",
+          "logo": "https://ocpp-labs.com/assets/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Duisburg",
+            "addressCountry": "DE"
+          }
+        },
+        {
+          "@type": "TechArticle",
+          "headline": "OCPP-Labs: Die Zukunft der ESPR-Compliance (DPP)",
+          "description": "<%= t.metaDesc %>",
+          "author": { "@id": "https://ocpp-labs.com/#organization" },
+          "keywords": ["Digital Product Passport", "ESPR 2027", "Battery Passport", "NTAG 424 DNA", "Base L2 Blockchain"]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            <% t.faqs.forEach((faq, index) => { %>
+            {
+              "@type": "Question",
+              "name": "<%= faq.q %>",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<%= faq.a %>"
+              }
+            }<%= index < t.faqs.length - 1 ? ',' : '' %>
+            <% }); %>
+          ]
+        }
+      ]
+    }
+    </script>
+
     <!-- External Resources -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
-    <link rel="stylesheet" href="/css/style.css?v=7.0-SSR">
+    <link rel="stylesheet" href="/css/style.css?v=13.3-SSR">
 
     <!-- SES-Proof Scripts (Programmatic Only) -->
-    <script src="/js/main.js?v=7.0-SSR" defer></script>
+    <script src="/js/main.js?v=13.3-SSR" defer></script>
 </head>
 <body class="selection:bg-white/10">
     <div class="mesh-bg"></div>
@@ -31,33 +75,50 @@
     <%- include('partials/header', { t }) %>
 
     <main class="max-w-6xl mx-auto px-6 py-20 md:py-32">
-        <!-- Hero Section -->
-        <div class="text-center mb-24">
-            <div id="hero-badge" class="badge-market"><%= t.badge %></div>
-            <h1 id="h1-text" class="text-5xl md:text-[5.8rem] font-extrabold mb-10 leading-[1.0] tracking-[-0.04em]">
-                <%- t.h1 %>
-            </h1>
-            <p id="sub-text" class="text-xl md:text-2xl text-white/50 max-w-3xl mx-auto mb-16 font-medium leading-relaxed">
-                <%= t.sub %>
-            </p>
+        <!-- Hero Section: Build 8.1 Split-Screen -->
+        <div class="grid lg:grid-cols-2 gap-16 items-center mb-32">
+            <div class="text-left animate-fade-in">
+                <div id="hero-badge" class="badge-market"><%= t.badge %></div>
+                <h1 id="h1-text" class="text-4xl md:text-[4.2rem] font-extrabold mb-8 leading-[1.05] tracking-[-0.04em]">
+                    <%- t.h1 %>
+                </h1>
+                <p id="sub-text" class="text-lg md:text-xl text-white/50 max-w-xl mb-12 font-medium leading-relaxed">
+                    <%= t.sub %>
+                </p>
+                
+                <div class="flex flex-wrap gap-6">
+                    <button id="v2-hero-trigger" class="pill-btn pill-btn-primary uppercase tracking-widest">
+                        <%= t.cta %>
+                    </button>
+                    <div class="flex items-center gap-4 px-6 py-2 rounded-full border border-white/5 bg-white/2 overflow-hidden backdrop-blur-sm">
+                        <span class="text-[9px] font-bold tracking-widest text-[#a88c5a] uppercase">ESPR 2027 Ready</span>
+                    </div>
+                </div>
+            </div>
             
-            <div class="flex flex-wrap justify-center gap-6">
-                <button id="v2-hero-trigger" class="pill-btn pill-btn-primary uppercase tracking-widest">
-                    <%= t.cta %>
-                </button>
+            <div class="relative group animate-float">
+                <div class="absolute -inset-4 bg-gradient-to-tr from-[#a88c5a]/20 to-transparent blur-3xl opacity-30 group-hover:opacity-50 transition-opacity"></div>
+                <div class="relative apple-glass rounded-[3rem] overflow-hidden border border-white/10 shadow-2xl">
+                    <img src="/assets/hero-elite.png" alt="High-Value Goods with Digital Passport" class="w-full aspect-[4/5] object-cover mix-blend-lighten opacity-90 transition-transform duration-1000 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-8 left-8 right-8 p-6 apple-glass-dark rounded-2xl border-white/5 translate-y-4 group-hover:translate-y-0 transition-transform">
+                        <div class="text-[10px] font-bold tracking-[0.2em] uppercase text-[#a88c5a] mb-1">Asset Security</div>
+                        <div class="text-sm font-medium text-white/70">Batteries, Textiles & Luxury Exports</div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- Tech Authority Bar -->
-        <div class="flex flex-wrap justify-center gap-12 mb-48 opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-700">
+        <div class="flex flex-wrap justify-start gap-12 mb-48 opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-700">
             <div class="flex items-center gap-3">
-                <span class="text-xs font-bold tracking-[0.2em] uppercase">Base L2 Infrastructure</span>
+                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">Base L2 Infrastructure</span>
             </div>
-            <div class="flex items-center gap-3 border-x border-white/10 px-12">
-                <span class="text-xs font-bold tracking-[0.2em] uppercase">NXP NTAG 424 DNA Secure Identity</span>
+            <div class="flex items-center gap-3 border-l border-white/10 pl-12">
+                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">NXP Secure Identity</span>
             </div>
-            <div class="flex items-center gap-3">
-                <span class="text-xs font-bold tracking-[0.2em] uppercase">ESPR 2027 Compliant</span>
+            <div class="flex items-center gap-3 border-l border-white/10 pl-12">
+                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">NTAG 424 DNA Integrated</span>
             </div>
         </div>
 

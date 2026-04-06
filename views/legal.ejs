@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="<%= t.lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= t.legal[type] %> | OCPP Solution UG</title>
+    <meta name="robots" content="index, follow">
+    
+    <!-- Hreflang Clusters -->
+    <link rel="alternate" hreflang="de-de" href="https://ocpp-labs.com/de-de/legal/<%= type %>">
+    <link rel="alternate" hreflang="en-us" href="https://ocpp-labs.com/en-us/legal/<%= type %>">
+    <link rel="alternate" hreflang="vi-vn" href="https://ocpp-labs.com/vi-vn/legal/<%= type %>">
+    <link rel="alternate" hreflang="th-th" href="https://ocpp-labs.com/th-th/legal/<%= type %>">
+    <link rel="alternate" hreflang="zh-cn" href="https://ocpp-labs.com/zh-cn/legal/<%= type %>">
+    <link rel="alternate" hreflang="zh-tw" href="https://ocpp-labs.com/zh-tw/legal/<%= type %>">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css?v=13.3-SSR">
+</head>
+<body class="selection:bg-white/10 overflow-x-hidden">
+    <div class="mesh-bg opacity-30"></div>
+
+    <%- include('partials/header', { t }) %>
+
+    <main class="max-w-4xl mx-auto px-6 py-20 md:py-32 min-h-screen">
+        <div class="mb-12">
+            <a href="/<%= t.lang %>/" class="text-xs font-bold uppercase tracking-widest text-[#a88c5a] hover:opacity-70 transition-opacity">
+                &lsaquo; <%= t.legal.back %>
+            </a>
+        </div>
+
+        <div class="apple-glass p-8 md:p-16 rounded-[3rem] border border-white/10 prose prose-invert max-w-none">
+            <div class="legal-content text-white/80 leading-relaxed font-medium">
+                <%- t.legal.content[type] %>
+            </div>
+        </div>
+    </main>
+
+    <%- include('partials/footer', { t }) %>
+</body>
+</html>

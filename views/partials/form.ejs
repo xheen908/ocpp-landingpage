@@ -13,6 +13,12 @@
                 <input type="email" name="email" placeholder="Corporate Email" required class="w-full">
             </div>
             <textarea name="message" rows="4" placeholder="Your requirements..." required class="w-full"></textarea>
+            <div class="flex items-center gap-3 text-left px-4">
+                <input type="checkbox" id="privacy-consent" name="consent" required class="w-5 h-5 accent-[#a88c5a] cursor-pointer">
+                <label for="privacy-consent" class="text-white/40 text-[10px] tracking-widest uppercase cursor-pointer leading-tight">
+                    <%= t.legal.agree %> <a href="/<%= t.lang %>/legal/privacy" target="_blank" class="text-white/60 hover:text-white underline transition-colors"><%= t.legal.privacy %></a>
+                </label>
+            </div>
             <div class="flex justify-center mt-4">
                 <button id="contact-button" type="submit" class="pill-btn pill-btn-primary w-full md:w-auto px-20 text-sm uppercase tracking-widest transition-all">
                     <%= t.contact %>

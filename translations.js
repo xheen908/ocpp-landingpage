@@ -7,7 +7,7 @@ const translations = {
         footerH2: "FIRST MOVER: BATTERIES & TEXTILES.",
         footerP: "Werden Sie der erste Exporteur, dessen Ware den Zoll 2027 passiert. Wir suchen strategische Partner für den Sektoreinstieg.",
         contact: "Audit anfordern",
-        copy: "&copy; 2026 OCPP-Labs // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
+        copy: "&copy; 2026 OCPP-Solution UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
         s1h: "Customs Clearance 2027",
         s1p: "Vermeiden Sie Container-Stillstand in EU-Häfen. Automatisierte DPP-Abwicklung für reibungslose Verzollung.",
         s2h: "Smart Contract Royalties",
@@ -24,7 +24,32 @@ const translations = {
         calcR: "Wiederverkaufs-Rate (%)",
         calcF: "Royalty-Gebühr (€/Einheit)",
         calcP: "Jährlicher Passiv-Gewinn:",
-        lang: "de-de"
+        lang: "de-de",
+        metaTitle: "OCPP-Labs | ESPR Compliance & Digitaler Produktpass (DPP)",
+        metaDesc: "OCPP-Labs (Duisburg) bietet ESPR-Compliance für Batterien & Textilien. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
+        faqs: [
+            { q: "Was ist der DPP nach EU-ESPR 2027?", a: "Ab 2027 müssen Batterien und Textilien lückenlos trackbar sein. OCPP-Labs (Duisburg) bietet hierfür die industrielle Infrastruktur für asiatische Exporteure." },
+            { q: "Warum NTAG 424 DNA Security?", a: "QR-Codes sind kopierbar. Wir nutzen NXP Secure Hardware zur fälschungssicheren Verknüpfung von Ware und Daten." },
+            { q: "Wie funktionieren Royalties?", a: "Durch Smart Contracts auf der Base Blockchain erhalten Hersteller bei jedem Wiederverkauf automatisierte Gebühren direkt in ihre Wallet." }
+        ],
+        legal: {
+            imprint: "Impressum",
+            privacy: "Datenschutz",
+            terms: "AGB",
+            back: "Zurück zur Startseite",
+            agree: "Ich stimme der Datenverarbeitung gemäß der",
+            content: {
+                imprint: "<h1>Impressum</h1><p>OCPP Solution UG<br>Duisburg, Deutschland<br>E-Mail: info@ocpp-labs.com</p><p>Verantwortlich für den Inhalt nach § 5 (TMG): OCPP Solution UG</p>",
+                privacy: "<h1>Datenschutzerklärung (DSGVO)</h1><h3>1. Verantwortlicher</h3><p>OCPP Solution UG (Duisburg), E-Mail: info@ocpp-labs.com</p><h3>2. Erhebung von Daten</h3><p>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p><h3>3. Speicherdauer</h3><p>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p><h3>4. Ihre Rechte</h3><p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten (Art. 15-21 DSGVO).</p><h3>5. Google Fonts</h3><p>Wir nutzen Google Fonts zur Darstellung. Dabei wird Ihre IP-Adresse an Google übertragen. Dies erfolgt auf Basis unseres berechtigten Interesses an einer einheitlichen Darstellung (Art. 6 Abs. 1 lit. f DSGVO).</p>",
+                terms: "<h1>Allgemeine Geschäftsbedingungen</h1><p>Unsere Dienstleistungen richten sich ausschließlich an B2B-Kunden im Bereich Export und digitale Produktpässe.</p>"
+            }
+        },
+        aboutUs: {
+            nav: "Über uns",
+            title: "Die Europäische Schnittstelle",
+            subtitle: "Von der Technologie zur Compliance.",
+            content: "<h3>Der Hafen von Duisburg: Europas Gateway</h3><p>OCPP Solution UG agiert als physischer und rechtlicher Ankerpunkt an Europas größtem Binnenhafen in Duisburg. Wir verstehen die Komplexität europäischer Importregulierungen (ESPR 2027) nicht als Hürde, sondern als Infrastruktur-Service.</p><h3>Technologie trifft auf deutsche Regulierung</h3><p>Während unsere asiatischen Partner die physische Produktion dominieren, stellen wir sicher, dass jedes Produkt – von der Batterie bis zur Textilie – einen lückenlosen, fälschungssicheren Digitalen Zwilling (DPP) erhält. Mit Base L2 Blockchain und NTAG 424 DNA Security transformieren wir Logistik-Daten in automatisierte Royalty-Streams.</p><h3>Ihre Compliance. Unser Business.</h3><p>Wir übernehmen die technische Komplexität und die rechtliche Verantwortung für den EU-Datentransfer. Exportieren Sie zollfrei. Skalieren Sie grenzenlos.</p>"
+        }
     },
     'en-us': {
         h1: "FREE YOUR CONTAINERS.<br>ESPR-COMPLIANCE IN 24H.<br><span class=\"gradient-text\">REVENUE THROUGH ROYALTY FEES.</span>",
@@ -34,7 +59,7 @@ const translations = {
         footerH2: "FIRST MOVER: BATTERIES & TEXTILES.",
         footerP: "Be the first exporter whose goods clear EU customs with zero friction. We are selecting strategic partners for the 2027 transition.",
         contact: "Request Audit",
-        copy: "&copy; 2026 OCPP-Labs // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
+        copy: "&copy; 2026 OCPP-Solution UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
         s1h: "Customs Clearance 2027",
         s1p: "Prevent container stranding at EU ports. Automated DPP processing ensures smooth and rapid customs entry.",
         s2h: "Smart Contract Royalties",
@@ -51,7 +76,32 @@ const translations = {
         calcR: "Resale Rate (%)",
         calcF: "Royalty Fee (€/Unit)",
         calcP: "Annual Passive Profit:",
-        lang: "en-us"
+        lang: "en-us",
+        metaTitle: "OCPP-Labs | ESPR Compliance & Battery Passport (DPP)",
+        metaDesc: "OCPP-Labs (Duisburg) provides ESPR compliance for batteries & textiles. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        faqs: [
+            { q: "What is the DPP under EU-ESPR 2027?", a: "From 2027, batteries and textiles must be fully traceable. OCPP-Labs (Duisburg) provides the industrial infrastructure for Asian exporters." },
+            { q: "Why NTAG 424 DNA Security?", a: "QR codes can be copied. We use NXP Secure Hardware to create an unforgeable link between goods and data." },
+            { q: "How do royalties work?", a: "Using smart contracts on the Base blockchain, manufacturers receive automated fees in their wallet on every resale." }
+        ],
+        legal: {
+            imprint: "Imprint",
+            privacy: "Privacy",
+            terms: "Terms",
+            back: "Back to Home",
+            agree: "I agree to data processing according to the",
+            content: {
+                imprint: "<h1>Legal Notice</h1><p>OCPP Solution UG<br>Duisburg, Germany<br>Email: info@ocpp-labs.com</p><p>Responsible for content according to German law (§ 5 TMG): OCPP Solution UG</p>",
+                privacy: "<h1>Privacy Policy (GDPR)</h1><h3>1. Controller</h3><p>OCPP Solution UG (Duisburg), Email: info@ocpp-labs.com</p><h3>2. Data Collection</h3><p>We collect name, email, and message via our form exclusively to process your inquiry (Art. 6 (1) (b) GDPR).</p><h3>3. Storage Duration</h3><p>Internal data is stored only as long as necessary for the inquiry or as required by law.</p><h3>4. Your Rights</h3><p>You have the right to access, rectify, or erase your data (Art. 15-21 GDPR).</p><h3>5. Google Fonts</h3><p>We use Google Fonts for consistent display. Your IP address is transmitted to Google based on our legitimate interest (Art. 6 (1) (f) GDPR).</p>",
+                terms: "<h1>Terms of Service</h1><p>Our services are exclusively for B2B customers in the field of export and digital product passports.</p>"
+            }
+        },
+        aboutUs: {
+            nav: "About Us",
+            title: "The European Gateway",
+            subtitle: "Bridging Technology and Compliance.",
+            content: "<h3>The Port of Duisburg: Europe's Gateway</h3><p>OCPP Solution UG operates as the physical and legal anchor at Europe's largest inland port in Duisburg. We do not view the complexity of European import regulations (ESPR 2027) as a hurdle, but as an infrastructure service.</p><h3>Technology meets German Regulation</h3><p>While our Asian partners dominate physical production, we ensure that every product – from batteries to textiles – receives a seamless, unforgeable Digital Product Passport (DPP). Using Base L2 Blockchain and NTAG 424 DNA Security, we transform logistics data into automated royalty streams.</p><h3>Your Compliance. Our Business.</h3><p>We handle the technical complexity and legal responsibility for EU data transfer. Export without customs delays. Scale boundlessly.</p>"
+        }
     },
     'vi-vn': {
         h1: "GIẢI PHÓNG CONTAINER.<br>TUÂN THỦ ESPR TRONG 24H.<br><span class=\"gradient-text\">DOANH THU TỪ PHÍ BẢN QUYỀN.</span>",
@@ -61,7 +111,7 @@ const translations = {
         footerH2: "DẪN ĐẦU: PIN & DỆT MAY.",
         footerP: "Hãy là nhà xuất khẩu đầu tiên làm thủ tục hải quan EU mà không gặp trở ngại nào. Chúng tôi đang tuyển chọn đối tác chiến lược.",
         contact: "Yêu cầu Kiểm tra",
-        copy: "&copy; 2026 OCPP-Labs // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG. TẤT CẢ QUYỀN ĐƯỢC BẢO LƯU.",
+        copy: "&copy; 2026 OCPP-Solution UG // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG. TẤT CẢ QUYỀN ĐƯỢC BẢO LƯU.",
         s1h: "Thông quan Hải quan 2027",
         s1p: "Ngăn chặn tình trạng container bị kẹt tại các cảng EU. Quy trình DPP tự động đảm bảo nhập cảnh nhanh chóng.",
         s2h: "Phí Bản quyền Smart Contract",
@@ -78,17 +128,40 @@ const translations = {
         calcR: "Tỷ lệ Bán lại (%)",
         calcF: "Phí Bản quyền (€/Sản phẩm)",
         calcP: "Lợi nhuận Thụ động Hàng năm:",
-        lang: "vi-vn"
+        lang: "vi-vn",
+        metaTitle: "OCPP-Labs | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
+        metaDesc: "OCPP-Labs (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin và dệt may. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
+        faqs: [
+            { q: "DPP theo EU-ESPR 2027 là gì?", a: "Từ năm 2027, pin và dệt may phải có khả năng truy xuất nguồn gốc đầy đủ. OCPP-Labs cung cấp hạ tầng này." }
+        ],
+        legal: {
+            imprint: "Ấn bản",
+            privacy: "Bảo mật",
+            terms: "Điều khoản",
+            back: "Quay lại Trang chủ",
+            agree: "Tôi đồng ý xử lý dữ liệu theo",
+            content: {
+                imprint: "<h1>Thông tin Pháp lý</h1><p>OCPP Solution UG (Duisburg)<br>Email: info@ocpp-labs.com</p>",
+                privacy: "<h1>Chính sách Bảo mật (GDPR)</h1><p>Chúng tôi coi trọng việc bảo mật dữ liệu của bạn...</p>",
+                terms: "<h1>Điều khoản Dịch vụ</h1><p>Dịch vụ của chúng tôi dành riêng cho khách hàng B2B.</p>"
+            }
+        },
+        aboutUs: {
+            nav: "Về chúng tôi",
+            title: "Cổng vào Châu Âu",
+            subtitle: "Kết nối Công nghệ và Tuân thủ.",
+            content: "<h3>Cảng Duisburg: Cửa ngõ của Châu Âu</h3><p>OCPP Solution UG hoạt động như một mỏ neo vật lý và pháp lý tại cảng nội địa lớn nhất Châu Âu ở Duisburg. Chúng tôi cung cấp dịch vụ hạ tầng để vượt qua các rào cản quy định nhập khẩu của Châu Âu (ESPR 2027).</p><h3>Công nghệ và Quy định của Đức</h3><p>Trong khi các đối tác Châu Á thống trị sản xuất, chúng tôi đảm bảo mỗi sản phẩm nhận được một Hộ chiếu Sản phẩm Số (DPP) không thể làm giả. Sử dụng Chuỗi khối Base L2 và Bảo mật NTAG 424 DNA, chúng tôi tạo ra doanh thu thụ động từ dữ liệu hậu cần.</p><h3>Sự tuân thủ của bạn là sứ mệnh của chúng tôi.</h3><p>Chúng tôi xử lý sự phức tạp về công nghệ và trách nhiệm pháp lý. Xuất khẩu không lo hải quan. Mở rộng không ranh giới.</p>"
+        }
     },
     'th-th': {
         h1: "ปลดล็อกตู้สินค้าของคุณ.<br>ยืนยันมาตรฐาน ESPR ใน 24 ชม.<br><span class=\"gradient-text\">รายได้จากค่าลิขสิทธิ์อัตโนมัติ.</span>",
         sub: "รับประกันการส่งออกสู่ยุโรป เราจัดเตรียมทางด่วนศุลกากรดิจิทัลสำหรับผู้ส่งออกชาวเอเชีย จ่ายผลตอบแทนอัตโนมัติเป็น USDT/EUR เข้ากระเป๋าเงินบริษัทโดยตรง",
         cta: "เริ่มการตรวจสอบการส่งออก 2027",
-        mHeader: "การประเมินพันธมิตรเชิงกลยุทธ์",
+        mHeader: "การประเมินพันธมิตรรเชิงกลยุทธ์",
         footerH2: "ผู้นำกลุ่มแรก: แบตเตอรี่และสิ่งทอ",
         footerP: "เป็นผู้ส่งออกรายแรกที่สินค้าผ่านพิธีการศุลกากร EU ได้อย่างรวดเร็วในปี 2027 เรากำลังเปิดรับพันธมิตรเชิงกลยุทธ์",
         contact: "ขอรับการประเมิน",
-        copy: "&copy; 2026 OCPP-Labs // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง สงวนลิขสิทธิ์ทั้งหมด",
+        copy: "&copy; 2026 OCPP-Solution UG // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง สงวนลิขสิทธิ์ทั้งหมด",
         s1h: "การผ่านศุลกากรปี 2027",
         s1p: "ป้องกันตู้คอนเทนเนอร์ค้างที่ท่าเรือ EU ด้วยกระบวนการ DPP อัตโนมัติ",
         s2h: "ค่าลิขสิทธิ์จาก Smart Contract",
@@ -105,7 +178,30 @@ const translations = {
         calcR: "อัตราการขายต่อ (%)",
         calcF: "ค่าลิขสิทธิ์ (€/ชิ้น)",
         calcP: "กำไรต่อเนื่องต่อปี:",
-        lang: "th-th"
+        lang: "th-th",
+        metaTitle: "OCPP-Labs | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
+        metaDesc: "OCPP-Labs (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่และสิ่งทอ พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
+        faqs: [
+            { q: "DPP ตามกฎ EU-ESPR 2027 คืออะไร?", a: "ตั้งแต่ปี 2027 แบตเตอรี่และสิ่งทอต้องสามารถตรวจสอบย้อนกลับได้ทั้งหมด OCPP-Labs จัดหาโครงสร้างพื้นฐานนี้" }
+        ],
+        legal: {
+            imprint: "ข้อมูลทางกฎหมาย",
+            privacy: "ความเป็นส่วนตัว",
+            terms: "ข้อกำหนด",
+            back: "กลับสู่หน้าหลัก",
+            agree: "ฉันยินยอมให้ประมวลผลข้อมูลตาม",
+            content: {
+                imprint: "<h1>ประกาศทางกฎหมาย</h1><p>OCPP Solution UG (Duisburg)<br>อีเมล: info@ocpp-labs.com</p>",
+                privacy: "<h1>นโยบายความเป็นส่วนตัว (GDPR)</h1><p>เราให้ความสำคัญกับการคุ้มครองข้อมูลของคุณ...</p>",
+                terms: "<h1>ข้อกำหนดการให้บริการ</h1><p>บริการของเรามีไว้สำหรับลูกค้า B2B เท่านั้น</p>"
+            }
+        },
+        aboutUs: {
+            nav: "เกี่ยวกับเรา",
+            title: "ประตูสู่ยุโรป",
+            subtitle: "เชื่อมโยงเทคโนโลยีและกฎระเบียบ",
+            content: "<h3>ท่าเรือดุยส์บวร์ก: ประตูสู่ยุโรป</h3><p>OCPP Solution UG ดำเนินงานในฐานะศูนย์กลางทางกายภาพและกฎหมายที่ท่าเรือภายในประเทศที่ใหญ่ที่สุดในยุโรปที่เมืองดุยส์บวร์ก เราให้บริการโครงสร้างพื้นฐานเพื่อก้าวผ่านกฎระเบียบการนำเข้าของยุโรป (ESPR 2027)</p><h3>เทคโนโลยีพบกับกฎระเบียบเยอรมัน</h3><p>พันธมิตรเอเชียของเราจัดการการผลิต เราดูแลให้ทุกผลิตภัณฑ์ได้รับ Digital Product Passport (DPP) ที่ปลอดภัยสูงสุดโดยใช้ Base L2 Blockchain และ NTAG 424 DNA</p><h3>ความถูกต้องของคุณ คือธุรกิจของเรา</h3><p>เราจัดการความซับซ้อนและรับผิดชอบทางกฎหมาย ส่งออกอย่างราบรื่นและเติบโตอย่างไร้ขีดจำกัด</p>"
+        }
     },
     'zh-cn': {
         h1: "释放您的货物容器。<br>24 小时完成 ESPR 合规。<br><span class=\"gradient-text\">通过版税费用获取收益。</span>",
@@ -115,7 +211,7 @@ const translations = {
         footerH2: "首批试点：电池与纺织品",
         footerP: "成为首批无障碍通过 2027 欧盟海关的出口商。我们正在寻找战略合作伙伴。",
         contact: "申请审计",
-        copy: "&copy; 2026 OCPP-Labs // 出口安全与被动收益。保留所有权利。",
+        copy: "&copy; 2026 OCPP-Solution UG // 出口安全与被动收益。保留所有权利。",
         s1h: "2027 快速清关",
         s1p: "防止集装箱在欧盟港口滞留。自动化的 DPP 处理确保海关高效放行。",
         s2h: "智能合约版税",
@@ -132,7 +228,30 @@ const translations = {
         calcR: "二次销售比例 (%)",
         calcF: "每件版税金额 (€/件)",
         calcP: "年度被动收益估值:",
-        lang: "zh-cn"
+        lang: "zh-cn",
+        metaTitle: "OCPP-Labs | ESPR 合规与数字产品护照 (DPP)",
+        metaDesc: "OCPP-Labs (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
+        faqs: [
+            { q: "什么是 EU-ESPR 2027 框架下的 DPP？", a: "从 2027 年起，电池和纺织品必须完全可追溯。OCPP-Labs (杜伊斯堡) 为亚洲出口商提供基础设施。" }
+        ],
+        legal: {
+            imprint: "法律声明",
+            privacy: "隐私政策",
+            terms: "服务条款",
+            back: "返回首页",
+            agree: "我同意根据以下条款处理数据",
+            content: {
+                imprint: "<h1>法律声明</h1><p>OCPP Solution UG (杜伊斯堡)<br>电子邮件: info@ocpp-labs.com</p>",
+                privacy: "<h1>隐私政策 (GDPR)</h1><p>我们非常重视您的数据保护...</p>",
+                terms: "<h1>服务条款</h1><p>我们的服务仅面向 B2B 客户。</p>"
+            }
+        },
+        aboutUs: {
+            nav: "关于我们",
+            title: "欧洲的数字化门户",
+            subtitle: "连接前沿技术与合规监管。",
+            content: "<h3>杜伊斯堡港：欧洲的枢纽</h3><p>OCPP Solution UG 在欧洲最大的内陆港杜伊斯堡作为物理和法律的基石运营。我们将欧洲复杂的进口法规 (ESPR 2027) 转化为无缝的基础设施服务。</p><h3>技术结合德国监管底蕴</h3><p>当我们的亚洲合作伙伴主导实物生产时，我们确保每一件产品都能获得防伪的数字产品护照 (DPP)。利用 Base L2 区块链和 NTAG 424 DNA 安全技术，我们将物流数据转化为自动化的版税收入。</p><h3>您的合规保障，是我们专注的核心。</h3><p>我们承担技术复杂性和欧盟数据转移的法律责任。实现零延误的海关出口。无界限的业务扩展。</p>"
+        }
     },
     'zh-tw': {
         h1: "釋放您的貨物容器。<br>24 小時完成 ESPR 合規。<br><span class=\"gradient-text\">透過版稅費用獲取收益。</span>",
@@ -142,24 +261,47 @@ const translations = {
         footerH2: "首批試點：電池與紡織品",
         footerP: "成為首批無障礙通過 2027 歐盟海關的出口商。我們正在尋找戰略合作夥伴。",
         contact: "申請審計",
-        copy: "&copy; 2026 OCPP-Labs // 出口安全與被動收益。保留所有權利。",
+        copy: "&copy; 2026 OCPP-Solution UG // 出口安全與被動收益。保留所有權利。",
         s1h: "2027 快速清關",
         s1p: "防止貨櫃在歐盟港口滯留。自動化的 DPP 處理確保海關高效放行。",
         s2h: "智能合約版稅",
-        s2p: "您的貨品在歐洲的每一次轉售都會自動觸發版稅。讓產品成為您的終身利潤中心。",
-        p1t: "海關入口", p1h: "零港口延誤。", p1d: "為亞洲出口商提供全面的 ESPR 合規保障。將海關瓶頸轉化為貿易快車道。",
-        p2t: "版稅革命", p2h: "被動收益。", p2d: "針對每一次轉售設置版稅。收益直接以 USDT/EUR 形式發送至您的企業錢包。",
+        s2p: "您的貨品 in 歐洲的每一次轉售都會自動觸發版稅。讓產品成為您的終身利潤中心。",
+        p1t: "海關入口", p1h: "零港口延误。", p1d: "為亞洲出口商提供全面的 ESPR 合規保障。將海關瓶頸轉化為貿易快車道。",
+        p2t: "版稅革命", p2h: "被動收益。", p2d: "針對每一次轉售設置版稅。收益直接以 USDT/EUR 發送至您的企業錢包。",
         p3t: "歐洲技術底蘊", p3h: "技術支撐 (Base L2)。", p3d: "鏈上技術結合德國監管專業知識。為您的歐盟市場之路提供頂級信任背書。",
-        p4t: "不可證偽標識", p4h: "NXP 高端硬體。", p4d: "基於 NTAG 424 DNA 的物理錨點，從生產到回收全生命週期保護品牌價值。",
+        p4t: "不可證偽標識", p4h: "NXP 高端硬體。", p4d: "基於 NTAG 424 DNA 的物理錨點，從生產到回收全生命周期保護品牌價值。",
         quote: "“歐盟市場進入是眼前的門檻。受控的二級市場是未來利潤。”",
         quotesub: "— OCPP-LABS // 歐盟出口門戶",
         badge: "電池與紡織品 // 东南亚出口",
         calcH: "利潤計算器",
         calcV: "出口量 (件/年)",
         calcR: "二次銷售比例 (%)",
-        calcF: "每件版稅金額 (€/件)",
+        calcF: "每件版税金額 (€/件)",
         calcP: "年度被動收益估值:",
-        lang: "zh-tw"
+        lang: "zh-tw",
+        metaTitle: "OCPP-Labs | ESPR 合規與數位產品護照 (DPP)",
+        metaDesc: "OCPP-Labs (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
+        faqs: [
+            { q: "什麼是 EU-ESPR 2027 框架下的 DPP？", a: "從 2027 年起，電池和紡織品必須完全可追溯。OCPP-Labs (杜伊斯堡) 為亞洲出口商提供基礎設施。" }
+        ],
+        legal: {
+            imprint: "法律聲明",
+            privacy: "隱私政策",
+            terms: "服務條款",
+            back: "返回首頁",
+            agree: "我同意根據以下条款處理數據",
+            content: {
+                imprint: "<h1>法律聲明</h1><p>OCPP Solution UG (杜伊斯堡)<br>電子郵件: info@ocpp-labs.com</p>",
+                privacy: "<h1>隱私政策 (GDPR)</h1><p>我們非常重視您的數據保護...</p>",
+                terms: "<h1>服務條款</h1><p>我們的服務僅面向 B2B 客戶。</p>"
+            }
+        },
+        aboutUs: {
+            nav: "關於我們",
+            title: "歐洲的數位化門戶",
+            subtitle: "連接前沿技術與合規監管。",
+            content: "<h3>杜伊斯堡港：歐洲的樞紐</h3><p>OCPP Solution UG 在歐洲最大的內陸港杜伊斯堡作為物理和法律的基石運營。我們將歐洲複雜的進口法規 (ESPR 2027) 轉化為無縫的基礎設施服務。</p><h3>技術結合德國監管底蘊</h3><p>當我們的亞洲合作夥伴主導實物生產時，我們確保每一件產品都能獲得防偽的數位產品護照 (DPP)。利用 Base L2 區塊鏈和 NTAG 424 DNA 安全技術，我們將物流數據轉化為自動化的版稅收入。</p><h3>您的合規保障，是我們專注的核心。</h3><p>我們承擔技術複雜性和歐盟數據轉移的法律責任。實現零延誤的海關出口。無界限的業務擴展。</p>"
+        }
     }
 };
 

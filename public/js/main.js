@@ -30,6 +30,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 400);
     };
 
+    // Language Dropdown Toggle (Build 12.1)
+    const langTrigger = document.getElementById('lang-menu-trigger');
+    const langDropdown = document.getElementById('lang-menu-dropdown');
+
+    if (langTrigger && langDropdown) {
+        langTrigger.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            langDropdown.classList.toggle('active');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!langDropdown.contains(e.target) && !langTrigger.contains(e.target)) {
+                langDropdown.classList.remove('active');
+            }
+        });
+    }
+
     // Modal Triggers
     if (heroBtn) heroBtn.addEventListener('click', openModal);
     if (bottomBtn) bottomBtn.addEventListener('click', openModal);
@@ -62,7 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
             const status = document.getElementById('form-status');
             const button = document.getElementById('contact-button');
-            if (!status || !button) return;
+            const consent = document.getElementById('privacy-consent');
+            if (!status || !button || !consent) return;
+
+            // GDPR Validation (Build 11.1)
+            if (!consent.checked) {
+                status.classList.remove('hidden');
+                status.innerText = 'PLEASE AGREE TO THE PRIVACY POLICY.';
+                status.style.color = '#ef4444';
+                return;
+            }
 
             status.classList.remove('hidden');
             status.innerText = 'Sending...';

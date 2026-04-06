@@ -1,4 +1,11 @@
 <footer class="p-12 border-t border-white/5 text-center">
+    <div class="flex flex-wrap justify-center gap-8 mb-8 text-[10px] font-bold uppercase tracking-[0.2em] text-white/30">
+        <a href="/<%= t.lang %>/about" class="hover:text-[#a88c5a] transition-colors"><%= t.aboutUs?.nav || 'About Us' %></a>
+        <a href="/<%= t.lang %>/legal/imprint" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.imprint %></a>
+        <a href="/<%= t.lang %>/legal/privacy" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.privacy %></a>
+        <a href="/<%= t.lang %>/legal/terms" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.terms %></a>
+    </div>
+    
     <div class="text-white/20 text-sm font-medium tracking-widest uppercase mb-4">
         OCPP-Labs // Global Compliance
     </div>

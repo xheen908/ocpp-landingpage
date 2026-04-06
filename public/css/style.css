@@ -3,6 +3,7 @@ body {
     background-color: #000000; /* OLED True Black */
     color: #ffffff;
     letter-spacing: -0.015em;
+    overflow-x: hidden;
 }
 .gradient-text {
     background: linear-gradient(135deg, #ffffff 0%, #a88c5a 100%);
@@ -16,9 +17,11 @@ body {
     -webkit-backdrop-filter: blur(40px);
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
-.apple-glass:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+.apple-glass-dark {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 .mesh-bg {
     position: fixed;
@@ -115,18 +118,36 @@ input:focus, textarea:focus {
     display: inline-block;
     margin-bottom: 2rem;
 }
+/* Animations */
+.animate-fade-in {
+    animation: fadeIn 1.2s ease-out forwards;
+}
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
 /* Modal Styles */
 #contact-modal.active {
     display: flex !important;
     opacity: 1 !important;
-    animation: fadeIn 0.4s ease-out forwards;
+    animation: fadeInModal 0.4s ease-out forwards;
 }
 
 #contact-modal.active > div {
     animation: scaleIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInModal {
     from { opacity: 0; }
     to { opacity: 1; }
 }
@@ -183,7 +204,27 @@ body.modal-open {
 }
 
 /* Revenue Calculator Styling */
-.calculator-field input {
+.calculator-field input {/* Global Language Dropdown (Build 12.1) */
+/* Global Language Dropdown (Build 12.5 - Hardened Move) */
+#lang-menu-dropdown.active {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+    pointer-events: auto !important;
+    display: block !important;
+    z-index: 9999 !important;
+}
+
+/* CSS Hover Fallback (If JS fails or for Desktop ease) */
+#lang-dropdown-wrapper:hover #lang-menu-dropdown {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    display: block;
+}
+
+.lang-dropdown-wrapper button:active {
+    transform: scale(0.95);
+}
     background: rgba(255, 255, 255, 0.05) !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
