@@ -276,95 +276,68 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-/* Advanced Scroll Storytelling System (Build 17.0) */
-.scroll-story-section {
-    position: relative;
-    height: 500vh; /* Extremely deep for multiple story beats */
-    width: 100%;
+/* Interactive Article Scroll (Build 18.0) */
+.article-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     margin-bottom: 20vh;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, opacity;
 }
 
-.scroll-story-wrapper {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    width: 100%;
+@media (min-width: 768px) {
+    .article-row {
+        flex-direction: row;
+        align-items: center;
+        gap: 8rem;
+    }
+    .article-row-reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.article-row.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.article-image-container {
+    flex: 1.2;
+    position: relative;
+    border-radius: 3.5rem;
     overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 50px 100px rgba(0,0,0,0.5);
     background: #000;
 }
 
-.story-layer {
-    position: absolute;
-    inset: 0;
+.article-image-container img {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-    opacity: 0;
-    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    will-change: transform, opacity, filter;
-}
-
-.story-layer.active {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-/* Image Flying Archetypes */
-.fly-image {
-    width: 50%;
-    max-width: 800px;
-    aspect-ratio: 16/9;
-    border-radius: 3rem;
+    aspect-ratio: 4/3;
     object-fit: cover;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 40px 100px rgba(0,0,0,0.8);
-    transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+    opacity: 0.9;
 }
 
-/* Text Flying Archetypes */
-.fly-text {
-    max-width: 800px;
-    text-align: center;
-    padding: 2rem;
-    transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+.article-row.is-visible .article-image-container img {
+    transform: scale(1.05);
 }
 
-/* Scroll Stage Utility Classes (Controlled by JS via inline styles) */
-.parallax-bg {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(0.4) blur(10px);
-    transform: scale(1.1);
-    transition: opacity 1.2s ease;
-    opacity: 0;
+.article-text-container {
+    flex: 1;
+    text-align: left;
 }
 
-.parallax-bg.active {
+.reveal-left { transform: translateX(-60px); opacity: 0; transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1); }
+.reveal-right { transform: translateX(60px); opacity: 0; transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1); }
+
+.article-row.is-visible .reveal-left,
+.article-row.is-visible .reveal-right {
+    transform: translateX(0);
     opacity: 1;
-}
-
-.reveal-progress-container {
-    position: absolute;
-    bottom: 5rem;
-    left: 10%;
-    width: 300px;
-    height: 2px;
-    background: rgba(255,255,255,0.1);
-    z-index: 100;
-    border-radius: 99px;
-    overflow: hidden;
-}
-
-.reveal-progress-fill {
-    height: 100%;
-    background: #a88c5a;
-    width: 0%;
-    transition: width 0.2s ease-out;
 }
 
 /* Hide legacy Swiper */

@@ -177,84 +177,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Advanced Scroll Storytelling System (Build 17.0 - "The Flying Experience")
-    const storySection = document.getElementById('tech-story');
-    const storyLevels = document.querySelectorAll('.story-layer');
-    const storyProgress = document.getElementById('story-progress-fill');
-    const bg1 = document.getElementById('bg-1');
-    const bg2 = document.getElementById('bg-2');
-
-    if (storySection && storyLevels.length > 0) {
-        const handleStoryScroll = () => {
-            const sectionRect = storySection.getBoundingClientRect();
-            const sectionTop = sectionRect.top;
-            const sectionHeight = sectionRect.height;
-            const windowHeight = window.innerHeight;
-
-            // Global Progress (0 to 1)
-            let globalProgress = -sectionTop / (sectionHeight - windowHeight);
-            globalProgress = Math.max(0, Math.min(1, globalProgress));
-
-            if (storyProgress) storyProgress.style.width = `${globalProgress * 100}%`;
-
-            // Background Parallax Switch
-            if (globalProgress > 0.5) {
-                if (bg1) bg1.classList.remove('active');
-                if (bg2) bg2.classList.add('active');
-            } else {
-                if (bg1) bg1.classList.add('active');
-                if (bg2) bg2.classList.remove('active');
-            }
-
-            storyLevels.forEach((layer) => {
-                const start = parseFloat(layer.dataset.start);
-                const end = parseFloat(layer.dataset.end);
-                const duration = end - start;
-                
-                // Calculate local progress within this beat's range
-                let localProgress = (globalProgress - start) / duration;
-                localProgress = Math.max(0, Math.min(1, localProgress));
-
-                const img = layer.querySelector('.fly-image');
-                const text = layer.querySelector('.fly-text');
-
-                // ENTRANCE (0 to 0.5 local progress)
-                // EXIT (0.5 to 1 local progress)
-                
-                if (globalProgress >= start && globalProgress <= end) {
-                    layer.classList.add('active');
-                    
-                    if (localProgress < 0.5) {
-                        // Incoming
-                        const inFactor = localProgress * 2; // 0 to 1
-                        layer.style.opacity = inFactor;
-                        
-                        if (img) {
-                            layer.style.transform = `translateX(${(1 - inFactor) * 100}px) scale(${0.8 + inFactor * 0.2})`;
-                        } else if (text) {
-                            layer.style.transform = `translateY(${(1 - inFactor) * 50}px) scale(${0.9 + inFactor * 0.1})`;
-                        }
-                    } else {
-                        // Outgoing
-                        const outFactor = (localProgress - 0.5) * 2; // 0 to 1
-                        layer.style.opacity = 1 - outFactor;
-                        
-                        if (img) {
-                            layer.style.transform = `translateY(${-outFactor * 100}px) scale(${1 + outFactor * 0.1})`;
-                        } else if (text) {
-                            layer.style.transform = `translateY(${-outFactor * 50}px) scale(1)`;
-                        }
-                    }
-                } else {
-                    layer.classList.remove('active');
-                    layer.style.opacity = 0;
-                }
-            });
+    // Interactive Article Scroll (Build 18.0)
+    const articleRows = document.querySelectorAll('.reveal-on-scroll');
+    if (articleRows.length > 0) {
+        const observerOptions = {
+            threshold: 0.2, // Trigger when 20% of the row is visible
+            rootMargin: '0px 0px -50px 0px'
         };
 
-        window.addEventListener('scroll', () => {
-            window.requestAnimationFrame(handleStoryScroll);
-        });
-        handleStoryScroll();
+        const articleObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    // Once visible, we can stop observing this specific element
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        articleRows.forEach(row => articleObserver.observe(row));
     }
 });
