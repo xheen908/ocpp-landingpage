@@ -195,48 +195,8 @@
 
         <%- include('partials/features', { t }) %>
 
-        <!-- Revenue Calculator Section: Build 9.0 Dashboard Style -->
-        <div class="mb-56 p-1 bg-gradient-to-br from-white/10 to-transparent rounded-[4.5rem]">
-            <div class="p-12 md:p-24 apple-glass rounded-[4.4rem] relative overflow-hidden backdrop-blur-3xl">
-                <div class="absolute -top-40 -right-40 w-96 h-96 bg-[#a88c5a]/5 blur-[120px] rounded-full"></div>
-                
-                <div class="flex flex-col xl:flex-row gap-20 items-center relative z-10">
-                    <div class="flex-1 text-left">
-                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                            Revenue Stream Mastery
-                        </div>
-                        <h2 class="text-5xl md:text-7xl font-black mb-8 tracking-tighter uppercase leading-[0.9]"><%= t.calcH %></h2>
-                        <p class="text-xl text-white/40 mb-12 leading-relaxed font-bold">
-                            Turn strict EU compliance into a high-yield profit center. Calculate the passive income potential of your export volume.
-                        </p>
-                    </div>
-                    <div class="flex-1 w-full flex flex-col gap-8 bg-black/40 p-10 md:p-14 rounded-[3.5rem] border border-white/5 shadow-inner">
-                        <div class="calculator-field">
-                            <label class="block text-[11px] font-black uppercase tracking-[0.2em] text-[#a88c5a] mb-4 opacity-70"><%= t.calcV %></label>
-                            <input type="number" id="calc-volume" value="100000" class="w-full text-3xl font-black bg-white/2 border border-white/10 rounded-2xl p-8 focus:!border-[#a88c5a] focus:!ring-0 transition-all outline-none">
-                        </div>
-                        <div class="grid md:grid-cols-2 gap-8">
-                            <div class="calculator-field">
-                                <label class="block text-[11px] font-black uppercase tracking-[0.2em] text-[#a88c5a] mb-4 opacity-70"><%= t.calcR %></label>
-                                <input type="number" id="calc-rate" value="20" class="w-full text-3xl font-black bg-white/2 border border-white/10 rounded-2xl p-8 focus:!border-[#a88c5a] focus:!ring-0 transition-all outline-none">
-                            </div>
-                            <div class="calculator-field">
-                                <label class="block text-[11px] font-black uppercase tracking-[0.2em] text-[#a88c5a] mb-4 opacity-70"><%= t.calcF %></label>
-                                <input type="number" id="calc-fee" value="1.00" step="0.1" class="w-full text-3xl font-black bg-white/2 border border-white/10 rounded-2xl p-8 focus:!border-[#a88c5a] focus:!ring-0 transition-all outline-none">
-                            </div>
-                        </div>
-                        <div class="mt-10 p-10 bg-gradient-to-br from-[#a88c5a]/20 to-transparent rounded-[2.5rem] border border-[#a88c5a]/20 text-center shadow-2xl relative overflow-hidden group">
-                            <div class="absolute inset-0 bg-[#a88c5a]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-                            <div class="relative z-10">
-                                <div class="text-[11px] font-black uppercase tracking-[0.3em] text-[#a88c5a] mb-4"><%= t.calcP %></div>
-                                <div id="calc-result" class="text-6xl md:text-7xl font-black gradient-text">20.000 €</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Section Transition Padding -->
+        <div class="h-24"></div>
 
         <div class="mb-48 text-center max-w-4xl mx-auto">
             <p id="quote-text" class="text-2xl md:text-3xl font-medium leading-relaxed mb-6 text-white/80 italic">

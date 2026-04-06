@@ -8,12 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeBtn = document.getElementById('modal-close');
     const leadForm = document.getElementById('lead-form');
 
-    // Revenue Calculator Elements
-    const calcVolume = document.getElementById('calc-volume');
-    const calcRate = document.getElementById('calc-rate');
-    const calcFee = document.getElementById('calc-fee');
-    const calcResult = document.getElementById('calc-result');
-
     const openModal = () => {
         if (!modal) return;
         modal.classList.add('active');
