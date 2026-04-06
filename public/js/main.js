@@ -177,12 +177,58 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Swiper Initialization
-    if (typeof Swiper !== 'undefined') {
-        new Swiper(".mySwiper", {
-            loop: true, speed: 1200,
-            autoplay: { delay: 7000, disableOnInteraction: false },
-            pagination: { el: ".swiper-pagination", clickable: true },
+    // Sticky Scroll Reveal System (Build 16.0)
+    const revealSection = document.getElementById('tech-reveal');
+    const revealSlides = document.querySelectorAll('.reveal-slide');
+    const progressFill = document.getElementById('reveal-progress-fill');
+    const navDots = document.querySelectorAll('.nav-dot');
+
+    if (revealSection && revealSlides.length > 0) {
+        const handleRevealScroll = () => {
+            const sectionRect = revealSection.getBoundingClientRect();
+            const sectionTop = sectionRect.top;
+            const sectionHeight = sectionRect.height;
+            const windowHeight = window.innerHeight;
+
+            // Calculate progress (0 to 1) based on how much of the section has been scrolled
+            // We start counting when top of section hits top of window
+            // and end when bottom of section hits bottom of window
+            let progress = -sectionTop / (sectionHeight - windowHeight);
+            progress = Math.max(0, Math.min(1, progress));
+
+            if (progressFill) progressFill.style.width = `${progress * 100}%`;
+
+            // Transition logic for 2 slides
+            // Slide 0: 0% to 50% progress
+            // Slide 1: 50% to 100% progress
+            const threshold = 0.5;
+            
+            if (progress < threshold) {
+                // Show Slide 1
+                revealSlides[0].classList.add('active');
+                revealSlides[0].classList.remove('inactive');
+                revealSlides[1].classList.add('inactive');
+                revealSlides[1].classList.remove('active');
+                
+                if (navDots[0]) navDots[0].classList.add('active');
+                if (navDots[1]) navDots[1].classList.remove('active');
+            } else {
+                // Show Slide 2
+                revealSlides[0].classList.add('inactive');
+                revealSlides[0].classList.remove('active');
+                revealSlides[1].classList.add('active');
+                revealSlides[1].classList.remove('inactive');
+
+                if (navDots[0]) navDots[0].classList.remove('active');
+                if (navDots[1]) navDots[1].classList.add('active');
+            }
+        };
+
+        window.addEventListener('scroll', () => {
+            window.requestAnimationFrame(handleRevealScroll);
         });
+        
+        // Initial check
+        handleRevealScroll();
     }
 });

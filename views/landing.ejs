@@ -140,26 +140,53 @@
             </div>
         </div>
 
-        <!-- Strategy Slider: Build 9.0 Premium -->
-        <div class="mb-56">
-            <div class="swiper mySwiper !overflow-visible">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide !rounded-[4rem] border border-white/10 shadow-2xl" style="background-image: url('/assets/slider-1.png')">
-                        <div class="swiper-overlay !p-12 md:!p-20">
-                            <span class="section-header !text-[#a88c5a] !mb-6">Software Layer</span>
-                            <h3 id="slide1-h" class="text-4xl md:text-6xl font-black mb-6 tracking-tighter uppercase"><%= t.s1h %></h3>
-                            <p id="slide1-p" class="text-lg md:text-xl text-white/50 max-w-2xl font-medium !mb-0 leading-relaxed"><%= t.s1p %></p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide !rounded-[4rem] border border-white/10 shadow-2xl" style="background-image: url('/assets/slider-2.png')">
-                        <div class="swiper-overlay !p-12 md:!p-20">
-                            <span class="section-header !text-[#a88c5a] !mb-6">Monetization Engine</span>
-                            <h3 id="slide2-h" class="text-4xl md:text-6xl font-black mb-6 tracking-tighter uppercase"><%= t.s2h %></h3>
-                            <p id="slide2-p" class="text-lg md:text-xl text-white/50 max-w-2xl font-medium !mb-0 leading-relaxed"><%= t.s2p %></p>
+        <!-- Sticky Scroll Reveal Section: Build 16.0 (Apple-Style) -->
+        <div id="tech-reveal" class="sticky-reveal-section mb-56">
+            <div class="sticky-reveal-wrapper">
+                
+                <!-- Slide 1: SaaS platform -->
+                <div class="reveal-slide active" style="background-image: url('/assets/slider-1.png')" data-index="0">
+                    <div class="reveal-overlay">
+                        <div class="reveal-content">
+                            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                Automation Layer
+                            </span>
+                            <h3 class="text-5xl md:text-8xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%- t.s1h %>
+                            </h3>
+                            <p class="text-xl md:text-2xl text-white/50 max-w-2xl font-medium leading-relaxed">
+                                <%= t.s1p %>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination !-bottom-12"></div>
+
+                <!-- Slide 2: Passive Income -->
+                <div class="reveal-slide inactive" style="background-image: url('/assets/slider-2.png')" data-index="1">
+                    <div class="reveal-overlay">
+                        <div class="reveal-content">
+                            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                Revenue Stream
+                            </span>
+                            <h3 class="text-5xl md:text-8xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%- t.s2h %>
+                            </h3>
+                            <p class="text-xl md:text-2xl text-white/50 max-w-2xl font-medium leading-relaxed">
+                                <%= t.s2p %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dynamic Progress UI -->
+                <div class="reveal-progress-container">
+                    <div id="reveal-progress-fill" class="reveal-progress-fill"></div>
+                </div>
+
+                <div class="reveal-nav-hint">
+                    <div class="nav-dot active" data-index="0"></div>
+                    <div class="nav-dot" data-index="1"></div>
+                </div>
             </div>
         </div>
 
@@ -224,7 +251,5 @@
     </main>
 
     <%- include('partials/footer', { t }) %>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
