@@ -9,6 +9,15 @@
         <a href="/<%= t.lang %>/legal/privacy" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.privacy %></a>
         <a href="/<%= t.lang %>/legal/terms" class="hover:text-[#a88c5a] transition-colors"><%= t.legal.terms %></a>
     </div>
+
+    <!-- German Excellence Seal -->
+    <div class="order-3 flex items-center gap-3 opacity-50 hover:opacity-100 transition-opacity duration-700 mt-4 md:mt-0">
+        <img src="/assets/german-seal.png" alt="German Engineering" class="w-8 h-8 rounded-full filter grayscale hover:grayscale-0 transition-all">
+        <div class="text-left">
+            <div class="text-[7px] font-black tracking-widest text-[#a88c5a]">ENGINEERED IN</div>
+            <div class="text-[9px] font-bold text-white/60">DUISBURG, GERMANY</div>
+        </div>
+    </div>
 </footer>
 
 <%- include('form', { t }) %>
