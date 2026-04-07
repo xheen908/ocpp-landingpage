@@ -364,7 +364,46 @@ input[type=number] {
     pointer-events: none;
 }
 
+/* The Gatekeeper: Cookie Consent (Build 20.0) */
+#cookie-barrier.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+body.cookie-lock {
+    overflow: hidden;
+    height: 100vh;
+}
+
+@keyframes scanline {
+    0% { top: 0; opacity: 0; }
+    10% { opacity: 0.5; }
+    90% { opacity: 0.5; }
+    100% { top: 100%; opacity: 0; }
+}
+
+.animate-scanline {
+    animation: scanline 4s linear infinite;
+}
+
+#cookie-scan-progress.active {
+    width: 100%;
+}
+
+.apple-glass-dark {
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+}
+
 @media (max-width: 767px) {
+    #cookie-barrier {
+        padding-bottom: 2rem;
+    }
+    .apple-glass-dark {
+        border-radius: 1.5rem !important;
+        padding: 1.5rem !important;
+    }
     .article-stack-section { height: auto !important; }
     .article-stack-wrapper { position: relative !important; height: auto !important; overflow: visible !important; }
     .article-row-stack { position: relative !important; height: auto !important; opacity: 1 !important; transform: none !important; margin-bottom: 8rem; padding: 0 6%; }

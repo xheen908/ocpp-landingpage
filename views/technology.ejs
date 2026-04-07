@@ -87,6 +87,7 @@
             elements.forEach(el => observer.observe(el));
         });
     </script>
-    <script src="/js/main.js?v=15.7"></script>
+    <script src="/js/main.js?v=15.7"></script>    <%- include('partials/cookie_consent', { t }) %>
+    <script src="/js/cookie-consent.js?v=20.0" defer></script>
 </body>
 </html>

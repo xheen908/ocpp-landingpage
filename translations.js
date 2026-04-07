@@ -35,6 +35,14 @@ const translations = {
         "lang": "de-de",
         "metaTitle": "OCPP-Labs | ESPR Compliance & Digitaler Produktpass (DPP)",
         "metaDesc": "OCPP-Labs (Duisburg) bietet ESPR-Compliance für Batterien & Textilien. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
+        "cookie": {
+            "title": "SECURITY & COMPLIANCE CHECK",
+            "msg": "Um den Zugriff auf die OCPP-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
+            "accept": "ZUGRIFF GEWÄHREN (ALLE)",
+            "reject": "MINIMALER ZUGRIFF",
+            "settings": "PRÄFERENZEN",
+            "checking": "Systemprüfung läuft..."
+        },
         "faqs": [
             {
                 "q": "Was ist Ihre NFT as a Service Lösung?",
@@ -111,6 +119,14 @@ const translations = {
         "lang": "en-us",
         "metaTitle": "OCPP-Labs | ESPR Compliance & Battery Passport (DPP)",
         "metaDesc": "OCPP-Labs (Duisburg) provides ESPR compliance for batteries & textiles. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        "cookie": {
+            "title": "SECURITY & COMPLIANCE CHECK",
+            "msg": "To secure access to the OCPP infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
+            "accept": "GRANT ACCESS (ALL)",
+            "reject": "MINIMAL ACCESS",
+            "settings": "PREFERENCES",
+            "checking": "System check in progress..."
+        },
         "faqs": [
             {
                 "q": "What is your NFT as a Service solution?",
