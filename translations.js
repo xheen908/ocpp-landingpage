@@ -494,6 +494,406 @@ const translations = {
             "sidebar": "SaaS 平台將硬核加密硬體 (NXP) 與高擴展性的智能合約 (Base L2) 相結合 —— 透過隱形錢包全抽象化體驗。",
             "content": "<h3>下一代科技架構</h3><p class='text-white/60 max-w-3xl mb-8'>我們將絕妙的 Web3 協議與堅固的硬體融合，建立無懈可擊的安全出口網絡。作為 SaaS 提供商，我們為您接管後端所有的架構複雜性。</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG (物理防偽錨)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" ry=\"2\"></rect><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\"></rect><line x1=\"9\" y1=\"1\" x2=\"9\" y2=\"4\"></line><line x1=\"15\" y1=\"1\" x2=\"15\" y2=\"4\"></line><line x1=\"9\" y1=\"20\" x2=\"9\" y2=\"23\"></line><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"23\"></line><line x1=\"20\" y1=\"9\" x2=\"23\" y2=\"9\"></line><line x1=\"20\" y1=\"14\" x2=\"23\" y2=\"14\"></line><line x1=\"1\" y1=\"9\" x2=\"4\" y2=\"9\"></line><line x1=\"1\" y1=\"14\" x2=\"4\" y2=\"14\"></line></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG (物理防偽錨)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    純二維碼在專業造假面前不堪一擊。我們採用物理級安全加密的 NFC 晶片。每次掃描均產生極為複雜的動態變化密碼，構建通往數位護照的防偽屏障。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2 (安全帳本)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"></polygon><polyline points=\"2 17 12 22 22 17\"></polyline><polyline points=\"2 12 12 17 22 12\"></polyline></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (安全帳本)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    讓產品身份長存於 Base (以太坊二層網絡)。在極低的交易手續費下擁有極高的全網安全擴展性，杜絕伺服器遭駭客改寫源頭的悲劇。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"版稅引擎\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"></path><path d=\"M22 12A10 10 0 0 0 12 2v10z\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">版稅引擎</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    合規不再純燒錢：智能合約自發執行在產品於歐洲的每一次轉售中收取版稅的過程。不可修改的代碼即規則，實時鏈上決策分成。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"帳戶抽象化\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M22 12h-4l-3 9L9 3l-3 9H2\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">帳戶抽象化</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    我們採用最新的 ERC-4337 標準。所有的 Gas (礦工費) 統統由我們的後端付款代理出資補償貼現。以使用傳統網上銀行直充法幣或 USDT 的體驗進行企業結算全流程。\n                </p>\n            </div>\n        </div></div>"
         }
+    },
+    "es-es": {
+        "h1": "La solución SaaS para su exportación.<br>Cumplimiento de ESPR y NFTs.<br><span class=\"gradient-text\">INGRESOS MEDIANTE REGALÍAS.</span>",
+        "sub": "Tokenizamos su cadena de suministro como un SaaS: genere NFTs (DPP) a prueba de falsificaciones sin barreras cripto. El Account Abstraction y las Invisible Wallets aseguran ingresos pasivos en cada reventa en Europa.",
+        "cta": "Iniciar chequeo de exportación 2027",
+        "mHeader": "Auditoría de socios estratégicos",
+        "footerH2": "PIONEROS: BATERÍAS Y TEXTILES.",
+        "footerP": "Sea el primer exportador cuya mercancía pase la aduana de la UE en 2027. Buscamos socios estratégicos.",
+        "contact": "Solicitar auditoría",
+        "copy": "&copy; 2026 OCPP-Solution UG // SEGURIDAD DE EXPORTACIÓN E INGRESOS PASIVOS. TODOS LOS DERECHOS RESERVADOS.",
+        "s1h": "NFTs como servicio",
+        "s1p": "Generación automatizada de Pasaportes Digitales de Producto para sus contenedores. Abstraemos el blockchain.",
+        "s2h": "Regalías de Contratos Inteligentes",
+        "s2p": "Nuestra plataforma SaaS convierte el cumplimiento en beneficio. Reciba pagos directamente en su cuenta corporativa en cada reventa.",
+        "p1t": "Infraestructura SaaS",
+        "p1h": "Invisible Wallets.",
+        "p1d": "Sin requisitos técnicos, sin frases semilla. Nuestra tecnología de Account Abstraction funciona completamente en segundo plano.",
+        "p2t": "La revolución de las regalías",
+        "p2h": "Exportaciones Tokenizadas.",
+        "p2d": "Contratos inteligentes programables desembolsan automáticamente tarifas en fiat/USDT para usted en cada reventa.",
+        "p3t": "Confianza de procedencia UE",
+        "p3h": "Plataforma SaaS B2B.",
+        "p3d": "Backend Web3 seguro (Base L2) combinado con una experiencia de banca en línea tradicional.",
+        "p4t": "Identidad Inforjable",
+        "p4h": "Hardware seguro de NXP.",
+        "p4d": "Los anclajes físicos vinculan sus mercancías con nuestros NFTs, asegurando el valor de su marca desde la fábrica hasta el reciclaje.",
+        "quote": "\"El acceso al mercado de la UE en 2027 ya no es un riesgo, es su ventaja competitiva definitiva.\"",
+        "quotesub": "— OCPP-LABS // LA PUERTA DE EXPORTACIÓN",
+        "badge": "Especializado en Baterías y Textiles // Exportación Marítima",
+        "calcH": "Calculadora de beneficios",
+        "calcV": "Volumen de exportación (unidades/año)",
+        "calcR": "Tasa de reventa (%)",
+        "calcF": "Tarifa de regalía (€/unidad)",
+        "calcP": "Beneficio pasivo anual:",
+        "lang": "es-es",
+        "metaTitle": "OCPP-Labs | Cumplimiento de ESPR y Pasaporte de Producto (DPP)",
+        "metaDesc": "OCPP-Labs (Duisburgo) ofrece cumplimiento de ESPR para baterías y textiles. Pasaportes de producto seguros mediante NTAG 424 DNA y Blockchain.",
+        "cookie": {
+            "title": "CONTROL DE SEGURIDAD Y CUMPLIMIENTO",
+            "msg": "Para asegurar el acceso a la infraestructura de OCPP y garantizar el cumplimiento de la UE, utilizamos identificadores criptográficos (Cookies). Confirme su identidad y preferencias.",
+            "accept": "CONCEDER ACCESO (TODO)",
+            "reject": "ACCESO MÍNIMO",
+            "settings": "PREFERENCIAS",
+            "checking": "Comprobación del sistema en curso..."
+        },
+        "faqs": [
+            {
+                "q": "¿Qué es su solución de NFT como servicio?",
+                "a": "Nuestra plataforma SaaS tokeniza su cadena de suministro y genera automáticamente NFTs (Pasaportes Digitales de Producto) para sus exportaciones a la UE."
+            },
+            {
+                "q": "¿Cómo funcionan las regalías sin billetera cripto?",
+                "a": "Mediante el Account Abstraction y las Invisible Wallets, nuestra plataforma maneja toda la complejidad. Usted recibe sus regalías en euros o USDT directamente."
+            }
+        ],
+        "legal": {
+            "imprint": "Aviso legal",
+            "privacy": "Privacidad",
+            "terms": "Términos",
+            "back": "Volver al inicio",
+            "agree": "Acepto el procesamiento de datos según",
+            "content": {
+                "imprint": "<h1>Aviso Legal</h1><p>OCPP Solution UG (Duisburgo)<br>Email: info@ocpp-labs.com</p>",
+                "privacy": "<h1>Política de Privacidad (RGPD)</h1><p>Valoramos la seguridad de sus datos...</p>",
+                "terms": "<h1>Términos de Servicio</h1><p>Nuestros servicios son exclusivos para clientes B2B.</p>"
+            }
+        },
+        "aboutUs": {
+            "nav": "Sobre nosotros",
+            "title": "La Puerta Europea",
+            "subtitle": "Uniendo Tecnología y Cumplimiento.",
+            "content": "<h3>El Puerto de Duisburgo: Puerta de Europa</h3><p>OCPP Solution UG opera como anclaje físico y legal en el puerto interior más grande de Europa. Proporcionamos la infraestructura para superar barreras regulatorias (ESPR 2027).</p><h3>Tecnología y Regulación Alemana</h3><p>Mientras los socios asiáticos dominan la producción, nosotros aseguramos que cada producto reciba un Pasaporte Digital (DPP) inforjable con Base L2 y NTAG 424 DNA.</p><h3>Su cumplimiento. Nuestro negocio.</h3><p>Manejamos la complejidad técnica y la responsabilidad legal. Exportación sin demoras aduaneras. Escalado sin límites.</p>"
+        },
+        "tech": {
+            "nav": "Tecnología",
+            "title": "Stack Tecnológico Web3 Avanzado",
+            "subtitle": "Infraestructura SaaS industrial para exportación a prueba de manipulaciones.",
+            "sidebar": "SaaS que fusiona hardware criptográfico (NXP) con contratos inteligentes (Base L2), 100% abstraído vía Invisible Wallets.",
+            "content": "<h3>Arquitectura de Próxima Generación</h3><p class='text-white/60 max-w-3xl mb-8'>Unimos software Web3 con hardware robusto. Como proveedor SaaS, manejamos la complejidad del backend mientras usted elimina riesgos de cumplimiento.</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (Anclaje Hardware)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">Los códigos QR no sirven contra la piratería. Usamos chips NFC de NXP que generan códigos dinámicos, creando un puente inforjable al DPP.</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (Libro Seguro)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">La identidad del producto se inmortaliza en Base (Ethereum L2), asegurando escalabilidad con costos mínimos y máxima seguridad.</p>\n            </div>\n        </div></div>"
+        }
+    },
+    "ja-jp": {
+        "h1": "輸出のためのSaaSソリューション。<br>ESPR準拠とNFT。<br><span class=\"gradient-text\">ロイヤリティによる収益化。</span>",
+        "sub": "サプライチェーンをSaaSとしてトークン化：模倣不可能なNFT（DPP）を、仮想通貨の壁なしに生成。アカウント抽象化と不可視ウォレットにより、欧州での再販ごとにパッシブ収益を確保します。",
+        "cta": "2027年輸出チェックを開始",
+        "mHeader": "戦略的パートナー監査",
+        "footerH2": "ファーストムーバー：バッテリー＆テキスタイル",
+        "footerP": "2027年に欧州税関をスムーズに通過する最初の輸出業者になりましょう。戦略的パートナーを募集しています。",
+        "contact": "監査をリクエスト",
+        "copy": "&copy; 2026 OCPP-Solution UG // 輸出セキュリティとパッシブ収益。全著作権所有。",
+        "s1h": "NFT as a Service",
+        "s1p": "コンテナ用のデジタル製品パスポートを自動生成。ブロックチェーンを完全に抽象化します。",
+        "s2h": "スマートコントラクト・ロイヤリティ",
+        "s2p": "当社のSaaSプラットフォームがコンプライアンスを利益に変えます。再販のたびに企業口座に直接入金されます。",
+        "p1t": "SaaSインフラ",
+        "p1h": "不可視ウォレット",
+        "p1d": "技術的要件や秘密鍵の管理は不要。アカウント抽象化技術がバックグラウンドで完全に動作します。",
+        "p2t": "ロイヤリティ革命",
+        "p2h": "トークン化された輸出",
+        "p2d": "プログラム可能なスマートコントラクトが、再販のたびに法定通貨またはUSDTでロイヤリティを自動配分します。",
+        "p3t": "EU原産地信頼",
+        "p3h": "B2B SaaSプラットフォーム",
+        "p3d": "安全なWeb3バックエンド（Base L2）と、オンラインバンキングのようなユーザー体験を融合。",
+        "p4t": "偽造不可能なアイデンティティ",
+        "p4h": "NXPセキュアハードウェア",
+        "p4d": "物理的なアンカーが商品とNFTをリンクさせ、工場からリサイクルまでのブランド価値を保護します。",
+        "quote": "\"2027年のEU市場へのアクセスはもはやリスクではなく、究極の競争優位性です。\"",
+        "quotesub": "— OCPP-LABS // 輸出ゲートウェイ",
+        "badge": "バッテリー＆テキスタイル専門 // 海上輸出",
+        "calcH": "収益シミュレーター",
+        "calcV": "年間輸出量（ユニット）",
+        "calcR": "再販率（％）",
+        "calcF": "ロイヤリティ料（€/ユニット）",
+        "calcP": "年間パッシブ利益：",
+        "lang": "ja-jp",
+        "metaTitle": "OCPP-Labs | ESPR準拠とデジタル製品パスポート (DPP)",
+        "metaDesc": "OCPP-Labs（デュイスブルク）はバッテリーと繊維のESPR準拠を提供。NTAG 424 DNAとブロックチェーンによるセキュアな製品パスポート。",
+        "cookie": {
+            "title": "セキュリティ＆コンプライアンス・チェック",
+            "msg": "OCPPインフラへのアクセスを保護し、EUコンプライアンスを確保するため、暗号化識別子（Cookie）を使用しています。本人確認と設定を行ってください。",
+            "accept": "アクセスを許可（すべて）",
+            "reject": "最小限のアクセス",
+            "settings": "設定",
+            "checking": "システムチェック中..."
+        },
+        "faqs": [
+            {
+                "q": "NFT as a Serviceとは何ですか？",
+                "a": "当社のSaaSプラットフォームはサプライチェーンをトークン化し、EU輸出用の偽造不可能なNFT（デジタル製品パスポート）を自動生成します。"
+            },
+            {
+                "q": "仮想通貨ウォレットなしでどうやってロイヤリティを受け取りますか？",
+                "a": "アカウント抽象化と不可視ウォレットにより、当社が複雑な処理を代行します。ユーロまたはUSDTで直接受け取れます。"
+            }
+        ],
+        "legal": {
+            "imprint": "法的通知",
+            "privacy": "プライバシー",
+            "terms": "規約",
+            "back": "ホームに戻る",
+            "agree": "データ処理に同意する：",
+            "content": {
+                "imprint": "<h1>法的通知</h1><p>OCPP Solution UG (デュイスブルク)<br>メール: info@ocpp-labs.com</p>",
+                "privacy": "<h1>プライバシーポリシー (GDPR)</h1><p>データの安全性を重視しています...</p>",
+                "terms": "<h1>利用規約</h1><p>当社のサービスはB2B顧客専用です。</p>"
+            }
+        },
+        "aboutUs": {
+            "nav": "会社概要",
+            "title": "欧州のゲートウェイ",
+            "subtitle": "テクノロジーとコンプライアンスの架け橋",
+            "content": "<h3>デュイスブルク港：欧州の玄関口</h3><p>OCPP Solution UGは、欧州最大の河川港であるデュイスブルクで物理的・法的な拠点として機能しています。欧州輸入規制（ESPR 2027）の壁を越えるインフラを提供します。</p><h3>テクノロジーとドイツの規制への適応</h3><p>アジアのパートナーが製造を担う一方で、当社はBase L2とNTAG 424 DNAを用いて、すべての製品に偽造不可能なDPPを発行します。</p><h3>お客様のコンプライアンスは当社のビジネスです</h3><p>技術的な複雑さと法的な責任を当社が引き受けます。遅延のない輸出と無限の拡張性を実現します。</p>"
+        },
+        "tech": {
+            "nav": "テクノロジー",
+            "title": "次世代Web3テックスタック",
+            "subtitle": "改ざん不可能な輸出のための産業用SaaSインフラ",
+            "sidebar": "NXPハードウェアとBase L2スマートコントラクトを不可視ウォレットで完全抽象化。",
+            "content": "<h3>最先端アーキテクチャ</h3><p class='text-white/60 max-w-3xl mb-8'>Web3ソフトウェアと堅牢なハードウェアを融合。SaaSプロバイダーとしてバックエンドを管理し、お客様のコンプライアンスリスクを排除します。</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (ハードウェアアンカー)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">QRコードは偽造に無力です。NXPの暗号化NFCチップを使用し、ダイナミックなコードでDPPへの偽造不可能な橋渡しをします。</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (セキュア・レジャー)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">製品アイデンティティはBase (Ethereum L2) に永久保存され、最小のコストで最高のセキュリティと拡張性を実現します。</p>\n            </div>\n        </div></div>"
+        }
+    },
+    "ko-kr": {
+        "h1": "수출을 위한 SaaS 솔루션.<br>ESPR 준수 및 NFT.<br><span class=\"gradient-text\">로열티를 통한 수익 창출.</span>",
+        "sub": "SaaS를 통한 공급망 토큰화: 암호화폐의 장벽 없이 위조 불가능한 NFT(DPP) 생성. 계정 추상화 및 보이지 않는 지갑으로 유럽 내 모든 재판매 시 패시브 수익을 확보하세요.",
+        "cta": "2027 수출 체크 시작하기",
+        "mHeader": "전략적 파트너 감사",
+        "footerH2": "퍼스트 무버: 배터리 및 섬유",
+        "footerP": "2027년 유럽 세관을 가장 먼저 통과하는 수출업체가 되십시오. 전략적 파트너를 찾고 있습니다.",
+        "contact": "감사 요청하기",
+        "copy": "&copy; 2026 OCPP-Solution UG // 수출 보안 및 패시브 수익. 모든 권리 보유.",
+        "s1h": "NFT as a Service",
+        "s1p": "컨테이너를 위한 자동화된 디지털 제품 여권 생성. 블록체인을 완벽하게 추상화합니다.",
+        "s2h": "스마트 컨트랙트 로열티",
+        "s2p": "당사의 SaaS 플랫폼이 규제 준수를 이익으로 바꿉니다. 재판매 시마다 기업 계좌로 직접 입금됩니다.",
+        "p1t": "SaaS 인프라",
+        "p1h": "보이지 않는 지갑",
+        "p1d": "기술적 지식이나 개인키 관리가 필요 없습니다. 계정 추상화 기술이 백그라운드에서 완벽하게 작동합니다.",
+        "p2t": "로열티 혁명",
+        "p2h": "토큰화된 수출",
+        "p2d": "프로그래밍 가능한 스마트 컨트랙트가 재판매 시마다 법정화폐 또는 USDT로 로열티를 자동 배분합니다.",
+        "p3t": "EU 원산지 신뢰",
+        "p3h": "B2B SaaS 플랫폼",
+        "p3d": "보안 웹3 백엔드(Base L2)와 기존 온라인 뱅킹의 사용자 경험을 결합했습니다.",
+        "p4t": "위조 불가능한 신원",
+        "p4h": "NXP 보안 하드웨어",
+        "p4d": "물리적 앵커가 상품과 NFT를 연결하여 공장에서 재활용까지 브랜드 가치를 보호합니다.",
+        "quote": "\"2027년 EU 시장 진입은 더 이상 리스크가 아니라, 궁극적인 경쟁 우위입니다.\"",
+        "quotesub": "— OCPP-LABS // 수출 게이트웨이",
+        "badge": "배터리 및 섬유 전문 // 해상 수출",
+        "calcH": "수익 계산기",
+        "calcV": "연간 수출량 (유닛)",
+        "calcR": "재판매율 (%)",
+        "calcF": "로열티 수수료 (€/유닛)",
+        "calcP": "연간 패시브 수익:",
+        "lang": "ko-kr",
+        "metaTitle": "OCPP-Labs | ESPR 준수 및 디지털 제품 여권 (DPP)",
+        "metaDesc": "OCPP-Labs (뒤스부르크)는 배터리 및 섬유를 위한 ESPR 준수 솔루션을 제공합니다. NTAG 424 DNA 및 블록체인을 통한 보안 제품 여권.",
+        "cookie": {
+            "title": "보안 및 규제 준수 확인",
+            "msg": "OCPP 인프라 접근을 보호하고 EU 규정 준수를 보장하기 위해 암호화 식별자(Cookie)를 사용합니다. 본인 확인 및 설정을 진행해 주십시오.",
+            "accept": "접근 허용 (전체)",
+            "reject": "최소 접근",
+            "settings": "설정",
+            "checking": "시스템 확인 중..."
+        },
+        "faqs": [
+            {
+                "q": "NFT as a Service란 무엇인가요?",
+                "a": "당사의 SaaS 플랫폼은 공급망을 토큰화하고 EU 수출을 위한 위조 불가능한 NFT(디지털 제품 여권)를 자동 생성합니다."
+            },
+            {
+                "q": "암호화폐 지갑 없이 로열티를 어떻게 받나요?",
+                "a": "계정 추상화와 보이지 않는 지갑을 통해 당사가 모든 복잡한 과정을 처리합니다. 유로 또는 USDT로 직접 받으실 수 있습니다."
+            }
+        ],
+        "legal": {
+            "imprint": "법적 고지",
+            "privacy": "개인정보 보호",
+            "terms": "이용약관",
+            "back": "홈으로 돌아가기",
+            "agree": "데이터 처리에 동의합니다:",
+            "content": {
+                "imprint": "<h1>법적 고지</h1><p>OCPP Solution UG (뒤스부르크)<br>이메일: info@ocpp-labs.com</p>",
+                "privacy": "<h1>개인정보 처리방침 (GDPR)</h1><p>데이터 보안을 최우선으로 합니다...</p>",
+                "terms": "<h1>이용약관</h1><p>당사의 서비스는 B2B 고객 전용입니다.</p>"
+            }
+        },
+        "aboutUs": {
+            "nav": "회사 소개",
+            "title": "유럽의 관문",
+            "subtitle": "기술과 규제 준수의 가교",
+            "content": "<h3>뒤스부르크 항: 유럽의 게이트웨이</h3><p>OCPP Solution UG는 유럽 최대 내륙항인 뒤스부르크에서 물리적, 법적 거점으로 활동합니다. 유럽 수입 규제(ESPR 2027)를 넘어서는 인프라를 제공합니다.</p><h3>기술과 독일 규제의 만남</h3><p>아시아 파트너가 제조를 담당하는 동안, 당사는 Base L2와 NTAG 424 DNA를 사용하여 모든 제품에 위조 불가능한 DPP를 발행합니다.</p><h3>고객의 준수는 당사의 비즈니스입니다</h3><p>기술적 복잡성과 법적 책임을 당사가 대신합니다. 지연 없는 수출과 무한한 확장성을 실현하십시오.</p>"
+        },
+        "tech": {
+            "nav": "기술",
+            "title": "차세대 웹3 테크 스택",
+            "subtitle": "조작 불가능한 수출을 위한 산업용 SaaS 인프라",
+            "sidebar": "NXP 하드웨어와 Base L2 스마트 컨트랙트를 보이지 않는 지갑으로 완벽하게 추상화합니다.",
+            "content": "<h3>최첨단 아키텍처</h3><p class='text-white/60 max-w-3xl mb-8'>웹3 소프트웨어와 견고한 하드웨어를 융합했습니다. SaaS 제공업체로서 백엔드를 관리하며 고객의 규제 준수 리스크를 제거합니다.</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (하드웨어 앵커)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">QR 코드는 위조 방지에 무력합니다. NXP의 암호화 NFC 칩을 사용하여 DPP로의 위조 불가능한 가교를 형성합니다.</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (보안 장부)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">제품 신원은 Base (Ethereum L2)에 영구 기록되어 최소 비용으로 최고 수준의 보안과 확장성을 제공합니다.</p>\n            </div>\n        </div></div>"
+        }
+    },
+    "hi-in": {
+        "h1": "आपके निर्यात के लिए SaaS समाधान।<br>ESPR अनुपालन और NFTs।<br><span class=\"gradient-text\">रॉयल्टी के माध्यम से आय।</span>",
+        "sub": "SaaS के रूप में अपनी आपूर्ति श्रृंखला को टोकनयुक्त करें: बिना किसी क्रिप्टो बाधा के छेड़छाड़-मुक्त NFT (DPP) जनरेट करें। अकाउंट एब्स्ट्रैक्शन और इनविजिबल वॉलेट यूरोप में हर पुनर्विक्रय पर पैसिव इनकम सुनिश्चित करते हैं।",
+        "cta": "निर्यात चेक 2027 शुरू करें",
+        "mHeader": "रणनीतिक भागीदार ऑडिट",
+        "footerH2": "प्रथम प्रवर्तक: बैटरी और कपड़ा।",
+        "footerP": "2027 में यूरोपीय सीमा शुल्क को सुचारू रूप से पार करने वाले पहले निर्यातक बनें। हम रणनीतिक भागीदारों की तलाश कर रहे हैं।",
+        "contact": "ऑडिट का अनुरोध करें",
+        "copy": "&copy; 2026 OCPP-Solution UG // निर्यात सुरक्षा और पैसिव इनकम। सर्वाधिकार सुरक्षित।",
+        "s1h": "SaaS के रूप में NFT",
+        "s1p": "आपके कंटेनरों के लिए डिजिटल उत्पाद पासपोर्ट का स्वचालित निर्माण। हम ब्लॉकचेन को पूरी तरह से सरल बनाते हैं।",
+        "s2h": "स्मार्ट कॉन्ट्रैक्ट रॉयल्टी",
+        "s2p": "हमारा SaaS प्लेटफॉर्म अनुपालन को लाभ में बदल देता है। हर पुनर्विक्रय पर सीधे अपने कॉर्पोरेट खाते में भुगतान प्राप्त करें।",
+        "p1t": "SaaS इंफ्रास्ट्रक्चर",
+        "p1h": "इनविजिबल वॉलेट।",
+        "p1d": "कोई तकनीकी पूर्व-आवश्यकता नहीं, कोई बीज वाक्यांश नहीं। हमारी अकाउंट एब्स्ट्रैक्शन तकनीक पूरी तरह से बैकग्राउंड में चलती है।",
+        "p2t": "रॉयल्टी क्रांति",
+        "p2h": "टोकनयुक्त निर्यात।",
+        "p2d": "प्रोग्राम योग्य स्मार्ट कॉन्ट्रैक्ट हर पुनर्विक्रय पर स्वचालित रूप से आपके लिए फिएट/USDT में शुल्क वितरित करते हैं।",
+        "p3t": "EU उत्पत्ति विश्वास",
+        "p3h": "B2B SaaS प्लेटफॉर्म।",
+        "p3d": "पारंपरिक ऑनलाइन बैंकिंग के उपयोगकर्ता अनुभव के साथ संयुक्त सुरक्षित Web3 बैकएंड (Base L2)।",
+        "p4t": "अक्षय पहचान",
+        "p4h": "NXP सुरक्षित हार्डवेयर।",
+        "p4d": "भौतिक एंकर आपके सामान को हमारे NFT से जोड़ते हैं और फैक्ट्री से रीसाइक्लिंग तक आपके ब्रांड मूल्य को सुरक्षित करते हैं।",
+        "quote": "\"2027 में EU बाजार तक पहुंच अब जोखिम नहीं है, यह आपका अंतिम प्रतिस्पर्धी लाभ है।\"",
+        "quotesub": "— OCPP-LABS // निर्यात गेटवे",
+        "badge": "बैटरी और कपड़ा विशेषज्ञ // समुद्री निर्यात",
+        "calcH": "लाभ कैलकुलेटर",
+        "calcV": "निर्यात मात्रा (इकाई/वर्ष)",
+        "calcR": "पुनर्विक्रय दर (%)",
+        "calcF": "रॉयल्टी शुल्क (€/इकाई)",
+        "calcP": "वार्षिक पैसिव लाभ:",
+        "lang": "hi-in",
+        "metaTitle": "OCPP-Labs | ESPR अनुपालन और डिजिटल उत्पाद पासपोर्ट (DPP)",
+        "metaDesc": "OCPP-Labs (डिसबर्ग) बैटरी और कपड़ों के लिए ESPR अनुपालन प्रदान करता है। NTAG 424 DNA और ब्लॉकचेन के माध्यम से सुरक्षित उत्पाद पासपोर्ट।",
+        "cookie": {
+            "title": "सुरक्षा और अनुपालन जांच",
+            "msg": "OCPP इंफ्रास्ट्रक्चर तक पहुंच सुरक्षित करने और EU अनुपालन सुनिश्चित करने के लिए, हम क्रिप्टोग्राफ़िक पहचानकर्ता (Cookies) का उपयोग करते हैं। अपनी पहचान और प्राथमिकताओं की पुष्टि करें।",
+            "accept": "पहुंच प्रदान करें (सभी)",
+            "reject": "न्यूनतम पहुंच",
+            "settings": "प्राथमिकताएं",
+            "checking": "सिस्टम जांच चल रही है..."
+        },
+        "faqs": [
+            {
+                "q": "आपका NFT as a Service समाधान क्या है?",
+                "a": "हमारा SaaS प्लेटफॉर्म आपकी आपूर्ति श्रृंखला को टोकनयुक्त करता है और आपके EU निर्यात के लिए स्वचालित रूप से NFT (डिजिटल उत्पाद पासपोर्ट) बनाता है।"
+            },
+            {
+                "q": "बिना क्रिप्टो वॉलेट के रॉयल्टी कैसे काम करती है?",
+                "a": "अकाउंट एब्स्ट्रैक्शन और इनविजिबल वॉलेट के माध्यम से, हमारा SaaS प्लेटफॉर्म ब्लॉकचेन की पूरी जटिलता को संभालता है। आपको रॉयल्टी सीधे यूरो या USDT में मिलती है।"
+            }
+        ],
+        "legal": {
+            "imprint": "कानूनी नोटिस",
+            "privacy": "गोपनीयता",
+            "terms": "शर्तें",
+            "back": "होम पेज पर वापस",
+            "agree": "मैं इसके अनुसार डेटा प्रोसेसिंग के लिए सहमत हूं:",
+            "content": {
+                "imprint": "<h1>कानूनी सूचना</h1><p>OCPP Solution UG (डिसबर्ग)<br>ईमेल: info@ocpp-labs.com</p>",
+                "privacy": "<h1>गोपनीयता नीति (GDPR)</h1><p>हम आपके डेटा की सुरक्षा को प्राथमिकता देते हैं...</p>",
+                "terms": "<h1>सेवा की शर्तें</h1><p>हमारी सेवाएं विशेष रूप से B2B ग्राहकों के लिए हैं।</p>"
+            }
+        },
+        "aboutUs": {
+            "nav": "हमारे बारे में",
+            "title": "यूरोपीय गेटवे",
+            "subtitle": "तकनीक और अनुपालन के बीच सेतु।",
+            "content": "<h3>डिसबर्ग पोर्ट: यूरोप का प्रवेश द्वार</h3><p>OCPP Solution UG डिसबर्ग में यूरोप के सबसे बड़े अंतर्देशीय बंदरगाह पर एक भौतिक और कानूनी एंकर के रूप में काम करता है। हम यूरोपीय आयात नियमों (ESPR 2027) को पार करने के लिए बुनियादी ढांचा प्रदान करते हैं।</p><h3>जर्मन विनियमन के साथ तकनीक का मिलन</h3><p>जबकि एशियाई भागीदार उत्पादन संभालते हैं, हम सुनिश्चित करते हैं कि हर उत्पाद को Base L2 और NTAG 424 DNA के साथ एक डिजिटल पासपोर्ट मिले।</p><h3>आपका अनुपालन। हमारा व्यवसाय।</h3><p>हम तकनीकी जटिलता और कानूनी जिम्मेदारी संभालते हैं। बिना सीमा शुल्क देरी के निर्यात करें। असीम रूप से विस्तार करें।</p>"
+        },
+        "tech": {
+            "nav": "तकनीकी",
+            "title": "उन्नत Web3 टेक स्टैक",
+            "subtitle": "छेड़छाड़-मुक्त निर्यात के लिए औद्योगिक SaaS इंफ्रास्ट्रक्चर।",
+            "sidebar": "SaaS प्लेटफॉर्म क्रिप्टोग्राफ़िक हार्डवेयर (NXP) को स्मार्ट कॉन्ट्रैक्ट्स (Base L2) के साथ जोड़ता है, 100% इनविजिबल वॉलेट के माध्यम से सरल।",
+            "content": "<h3>अगली पीढ़ी का आर्किटेक्चर</h3><p class='text-white/60 max-w-3xl mb-8'>हम मजबूत हार्डवेयर के साथ Web3 सॉफ्टवेयर को मिलाते हैं। SaaS प्रदाता के रूप में, हम बैकएंड संभालते हैं जबकि आप अनुपालन जोखिमों को खत्म करते हैं।</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (हार्डवेयर एंकर)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">QR कोड जालसाजी के खिलाफ बेकार हैं। हम NXP के एनक्रिप्टेड NFC चिप्स का उपयोग करते हैं जो DPP के लिए एक सुरक्षित पुल बनाते हैं।</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (सुरक्षित लेजर)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">उत्पाद की पहचान Base (Ethereum L2) पर स्थायी रूप से दर्ज की जाती है, जो न्यूनतम लागत के साथ अधिकतम सुरक्षा और स्केलेबिलिटी सुनिश्चित करती है।</p>\n            </div>\n        </div></div>"
+        }
+    },
+    "bn-bd": {
+        "h1": "আপনার রপ্তানির জন্য SaaS সমাধান।<br>ESPR কমপ্লায়েন্স এবং NFTs।<br><span class=\"gradient-text\">রয়্যালটির মাধ্যমে আয়।</span>",
+        "sub": "SaaS হিসেবে আপনার সাপ্লাই চেইন টোকেনাইজ করুন: কোনো ক্রিপ্টো বাধা ছাড়াই টেম্পার-প্রুফ NFT (DPP) তৈরি করুন। অ্যাকাউন্ট অ্যাবস্ট্রাকশন এবং ইনভিজিবল ওয়ালেট ইউরোপে প্রতিটি পুনঃবিক্রয়ে প্যাসিভ ইনকাম নিশ্চিত করে।",
+        "cta": "রপ্তানি চেক ২০২৭ শুরু করুন",
+        "mHeader": "কৌশলগত অংশীদার অডিট",
+        "footerH2": "প্রথম উদ্যোক্তা: ব্যাটারি এবং টেক্সটাইল।",
+        "footerP": "২০২৭ সালে ইউরোপীয় কাস্টমস সফলভাবে অতিক্রমকারী প্রথম রপ্তানিকারক হন। আমরা কৌশলগত অংশীদার খুঁজছি।",
+        "contact": "অডিট অনুরোধ করুন",
+        "copy": "&copy; ২০২৬ OCPP-Solution UG // রপ্তানি নিরাপত্তা এবং প্যাসিভ ইনকাম। সর্বস্বত্ব সংরক্ষিত।",
+        "s1h": "NFT as a Service",
+        "s1p": "আপনার কন্টেইনারের জন্য ডিজিটাল প্রোডাক্ট পাসপোর্টের স্বয়ংক্রিয় উৎপাদন। আমরা ব্লকচেইনকে সম্পূর্ণ সহজ করি।",
+        "s2h": "স্মার্ট কন্ট্রাক্ট রয়্যালটি",
+        "s2p": "আমাদের SaaS প্ল্যাটফর্ম কমপ্লায়েন্সকে লাভে রূপান্তরিত করে। প্রতিটি পুনঃবিক্রয়ে সরাসরি আপনার কর্পোরেট অ্যাকাউন্টে পেমেন্ট পান।",
+        "p1t": "SaaS ইনফ্রাস্ট্রাকচার",
+        "p1h": "ইনভিজিবল ওয়ালেট।",
+        "p1d": "কোনো প্রযুক্তিগত পূর্বশর্ত বা সিড ফ্রেজের প্রয়োজন নেই। আমাদের অ্যাকাউন্ট অ্যাবস্ট্রাকশন প্রযুক্তি সম্পূর্ণ ব্যাকগ্রাউন্ডে কাজ করে।",
+        "p2t": "রয়্যালটি বিপ্লব",
+        "p2h": "টোকেনাইজড রপ্তানি।",
+        "p2d": "প্রোগ্রামযোগ্য স্মার্ট কন্ট্রাক্ট প্রতিটি পুনঃবিক্রয়ে স্বয়ংক্রিয়ভাবে আপনার জন্য ফিয়াট/USDT-এ রয়্যালটি বিতরণ করে।",
+        "p3t": "ইউরোপীয় উৎস বিশ্বাস",
+        "p3h": "B2B SaaS প্ল্যাটফর্ম।",
+        "p3d": "নিরাপদ Web3 ব্যাকএন্ড (Base L2) যা প্রথাগত অনলাইন ব্যাংকিংয়ের সহজ অভিজ্ঞতা প্রদান করে।",
+        "p4t": "অপরিবর্তনীয় পরিচয়",
+        "p4h": "NXP সিকিউর হার্ডওয়্যার।",
+        "p4d": "ভৌতিক মার্কার আপনার পণ্যকে আমাদের NFT-এর সাথে সংযুক্ত করে এবং ফ্যাক্টরি থেকে রিসাইক্লিং পর্যন্ত ব্র্যান্ড ভ্যালু রক্ষা করে।",
+        "quote": "\"২০২৭ সালে EU বাজারে প্রবেশ আর কোনো ঝুঁকি নয়, এটি আপনার চূড়ান্ত প্রতিযোগিতামূলক সুবিধা।\"",
+        "quotesub": "— OCPP-LABS // রপ্তানি গেটওয়ে",
+        "badge": "ব্যাটারি এবং টেক্সটাইল বিশেষজ্ঞ // সমুদ্র রপ্তানি",
+        "calcH": "মুনাফা ক্যালকুলেটর",
+        "calcV": "রপ্তানি পরিমাণ (ইউনিট/বছর)",
+        "calcR": "পুনঃবিক্রয় হার (%)",
+        "calcF": "রয়্যালটি ফি (€/ইউনিট)",
+        "calcP": "বার্ষিক প্যাসিভ মুনাফা:",
+        "lang": "bn-bd",
+        "metaTitle": "OCPP-Labs | ESPR কমপ্লায়েন্স এবং ডিজিটাল প্রোডাক্ট পাসপোর্ট (DPP)",
+        "metaDesc": "OCPP-Labs (ডুইসবার্গ) ব্যাটারি এবং টেক্সটাইলের জন্য ESPR কমপ্লায়েন্স প্রদান করে। NTAG 424 DNA এবং ব্লকচেইনের মাধ্যমে সুরক্ষিত প্রোডাক্ট পাসপোর্ট।",
+        "cookie": {
+            "title": "নিরাপত্তা এবং কমপ্লায়েন্স চেক",
+            "msg": "OCPP ইনফ্রাস্ট্রাকচারে প্রবেশ সুরক্ষিত করতে এবং EU কমপ্লায়েন্স নিশ্চিত করতে, আমরা ক্রিপ্টোগ্রাফিক আইডেন্টিফায়ার (Cookies) ব্যবহার করি। আপনার পরিচয় এবং পছন্দ নিশ্চিত করুন।",
+            "accept": "প্রবেশাধিকার দিন (সব)",
+            "reject": "নূনতম প্রবেশ",
+            "settings": "পছন্দসমূহ",
+            "checking": "সিস্টেম চেক চলছে..."
+        },
+        "faqs": [
+            {
+                "q": "আপনার NFT as a Service সমাধান কী?",
+                "a": "আমাদের SaaS প্ল্যাটফর্ম আপনার সাপ্লাই চেইনকে টোকেনাইজ করে এবং আপনার EU রপ্তানির জন্য স্বয়ংক্রিয়ভাবে NFT (ডিজিটাল প্রোডাক্ট পাসপোর্ট) তৈরি করে।"
+            },
+            {
+                "q": "ক্রিপ্টো ওয়ালেট ছাড়া রয়্যালটি কীভাবে কাজ করে?",
+                "a": "অ্যাকাউন্ট অ্যাবস্ট্রাকশন এবং ইনভিজিবล ওয়ালেটের মাধ্যমে, আমাদের SaaS প্ল্যাটফর্ম ব্লকচেইনের সব জটিলতা সামলায়। আপনি সরাসরি ইউরো বা USDT-তে রয়্যালটি পান।"
+            }
+        ],
+        "legal": {
+            "imprint": "আইনি নোটিশ",
+            "privacy": "গোপনীয়তা",
+            "terms": "শর্তাবলী",
+            "back": "হোম পেজে ফিরে যান",
+            "agree": "আমি এর অনুযায়ী ডেটা প্রসেসিংয়ে সম্মত:",
+            "content": {
+                "imprint": "<h1>আইনি নোটিশ</h1><p>OCPP Solution UG (ডুইসবার্গ)<br>ইমেল: info@ocpp-labs.com</p>",
+                "privacy": "<h1>গোপনীয়তা নীতি (GDPR)</h1><p>আমরা আপনার ডেটার নিরাপত্তাকে অগ্রাধিকার দিই...</p>",
+                "terms": "<h1>পরিষেবার শর্তাবলী</h1><p>আমাদের পরিষেবাগুলো শুধুমাত্র B2B গ্রাহকদের জন্য।</p>"
+            }
+        },
+        "aboutUs": {
+            "nav": "আমাদের সম্পর্কে",
+            "title": "ইউরোপীয় প্রবেশদ্বার",
+            "subtitle": "প্রযুক্তি এবং কমপ্লায়েন্সের মধ্যে সেতুবন্ধন।",
+            "content": "<h3>ডুইসবার্গ বন্দর: ইউরোপের গেটওয়ে</h3><p>OCPP Solution UG ডুইসবার্গে ইউরোপের বৃহত্তম অভ্যন্তরীণ বন্দরে একটি ভৌতিক এবং আইনি নোঙর হিসেবে কাজ করে। আমরা ইউরোপীয় আমদানি নিয়ম (ESPR 2027) অতিক্রম করার জন্য ইনফ্রাস্ট্রাকচার প্রদান করি।</p><h3>জার্মান রেগুলেশনের সাথে প্রযুক্তির মিলন</h3><p>যখন এশীয় অংশীদাররা উৎপাদন পরিচালনা করে, আমরা নিশ্চিত করি যে প্রতিটি পণ্য Base L2 এবং NTAG 424 DNA সহ একটি ডিজিটাল পাসপোর্ট পায়।</p><h3>আপনার কমপ্লায়েন্স। আমাদের ব্যবসা।</h3><p>আমরা প্রযুক্তিগত জটিলতা এবং আইনি দায়িত্ব সামলাই। কোনো কাস্টমস বিলম্ব ছাড়াই রপ্তানি করুন। অসীমভাবে প্রসারিত করুন।</p>"
+        },
+        "tech": {
+            "nav": "প্রযুক্তি",
+            "title": "উন্নত Web3 টেক স্ট্যাক",
+            "subtitle": "টেম্পার-প্রুফ রপ্তানির জন্য ইন্ডাস্ট্রিয়াল SaaS ইনফ্রাস্ট্রাকচার।",
+            "sidebar": "SaaS প্ল্যাটফর্ম ক্রিপ্টোগ্রাফিক হার্ডওয়্যার (NXP) কে স্মার্ট কন্ট্রাক্টস (Base L2)-এর সাথে যুক্ত করে, ১০০% ইনভিজিবল ওয়ালেটের মাধ্যমে সহজ।",
+            "content": "<h3>পরবর্তী প্রজন্মের আর্কিটেকচার</h3><p class='text-white/60 max-w-3xl mb-8'>আমরা শক্তিশালী হার্ডওয়্যারের সাথে Web3 সফটওয়্যারকে মিলিয়েছি। SaaS প্রদানকারী হিসেবে, আমরা ব্যাকএন্ড সামলাই যখন আপনি কমপ্লায়েন্স ঝুঁকি দূর করেন।</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (হার্ডওয়্যার নোঙর)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">QR কোড জালিয়াতির বিরুদ্ধে কার্যকর নয়। আমরা NXP-এর এনক্রিপ্টেড NFC চিপ ব্যবহার করি যা DPP-এর জন্য একটি নিরাপদ সেতু তৈরি করে।</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (নিরাপদ লেজার)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">পণ্যের পরিচয় Base (Ethereum L2)-এ স্থায়ীভাবে রেকর্ড করা হয়, যা সর্বনিম্ন খরচে সর্বোচ্চ নিরাপত্তা এবং স্কেলেবিলিটি নিশ্চিত করে।</p>\n            </div>\n        </div></div>"
+        }
     }
 };
 
