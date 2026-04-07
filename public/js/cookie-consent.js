@@ -1,9 +1,5 @@
-/**
- * THE GATEKEEPER: Cloudflare-Style Cookie Consent Logic
- * Build 20.0 - B2B Industrial Compliance
- */
-
-const STORAGE_KEY = 'ocpp_consent_v20';
+const STORAGE_KEY = 'ocpp_consent_session_v21';
+const EXPIRY_TIME = 15 * 60 * 1000; // 15 Minutes in milliseconds
 
 function initCookieGatekeeper() {
     const barrier = document.getElementById('cookie-barrier');
@@ -12,34 +8,51 @@ function initCookieGatekeeper() {
     const rejectBtn = document.getElementById('cookie-reject');
     const settingsBtn = document.getElementById('cookie-settings');
 
-    // Removed the persistent check to force Gatekeeper on EVERY reload
-    showGatekeeper();
+    // Check session storage first
+    const sessionData = sessionStorage.getItem(STORAGE_KEY);
+    let shouldShow = true;
+
+    if (sessionData) {
+        try {
+            const data = JSON.parse(sessionData);
+            const now = new Date().getTime();
+            const savedTime = new Date(data.timestamp).getTime();
+            
+            // If less than 15 mins passed, don't show
+            if (now - savedTime < EXPIRY_TIME) {
+                shouldShow = false;
+            }
+        } catch (e) {
+            console.error('Consent parse error', e);
+        }
+    }
+
+    if (shouldShow) {
+        showGatekeeper();
+    } else {
+        // Ensure page is unlocked if consent is still valid
+        document.body.classList.remove('cookie-lock');
+        barrier.classList.remove('show');
+    }
 
     function showGatekeeper() {
-        // Lock the page
         document.body.classList.add('cookie-lock');
-        
-        // Use a tiny delay to ensure CSS opacity transition is visible
         setTimeout(() => {
             barrier.classList.add('show');
         }, 100);
         
-        // Start cosmetic progress bar
         setTimeout(() => {
             if (pbar) pbar.classList.add('active');
         }, 500);
     }
 
     function hideGatekeeper(type) {
-        // Save consent
         const data = {
             timestamp: new Date().toISOString(),
-            choice: type,
-            version: '20.0'
+            choice: type
         };
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        sessionStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 
-        // Unlock page with animation
         barrier.style.transition = 'opacity 500ms ease-out';
         barrier.classList.remove('show');
         
@@ -47,7 +60,6 @@ function initCookieGatekeeper() {
             document.body.classList.remove('cookie-lock');
         }, 500);
 
-        // Custom event for downstream scripts
         window.dispatchEvent(new CustomEvent('ocpp-consent-updated', { detail: data }));
     }
 
