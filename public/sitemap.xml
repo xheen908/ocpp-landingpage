@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepages -->
-  <url><loc>https://ocpp-labs.com/de-de/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ocpp-labs.com/en-us/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ocpp-labs.com/vi-vn/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ocpp-labs.com/th-th/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-cn/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-tw/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-
-  <!-- About Us (Build 15.0) -->
-  <url><loc>https://ocpp-labs.com/de-de/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocpp-labs.com/en-us/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocpp-labs.com/vi-vn/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocpp-labs.com/th-th/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-cn/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-tw/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <!-- Legal Imprint -->
-  <url><loc>https://ocpp-labs.com/de-de/legal/imprint</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/en-us/legal/imprint</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/vi-vn/legal/imprint</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/th-th/legal/imprint</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-cn/legal/imprint</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-tw/legal/imprint</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-
-  <!-- Legal Privacy -->
-  <url><loc>https://ocpp-labs.com/de-de/legal/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/en-us/legal/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/vi-vn/legal/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/th-th/legal/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-cn/legal/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-tw/legal/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-
-  <!-- Legal Terms -->
-  <url><loc>https://ocpp-labs.com/de-de/legal/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/en-us/legal/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/vi-vn/legal/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/th-th/legal/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-cn/legal/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://ocpp-labs.com/zh-tw/legal/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ocpp-labs.com/en-us/</loc>
+    <xhtml:link rel="alternate" hreflang="de-de" href="https://ocpp-labs.com/de-de/"/>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://ocpp-labs.com/en-us/"/>
+    <xhtml:link rel="alternate" hreflang="vi-vn" href="https://ocpp-labs.com/vi-vn/"/>
+    <xhtml:link rel="alternate" hreflang="th-th" href="https://ocpp-labs.com/th-th/"/>
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://ocpp-labs.com/zh-cn/"/>
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ocpp-labs.com/zh-tw/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ocpp-labs.com/en-us/technology</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ocpp-labs.com/en-us/about-us</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>

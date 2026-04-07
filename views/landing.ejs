@@ -16,6 +16,19 @@
     <link rel="alternate" hreflang="zh-tw" href="https://ocpp-labs.com/zh-tw/">
     <link rel="alternate" hreflang="x-default" href="https://ocpp-labs.com/en-us/">
 
+    <!-- Social Preview: Open Graph (LinkedIn/Meta) -->
+    <meta property="og:title" content="<%= t.metaTitle %>">
+    <meta property="og:description" content="<%= t.metaDesc %>">
+    <meta property="og:image" content="https://ocpp-labs.com/assets/hero-elite.png">
+    <meta property="og:url" content="https://ocpp-labs.com/<%= t.lang %>/">
+    <meta property="og:type" content="website">
+
+    <!-- Social Preview: Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= t.metaTitle %>">
+    <meta name="twitter:description" content="<%= t.metaDesc %>">
+    <meta name="twitter:image" content="https://ocpp-labs.com/assets/hero-elite.png">
+
     <!-- JSON-LD Structured Data (Machine Readability & AI Agents) -->
     <script type="application/ld+json">
     {
@@ -34,11 +47,24 @@
           }
         },
         {
+          "@type": "LocalBusiness",
+          "name": "OCPP Solution UG (OCPP-Labs)",
+          "image": "https://ocpp-labs.com/assets/hero-elite.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Duisburg",
+            "addressRegion": "NRW",
+            "addressCountry": "DE"
+          },
+          "description": "Gateway for European ESPR 2027 Compliance at Port of Duisburg.",
+          "url": "https://ocpp-labs.com"
+        },
+        {
           "@type": "TechArticle",
           "headline": "OCPP-Labs: Die Zukunft der ESPR-Compliance (DPP)",
           "description": "<%= t.metaDesc %>",
           "author": { "@id": "https://ocpp-labs.com/#organization" },
-          "keywords": ["Digital Product Passport", "ESPR 2027", "Battery Passport", "NTAG 424 DNA", "Base L2 Blockchain"]
+          "keywords": ["Digital Product Passport", "ESPR 2027", "Battery Passport", "Textiles Compliance", "Duisburg Gateway", "Base L2 Blockchain"]
         },
         {
           "@type": "FAQPage",
@@ -149,7 +175,7 @@
                     <div class="article-row max-w-7xl mx-auto px-6 md:px-12">
                         <div class="article-image-container flex-1.2 relative">
                             <div class="article-glow"></div>
-                            <img src="/assets/slider-1.png" alt="SaaS Scanning Platform" class="w-full h-auto">
+                            <img src="/assets/slider-1.png" alt="SaaS Scanning Platform - ESPR Compliance Gateway Duisburg" class="w-full h-auto">
                         </div>
                         <div class="article-text-container flex-1">
                             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
@@ -170,7 +196,7 @@
                     <div class="article-row article-row-reverse max-w-7xl mx-auto px-6 md:px-12">
                         <div class="article-image-container flex-1.2 relative">
                             <div class="article-glow"></div>
-                            <img src="/assets/slider-2.png" alt="Royalty Revenue Stream" class="w-full h-auto">
+                            <img src="/assets/slider-2.png" alt="Royalty Revenue Stream - Passive Income through Tokenized Export" class="w-full h-auto">
                         </div>
                         <div class="article-text-container flex-1 text-right md:text-left">
                             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
@@ -191,7 +217,7 @@
                     <div class="article-row max-w-7xl mx-auto px-6 md:px-12">
                         <div class="article-image-container flex-1.2 relative">
                             <div class="article-glow"></div>
-                            <img src="/assets/tech-wall-1.png" alt="Invisible Wallets" class="w-full h-auto">
+                            <img src="/assets/tech-wall-1.png" alt="Invisible Wallets - Seamless Account Abstraction for B2B Export" class="w-full h-auto">
                         </div>
                         <div class="article-text-container flex-1">
                             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
@@ -212,7 +238,7 @@
                     <div class="article-row article-row-reverse max-w-7xl mx-auto px-6 md:px-12">
                         <div class="article-image-container flex-1.2 relative">
                             <div class="article-glow"></div>
-                            <img src="/assets/tech-wall-2.png" alt="Tokenized Exports" class="w-full h-auto">
+                            <img src="/assets/tech-wall-2.png" alt="Tokenized Exports - Digital Twins on Blockchain for Battery Passports" class="w-full h-auto">
                         </div>
                         <div class="article-text-container flex-1 text-right md:text-left">
                             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
@@ -233,7 +259,7 @@
                     <div class="article-row max-w-7xl mx-auto px-6 md:px-12">
                         <div class="article-image-container flex-1.2 relative">
                             <div class="article-glow"></div>
-                            <img src="/assets/tech-wall-3.png" alt="High Performance Ledger" class="w-full h-auto">
+                            <img src="/assets/tech-wall-3.png" alt="High Performance Ledger - Base L2 Secure Blockchain Gateway" class="w-full h-auto">
                         </div>
                         <div class="article-text-container flex-1">
                             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
@@ -254,7 +280,7 @@
                     <div class="article-row article-row-reverse max-w-7xl mx-auto px-6 md:px-12">
                         <div class="article-image-container flex-1.2 relative">
                             <div class="article-glow"></div>
-                            <img src="/assets/tech-wall-4.png" alt="NXP Secure Element" class="w-full h-auto">
+                            <img src="/assets/tech-wall-4.png" alt="NXP Secure Element - Unforgeable Identity for German Export Products" class="w-full h-auto">
                         </div>
                         <div class="article-text-container flex-1 text-right md:text-left">
                             <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
