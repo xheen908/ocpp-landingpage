@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'ocpp_consent_session_v21';
+const STORAGE_KEY = 'v-leadger_consent_session_v21';
 const EXPIRY_TIME = 15 * 60 * 1000; // 15 Minutes in milliseconds
 
 function initCookieGatekeeper() {
@@ -60,7 +60,7 @@ function initCookieGatekeeper() {
             document.body.classList.remove('cookie-lock');
         }, 500);
 
-        window.dispatchEvent(new CustomEvent('ocpp-consent-updated', { detail: data }));
+        window.dispatchEvent(new CustomEvent('v-leadger-consent-updated', { detail: data }));
     }
 
     // Event Listeners

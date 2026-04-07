@@ -1,5 +1,5 @@
 {
-  "name": "ocpp-landingpage",
+  "name": "v-leadger-landingpage",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {

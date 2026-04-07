@@ -138,7 +138,7 @@ app.post('/api/contact', async (req, res) => {
     try {
         if (process.env.MAIL_USER && process.env.OAUTH_REFRESH_TOKEN) {
             await transporter.sendMail({
-                from: `"V-Ledger Lead" <${process.env.MAIL_USER}>`,
+                from: `"V-Leadger Lead" <${process.env.MAIL_USER}>`,
                 to: process.env.MAIL_USER, 
                 subject: `New Lead: ${name} (${email})`,
                 text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
@@ -153,5 +153,5 @@ app.post('/api/contact', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`V-Ledger Landingpage (SSR v5.0) running on Port ${PORT}`);
+    console.log(`V-Leadger Landingpage (SSR v5.0) running on Port ${PORT}`);
 });

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://v-ledger.com/sitemap.xml
+Sitemap: https://v-leadger.com/sitemap.xml
