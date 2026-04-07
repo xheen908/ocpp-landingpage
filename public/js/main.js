@@ -166,8 +166,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 let itemProgress = (totalProgress - itemStart) / itemStep;
                 itemProgress = Math.max(0, Math.min(1, itemProgress));
 
-                // Layering logic: Active item gets highest z-index
+                // Layering logic
                 item.style.zIndex = totalItems - index;
+
+                // SPECIAL LOGIC FOR FIRST ITEM: Always visible at start
+                const isFirstItemAtStart = (index === 0 && totalProgress === 0);
 
                 if (index < totalItems - 1) {
                     if (itemProgress > 0.5) {
@@ -177,14 +180,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         item.style.opacity = 1 - factor;
                         item.style.pointerEvents = 'none';
                         item.style.visibility = 'visible';
-                    } else if (itemProgress > 0) {
+                    } else if (itemProgress > 0 || isFirstItemAtStart) {
                         // Active phase (sitting still)
                         item.style.transform = 'translateX(0) translateY(0) rotate(0)';
                         item.style.opacity = '1';
                         item.style.pointerEvents = 'auto';
                         item.style.visibility = 'visible';
                     } else {
-                        // Waiting phase (hidden below the current one)
+                        // Waiting phase
                         item.style.opacity = '0';
                         item.style.visibility = 'hidden';
                         item.style.pointerEvents = 'none';

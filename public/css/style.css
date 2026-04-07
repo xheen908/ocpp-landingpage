@@ -307,8 +307,14 @@ input[type=number] {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
     will-change: transform, opacity;
+}
+
+/* First slide is visible by default to prevent black gap on entry */
+.article-row-stack[data-index="0"] {
+    opacity: 1;
+    visibility: visible;
 }
 
 .article-row-stack .article-row {
