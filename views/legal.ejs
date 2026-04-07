@@ -30,8 +30,11 @@
             </a>
         </div>
 
-        <div class="apple-glass p-8 md:p-16 rounded-[3rem] border border-white/10 prose prose-invert max-w-none">
-            <div class="legal-content text-white/80 leading-relaxed font-medium">
+        <div class="apple-glass p-8 md:p-20 rounded-[3.5rem] border border-white/10 relative overflow-hidden group shadow-2xl">
+            <!-- Decorative Glow -->
+            <div class="absolute -top-24 -right-24 w-64 h-64 bg-[#a88c5a]/10 blur-[100px] rounded-full pointer-events-none group-hover:bg-[#a88c5a]/20 transition-all duration-1000"></div>
+            
+            <div class="legal-content text-white/80 leading-relaxed font-medium relative z-10">
                 <%- t.legal.content[type] %>
             </div>
         </div>
