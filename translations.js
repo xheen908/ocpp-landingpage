@@ -203,6 +203,14 @@ const translations = {
         "lang": "vi-vn",
         "metaTitle": "OCPP-Labs | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
         "metaDesc": "OCPP-Labs (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin và dệt may. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
+        "cookie": {
+            "title": "KIỂM TRA AN NINH & TUÂN THỦ",
+            "msg": "Để bảo mật quyền truy cập vào hạ tầng OCPP và đảm bảo tuân thủ EU, chúng tôi sử dụng các mã định danh mã hóa (Cookies). Hãy xác nhận danh tính và tùy chọn của bạn.",
+            "accept": "CẤP QUYỀN TRUY CẬP (TẤT CẢ)",
+            "reject": "TRUY CẬP TỐI THIỂU",
+            "settings": "TÙY CHỌN",
+            "checking": "Đang kiểm tra hệ thống..."
+        },
         "faqs": [
             {
                 "q": "Giải pháp NFT as a Service là gì?",
@@ -275,6 +283,14 @@ const translations = {
         "lang": "th-th",
         "metaTitle": "OCPP-Labs | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
         "metaDesc": "OCPP-Labs (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่และสิ่งทอ พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
+        "cookie": {
+            "title": "การตรวจสอบความปลอดภัยและข้อกำหนด",
+            "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ OCPP และเพื่อให้เป็นไปตามกฎระเบียบของ EU เราใช้ตัวระบุรหัสประจำตัว (Cookies) โปรดยืนยันตัวตนและความต้องการของคุณ",
+            "accept": "อนุญาตการเข้าถึง (ทั้งหมด)",
+            "reject": "การเข้าถึงขั้นต่ำ",
+            "settings": "การตั้งค่า",
+            "checking": "กำลังตรวจสอบระบบ..."
+        },
         "faqs": [
             {
                 "q": "NFT as a Service ของคุณคืออะไร?",
@@ -347,6 +363,14 @@ const translations = {
         "lang": "zh-cn",
         "metaTitle": "OCPP-Labs | ESPR 合规与数字产品护照 (DPP)",
         "metaDesc": "OCPP-Labs (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
+        "cookie": {
+            "title": "安全与合规检查",
+            "msg": "为了确保访问 OCPP 基础设施的安全并符合欧盟合规要求，我们使用加密识别符 (Cookies)。请确认您的身份和偏好。",
+            "accept": "授予访问权限 (所有)",
+            "reject": "最小权限访问",
+            "settings": "偏好设置",
+            "checking": "系统检查中..."
+        },
         "faqs": [
             {
                 "q": "什么是 NFT as a Service 解决方案？",
@@ -423,6 +447,14 @@ const translations = {
         "lang": "zh-tw",
         "metaTitle": "OCPP-Labs | ESPR 合規與數位產品護照 (DPP)",
         "metaDesc": "OCPP-Labs (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
+        "cookie": {
+            "title": "安全與合規檢查",
+            "msg": "為了確保訪問 OCPP 基礎設施的安全並符合歐盟合規要求，我們使用加密識別符 (Cookies)。請確認您的身份和偏好。",
+            "accept": "授予訪問權限 (所有)",
+            "reject": "最小權限訪問",
+            "settings": "偏好設置",
+            "checking": "系統檢查中..."
+        },
         "faqs": [
             {
                 "q": "什麼是 NFT as a Service 解決方案？",
