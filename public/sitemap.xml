@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ocpp-labs.com/en-us/</loc>
-    <xhtml:link rel="alternate" hreflang="de-de" href="https://ocpp-labs.com/de-de/"/>
-    <xhtml:link rel="alternate" hreflang="en-us" href="https://ocpp-labs.com/en-us/"/>
-    <xhtml:link rel="alternate" hreflang="vi-vn" href="https://ocpp-labs.com/vi-vn/"/>
-    <xhtml:link rel="alternate" hreflang="th-th" href="https://ocpp-labs.com/th-th/"/>
-    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://ocpp-labs.com/zh-cn/"/>
-    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://ocpp-labs.com/zh-tw/"/>
+    <loc>https://v-ledger.com/en-us/</loc>
+    <xhtml:link rel="alternate" hreflang="de-de" href="https://v-ledger.com/de-de/"/>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://v-ledger.com/en-us/"/>
+    <xhtml:link rel="alternate" hreflang="vi-vn" href="https://v-ledger.com/vi-vn/"/>
+    <xhtml:link rel="alternate" hreflang="th-th" href="https://v-ledger.com/th-th/"/>
+    <xhtml:link rel="alternate" hreflang="zh-cn" href="https://v-ledger.com/zh-cn/"/>
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://v-ledger.com/zh-tw/"/>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ocpp-labs.com/en-us/technology</loc>
+    <loc>https://v-ledger.com/en-us/technology</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ocpp-labs.com/en-us/about-us</loc>
+    <loc>https://v-ledger.com/en-us/about-us</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

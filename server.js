@@ -138,7 +138,7 @@ app.post('/api/contact', async (req, res) => {
     try {
         if (process.env.MAIL_USER && process.env.OAUTH_REFRESH_TOKEN) {
             await transporter.sendMail({
-                from: `"OCPP-Labs Lead" <${process.env.MAIL_USER}>`,
+                from: `"V-Ledger Lead" <${process.env.MAIL_USER}>`,
                 to: process.env.MAIL_USER, 
                 subject: `New Lead: ${name} (${email})`,
                 text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,

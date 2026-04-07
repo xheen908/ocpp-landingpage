@@ -27,7 +27,7 @@ const translations = {
         "p4h": "NXP Secure Hardware.",
         "p4d": "Physische Anker verknüpfen Ihre Ware mit unseren NFTs und sichern den Wert Ihrer Marke vom Werk bis zum Recycling.",
         "quote": "\"Der EU-Marktzugang 2027 ist kein Risiko mehr, sondern ein Wettbewerbsvorteil gegenüber der Konkurrenz.\"",
-        "quotesub": "— OCPP-LABS // THE EXPORT GATEWAY",
+        "quotesub": "— v-ledger // THE EXPORT GATEWAY",
         "badge": "Specialized for Batteries, Textiles & Watches // SEA Export",
         "calcH": "Profit Calculator",
         "calcV": "Export-Volumen (Einheiten/Jahr)",
@@ -35,8 +35,8 @@ const translations = {
         "calcF": "Royalty-Gebühr (€/Einheit)",
         "calcP": "Jährlicher Passiv-Gewinn:",
         "lang": "de-de",
-        "metaTitle": "OCPP-Labs | ESPR Compliance & Digitaler Produktpass (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburg) bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
+        "metaTitle": "V-Ledger | ESPR Compliance & Digitaler Produktpass (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "Um den Zugriff auf die OCPP-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
@@ -79,8 +79,8 @@ const translations = {
             "back": "Zurück zur Startseite",
             "agree": "Ich stimme der Datenverarbeitung gemäß der",
             "content": {
-                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Impressum</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Angaben gemäß § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>OCPP Solution UG (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Deutschland</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Vertreten durch</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Geschäftsführer)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Kontakt</h3><p class='text-white/60 leading-relaxed font-medium'>E-Mail: <a href='mailto:info@ocpp-labs.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@ocpp-labs.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telefonische Erreichbarkeit in Arbeit.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Registereintrag</h3><p class='text-white/60 leading-relaxed font-medium'>Amtsgericht Duisburg<br>Registernummer: In Gründung / In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Umsatzsteuer-ID</h3><p class='text-white/60 leading-relaxed font-medium'>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU-Streitbeilegung</h3><p class='text-white/40 text-sm leading-relaxed'>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p></section></div>",
-                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Datenschutzerklärung</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Verantwortlicher</h3><p class='text-white/60 leading-relaxed font-medium'>OCPP Solution UG (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>E-Mail: <a href='mailto:info@ocpp-labs.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@ocpp-labs.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Datenerhebung</h3><p class='text-white/60 leading-relaxed font-medium'>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage oder zur Vorbereitung eines Audits. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Speicherdauer</h3><p class='text-white/60 leading-relaxed font-medium'>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Ihre Rechte</h3><p class='text-white/60 leading-relaxed font-medium'>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten gemäß Art. 15-21 DSGVO.</p></section></div>",
+                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Impressum</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Angaben gemäß § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>OCPP Solution UG (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Deutschland</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Vertreten durch</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Geschäftsführer)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Kontakt</h3><p class='text-white/60 leading-relaxed font-medium'>E-Mail: <a href='mailto:info@v-ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telefonische Erreichbarkeit in Arbeit.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Registereintrag</h3><p class='text-white/60 leading-relaxed font-medium'>Amtsgericht Duisburg<br>Registernummer: In Gründung / In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Umsatzsteuer-ID</h3><p class='text-white/60 leading-relaxed font-medium'>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU-Streitbeilegung</h3><p class='text-white/40 text-sm leading-relaxed'>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p></section></div>",
+                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Datenschutzerklärung</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Verantwortlicher</h3><p class='text-white/60 leading-relaxed font-medium'>OCPP Solution UG (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>E-Mail: <a href='mailto:info@v-ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Datenerhebung</h3><p class='text-white/60 leading-relaxed font-medium'>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage oder zur Vorbereitung eines Audits. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Speicherdauer</h3><p class='text-white/60 leading-relaxed font-medium'>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Ihre Rechte</h3><p class='text-white/60 leading-relaxed font-medium'>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten gemäß Art. 15-21 DSGVO.</p></section></div>",
                 "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>AGB</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Geltungsbereich</h3><p class='text-white/60 leading-relaxed font-medium'>Unsere Dienstleistungen richten sich ausschließlich an B2B-Kunden (Unternehmer) im Bereich Export-Compliance und digitale Produktpässe.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Leistungsumfang</h3><p class='text-white/60 leading-relaxed font-medium'>Wir bieten SaaS-Lösungen zur Erstellung von DPPs via Blockchain-Technologie und NXP-Hardware-Integration.</p></section></div>"
             }
         },
@@ -126,7 +126,7 @@ const translations = {
         "p4h": "NXP Secure Hardware.",
         "p4d": "Physical anchors link your goods with our NFTs and secure your brand value from factory to recycling.",
         "quote": "\"EU market access 2027 is no longer a risk. It’s your ultimate competitive advantage in the global market.\"",
-        "quotesub": "— OCPP-LABS // THE EXPORT GATEWAY",
+        "quotesub": "— v-ledger // THE EXPORT GATEWAY",
         "badge": "Specialized for Batteries, Textiles & Watches // SEA Export",
         "calcH": "Profit Calculator",
         "calcV": "Export Volume (Units/Year)",
@@ -134,8 +134,8 @@ const translations = {
         "calcF": "Royalty Fee (€/Unit)",
         "calcP": "Annual Passive Profit:",
         "lang": "en-us",
-        "metaTitle": "OCPP-Labs | ESPR Compliance & Battery Passport (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburg) provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        "metaTitle": "V-Ledger | ESPR Compliance & Battery Passport (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "To secure access to the OCPP infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
@@ -178,8 +178,8 @@ const translations = {
             "back": "Back to Home",
             "agree": "I agree to data processing according to the",
             "content": {
-                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>OCPP Solution UG (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@ocpp-labs.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@ocpp-labs.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
-                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>OCPP Solution UG (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@ocpp-labs.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@ocpp-labs.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
+                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>OCPP Solution UG (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@v-ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
+                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>OCPP Solution UG (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@v-ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
                 "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Terms of Service</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Application</h3><p class='text-white/60 leading-relaxed font-medium'>Our services are exclusively directed at B2B customers (entrepreneurs) in the field of export compliance and digital product passports.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Services</h3><p class='text-white/60 leading-relaxed font-medium'>We provide SaaS solutions for the creation of DPPs via blockchain technology and NXP hardware integration.</p></section></div>"
             }
         },
@@ -203,7 +203,8 @@ const translations = {
         "cta": "Bắt đầu Kiểm tra Xuất khẩu 2027",
         "madeInGermany": "Kỹ thuật Đức & An ninh Pháp lý",
         "mHeader": "Kiểm tra Đối tác Chiến lược",
-        "footerH2": "DẪN ĐẦU: PIN & DỆT MAY.",
+        "faqNav": "FAQ",
+        "footerH2": "NGƯỜI ĐI ĐẦU: PIN, DỆT MAY & ĐỒNG HỒ.",
         "footerP": "Hãy là nhà xuất khẩu đầu tiên làm thủ tục hải quan EU mà không gặp trở ngại nào. Chúng tôi đang tuyển chọn đối tác chiến lược.",
         "contact": "Yêu cầu Kiểm tra",
         "copy": "&copy; 2026 OCPP-Solution UG // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG. TẤT CẢ QUYỀN ĐƯỢC BẢO LƯU.",
@@ -224,16 +225,16 @@ const translations = {
         "p4h": "Phần cứng Bảo mật NXP.",
         "p4d": "Mỏ neo vật lý liên kết hàng hóa với NFT, bảo vệ giá trị thương hiệu từ nhà máy đến tái chế.",
         "quote": "\"Truy cập thị trường EU 2027 không còn là rủi ro. Đó là lợi thế cạnh tranh tối thượng của bạn trên thị trường toàn cầu.\"",
-        "quotesub": "— OCPP-LABS // CỔNG XUẤT KHẨU CHÂU ÂU",
-        "badge": "Pin & Dệt may // SEA Export",
+        "quotesub": "— v-ledger // CỔNG XUẤT KHẨU CHÂU ÂU",
+        "badge": "Chuyên dùng cho Pin, Dệt may & Đồng hồ // SEA Export",
         "calcH": "Công cụ Tính Lợi nhuận",
         "calcV": "Sản lượng Xuất khẩu (Sản phẩm/Năm)",
         "calcR": "Tỷ lệ Bán lại (%)",
         "calcF": "Phí Bản quyền (€/Sản phẩm)",
         "calcP": "Lợi nhuận Thụ động Hàng năm:",
         "lang": "vi-vn",
-        "metaTitle": "OCPP-Labs | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin và dệt may. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
+        "metaTitle": "V-Ledger | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin, dệt may và đồng hồ. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
         "cookie": {
             "title": "KIỂM TRA AN NINH & TUÂN THỦ",
             "msg": "Để bảo mật quyền truy cập vào hạ tầng OCPP và đảm bảo tuân thủ EU, chúng tôi sử dụng các mã định danh mã hóa (Cookies). Hãy xác nhận danh tính và tùy chọn của bạn.",
@@ -242,14 +243,31 @@ const translations = {
             "settings": "TÙY CHỌN",
             "checking": "Đang kiểm tra hệ thống..."
         },
+        "faqTitle": "Các câu hỏi thường gặp (FAQ)",
         "faqs": [
             {
-                "q": "Giải pháp NFT as a Service là gì?",
-                "a": "Nền tảng SaaS của chúng tôi token hóa chuỗi cung ứng và tự động tạo ra những NFT (Hộ chiếu Sản phẩm Số) không thể làm giả."
+                "q": "Giải pháp NFT as a Service của bạn là gì?",
+                "a": "Nền tảng SaaS của chúng tôi mã hóa chuỗi cung ứng của bạn và tự động tạo ra các NFT (Hộ chiếu sản phẩm kỹ thuật số) không thể giả mạo cho hàng xuất khẩu EU của bạn."
             },
             {
-                "q": "Royalty mà không cần ví Crypto ư?",
-                "a": "Thông qua Account Abstraction và Ví Vô hình, nền tảng của chúng tôi ẩn toàn bộ sự phức tạp của blockchain. Bạn nhận phí bản quyền bằng Euro / USDT."
+                "q": "Tại sao sử dụng Phần cứng Bảo mật NXP?",
+                "a": "Mã QR rất dễ bị sao chép. Chúng tôi sử dụng chip mã hóa NTAG 424 DNA để tạo ra một cầu nối chống giả mạo giữa hàng hóa vật lý và NFT của chúng."
+            },
+            {
+                "q": "Phí bản quyền hoạt động như thế nào nếu không có ví điện tử?",
+                "a": "Thông qua Account Abstraction và Ví ẩn (Invisible Wallets), nền tảng SaaS của chúng tôi xử lý tất cả sự phức tạp của blockchain. Bạn nhận được phí bản quyền trực tiếp bằng Euro hoặc USDT."
+            },
+            {
+                "q": "Giải pháp có tuân thủ EU ESPR 2027 không?",
+                "a": "Có, nền tảng của chúng tôi được thiết kế đặc biệt để đáp ứng các yêu cầu của Quy định thiết kế sinh thái cho sản phẩm bền vững (ESPR), bao gồm cả Hộ chiếu sản phẩm kỹ thuật số bắt buộc."
+            },
+            {
+                "q": "Những ngành công nghiệp nào hiện đang được hỗ trợ?",
+                "a": "Chúng tôi hiện đang tập trung vào các lĩnh vực có nhu cầu tuân thủ cao nhất: Pin, Dệt may và Đồng hồ cao cấp/Hàng xa xỉ."
+            },
+            {
+                "q": "Quy trình kiểm toán hoạt động như thế nào?",
+                "a": "Trong quá trình kiểm toán, chúng tôi phân tích cơ sở hạ tầng xuất khẩu hiện tại của bạn và lập lộ trình tích hợp blockchain và gắn thẻ phần cứng cho sản phẩm của bạn."
             }
         ],
         "legal": {
@@ -259,7 +277,7 @@ const translations = {
             "back": "Quay lại Trang chủ",
             "agree": "Tôi đồng ý xử lý dữ liệu theo",
             "content": {
-                "imprint": "<h1>Thông tin Pháp lý</h1><p>OCPP Solution UG (Duisburg)<br>Email: info@ocpp-labs.com</p>",
+                "imprint": "<h1>Thông tin Pháp lý</h1><p>OCPP Solution UG (Duisburg)<br>Email: info@v-ledger.com</p>",
                 "privacy": "<h1>Chính sách Bảo mật (GDPR)</h1><p>Chúng tôi coi trọng việc bảo mật dữ liệu của bạn...</p>",
                 "terms": "<h1>Điều khoản Dịch vụ</h1><p>Dịch vụ của chúng tôi dành riêng cho khách hàng B2B.</p>"
             }
@@ -284,7 +302,8 @@ const translations = {
         "cta": "เริ่มการตรวจสอบการส่งออกปี 2027",
         "madeInGermany": "วิศวกรรมเยอรมันและความปลอดภัยทางกฎหมาย",
         "mHeader": "การประเมินพันธมิตรรเชิงกลยุทธ์",
-        "footerH2": "ผู้นำกลุ่มแรก: แบตเตอรี่และสิ่งทอ",
+        "faqNav": "FAQ",
+        "footerH2": "ผู้นำกลุ่มแรก: แบตเตอรี่ สิ่งทอ และนาฬิกา",
         "footerP": "เป็นผู้ส่งออกรายแรกที่สินค้าผ่านพิธีการศุลกากร EU ได้อย่างรวดเร็วในปี 2027 เรากำลังเปิดรับพันธมิตรเชิงกลยุทธ์",
         "contact": "ขอรับการประเมิน",
         "copy": "&copy; 2026 OCPP-Solution UG // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง สงวนลิขสิทธิ์ทั้งหมด",
@@ -305,16 +324,16 @@ const translations = {
         "p4h": "ฮาร์ดแวร์ NXP",
         "p4d": "ตัวเชื่อมต่อฮาร์ดแวร์ผสานสินค้าของคุณเข้ากับ NFT ปกป้องคุณค่าของแบรนด์คุณจากโรงงานสู่การรีไซเคิล",
         "quote": "\"การเข้าถึงตลาด EU 2027 จะไม่ใช่ความเสี่ยงอีกต่อไป แต่มันคืออาวุธลับในการแข่งขันระดับสากลของคุณ\"",
-        "quotesub": "— OCPP-LABS // ช่องทางสู่การส่งออกยุโรป",
-        "badge": "แบตเตอรี่และสิ่งทอ // SEA Export",
+        "quotesub": "— v-ledger // ช่องทางสู่การส่งออกยุโรป",
+        "badge": "แบตเตอรี่ สิ่งทอ และนาฬิกา // SEA Export",
         "calcH": "เครื่องคำนวณกำไร",
         "calcV": "ปริมาณการส่งออก (ชิ้น/ปี)",
         "calcR": "อัตราการขายต่อ (%)",
         "calcF": "ค่าลิขสิทธิ์ (€/ชิ้น)",
         "calcP": "กำไรต่อเนื่องต่อปี:",
         "lang": "th-th",
-        "metaTitle": "OCPP-Labs | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่และสิ่งทอ พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
+        "metaTitle": "V-Ledger | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่ สิ่งทอ และนาฬิกา พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
         "cookie": {
             "title": "การตรวจสอบความปลอดภัยและข้อกำหนด",
             "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ OCPP และเพื่อให้เป็นไปตามกฎระเบียบของ EU เราใช้ตัวระบุรหัสประจำตัว (Cookies) โปรดยืนยันตัวตนและความต้องการของคุณ",
@@ -323,14 +342,31 @@ const translations = {
             "settings": "การตั้งค่า",
             "checking": "กำลังตรวจสอบระบบ..."
         },
+        "faqTitle": "คำถามที่พบบ่อย (FAQ)",
         "faqs": [
             {
-                "q": "NFT as a Service ของคุณคืออะไร?",
-                "a": "แพลตฟอร์ม SaaS ของเราทำให้ห่วงโซ่อุปทานของคุณเป็นโทะเคน และสร้าง NFT (Digital Product Passport) ให้โดยอัตโนมัติและไม่สามารถปลอมแปลงได้"
+                "q": "โซลูชัน NFT as a Service ของคุณคืออะไร?",
+                "a": "แพลตฟอร์ม SaaS ของเราแปลงห่วงโซ่อุปทานของคุณให้เป็นโทเค็น และสร้าง NFT (พาสปอร์ตดิจิทัลของผลิตภัณฑ์) ที่ปลอมแปลงไม่ได้โดยอัตโนมัติสำหรับการส่งออกไปยัง EU"
             },
             {
-                "q": "ได้ค่าลิขสิทธิ์โดยไม่ต้องมีกระเป๋าคริปโต?",
-                "a": "ผ่าน Account Abstraction และ Invisible Wallets แพลตฟอร์มของเราจัดการความซับซ้อนของบล็อคเชนให้ คุณแค่รับค่าลิขสิทธิ์เป็นยูโรหรือ USDT"
+                "q": "ทำไมต้องใช้ NXP Secure Hardware?",
+                "a": "รหัส QR ถูกคัดลอกได้ง่าย เราใช้ชิป NTAG 424 DNA เพื่อสร้างสะพานที่ป้องกันการปลอมแปลงระหว่างสินค้าทางกายภาพและ NFT"
+            },
+            {
+                "q": "ค่าลิขสิทธิ์ทำงานอย่างไรโดยไม่ต้องมีกระเป๋าคริปโต?",
+                "a": "ผ่าน Account Abstraction และ Invisible Wallets แพลตฟอร์ม SaaS ของเราจัดการความซับซ้อนของบล็อกเชนทั้งหมด คุณได้รับค่าลิขสิทธิ์จากการขายต่อโดยตรงเป็นยูโรหรือ USDT"
+            },
+            {
+                "q": "โซลูชันนี้เป็นไปตาม EU ESPR 2027 หรือไม่?",
+                "a": "ใช่ แพลตฟอร์มของเราได้รับการออกแบบมาโดยเฉพาะเพื่อตอบสนองข้อกำหนดของ Ecodesign for Sustainable Products Regulation (ESPR) รวมถึงพาสปอร์ตผลิตภัณฑ์ดิจิทัลภาคบังคับ"
+            },
+            {
+                "q": "ปัจจุบันรองรับอุตสาหกรรมใดบ้าง?",
+                "a": "ขณะนี้เรากำลังมุ่งเน้นไปที่ภาคส่วนที่มีความเร่งด่วนในการปฏิบัติตามกฎระเบียบสูงสุด: แบตเตอรี่ สิ่งทอ และนาฬิการะดับไฮเอนด์/สินค้าฟุ่มเฟือย"
+            },
+            {
+                "q": "กระบวนการตรวจสอบทำงานอย่างไร?",
+                "a": "ในระหว่างการตรวจสอบ เราจะวิเคราะห์โครงสร้างพื้นฐานการส่งออกในปัจจุบันของคุณ และจัดทำโรดแมปสำหรับการรวมบล็อกเชนและการติดแท็กฮาร์ดแวร์ของผลิตภัณฑ์ของคุณ"
             }
         ],
         "legal": {
@@ -340,7 +376,7 @@ const translations = {
             "back": "กลับสู่หน้าหลัก",
             "agree": "ฉันยินยอมให้ประมวลผลข้อมูลตาม",
             "content": {
-                "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>OCPP Solution UG (Duisburg)<br>อีเมล: info@ocpp-labs.com</p>",
+                "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>OCPP Solution UG (Duisburg)<br>อีเมล: info@v-ledger.com</p>",
                 "privacy": "<h1>นโยบายความเป็นส่วนตัว (GDPR)</h1><p>เราให้ความสำคัญกับการคุ้มครองข้อมูลของคุณ...</p>",
                 "terms": "<h1>ข้อกำหนดการให้บริการ</h1><p>บริการของเรามีไว้สำหรับลูกค้า B2B เท่านั้น</p>"
             }
@@ -386,7 +422,7 @@ const translations = {
         "p4h": "NXP 高端加密硬件。",
         "p4d": "通过物理锚点将您的产品与我们的 NFT 绑定，从出厂到后续回收生命周期里保护您的品牌。",
         "quote": "“2027 年欧盟市场准入不再是一个风险。它是您在全球市场中脱颖而出的终极竞争优势。”",
-        "quotesub": "— OCPP-LABS // 欧盟出口门户",
+        "quotesub": "— v-ledger // 欧盟出口门户",
         "badge": "电池与纺织品 // 东南亚出口",
         "calcH": "利润计算器",
         "calcV": "出口量 (件/年)",
@@ -394,8 +430,8 @@ const translations = {
         "calcF": "每件版税金额 (€/件)",
         "calcP": "年度被动收益估值:",
         "lang": "zh-cn",
-        "metaTitle": "OCPP-Labs | ESPR 合规与数字产品护照 (DPP)",
-        "metaDesc": "OCPP-Labs (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
+        "metaTitle": "V-Ledger | ESPR 合规与数字产品护照 (DPP)",
+        "metaDesc": "V-Ledger (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
         "cookie": {
             "title": "安全与合规检查",
             "msg": "为了确保访问 OCPP 基础设施的安全并符合欧盟合规要求，我们使用加密识别符 (Cookies)。请确认您的身份和偏好。",
@@ -425,7 +461,7 @@ const translations = {
             "back": "返回首页",
             "agree": "我同意根据以下条款处理数据",
             "content": {
-                "imprint": "<h1>法律声明</h1><p>OCPP Solution UG (杜伊斯堡)<br>电子邮件: info@ocpp-labs.com</p>",
+                "imprint": "<h1>法律声明</h1><p>OCPP Solution UG (杜伊斯堡)<br>电子邮件: info@v-ledger.com</p>",
                 "privacy": "<h1>隐私政策 (GDPR)</h1><p>我们非常重视您的数据保护...</p>",
                 "terms": "<h1>服务条款</h1><p>我们的服务仅面向 B2B 客户。</p>"
             }
@@ -471,7 +507,7 @@ const translations = {
         "p4h": "NXP 高端硬體。",
         "p4d": "透過物理錨點將您的產品與我們的 NFT 綁定，從出廠到後續回收整個生命週期內保護您的品牌。",
         "quote": "“歐盟市場進入是眼前的門檻。受控的二級市場是未來利潤。”",
-        "quotesub": "— OCPP-LABS // 歐盟出口門戶",
+        "quotesub": "— v-ledger // 歐盟出口門戶",
         "badge": "電池與紡織品 // 东南亚出口",
         "calcH": "利潤計算器",
         "calcV": "出口量 (件/年)",
@@ -479,8 +515,8 @@ const translations = {
         "calcF": "每件版税金額 (€/件)",
         "calcP": "年度被動收益估值:",
         "lang": "zh-tw",
-        "metaTitle": "OCPP-Labs | ESPR 合規與數位產品護照 (DPP)",
-        "metaDesc": "OCPP-Labs (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
+        "metaTitle": "V-Ledger | ESPR 合規與數位產品護照 (DPP)",
+        "metaDesc": "V-Ledger (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
         "cookie": {
             "title": "安全與合規檢查",
             "msg": "為了確保訪問 OCPP 基礎設施的安全並符合歐盟合規要求，我們使用加密識別符 (Cookies)。請確認您的身份和偏好。",
@@ -510,7 +546,7 @@ const translations = {
             "back": "返回首頁",
             "agree": "我同意根據以下条款處理數據",
             "content": {
-                "imprint": "<h1>法律聲明</h1><p>OCPP Solution UG (杜伊斯堡)<br>電子郵件: info@ocpp-labs.com</p>",
+                "imprint": "<h1>法律聲明</h1><p>OCPP Solution UG (杜伊斯堡)<br>電子郵件: info@v-ledger.com</p>",
                 "privacy": "<h1>隱私政策 (GDPR)</h1><p>我們非常重視您的數據保護...</p>",
                 "terms": "<h1>服務條款</h1><p>我們的服務僅面向 B2B 客戶。</p>"
             }
@@ -535,7 +571,8 @@ const translations = {
         "cta": "Iniciar chequeo de exportación 2027",
         "madeInGermany": "Ingeniería Alemana y Seguridad Jurídica",
         "mHeader": "Auditoría de socios estratégicos",
-        "footerH2": "PIONEROS: BATERÍAS Y TEXTILES.",
+        "faqNav": "FAQ",
+        "footerH2": "PIONEROS: BATERÍAS, TEXTILES Y RELOJES.",
         "footerP": "Sea el primer exportador cuya mercancía pase la aduana de la UE en 2027. Buscamos socios estratégicos.",
         "contact": "Solicitar auditoría",
         "copy": "&copy; 2026 OCPP-Solution UG // SEGURIDAD DE EXPORTACIÓN E INGRESOS PASIVOS. TODOS LOS DERECHOS RESERVADOS.",
@@ -556,16 +593,16 @@ const translations = {
         "p4h": "Hardware seguro de NXP.",
         "p4d": "Los anclajes físicos vinculan sus mercancías con nuestros NFTs, asegurando el valor de su marca desde la fábrica hasta el reciclaje.",
         "quote": "\"El acceso al mercado de la UE en 2027 ya no es un riesgo, es su ventaja competitiva definitiva.\"",
-        "quotesub": "— OCPP-LABS // LA PUERTA DE EXPORTACIÓN",
-        "badge": "Especializado en Baterías y Textiles // Exportación Marítima",
+        "quotesub": "— v-ledger // LA PUERTA DE EXPORTACIÓN",
+        "badge": "Especializado en Baterías, Textiles y Relojes // Exportación Marítima",
         "calcH": "Calculadora de beneficios",
         "calcV": "Volumen de exportación (unidades/año)",
         "calcR": "Tasa de reventa (%)",
         "calcF": "Tarifa de regalía (€/unidad)",
         "calcP": "Beneficio pasivo anual:",
         "lang": "es-es",
-        "metaTitle": "OCPP-Labs | Cumplimiento de ESPR y Pasaporte de Producto (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburgo) ofrece cumplimiento de ESPR para baterías y textiles. Pasaportes de producto seguros mediante NTAG 424 DNA y Blockchain.",
+        "metaTitle": "V-Ledger | Cumplimiento de ESPR y Pasaporte de Producto (DPP)",
+        "metaDesc": "V-Ledger (Duisburgo) ofrece cumplimiento de ESPR para baterías, textiles y relojes. Pasaportes de producto seguros mediante NTAG 424 DNA y Blockchain.",
         "cookie": {
             "title": "CONTROL DE SEGURIDAD Y CUMPLIMIENTO",
             "msg": "Para asegurar el acceso a la infraestructura de OCPP y garantizar el cumplimiento de la UE, utilizamos identificadores criptográficos (Cookies). Confirme su identidad y preferencias.",
@@ -574,14 +611,31 @@ const translations = {
             "settings": "PREFERENCIAS",
             "checking": "Comprobación del sistema en curso..."
         },
+        "faqTitle": "Preguntas Frecuentes (FAQ)",
         "faqs": [
             {
                 "q": "¿Qué es su solución de NFT como servicio?",
-                "a": "Nuestra plataforma SaaS tokeniza su cadena de suministro y genera automáticamente NFTs (Pasaportes Digitales de Producto) para sus exportaciones a la UE."
+                "a": "Nuestra plataforma SaaS tokeniza su cadena de suministro y genera automáticamente NFTs (Pasaportes Digitales de Producto) infalsificables para sus exportaciones a la UE."
+            },
+            {
+                "q": "¿Por qué usar hardware seguro de NXP?",
+                "a": "Los códigos QR se copian fácilmente. Utilizamos chips criptográficos NTAG 424 DNA para crear un puente a prueba de manipulaciones entre la mercancía física y su NFT."
             },
             {
                 "q": "¿Cómo funcionan las regalías sin billetera cripto?",
-                "a": "Mediante el Account Abstraction y las Invisible Wallets, nuestra plataforma maneja toda la complejidad. Usted recibe sus regalías en euros o USDT directamente."
+                "a": "Mediante el Account Abstraction y las Invisible Wallets, nuestra plataforma maneja toda la complejidad del blockchain. Usted recibe sus regalías directamente en euros o USDT."
+            },
+            {
+                "q": "¿Es la solución compatible con la ESPR 2027 de la UE?",
+                "a": "Sí, nuestra plataforma está diseñada específicamente para cumplir con los requisitos del Reglamento de Ecodiseño para Productos Sostenibles (ESPR), incluyendo el Pasaporte Digital de Producto obligatorio."
+            },
+            {
+                "q": "¿Qué industrias son compatibles actualmente?",
+                "a": "Actualmente nos enfocamos en los sectores con mayor urgencia de cumplimiento: Baterías, Textiles y Relojes de alta gama/Artículos de lujo."
+            },
+            {
+                "q": "¿Cómo funciona el proceso de auditoría?",
+                "a": "Durante la auditoría, analizamos su infraestructura de exportación actual y creamos una hoja de ruta para la integración de blockchain y el etiquetado de sus productos."
             }
         ],
         "legal": {
@@ -591,7 +645,7 @@ const translations = {
             "back": "Volver al inicio",
             "agree": "Acepto el procesamiento de datos según",
             "content": {
-                "imprint": "<h1>Aviso Legal</h1><p>OCPP Solution UG (Duisburgo)<br>Email: info@ocpp-labs.com</p>",
+                "imprint": "<h1>Aviso Legal</h1><p>OCPP Solution UG (Duisburgo)<br>Email: info@v-ledger.com</p>",
                 "privacy": "<h1>Política de Privacidad (RGPD)</h1><p>Valoramos la seguridad de sus datos...</p>",
                 "terms": "<h1>Términos de Servicio</h1><p>Nuestros servicios son exclusivos para clientes B2B.</p>"
             }
@@ -616,7 +670,8 @@ const translations = {
         "cta": "2027年輸出チェックを開始",
         "madeInGermany": "ドイツのエンジニアリングと法的セキュリティ",
         "mHeader": "戦略的パートナー監査",
-        "footerH2": "ファーストムーバー：バッテリー＆テキスタイル",
+        "faqNav": "FAQ",
+        "footerH2": "ファーストムーバー：バッテリー、テキスタイル、および時計",
         "footerP": "2027年に欧州税関をスムーズに通過する最初の輸出業者になりましょう。戦略的パートナーを募集しています。",
         "contact": "監査をリクエスト",
         "copy": "&copy; 2026 OCPP-Solution UG // 輸出セキュリティとパッシブ収益。全著作権所有。",
@@ -637,16 +692,16 @@ const translations = {
         "p4h": "NXPセキュアハードウェア",
         "p4d": "物理的なアンカーが商品とNFTをリンクさせ、工場からリサイクルまでのブランド価値を保護します。",
         "quote": "\"2027年のEU市場へのアクセスはもはやリスクではなく、究極の競争優位性です。\"",
-        "quotesub": "— OCPP-LABS // 輸出ゲートウェイ",
-        "badge": "バッテリー＆テキスタイル専門 // 海上輸出",
+        "quotesub": "— v-ledger // 輸出ゲートウェイ",
+        "badge": "バッテリー、テキスタイル、および時計専門 // 海上輸出",
         "calcH": "収益シミュレーター",
         "calcV": "年間輸出量（ユニット）",
         "calcR": "再販率（％）",
         "calcF": "ロイヤリティ料（€/ユニット）",
         "calcP": "年間パッシブ利益：",
         "lang": "ja-jp",
-        "metaTitle": "OCPP-Labs | ESPR準拠とデジタル製品パスポート (DPP)",
-        "metaDesc": "OCPP-Labs（デュイスブルク）はバッテリーと繊維のESPR準拠を提供。NTAG 424 DNAとブロックチェーンによるセキュアな製品パスポート。",
+        "metaTitle": "V-Ledger | ESPR準拠とデジタル製品パスポート (DPP)",
+        "metaDesc": "V-Ledger（デュイスブルク）はバッテリーと繊維のESPR準拠を提供。NTAG 424 DNAとブロックチェーンによるセキュアな製品パスポート。",
         "cookie": {
             "title": "セキュリティ＆コンプライアンス・チェック",
             "msg": "OCPPインフラへのアクセスを保護し、EUコンプライアンスを確保するため、暗号化識別子（Cookie）を使用しています。本人確認と設定を行ってください。",
@@ -655,14 +710,31 @@ const translations = {
             "settings": "設定",
             "checking": "システムチェック中..."
         },
+        "faqTitle": "よくある質問 (FAQ)",
         "faqs": [
             {
-                "q": "NFT as a Serviceとは何ですか？",
+                "q": "NFT as a Serviceソリューションとは何ですか？",
                 "a": "当社のSaaSプラットフォームはサプライチェーンをトークン化し、EU輸出用の偽造不可能なNFT（デジタル製品パスポート）を自動生成します。"
             },
             {
+                "q": "なぜNXPセキュアハードウェアを使用するのですか？",
+                "a": "QRコードは簡単にコピーされてしまいます。当社は暗号化NTAG 424 DNAチップを使用し、物理的な商品とそのNFTの間に改ざん防止の架け橋を築きます。"
+            },
+            {
                 "q": "仮想通貨ウォレットなしでどうやってロイヤリティを受け取りますか？",
-                "a": "アカウント抽象化と不可視ウォレットにより、当社が複雑な処理を代行します。ユーロまたはUSDTで直接受け取れます。"
+                "a": "アカウント抽象化と不可視ウォレットにより、当社のSaaSプラットフォームがブロックチェーンの複雑さをすべて処理します。再販ごとのロイヤリティ料をユーロまたはUSDTで直接受け取れます。"
+            },
+            {
+                "q": "このソリューションはEU ESPR 2027に準拠していますか？",
+                "a": "はい、当社のプラットフォームは、義務化されるデジタル製品パスポートを含む、持続可能な製品のためのエコデザイン規則（ESPR）の要件を満たすように特別に設計されています。"
+            },
+            {
+                "q": "現在、どのような業界がサポートされていますか？",
+                "a": "現在、コンプライアンスの緊急性が最も高いセクター（バッテリー、テキスタイル、高級時計/高級品）に注力しています。"
+            },
+            {
+                "q": "監査プロセスはどのように進みますか？",
+                "a": "監査では、現在の輸出インフラを分析し、ブロックチェーンの統合と製品へのハードウェアタグ付けのロードマップを作成します。"
             }
         ],
         "legal": {
@@ -672,7 +744,7 @@ const translations = {
             "back": "ホームに戻る",
             "agree": "データ処理に同意する：",
             "content": {
-                "imprint": "<h1>法的通知</h1><p>OCPP Solution UG (デュイスブルク)<br>メール: info@ocpp-labs.com</p>",
+                "imprint": "<h1>法的通知</h1><p>OCPP Solution UG (デュイスブルク)<br>メール: info@v-ledger.com</p>",
                 "privacy": "<h1>プライバシーポリシー (GDPR)</h1><p>データの安全性を重視しています...</p>",
                 "terms": "<h1>利用規約</h1><p>当社のサービスはB2B顧客専用です。</p>"
             }
@@ -697,7 +769,8 @@ const translations = {
         "cta": "2027 수출 체크 시작하기",
         "madeInGermany": "독일의 엔지니어링 및 법적 보안",
         "mHeader": "전략적 파트너 감사",
-        "footerH2": "퍼스트 무버: 배터리 및 섬유",
+        "faqNav": "FAQ",
+        "footerH2": "퍼스트 무버: 배터리, 섬유 및 시계",
         "footerP": "2027년 유럽 세관을 가장 먼저 통과하는 수출업체가 되십시오. 전략적 파트너를 찾고 있습니다.",
         "contact": "감사 요청하기",
         "copy": "&copy; 2026 OCPP-Solution UG // 수출 보안 및 패시브 수익. 모든 권리 보유.",
@@ -718,16 +791,16 @@ const translations = {
         "p4h": "NXP 보안 하드웨어",
         "p4d": "물리적 앵커가 상품과 NFT를 연결하여 공장에서 재활용까지 브랜드 가치를 보호합니다.",
         "quote": "\"2027년 EU 시장 진입은 더 이상 리스크가 아니라, 궁극적인 경쟁 우위입니다.\"",
-        "quotesub": "— OCPP-LABS // 수출 게이트웨이",
-        "badge": "배터리 및 섬유 전문 // 해상 수출",
+        "quotesub": "— v-ledger // 수출 게이트웨이",
+        "badge": "배터리, 섬유 및 시계 전문 // 해상 수출",
         "calcH": "수익 계산기",
         "calcV": "연간 수출량 (유닛)",
         "calcR": "재판매율 (%)",
         "calcF": "로열티 수수료 (€/유닛)",
         "calcP": "연간 패시브 수익:",
         "lang": "ko-kr",
-        "metaTitle": "OCPP-Labs | ESPR 준수 및 디지털 제품 여권 (DPP)",
-        "metaDesc": "OCPP-Labs (뒤스부르크)는 배터리 및 섬유를 위한 ESPR 준수 솔루션을 제공합니다. NTAG 424 DNA 및 블록체인을 통한 보안 제품 여권.",
+        "metaTitle": "V-Ledger | ESPR 준수 및 디지털 제품 여권 (DPP)",
+        "metaDesc": "V-Ledger (뒤스부르크)는 배터리, 섬유 및 시계를 위한 ESPR 준수 솔루션을 제공합니다. NTAG 424 DNA 및 블록체인을 통한 보안 제품 여권.",
         "cookie": {
             "title": "보안 및 규제 준수 확인",
             "msg": "OCPP 인프라 접근을 보호하고 EU 규정 준수를 보장하기 위해 암호화 식별자(Cookie)를 사용합니다. 본인 확인 및 설정을 진행해 주십시오.",
@@ -736,14 +809,31 @@ const translations = {
             "settings": "설정",
             "checking": "시스템 확인 중..."
         },
+        "faqTitle": "자주 묻는 질문 (FAQ)",
         "faqs": [
             {
-                "q": "NFT as a Service란 무엇인가요?",
-                "a": "당사의 SaaS 플랫폼은 공급망을 토큰화하고 EU 수출을 위한 위조 불가능한 NFT(디지털 제품 여권)를 자동 생성합니다."
+                "q": "귀사의 NFT as a Service 솔루션은 무엇인가요?",
+                "a": "당사의 SaaS 플랫폼은 귀하의 공급망을 토큰화하고 EU 수출을 위해 위조 불가능한 NFT(디지털 제품 여권)를 자동으로 생성합니다."
             },
             {
-                "q": "암호화폐 지갑 없이 로열티를 어떻게 받나요?",
-                "a": "계정 추상화와 보이지 않는 지갑을 통해 당사가 모든 복잡한 과정을 처리합니다. 유로 또는 USDT로 직접 받으실 수 있습니다."
+                "q": "왜 NXP 보안 하드웨어를 사용해야 하나요?",
+                "a": "QR 코드는 쉽게 복제될 수 있습니다. 당사는 암호화된 NTAG 424 DNA 칩을 사용하여 물리적 상품과 NFT 사이에 조작 방지 가교를 형성합니다."
+            },
+            {
+                "q": "암호화폐 지갑 없이 로열티 보상은 어떻게 받나요?",
+                "a": "계정 추상화와 보이지 않는 지갑을 통해 당사의 SaaS 플랫폼은 블록체인의 모든 복잡한 과정을 처리합니다. 재판매마다 발생하는 로열티 보상을 유로 또는 USDT로 직접 받을 수 있습니다."
+            },
+            {
+                "q": "이 솔루션은 EU ESPR 2027을 준수하나요?",
+                "a": "네, 당사의 플랫폼은 의무적인 디지털 제품 여권을 포함하여 지속 가능한 제품을 위한 에코디자인 규정(ESPR)의 요구 사항을 충족하도록 특별히 설계되었습니다."
+            },
+            {
+                "q": "현재 어떤 산업이 지원되나요?",
+                "a": "당사는 현재 규정 준수 시급성이 가장 높은 분야인 배터리, 섬유 및 하이엔드 시계/럭셔리 제품에 집중하고 있습니다."
+            },
+            {
+                "q": "감사 프로세스는 어떻게 진행되나요?",
+                "a": "감사 기간 동안 당사는 귀하의 현재 수출 인프라를 분석하고 제품에 대한 블록체인 통합 및 하드웨어 태깅 로드맵을 작성합니다."
             }
         ],
         "legal": {
@@ -753,7 +843,7 @@ const translations = {
             "back": "홈으로 돌아가기",
             "agree": "데이터 처리에 동의합니다:",
             "content": {
-                "imprint": "<h1>법적 고지</h1><p>OCPP Solution UG (뒤스부르크)<br>이메일: info@ocpp-labs.com</p>",
+                "imprint": "<h1>법적 고지</h1><p>OCPP Solution UG (뒤스부르크)<br>이메일: info@v-ledger.com</p>",
                 "privacy": "<h1>개인정보 처리방침 (GDPR)</h1><p>데이터 보안을 최우선으로 합니다...</p>",
                 "terms": "<h1>이용약관</h1><p>당사의 서비스는 B2B 고객 전용입니다.</p>"
             }
@@ -778,7 +868,8 @@ const translations = {
         "cta": "निर्यात चेक 2027 शुरू करें",
         "madeInGermany": "जर्मन इंजीनियरिंग और कानूनी सुरक्षा",
         "mHeader": "रणनीतिक भागीदार ऑडिट",
-        "footerH2": "प्रथम प्रवर्तक: बैटरी और कपड़ा।",
+        "faqNav": "FAQ",
+        "footerH2": "प्रथम प्रवर्तक: बैटरी, कपड़ा और घड़ियाँ।",
         "footerP": "2027 में यूरोपीय सीमा शुल्क को सुचारू रूप से पार करने वाले पहले निर्यातक बनें। हम रणनीतिक भागीदारों की तलाश कर रहे हैं।",
         "contact": "ऑडिट का अनुरोध करें",
         "copy": "&copy; 2026 OCPP-Solution UG // निर्यात सुरक्षा और पैसिव इनकम। सर्वाधिकार सुरक्षित।",
@@ -799,16 +890,16 @@ const translations = {
         "p4h": "NXP सुरक्षित हार्डवेयर।",
         "p4d": "भौतिक एंकर आपके सामान को हमारे NFT से जोड़ते हैं और फैक्ट्री से रीसाइक्लिंग तक आपके ब्रांड मूल्य को सुरक्षित करते हैं।",
         "quote": "\"2027 में EU बाजार तक पहुंच अब जोखिम नहीं है, यह आपका अंतिम प्रतिस्पर्धी लाभ है।\"",
-        "quotesub": "— OCPP-LABS // निर्यात गेटवे",
-        "badge": "बैटरी और कपड़ा विशेषज्ञ // समुद्री निर्यात",
+        "quotesub": "— v-ledger // निर्यात गेटवे",
+        "badge": "बैटरी, कपड़ा और घड़ियों के लिए विशेष // समुद्री निर्यात",
         "calcH": "लाभ कैलकुलेटर",
         "calcV": "निर्यात मात्रा (इकाई/वर्ष)",
         "calcR": "पुनर्विक्रय दर (%)",
         "calcF": "रॉयल्टी शुल्क (€/इकाई)",
         "calcP": "वार्षिक पैसिव लाभ:",
         "lang": "hi-in",
-        "metaTitle": "OCPP-Labs | ESPR अनुपालन और डिजिटल उत्पाद पासपोर्ट (DPP)",
-        "metaDesc": "OCPP-Labs (डिसबर्ग) बैटरी और कपड़ों के लिए ESPR अनुपालन प्रदान करता है। NTAG 424 DNA और ब्लॉकचेन के माध्यम से सुरक्षित उत्पाद पासपोर्ट।",
+        "metaTitle": "V-Ledger | ESPR अनुपालन और डिजिटल उत्पाद पासपोर्ट (DPP)",
+        "metaDesc": "V-Ledger (डिसबर्ग) बैटरी, कपड़ों और घड़ियों के लिए ESPR अनुपालन प्रदान करता है। NTAG 424 DNA और ब्लॉकचेन के माध्यम से सुरक्षित उत्पाद पासपोर्ट।",
         "cookie": {
             "title": "सुरक्षा और अनुपालन जांच",
             "msg": "OCPP इंफ्रास्ट्रक्चर तक पहुंच सुरक्षित करने और EU अनुपालन सुनिश्चित करने के लिए, हम क्रिप्टोग्राफ़िक पहचानकर्ता (Cookies) का उपयोग करते हैं। अपनी पहचान और प्राथमिकताओं की पुष्टि करें।",
@@ -817,14 +908,31 @@ const translations = {
             "settings": "प्राथमिकताएं",
             "checking": "सिस्टम जांच चल रही है..."
         },
+        "faqTitle": "अक्सर पूछे जाने वाले प्रश्न (FAQ)",
         "faqs": [
             {
                 "q": "आपका NFT as a Service समाधान क्या है?",
-                "a": "हमारा SaaS प्लेटफॉर्म आपकी आपूर्ति श्रृंखला को टोकनयुक्त करता है और आपके EU निर्यात के लिए स्वचालित रूप से NFT (डिजिटल उत्पाद पासपोर्ट) बनाता है।"
+                "a": "हमारा SaaS प्लेटफॉर्म आपकी आपूर्ति श्रृंखला को टोकनयुक्त करता है और आपके EU निर्यात के लिए स्वचालित रूप से अमिट NFT (डिजिटल उत्पाद पासपोर्ट) बनाता है।"
             },
             {
-                "q": "बिना क्रिप्टो वॉलेट के रॉयल्टी कैसे काम करती है?",
-                "a": "अकाउंट एब्स्ट्रैक्शन और इनविजिबल वॉलेट के माध्यम से, हमारा SaaS प्लेटफॉर्म ब्लॉकचेन की पूरी जटिलता को संभालता है। आपको रॉयल्टी सीधे यूरो या USDT में मिलती है।"
+                "q": "NXP सुरक्षित हार्डवेयर का उपयोग क्यों करें?",
+                "a": "QR कोड आसानी से कॉपी किए जा सकते हैं। हम भौतिक सामान और उनके NFT के बीच छेड़छाड़-रोधी संबंध बनाने के लिए क्रिप्टोग्राफ़िक NTAG 424 DNA चिप्स का उपयोग करते हैं।"
+            },
+            {
+                "q": "क्रिप्टो वॉलेट के बिना रॉयल्टी कैसे काम करती है?",
+                "a": "अकाउंट एब्स्ट्रैक्शन और इनविजिबल वॉलेट के माध्यम से, हमारा SaaS प्लेटफॉर्म ब्लॉकचेन की पूरी जटिलता को संभालता है। आपको हर पुनर्विक्रय पर अपनी रॉयल्टी सीधे यूरो या USDT में मिलती है।"
+            },
+            {
+                "q": "क्या यह समाधान EU ESPR 2027 के अनुरूप है?",
+                "a": "हाँ, हमारा प्लेटफ़ॉर्म विशेष रूप से अनिवार्य डिजिटल उत्पाद पासपोर्ट सहित टिकाऊ उत्पादों के लिए इकोडिज़ाइन विनियमन (ESPR) की आवश्यकताओं को पूरा करने के लिए डिज़ाइन किया गया है।"
+            },
+            {
+                "q": "वर्तमान में कौन से उद्योग समर्थित हैं?",
+                "a": "हम वर्तमान में उन क्षेत्रों पर ध्यान केंद्रित कर रहे हैं जिनमें अनुपालन की सबसे अधिक आवश्यकता है: बैटरी, कपड़े और लग्जरी घड़ियाँ।"
+            },
+            {
+                "q": "ऑडिट प्रक्रिया कैसे काम करती है?",
+                "a": "ऑडिट के दौरान, हम आपके वर्तमान निर्यात बुनियादी ढांचे का विश्लेषण करते हैं और आपके उत्पादों के लिए ब्लॉकचेन एकीकरण और हार्डवेयर टैगिंग के लिए एक योजना बनाते हैं।"
             }
         ],
         "legal": {
@@ -834,7 +942,7 @@ const translations = {
             "back": "होम पेज पर वापस",
             "agree": "मैं इसके अनुसार डेटा प्रोसेसिंग के लिए सहमत हूं:",
             "content": {
-                "imprint": "<h1>कानूनी सूचना</h1><p>OCPP Solution UG (डिसबर्ग)<br>ईमेल: info@ocpp-labs.com</p>",
+                "imprint": "<h1>कानूनी सूचना</h1><p>OCPP Solution UG (डिसबर्ग)<br>ईमेल: info@v-ledger.com</p>",
                 "privacy": "<h1>गोपनीयता नीति (GDPR)</h1><p>हम आपके डेटा की सुरक्षा को प्राथमिकता देते हैं...</p>",
                 "terms": "<h1>सेवा की शर्तें</h1><p>हमारी सेवाएं विशेष रूप से B2B ग्राहकों के लिए हैं।</p>"
             }
@@ -859,7 +967,8 @@ const translations = {
         "cta": "রপ্তানি চেক ২০২৭ শুরু করুন",
         "madeInGermany": "জার্মান ইঞ্জিনিয়ারিং এবং আইনি নিরাপত্তা",
         "mHeader": "কৌশলগত অংশীদার অডিট",
-        "footerH2": "প্রথম উদ্যোক্তা: ব্যাটারি এবং টেক্সটাইল।",
+        "faqNav": "FAQ",
+        "footerH2": "প্রথম উদ্যোক্তা: ব্যাটারি, টেক্সটাইল এবং ঘড়ি।",
         "footerP": "২০২৭ সালে ইউরোপীয় কাস্টমস সফলভাবে অতিক্রমকারী প্রথম রপ্তানিকারক হন। আমরা কৌশলগত অংশীদার খুঁজছি।",
         "contact": "অডিট অনুরোধ করুন",
         "copy": "&copy; ২০২৬ OCPP-Solution UG // রপ্তানি নিরাপত্তা এবং প্যাসিভ ইনকাম। সর্বস্বত্ব সংরক্ষিত।",
@@ -880,16 +989,16 @@ const translations = {
         "p4h": "NXP সিকিউর হার্ডওয়্যার।",
         "p4d": "ভৌতিক মার্কার আপনার পণ্যকে আমাদের NFT-এর সাথে সংযুক্ত করে এবং ফ্যাক্টরি থেকে রিসাইক্লিং পর্যন্ত ব্র্যান্ড ভ্যালু রক্ষা করে।",
         "quote": "\"২০২৭ সালে EU বাজারে প্রবেশ আর কোনো ঝুঁকি নয়, এটি আপনার চূড়ান্ত প্রতিযোগিতামূলক সুবিধা।\"",
-        "quotesub": "— OCPP-LABS // রপ্তানি গেটওয়ে",
-        "badge": "ব্যাটারি এবং টেক্সটাইল বিশেষজ্ঞ // সমুদ্র রপ্তানি",
+        "quotesub": "— v-ledger // রপ্তানি গেটওয়ে",
+        "badge": "ব্যাটারি, টেক্সটাইল এবং ঘড়ির জন্য বিশেষ // সমুদ্র রপ্তানি",
         "calcH": "মুনাফা ক্যালকুলেটর",
         "calcV": "রপ্তানি পরিমাণ (ইউনিট/বছর)",
         "calcR": "পুনঃবিক্রয় হার (%)",
         "calcF": "রয়্যালটি ফি (€/ইউনিট)",
         "calcP": "বার্ষিক প্যাসিভ মুনাফা:",
         "lang": "bn-bd",
-        "metaTitle": "OCPP-Labs | ESPR কমপ্লায়েন্স এবং ডিজিটাল প্রোডাক্ট পাসপোর্ট (DPP)",
-        "metaDesc": "OCPP-Labs (ডুইসবার্গ) ব্যাটারি এবং টেক্সটাইলের জন্য ESPR কমপ্লায়েন্স প্রদান করে। NTAG 424 DNA এবং ব্লকচেইনের মাধ্যমে সুরক্ষিত প্রোডাক্ট পাসপোর্ট।",
+        "metaTitle": "V-Ledger | ESPR কমপ্লায়েন্স এবং ডিজিটাল প্রোডাক্ট পাসপোর্ট (DPP)",
+        "metaDesc": "V-Ledger (ডুইসবার্গ) ব্যাটারি এবং টেক্সটাইলের জন্য ESPR কমপ্লায়েন্স প্রদান করে। NTAG 424 DNA এবং ব্লকচেইনের মাধ্যমে সুরক্ষিত প্রোডাক্ট পাসপোর্ট।",
         "cookie": {
             "title": "নিরাপত্তা এবং কমপ্লায়েন্স চেক",
             "msg": "OCPP ইনফ্রাস্ট্রাকচারে প্রবেশ সুরক্ষিত করতে এবং EU কমপ্লায়েন্স নিশ্চিত করতে, আমরা ক্রিপ্টোগ্রাফিক আইডেন্টিফায়ার (Cookies) ব্যবহার করি। আপনার পরিচয় এবং পছন্দ নিশ্চিত করুন।",
@@ -915,7 +1024,7 @@ const translations = {
             "back": "হোম পেজে ফিরে যান",
             "agree": "আমি এর অনুযায়ী ডেটা প্রসেসিংয়ে সম্মত:",
             "content": {
-                "imprint": "<h1>আইনি নোটিশ</h1><p>OCPP Solution UG (ডুইসবার্গ)<br>ইমেল: info@ocpp-labs.com</p>",
+                "imprint": "<h1>আইনি নোটিশ</h1><p>OCPP Solution UG (ডুইসবার্গ)<br>ইমেল: info@v-ledger.com</p>",
                 "privacy": "<h1>গোপনীয়তা নীতি (GDPR)</h1><p>আমরা আপনার ডেটার নিরাপত্তাকে অগ্রাধিকার দিই...</p>",
                 "terms": "<h1>পরিষেবার শর্তাবলী</h1><p>আমাদের পরিষেবাগুলো শুধুমাত্র B2B গ্রাহকদের জন্য।</p>"
             }
