@@ -153,5 +153,5 @@ app.post('/api/contact', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`OCPP Landingpage (SSR v5.0) running on Port ${PORT}`);
+    console.log(`V-Ledger Landingpage (SSR v5.0) running on Port ${PORT}`);
 });
