@@ -186,6 +186,90 @@
                     </div>
                 </div>
 
+                <!-- Slide 3: Wallets (AA) -->
+                <div class="article-row-stack" data-index="2">
+                    <div class="article-row max-w-7xl mx-auto px-6 md:px-12">
+                        <div class="article-image-container flex-1.2 relative">
+                            <div class="article-glow"></div>
+                            <img src="/assets/tech-wall-1.png" alt="Invisible Wallets" class="w-full h-auto">
+                        </div>
+                        <div class="article-text-container flex-1">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                03 / User Experience
+                            </div>
+                            <h4 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%= t.p1h %>
+                            </h4>
+                            <p class="text-xl text-white/40 leading-relaxed font-medium">
+                                <%= t.p1d %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Real World Assets -->
+                <div class="article-row-stack" data-index="3">
+                    <div class="article-row article-row-reverse max-w-7xl mx-auto px-6 md:px-12">
+                        <div class="article-image-container flex-1.2 relative">
+                            <div class="article-glow"></div>
+                            <img src="/assets/tech-wall-2.png" alt="Tokenized Exports" class="w-full h-auto">
+                        </div>
+                        <div class="article-text-container flex-1 text-right md:text-left">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                04 / Digital Twins
+                            </div>
+                            <h4 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%= t.p2h %>
+                            </h4>
+                            <p class="text-xl text-white/40 leading-relaxed font-medium">
+                                <%= t.p2d %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5: The Ledger -->
+                <div class="article-row-stack" data-index="4">
+                    <div class="article-row max-w-7xl mx-auto px-6 md:px-12">
+                        <div class="article-image-container flex-1.2 relative">
+                            <div class="article-glow"></div>
+                            <img src="/assets/tech-wall-3.png" alt="High Performance Ledger" class="w-full h-auto">
+                        </div>
+                        <div class="article-text-container flex-1">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                05 / The Digital Backbone
+                            </div>
+                            <h4 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%= t.p3h %>
+                            </h4>
+                            <p class="text-xl text-white/40 leading-relaxed font-medium">
+                                <%= t.p3d %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 6: Physical Security -->
+                <div class="article-row-stack" data-index="5">
+                    <div class="article-row article-row-reverse max-w-7xl mx-auto px-6 md:px-12">
+                        <div class="article-image-container flex-1.2 relative">
+                            <div class="article-glow"></div>
+                            <img src="/assets/tech-wall-4.png" alt="NXP Secure Element" class="w-full h-auto">
+                        </div>
+                        <div class="article-text-container flex-1 text-right md:text-left">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-8">
+                                06 / Physical Trust
+                            </div>
+                            <h4 class="text-4xl md:text-6xl font-black mb-8 tracking-tighter uppercase leading-[0.9] text-white">
+                                <%= t.p4h %>
+                            </h4>
+                            <p class="text-xl text-white/40 leading-relaxed font-medium">
+                                <%= t.p4d %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Progress UI -->
                 <div class="reveal-progress-container !left-[8%]">
                     <div id="stack-progress-fill" class="reveal-progress-fill"></div>
@@ -193,12 +277,10 @@
             </div>
         </div>
 
-        <%- include('partials/features', { t }) %>
-
         <!-- Section Transition Padding -->
         <div class="h-24"></div>
 
-        <div class="mb-48 text-center max-w-4xl mx-auto">
+        <div class="mb-48 text-center max-w-4xl mx-auto px-6">
             <p id="quote-text" class="text-2xl md:text-3xl font-medium leading-relaxed mb-6 text-white/80 italic">
                 <%= t.quote %>
             </p>
