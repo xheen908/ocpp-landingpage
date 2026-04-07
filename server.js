@@ -42,8 +42,13 @@ app.get('/', (req, res) => {
     let targetLang = 'en-us'; // Default
 
     if (langHeader.startsWith('de')) targetLang = 'de-de';
+    else if (langHeader.startsWith('es')) targetLang = 'es-es';
     else if (langHeader.startsWith('vi')) targetLang = 'vi-vn';
     else if (langHeader.startsWith('th')) targetLang = 'th-th';
+    else if (langHeader.startsWith('ja')) targetLang = 'ja-jp';
+    else if (langHeader.startsWith('ko')) targetLang = 'ko-kr';
+    else if (langHeader.startsWith('hi')) targetLang = 'hi-in';
+    else if (langHeader.startsWith('bn')) targetLang = 'bn-bd';
     else if (langHeader.startsWith('zh-tw')) targetLang = 'zh-tw';
     else if (langHeader.startsWith('zh')) targetLang = 'zh-cn';
 
@@ -51,7 +56,7 @@ app.get('/', (req, res) => {
 });
 
 // Parameterized Route for Localization (SSR)
-const supportedLangs = ['de-de', 'en-us', 'vi-vn', 'th-th', 'zh-cn', 'zh-tw'];
+const supportedLangs = ['de-de', 'en-us', 'es-es', 'vi-vn', 'th-th', 'ja-jp', 'ko-kr', 'hi-in', 'bn-bd', 'zh-cn', 'zh-tw'];
 app.get('/:langCode/', (req, res) => {
     const langCode = req.params.langCode.toLowerCase();
     
