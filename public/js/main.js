@@ -138,6 +138,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Global Reveal-on-Scroll Observer (Build 21.0)
+    const revealCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                // observer.unobserve(entry.target); // Optional: keep animating or once
+            }
+        });
+    };
+
+    const revealObserver = new IntersectionObserver(revealCallback, {
+        threshold: 0.15,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+        revealObserver.observe(el);
+    });
+
     // Flying Article Stack (Build 20.0 - Dynamic Multi-Slide)
     const articleStack = document.getElementById('article-stack');
     const stackItems = document.querySelectorAll('.article-row-stack');
@@ -145,7 +164,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (articleStack && stackItems.length > 0) {
         const handleStackScroll = () => {
-            if (window.innerWidth < 768) return;
+            // Option 2 Implementation: Animations on mobile via Reveal-on-Scroll, 
+            // Desktop keeps the sticky Stack effect.
+            if (window.innerWidth < 768) {
+                // Ensure desktop styles don't interfere if window was resized
+                stackItems.forEach(item => {
+                    item.style.transform = '';
+                    item.style.opacity = '';
+                    item.style.zIndex = '';
+                });
+                return;
+            }
 
             const rect = articleStack.getBoundingClientRect();
             const sectionTop = rect.top;

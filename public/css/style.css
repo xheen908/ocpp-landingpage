@@ -163,6 +163,24 @@ input:focus, textarea:focus {
     50% { transform: translateY(-20px); }
 }
 
+/* Scroll Reveal Animations (Build 21.0) */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, opacity;
+}
+
+.reveal-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Delayed reveals for stagger effect */
+.reveal-delay-100 { transition-delay: 100ms; }
+.reveal-delay-200 { transition-delay: 200ms; }
+.reveal-delay-300 { transition-delay: 300ms; }
+
 /* Modal Styles */
 #contact-modal.active {
     display: flex !important;
@@ -410,9 +428,35 @@ body.cookie-lock {
         border-radius: 1.5rem !important;
         padding: 1.5rem !important;
     }
-    .article-stack-section { height: auto !important; }
-    .article-stack-wrapper { position: relative !important; height: auto !important; overflow: visible !important; }
-    .article-row-stack { position: relative !important; height: auto !important; opacity: 1 !important; transform: none !important; margin-bottom: 8rem; padding: 0 6%; }
+    
+    /* Reveal-on-Scroll for Mobile Articles */
+    .article-stack-section { 
+        height: auto !important; 
+        margin-bottom: 15vh !important;
+    }
+    .article-stack-wrapper { 
+        position: relative !important; 
+        height: auto !important; 
+        overflow: visible !important; 
+        display: flex;
+        flex-direction: column;
+        gap: 8vh;
+    }
+    .article-row-stack { 
+        position: relative !important; 
+        height: auto !important; 
+        margin-bottom: 0 !important; 
+        padding: 0 6% !important;
+        display: block !important;
+    }
+    
+    .article-row {
+        gap: 2rem !important;
+    }
+    
+    .reveal-progress-container {
+        display: none !important;
+    }
 }
 
 /* Hide legacy Swiper */
