@@ -235,4 +235,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         handleStackScroll();
     }
+
+    // FAQ Accordion Toggle (Build 3.0)
+    const faqItems = document.querySelectorAll('.faq-item');
+    if (faqItems.length > 0) {
+        document.querySelectorAll('.faq-trigger').forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const item = trigger.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                // Close all other items for a clean accordion effect
+                faqItems.forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    }
 });

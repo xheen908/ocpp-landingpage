@@ -5,7 +5,7 @@ const translations = {
         "cta": "Export-Check 2027 starten",
         "madeInGermany": "German Engineering & Rechtssicherheit",
         "mHeader": "Strategisches Partner-Audit",
-        "footerH2": "FIRST MOVER: BATTERIES & TEXTILES.",
+        "footerH2": "FIRST MOVER: BATTERIES, TEXTILES & WATCHES.",
         "footerP": "Werden Sie der erste Exporteur, dessen Ware den Zoll 2027 passiert. Wir suchen strategische Partner für den Sektoreinstieg.",
         "contact": "Audit anfordern",
         "copy": "&copy; 2026 OCPP-Solution UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
@@ -27,7 +27,7 @@ const translations = {
         "p4d": "Physische Anker verknüpfen Ihre Ware mit unseren NFTs und sichern den Wert Ihrer Marke vom Werk bis zum Recycling.",
         "quote": "\"Der EU-Marktzugang 2027 ist kein Risiko mehr, sondern ein Wettbewerbsvorteil gegenüber der Konkurrenz.\"",
         "quotesub": "— OCPP-LABS // THE EXPORT GATEWAY",
-        "badge": "Specialized for Batteries & Textiles // SEA Export",
+        "badge": "Specialized for Batteries, Textiles & Watches // SEA Export",
         "calcH": "Profit Calculator",
         "calcV": "Export-Volumen (Einheiten/Jahr)",
         "calcR": "Wiederverkaufs-Rate (%)",
@@ -35,7 +35,7 @@ const translations = {
         "calcP": "Jährlicher Passiv-Gewinn:",
         "lang": "de-de",
         "metaTitle": "OCPP-Labs | ESPR Compliance & Digitaler Produktpass (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburg) bietet ESPR-Compliance für Batterien & Textilien. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
+        "metaDesc": "OCPP-Labs (Duisburg) bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "Um den Zugriff auf die OCPP-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
@@ -44,6 +44,7 @@ const translations = {
             "settings": "PRÄFERENZEN",
             "checking": "Systemprüfung läuft..."
         },
+        "faqTitle": "Häufig gestellte Fragen (FAQ)",
         "faqs": [
             {
                 "q": "Was ist Ihre NFT as a Service Lösung?",
@@ -56,6 +57,18 @@ const translations = {
             {
                 "q": "Wie funktionieren Royalties ohne Krypto-Wallet?",
                 "a": "Durch Account Abstraction und Invisible Wallets übernimmt unsere SaaS-Plattform die gesamte Blockchain-Komplexität. Sie erhalten Ihre Royalty-Fees bei jedem Wiederverkauf in Euro oder USDT als klassische Firmenauszahlung."
+            },
+            {
+                "q": "Ist die Lösung konform mit der EU-Verordnung 2027 (ESPR)?",
+                "a": "Ja, unsere Plattform ist speziell darauf ausgelegt, die Anforderungen der Ecodesign for Sustainable Products Regulation (ESPR) zu erfüllen, inklusive des obligatorischen Digitalen Produktpasses."
+            },
+            {
+                "q": "Welche Branchen werden aktuell unterstützt?",
+                "a": "Wir fokussieren uns aktuell auf die Sektoren mit der höchsten Compliance-Dringlichkeit: Batterien, Textilien und hochwertige Uhren/Luxusgüter."
+            },
+            {
+                "q": "Wie läuft der Audit-Prozess für Partner ab?",
+                "a": "Im Audit analysieren wir Ihre aktuelle Export-Infrastruktur und erstellen eine Roadmap für die Blockchain-Integration und Hardware-Bestückung Ihrer Produkte."
             }
         ],
         "legal": {
@@ -90,7 +103,7 @@ const translations = {
         "cta": "Start Export-Check 2027",
         "madeInGermany": "German Engineering & Legal Security",
         "mHeader": "Strategic Partner Audit",
-        "footerH2": "FIRST MOVER: BATTERIES & TEXTILES.",
+        "footerH2": "FIRST MOVER: BATTERIES, TEXTILES & WATCHES.",
         "footerP": "Be the first exporter whose goods clear EU customs with zero friction. We are selecting strategic partners for the 2027 transition.",
         "contact": "Request Audit",
         "copy": "&copy; 2026 OCPP-Solution UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
@@ -112,7 +125,7 @@ const translations = {
         "p4d": "Physical anchors link your goods with our NFTs and secure your brand value from factory to recycling.",
         "quote": "\"EU market access 2027 is no longer a risk. It’s your ultimate competitive advantage in the global market.\"",
         "quotesub": "— OCPP-LABS // THE EXPORT GATEWAY",
-        "badge": "Specialized for Batteries & Textiles // SEA Export",
+        "badge": "Specialized for Batteries, Textiles & Watches // SEA Export",
         "calcH": "Profit Calculator",
         "calcV": "Export Volume (Units/Year)",
         "calcR": "Resale Rate (%)",
@@ -120,7 +133,7 @@ const translations = {
         "calcP": "Annual Passive Profit:",
         "lang": "en-us",
         "metaTitle": "OCPP-Labs | ESPR Compliance & Battery Passport (DPP)",
-        "metaDesc": "OCPP-Labs (Duisburg) provides ESPR compliance for batteries & textiles. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        "metaDesc": "OCPP-Labs (Duisburg) provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "To secure access to the OCPP infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
@@ -129,6 +142,7 @@ const translations = {
             "settings": "PREFERENCES",
             "checking": "System check in progress..."
         },
+        "faqTitle": "Frequently Asked Questions (FAQ)",
         "faqs": [
             {
                 "q": "What is your NFT as a Service solution?",
@@ -141,6 +155,18 @@ const translations = {
             {
                 "q": "How do royalties work without a crypto wallet?",
                 "a": "Through Account Abstraction and Invisible Wallets, our SaaS platform handles all blockchain complexity. You receive your royalty fees on every resale directly in euros or USDT."
+            },
+            {
+                "q": "Is the solution compliant with EU ESPR 2027?",
+                "a": "Yes, our platform is specifically designed to meet the requirements of the Ecodesign for Sustainable Products Regulation (ESPR), including the mandatory Digital Product Passport."
+            },
+            {
+                "q": "Which industries are currently supported?",
+                "a": "We are currently focusing on sectors with the highest compliance urgency: Batteries, Textiles, and high-end Watches/Luxury goods."
+            },
+            {
+                "q": "How does the audit process work?",
+                "a": "During the audit, we analyze your current export infrastructure and create a roadmap for blockchain integration and hardware tagging of your products."
             }
         ],
         "legal": {
