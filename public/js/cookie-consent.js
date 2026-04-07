@@ -12,17 +12,17 @@ function initCookieGatekeeper() {
     const rejectBtn = document.getElementById('cookie-reject');
     const settingsBtn = document.getElementById('cookie-settings');
 
-    // Check if consent already exists
-    const consent = localStorage.getItem(STORAGE_KEY);
-
-    if (!consent) {
-        showGatekeeper();
-    }
+    // Removed the persistent check to force Gatekeeper on EVERY reload
+    showGatekeeper();
 
     function showGatekeeper() {
         // Lock the page
         document.body.classList.add('cookie-lock');
-        barrier.classList.add('show');
+        
+        // Use a tiny delay to ensure CSS opacity transition is visible
+        setTimeout(() => {
+            barrier.classList.add('show');
+        }, 100);
         
         // Start cosmetic progress bar
         setTimeout(() => {
