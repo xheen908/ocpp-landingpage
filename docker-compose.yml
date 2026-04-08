@@ -2,7 +2,7 @@ services:
   # Die Landingpage App
   nodejs-app:
     build: .
-    container_name: ocpp-landing-app
+    container_name: V-Ledger-landing-app
     restart: always
     ports:
       - "12000:12000"
@@ -14,20 +14,20 @@ services:
       - NODE_ENV=production
       - PORT=12000
     networks:
-      - ocpp-network
+      - V-Ledger-network
 
   # Cloudflare Tunnel
   cloudflared:
     image: cloudflare/cloudflared:latest
-    container_name: ocpp-tunnel
+    container_name: V-Ledger-tunnel
     restart: always
     env_file: .env
     environment:
       - TUNNEL_TOKEN=${CF_TUNNEL_TOKEN}
     command: tunnel run
     networks:
-      - ocpp-network
+      - V-Ledger-network
 
 networks:
-  ocpp-network:
+  V-Ledger-network:
     driver: bridge

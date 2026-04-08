@@ -9,7 +9,7 @@ const translations = {
         "footerH2": "FIRST MOVER: BATTERIES, TEXTILES & WATCHES.",
         "footerP": "Werden Sie der erste Exporteur, dessen Ware den Zoll 2027 passiert. Wir suchen strategische Partner für den Sektoreinstieg.",
         "contact": "Audit anfordern",
-        "copy": "&copy; 2026 V-Leadger UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
+        "copy": "&copy; 2026 V-Ledger // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
         "s1h": "NFTs as a Service",
         "s1p": "Vollautomatisierte Generierung von Digitalen Produktpässen für Ihre Container. Wir abstrahieren die Blockchain.",
         "s2h": "Smart Contract Royalties",
@@ -27,7 +27,7 @@ const translations = {
         "p4h": "NXP Secure Hardware.",
         "p4d": "Physische Anker verknüpfen Ihre Ware mit unseren NFTs und sichern den Wert Ihrer Marke vom Werk bis zum Recycling.",
         "quote": "\"Der EU-Marktzugang 2027 ist kein Risiko mehr, sondern ein Wettbewerbsvorteil gegenüber der Konkurrenz.\"",
-        "quotesub": "— v-leadger // THE EXPORT GATEWAY",
+        "quotesub": "— V-Ledger // THE EXPORT GATEWAY",
         "badge": "Specialized for Batteries, Textiles & Watches // SEA Export",
         "calcH": "Profit Calculator",
         "calcV": "Export-Volumen (Einheiten/Jahr)",
@@ -35,11 +35,11 @@ const translations = {
         "calcF": "Royalty-Gebühr (€/Einheit)",
         "calcP": "Jährlicher Passiv-Gewinn:",
         "lang": "de-de",
-        "metaTitle": "V-Leadger | ESPR Compliance & Digitaler Produktpass (DPP)",
-        "metaDesc": "V-Leadger (Duisburg) bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
+        "metaTitle": "V-Ledger | ESPR Compliance & Digitaler Produktpass (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
-            "msg": "Um den Zugriff auf die V-Leadger-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
+            "msg": "Um den Zugriff auf die V-Ledger-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
             "accept": "ZUGRIFF GEWÄHREN (ALLE)",
             "reject": "MINIMALER ZUGRIFF",
             "settings": "PRÄFERENZEN",
@@ -79,8 +79,8 @@ const translations = {
             "back": "Zurück zur Startseite",
             "agree": "Ich stimme der Datenverarbeitung gemäß der",
             "content": {
-                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Impressum</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Angaben gemäß § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Leadger UG (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Deutschland</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Vertreten durch</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Geschäftsführer)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Kontakt</h3><p class='text-white/60 leading-relaxed font-medium'>E-Mail: <a href='mailto:info@v-leadger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-leadger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telefonische Erreichbarkeit in Arbeit.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Registereintrag</h3><p class='text-white/60 leading-relaxed font-medium'>Amtsgericht Duisburg<br>Registernummer: In Gründung / In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Umsatzsteuer-ID</h3><p class='text-white/60 leading-relaxed font-medium'>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU-Streitbeilegung</h3><p class='text-white/40 text-sm leading-relaxed'>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p></section></div>",
-                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Datenschutzerklärung</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Verantwortlicher</h3><p class='text-white/60 leading-relaxed font-medium'>V-Leadger UG (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>E-Mail: <a href='mailto:info@v-leadger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-leadger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Datenerhebung</h3><p class='text-white/60 leading-relaxed font-medium'>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage oder zur Vorbereitung eines Audits. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Speicherdauer</h3><p class='text-white/60 leading-relaxed font-medium'>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Ihre Rechte</h3><p class='text-white/60 leading-relaxed font-medium'>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten gemäß Art. 15-21 DSGVO.</p></section></div>",
+                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Impressum</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Angaben gemäß § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Deutschland</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Vertreten durch</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Geschäftsführer)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Kontakt</h3><p class='text-white/60 leading-relaxed font-medium'>E-Mail: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telefonische Erreichbarkeit in Arbeit.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Registereintrag</h3><p class='text-white/60 leading-relaxed font-medium'>Amtsgericht Duisburg<br>Registernummer: In Gründung / In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Umsatzsteuer-ID</h3><p class='text-white/60 leading-relaxed font-medium'>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU-Streitbeilegung</h3><p class='text-white/40 text-sm leading-relaxed'>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p></section></div>",
+                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Datenschutzerklärung</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Verantwortlicher</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>E-Mail: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Datenerhebung</h3><p class='text-white/60 leading-relaxed font-medium'>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage oder zur Vorbereitung eines Audits. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Speicherdauer</h3><p class='text-white/60 leading-relaxed font-medium'>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Ihre Rechte</h3><p class='text-white/60 leading-relaxed font-medium'>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten gemäß Art. 15-21 DSGVO.</p></section></div>",
                 "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>AGB</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Geltungsbereich</h3><p class='text-white/60 leading-relaxed font-medium'>Unsere Dienstleistungen richten sich ausschließlich an B2B-Kunden (Unternehmer) im Bereich Export-Compliance und digitale Produktpässe.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Leistungsumfang</h3><p class='text-white/60 leading-relaxed font-medium'>Wir bieten SaaS-Lösungen zur Erstellung von DPPs via Blockchain-Technologie und NXP-Hardware-Integration.</p></section></div>"
             }
         },
@@ -88,7 +88,7 @@ const translations = {
             "nav": "Über uns",
             "title": "Die Europäische Schnittstelle",
             "subtitle": "Von der Technologie zur Compliance.",
-            "content": "<h3>Der Hafen von Duisburg: Europas Gateway</h3><p>V-Leadger UG agiert als physischer und rechtlicher Ankerpunkt an Europas größtem Binnenhafen in Duisburg. Wir verstehen die Komplexität europäischer Importregulierungen (ESPR 2027) nicht als Hürde, sondern als Infrastruktur-Service.</p><h3>Technologie trifft auf deutsche Regulierung</h3><p>Während unsere asiatischen Partner die physische Produktion dominieren, stellen wir sicher, dass jedes Produkt – von der Batterie bis zur Textilie – einen lückenlosen, fälschungssicheren Digitalen Zwilling (DPP) erhält. Mit Base L2 Blockchain und NTAG 424 DNA Security transformieren wir Logistik-Daten in automatisierte Royalty-Streams.</p><h3>Ihre Compliance. Unser Business.</h3><p>Wir übernehmen die technische Komplexität und die rechtliche Verantwortung für den EU-Datentransfer. Exportieren Sie zollfrei. Skalieren Sie grenzenlos.</p>"
+            "content": "<h3>Der Hafen von Duisburg: Europas Gateway</h3><p>V-Ledger agiert als physischer und rechtlicher Ankerpunkt an Europas größtem Binnenhafen in Duisburg. Wir verstehen die Komplexität europäischer Importregulierungen (ESPR 2027) nicht als Hürde, sondern als Infrastruktur-Service.</p><h3>Technologie trifft auf deutsche Regulierung</h3><p>Während unsere asiatischen Partner die physische Produktion dominieren, stellen wir sicher, dass jedes Produkt – von der Batterie bis zur Textilie – einen lückenlosen, fälschungssicheren Digitalen Zwilling (DPP) erhält. Mit Base L2 Blockchain und NTAG 424 DNA Security transformieren wir Logistik-Daten in automatisierte Royalty-Streams.</p><h3>Ihre Compliance. Unser Business.</h3><p>Wir übernehmen die technische Komplexität und die rechtliche Verantwortung für den EU-Datentransfer. Exportieren Sie zollfrei. Skalieren Sie grenzenlos.</p>"
         },
         "tech": {
             "nav": "Technologie",
@@ -108,7 +108,7 @@ const translations = {
         "footerH2": "FIRST MOVER: BATTERIES, TEXTILES & WATCHES.",
         "footerP": "Be the first exporter whose goods clear EU customs with zero friction. We are selecting strategic partners for the 2027 transition.",
         "contact": "Request Audit",
-        "copy": "&copy; 2026 V-Leadger UG // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
+        "copy": "&copy; 2026 V-Ledger // EXPORT SECURITY & PASSIVE REVENUE. ALL RIGHTS RESERVED.",
         "s1h": "NFTs as a Service",
         "s1p": "Fully automated generation of Digital Product Passports for your containers. We completely abstract the blockchain.",
         "s2h": "Smart Contract Royalties",
@@ -126,7 +126,7 @@ const translations = {
         "p4h": "NXP Secure Hardware.",
         "p4d": "Physical anchors link your goods with our NFTs and secure your brand value from factory to recycling.",
         "quote": "\"EU market access 2027 is no longer a risk. It’s your ultimate competitive advantage in the global market.\"",
-        "quotesub": "— v-leadger // THE EXPORT GATEWAY",
+        "quotesub": "— V-Ledger // THE EXPORT GATEWAY",
         "badge": "Specialized for Batteries, Textiles & Watches // SEA Export",
         "calcH": "Profit Calculator",
         "calcV": "Export Volume (Units/Year)",
@@ -134,11 +134,11 @@ const translations = {
         "calcF": "Royalty Fee (€/Unit)",
         "calcP": "Annual Passive Profit:",
         "lang": "en-us",
-        "metaTitle": "V-Leadger | ESPR Compliance & Battery Passport (DPP)",
-        "metaDesc": "V-Leadger (Duisburg) provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        "metaTitle": "V-Ledger | ESPR Compliance & Battery Passport (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
-            "msg": "To secure access to the V-Leadger infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
+            "msg": "To secure access to the V-Ledger infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
             "accept": "GRANT ACCESS (ALL)",
             "reject": "MINIMAL ACCESS",
             "settings": "PREFERENCES",
@@ -178,8 +178,8 @@ const translations = {
             "back": "Back to Home",
             "agree": "I agree to data processing according to the",
             "content": {
-                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Leadger UG (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@v-leadger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-leadger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
-                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>V-Leadger UG (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@v-leadger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@v-leadger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
+                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
+                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
                 "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Terms of Service</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Application</h3><p class='text-white/60 leading-relaxed font-medium'>Our services are exclusively directed at B2B customers (entrepreneurs) in the field of export compliance and digital product passports.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Services</h3><p class='text-white/60 leading-relaxed font-medium'>We provide SaaS solutions for the creation of DPPs via blockchain technology and NXP hardware integration.</p></section></div>"
             }
         },
@@ -187,7 +187,7 @@ const translations = {
             "nav": "About Us",
             "title": "The European Gateway",
             "subtitle": "Bridging Technology and Compliance.",
-            "content": "<h3>The Port of Duisburg: Europe's Gateway</h3><p>V-Leadger UG operates as the physical and legal anchor at Europe's largest inland port in Duisburg. We do not view the complexity of European import regulations (ESPR 2027) as a hurdle, but as an infrastructure service.</p><h3>Technology meets German Regulation</h3><p>While our Asian partners dominate physical production, we ensure that every product – from batteries to textiles – receives a seamless, unforgeable Digital Product Passport (DPP). Using Base L2 Blockchain and NTAG 424 DNA Security, we transform logistics data into automated royalty streams.</p><h3>Your Compliance. Our Business.</h3><p>We handle the technical complexity and legal responsibility for EU data transfer. Export without customs delays. Scale boundlessly.</p>"
+            "content": "<h3>The Port of Duisburg: Europe's Gateway</h3><p>V-Ledger operates as the physical and legal anchor at Europe's largest inland port in Duisburg. We do not view the complexity of European import regulations (ESPR 2027) as a hurdle, but as an infrastructure service.</p><h3>Technology meets German Regulation</h3><p>While our Asian partners dominate physical production, we ensure that every product – from batteries to textiles – receives a seamless, unforgeable Digital Product Passport (DPP). Using Base L2 Blockchain and NTAG 424 DNA Security, we transform logistics data into automated royalty streams.</p><h3>Your Compliance. Our Business.</h3><p>We handle the technical complexity and legal responsibility for EU data transfer. Export without customs delays. Scale boundlessly.</p>"
         },
         "tech": {
             "nav": "Technology",
@@ -207,7 +207,7 @@ const translations = {
         "footerH2": "NGƯỜI ĐI ĐẦU: PIN, DỆT MAY & ĐỒNG HỒ.",
         "footerP": "Hãy là nhà xuất khẩu đầu tiên làm thủ tục hải quan EU mà không gặp trở ngại nào. Chúng tôi đang tuyển chọn đối tác chiến lược.",
         "contact": "Yêu cầu Kiểm tra",
-        "copy": "&copy; 2026 V-Leadger UG // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG. TẤT CẢ QUYỀN ĐƯỢC BẢO LƯU.",
+        "copy": "&copy; 2026 V-Ledger // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG. TẤT CẢ QUYỀN ĐƯỢC BẢO LƯU.",
         "s1h": "NFTs as a Service",
         "s1p": "Tự động hóa số hóa Hộ chiếu Sản phẩm cho container của bạn. Chúng tôi trừu tượng hóa blockchain.",
         "s2h": "Phí Bản quyền Smart Contract",
@@ -225,7 +225,7 @@ const translations = {
         "p4h": "Phần cứng Bảo mật NXP.",
         "p4d": "Mỏ neo vật lý liên kết hàng hóa với NFT, bảo vệ giá trị thương hiệu từ nhà máy đến tái chế.",
         "quote": "\"Truy cập thị trường EU 2027 không còn là rủi ro. Đó là lợi thế cạnh tranh tối thượng của bạn trên thị trường toàn cầu.\"",
-        "quotesub": "— v-leadger // CỔNG XUẤT KHẨU CHÂU ÂU",
+        "quotesub": "— V-Ledger // CỔNG XUẤT KHẨU CHÂU ÂU",
         "badge": "Chuyên dùng cho Pin, Dệt may & Đồng hồ // SEA Export",
         "calcH": "Công cụ Tính Lợi nhuận",
         "calcV": "Sản lượng Xuất khẩu (Sản phẩm/Năm)",
@@ -233,11 +233,11 @@ const translations = {
         "calcF": "Phí Bản quyền (€/Sản phẩm)",
         "calcP": "Lợi nhuận Thụ động Hàng năm:",
         "lang": "vi-vn",
-        "metaTitle": "V-Leadger | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
-        "metaDesc": "V-Leadger (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin, dệt may và đồng hồ. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
+        "metaTitle": "V-Ledger | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin, dệt may và đồng hồ. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
         "cookie": {
             "title": "KIỂM TRA AN NINH & TUÂN THỦ",
-            "msg": "Để bảo mật quyền truy cập vào hạ tầng V-Leadger và đảm bảo tuân thủ EU, chúng tôi sử dụng các mã định danh mã hóa (Cookies). Hãy xác nhận danh tính và tùy chọn của bạn.",
+            "msg": "Để bảo mật quyền truy cập vào hạ tầng V-Ledger và đảm bảo tuân thủ EU, chúng tôi sử dụng các mã định danh mã hóa (Cookies). Hãy xác nhận danh tính và tùy chọn của bạn.",
             "accept": "CẤP QUYỀN TRUY CẬP (TẤT CẢ)",
             "reject": "TRUY CẬP TỐI THIỂU",
             "settings": "TÙY CHỌN",
@@ -277,7 +277,7 @@ const translations = {
             "back": "Quay lại Trang chủ",
             "agree": "Tôi đồng ý xử lý dữ liệu theo",
             "content": {
-                "imprint": "<h1>Thông tin Pháp lý</h1><p>V-Leadger UG (Duisburg)<br>Email: info@v-leadger.com</p>",
+                "imprint": "<h1>Thông tin Pháp lý</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>Chính sách Bảo mật (GDPR)</h1><p>Chúng tôi coi trọng việc bảo mật dữ liệu của bạn...</p>",
                 "terms": "<h1>Điều khoản Dịch vụ</h1><p>Dịch vụ của chúng tôi dành riêng cho khách hàng B2B.</p>"
             }
@@ -286,7 +286,7 @@ const translations = {
             "nav": "Về chúng tôi",
             "title": "Cổng vào Châu Âu",
             "subtitle": "Kết nối Công nghệ và Tuân thủ.",
-            "content": "<h3>Cảng Duisburg: Cửa ngõ của Châu Âu</h3><p>V-Leadger UG hoạt động như một mỏ neo vật lý và pháp lý tại cảng nội địa lớn nhất Châu Âu ở Duisburg. Chúng tôi cung cấp dịch vụ hạ tầng để vượt qua các rào cản quy định nhập khẩu của Châu Âu (ESPR 2027).</p><h3>Công nghệ và Quy định của Đức</h3><p>Trong khi các đối tác Châu Á thống trị sản xuất, chúng tôi đảm bảo mỗi sản phẩm nhận được một Hộ chiếu Sản phẩm Số (DPP) không thể làm giả. Sử dụng Chuỗi khối Base L2 và Bảo mật NTAG 424 DNA, chúng tôi tạo ra doanh thu thụ động từ dữ liệu hậu cần.</p><h3>Sự tuân thủ của bạn là sứ mệnh của chúng tôi.</h3><p>Chúng tôi xử lý sự phức tạp về công nghệ và trách nhiệm pháp lý. Xuất khẩu không lo hải quan. Mở rộng không ranh giới.</p>"
+            "content": "<h3>Cảng Duisburg: Cửa ngõ của Châu Âu</h3><p>V-Ledger hoạt động như một mỏ neo vật lý và pháp lý tại cảng nội địa lớn nhất Châu Âu ở Duisburg. Chúng tôi cung cấp dịch vụ hạ tầng để vượt qua các rào cản quy định nhập khẩu của Châu Âu (ESPR 2027).</p><h3>Công nghệ và Quy định của Đức</h3><p>Trong khi các đối tác Châu Á thống trị sản xuất, chúng tôi đảm bảo mỗi sản phẩm nhận được một Hộ chiếu Sản phẩm Số (DPP) không thể làm giả. Sử dụng Chuỗi khối Base L2 và Bảo mật NTAG 424 DNA, chúng tôi tạo ra doanh thu thụ động từ dữ liệu hậu cần.</p><h3>Sự tuân thủ của bạn là sứ mệnh của chúng tôi.</h3><p>Chúng tôi xử lý sự phức tạp về công nghệ và trách nhiệm pháp lý. Xuất khẩu không lo hải quan. Mở rộng không ranh giới.</p>"
         },
         "tech": {
             "nav": "Công nghệ",
@@ -306,7 +306,7 @@ const translations = {
         "footerH2": "ผู้นำกลุ่มแรก: แบตเตอรี่ สิ่งทอ และนาฬิกา",
         "footerP": "เป็นผู้ส่งออกรายแรกที่สินค้าผ่านพิธีการศุลกากร EU ได้อย่างรวดเร็วในปี 2027 เรากำลังเปิดรับพันธมิตรเชิงกลยุทธ์",
         "contact": "ขอรับการประเมิน",
-        "copy": "&copy; 2026 V-Leadger UG // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง สงวนลิขสิทธิ์ทั้งหมด",
+        "copy": "&copy; 2026 V-Ledger // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง สงวนลิขสิทธิ์ทั้งหมด",
         "s1h": "NFTs as a Service",
         "s1p": "สร้างพาสปอร์ตผลิตภัณฑ์ดิจิทัลอัตโนมัติสำหรับตู้คอนเทนเนอร์ของคุณ เราขจัดความซับซ้อนของบล็อกเชน",
         "s2h": "ค่าลิขสิทธิ์จาก Smart Contract",
@@ -324,7 +324,7 @@ const translations = {
         "p4h": "ฮาร์ดแวร์ NXP",
         "p4d": "ตัวเชื่อมต่อฮาร์ดแวร์ผสานสินค้าของคุณเข้ากับ NFT ปกป้องคุณค่าของแบรนด์คุณจากโรงงานสู่การรีไซเคิล",
         "quote": "\"การเข้าถึงตลาด EU 2027 จะไม่ใช่ความเสี่ยงอีกต่อไป แต่มันคืออาวุธลับในการแข่งขันระดับสากลของคุณ\"",
-        "quotesub": "— v-leadger // ช่องทางสู่การส่งออกยุโรป",
+        "quotesub": "— V-Ledger // ช่องทางสู่การส่งออกยุโรป",
         "badge": "แบตเตอรี่ สิ่งทอ และนาฬิกา // SEA Export",
         "calcH": "เครื่องคำนวณกำไร",
         "calcV": "ปริมาณการส่งออก (ชิ้น/ปี)",
@@ -332,11 +332,11 @@ const translations = {
         "calcF": "ค่าลิขสิทธิ์ (€/ชิ้น)",
         "calcP": "กำไรต่อเนื่องต่อปี:",
         "lang": "th-th",
-        "metaTitle": "V-Leadger | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
-        "metaDesc": "V-Leadger (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่ สิ่งทอ และนาฬิกา พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
+        "metaTitle": "V-Ledger | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
+        "metaDesc": "V-Ledger (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่ สิ่งทอ และนาฬิกา พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
         "cookie": {
             "title": "การตรวจสอบความปลอดภัยและข้อกำหนด",
-            "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ V-Leadger และเพื่อให้เป็นไปตามกฎระเบียบของ EU เราใช้ตัวระบุรหัสประจำตัว (Cookies) โปรดยืนยันตัวตนและความต้องการของคุณ",
+            "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ V-Ledger และเพื่อให้เป็นไปตามกฎระเบียบของ EU เราใช้ตัวระบุรหัสประจำตัว (Cookies) โปรดยืนยันตัวตนและความต้องการของคุณ",
             "accept": "อนุญาตการเข้าถึง (ทั้งหมด)",
             "reject": "การเข้าถึงขั้นต่ำ",
             "settings": "การตั้งค่า",
@@ -376,7 +376,7 @@ const translations = {
             "back": "กลับสู่หน้าหลัก",
             "agree": "ฉันยินยอมให้ประมวลผลข้อมูลตาม",
             "content": {
-                "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>V-Leadger UG (Duisburg)<br>อีเมล: info@v-leadger.com</p>",
+                "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>V-Ledger (Duisburg)<br>อีเมล: info@V-Ledger.com</p>",
                 "privacy": "<h1>นโยบายความเป็นส่วนตัว (GDPR)</h1><p>เราให้ความสำคัญกับการคุ้มครองข้อมูลของคุณ...</p>",
                 "terms": "<h1>ข้อกำหนดการให้บริการ</h1><p>บริการของเรามีไว้สำหรับลูกค้า B2B เท่านั้น</p>"
             }
@@ -385,7 +385,7 @@ const translations = {
             "nav": "เกี่ยวกับเรา",
             "title": "ประตูสู่ยุโรป",
             "subtitle": "เชื่อมโยงเทคโนโลยีและกฎระเบียบ",
-            "content": "<h3>ท่าเรือดุยส์บวร์ก: ประตูสู่ยุโรป</h3><p>V-Leadger UG ดำเนินงานในฐานะศูนย์กลางทางกายภาพและกฎหมายที่ท่าเรือภายในประเทศที่ใหญ่ที่สุดในยุโรปที่เมืองดุยส์บวร์ก เราให้บริการโครงสร้างพื้นฐานเพื่อก้าวผ่านกฎระเบียบการนำเข้าของยุโรป (ESPR 2027)</p><h3>เทคโนโลยีพบกับกฎระเบียบเยอรมัน</h3><p>พันธมิตรเอเชียของเราจัดการการผลิต เราดูแลให้ทุกผลิตภัณฑ์ได้รับ Digital Product Passport (DPP) ที่ปลอดภัยสูงสุดโดยใช้ Base L2 Blockchain และ NTAG 424 DNA</p><h3>ความถูกต้องของคุณ คือธุรกิจของเรา</h3><p>เราจัดการความซับซ้อนและรับผิดชอบทางกฎหมาย ส่งออกอย่างราบรื่นและเติบโตอย่างไร้ขีดจำกัด</p>"
+            "content": "<h3>ท่าเรือดุยส์บวร์ก: ประตูสู่ยุโรป</h3><p>V-Ledger ดำเนินงานในฐานะศูนย์กลางทางกายภาพและกฎหมายที่ท่าเรือภายในประเทศที่ใหญ่ที่สุดในยุโรปที่เมืองดุยส์บวร์ก เราให้บริการโครงสร้างพื้นฐานเพื่อก้าวผ่านกฎระเบียบการนำเข้าของยุโรป (ESPR 2027)</p><h3>เทคโนโลยีพบกับกฎระเบียบเยอรมัน</h3><p>พันธมิตรเอเชียของเราจัดการการผลิต เราดูแลให้ทุกผลิตภัณฑ์ได้รับ Digital Product Passport (DPP) ที่ปลอดภัยสูงสุดโดยใช้ Base L2 Blockchain และ NTAG 424 DNA</p><h3>ความถูกต้องของคุณ คือธุรกิจของเรา</h3><p>เราจัดการความซับซ้อนและรับผิดชอบทางกฎหมาย ส่งออกอย่างราบรื่นและเติบโตอย่างไร้ขีดจำกัด</p>"
         },
         "tech": {
             "nav": "เทคโนโลยี",
@@ -404,7 +404,7 @@ const translations = {
         "footerH2": "首批试点：电池与纺织品",
         "footerP": "成为首批无障碍通过 2027 欧盟海关的出口商。我们正在寻找战略合作伙伴。",
         "contact": "申请审计",
-        "copy": "&copy; 2026 V-Leadger UG // 出口安全与被动收益。保留所有权利。",
+        "copy": "&copy; 2026 V-Ledger // 出口安全与被动收益。保留所有权利。",
         "s1h": "NFTs as a Service",
         "s1p": "为您的集装箱全自动生成数字产品护照。我们帮您屏蔽了所有区块链的复杂性。",
         "s2h": "智能合约版税",
@@ -422,7 +422,7 @@ const translations = {
         "p4h": "NXP 高端加密硬件。",
         "p4d": "通过物理锚点将您的产品与我们的 NFT 绑定，从出厂到后续回收生命周期里保护您的品牌。",
         "quote": "“2027 年欧盟市场准入不再是一个风险。它是您在全球市场中脱颖而出的终极竞争优势。”",
-        "quotesub": "— v-leadger // 欧盟出口门户",
+        "quotesub": "— V-Ledger // 欧盟出口门户",
         "badge": "电池与纺织品 // 东南亚出口",
         "calcH": "利润计算器",
         "calcV": "出口量 (件/年)",
@@ -430,11 +430,11 @@ const translations = {
         "calcF": "每件版税金额 (€/件)",
         "calcP": "年度被动收益估值:",
         "lang": "zh-cn",
-        "metaTitle": "V-Leadger | ESPR 合规与数字产品护照 (DPP)",
-        "metaDesc": "V-Leadger (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
+        "metaTitle": "V-Ledger | ESPR 合规与数字产品护照 (DPP)",
+        "metaDesc": "V-Ledger (杜伊斯堡) 为电池和纺织品提供 ESPR 合规解决方案。通过 NTAG 424 DNA 和区块链实现安全的产品护照。",
         "cookie": {
             "title": "安全与合规检查",
-            "msg": "为了确保访问 V-Leadger 基础设施的安全并符合欧盟合规要求，我们使用加密识别符 (Cookies)。请确认您的身份和偏好。",
+            "msg": "为了确保访问 V-Ledger 基础设施的安全并符合欧盟合规要求，我们使用加密识别符 (Cookies)。请确认您的身份和偏好。",
             "accept": "授予访问权限 (所有)",
             "reject": "最小权限访问",
             "settings": "偏好设置",
@@ -461,7 +461,7 @@ const translations = {
             "back": "返回首页",
             "agree": "我同意根据以下条款处理数据",
             "content": {
-                "imprint": "<h1>法律声明</h1><p>V-Leadger UG (杜伊斯堡)<br>电子邮件: info@v-leadger.com</p>",
+                "imprint": "<h1>法律声明</h1><p>V-Ledger (杜伊斯堡)<br>电子邮件: info@V-Ledger.com</p>",
                 "privacy": "<h1>隐私政策 (GDPR)</h1><p>我们非常重视您的数据保护...</p>",
                 "terms": "<h1>服务条款</h1><p>我们的服务仅面向 B2B 客户。</p>"
             }
@@ -470,7 +470,7 @@ const translations = {
             "nav": "关于我们",
             "title": "欧洲的数字化门户",
             "subtitle": "连接前沿技术与合规监管。",
-            "content": "<h3>杜伊斯堡港：欧洲的枢纽</h3><p>V-Leadger UG 在欧洲最大的内陆港杜伊斯堡作为物理和法律的基石运营。我们将欧洲复杂的进口法规 (ESPR 2027) 转化为无缝的基础设施服务。</p><h3>技术结合德国监管底蕴</h3><p>当我们的亚洲合作伙伴主导实物生产时，我们确保每一件产品都能获得防伪的数字产品护照 (DPP)。利用 Base L2 区块链和 NTAG 424 DNA 安全技术，我们将物流数据转化为自动化的版税收入。</p><h3>您的合规保障，是我们专注的核心。</h3><p>我们承担技术复杂性和欧盟数据转移的法律责任。实现零延误的海关出口。无界限的业务扩展。</p>"
+            "content": "<h3>杜伊斯堡港：欧洲的枢纽</h3><p>V-Ledger 在欧洲最大的内陆港杜伊斯堡作为物理和法律的基石运营。我们将欧洲复杂的进口法规 (ESPR 2027) 转化为无缝的基础设施服务。</p><h3>技术结合德国监管底蕴</h3><p>当我们的亚洲合作伙伴主导实物生产时，我们确保每一件产品都能获得防伪的数字产品护照 (DPP)。利用 Base L2 区块链和 NTAG 424 DNA 安全技术，我们将物流数据转化为自动化的版税收入。</p><h3>您的合规保障，是我们专注的核心。</h3><p>我们承担技术复杂性和欧盟数据转移的法律责任。实现零延误的海关出口。无界限的业务扩展。</p>"
         },
         "tech": {
             "nav": "技术",
@@ -489,7 +489,7 @@ const translations = {
         "footerH2": "首批試點：電池與紡織品",
         "footerP": "成為首批無障礙通過 2027 歐盟海關的出口商。我們正在尋找戰略合作夥伴。",
         "contact": "申請審計",
-        "copy": "&copy; 2026 V-Leadger UG // 出口安全與被動收益。保留所有權利。",
+        "copy": "&copy; 2026 V-Ledger // 出口安全與被動收益。保留所有權利。",
         "s1h": "NFTs as a Service",
         "s1p": "為您的貨櫃全自動生成數位產品護照。我們幫您屏蔽了所有區塊鏈的複雜度。",
         "s2h": "智能合約版稅",
@@ -507,7 +507,7 @@ const translations = {
         "p4h": "NXP 高端硬體。",
         "p4d": "透過物理錨點將您的產品與我們的 NFT 綁定，從出廠到後續回收整個生命週期內保護您的品牌。",
         "quote": "“歐盟市場進入是眼前的門檻。受控的二級市場是未來利潤。”",
-        "quotesub": "— v-leadger // 歐盟出口門戶",
+        "quotesub": "— V-Ledger // 歐盟出口門戶",
         "badge": "電池與紡織品 // 东南亚出口",
         "calcH": "利潤計算器",
         "calcV": "出口量 (件/年)",
@@ -515,11 +515,11 @@ const translations = {
         "calcF": "每件版税金額 (€/件)",
         "calcP": "年度被動收益估值:",
         "lang": "zh-tw",
-        "metaTitle": "V-Leadger | ESPR 合規與數位產品護照 (DPP)",
-        "metaDesc": "V-Leadger (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
+        "metaTitle": "V-Ledger | ESPR 合規與數位產品護照 (DPP)",
+        "metaDesc": "V-Ledger (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
         "cookie": {
             "title": "安全與合規檢查",
-            "msg": "為了確保訪問 V-Leadger 基礎設施的安全並符合歐盟合規要求，我們使用加密識別符 (Cookies)。請確認您的身份和偏好。",
+            "msg": "為了確保訪問 V-Ledger 基礎設施的安全並符合歐盟合規要求，我們使用加密識別符 (Cookies)。請確認您的身份和偏好。",
             "accept": "授予訪問權限 (所有)",
             "reject": "最小權限訪問",
             "settings": "偏好設置",
@@ -546,7 +546,7 @@ const translations = {
             "back": "返回首頁",
             "agree": "我同意根據以下条款處理數據",
             "content": {
-                "imprint": "<h1>法律聲明</h1><p>V-Leadger UG (杜伊斯堡)<br>電子郵件: info@v-leadger.com</p>",
+                "imprint": "<h1>法律聲明</h1><p>V-Ledger (杜伊斯堡)<br>電子郵件: info@V-Ledger.com</p>",
                 "privacy": "<h1>隱私政策 (GDPR)</h1><p>我們非常重視您的數據保護...</p>",
                 "terms": "<h1>服務條款</h1><p>我們的服務僅面向 B2B 客戶。</p>"
             }
@@ -555,7 +555,7 @@ const translations = {
             "nav": "關於我們",
             "title": "歐洲的數位化門戶",
             "subtitle": "連接前沿技術與合規監管。",
-            "content": "<h3>杜伊斯堡港：歐洲的樞紐</h3><p>V-Leadger UG 在歐洲最大的內陸港杜伊斯堡作為物理和法律的基石運營。我們將歐洲複雜的進口法規 (ESPR 2027) 轉化為無縫的基礎設施服務。</p><h3>技術結合德國監管底蘊</h3><p>當我們的亞洲合作夥伴主導實物生產時，我們確保每一件產品都能獲得防偽的數位產品護照 (DPP)。利用 Base L2 區塊鏈和 NTAG 424 DNA 安全技術，我們將物流數據轉化為自動化的版稅收入。</p><h3>您的合規保障，是我們專注的核心。</h3><p>我們承擔技術複雜性和歐盟數據轉移的法律責任。實現零延誤的海關出口。無界限的業務擴展。</p>"
+            "content": "<h3>杜伊斯堡港：歐洲的樞紐</h3><p>V-Ledger 在歐洲最大的內陸港杜伊斯堡作為物理和法律的基石運營。我們將歐洲複雜的進口法規 (ESPR 2027) 轉化為無縫的基礎設施服務。</p><h3>技術結合德國監管底蘊</h3><p>當我們的亞洲合作夥伴主導實物生產時，我們確保每一件產品都能獲得防偽的數位產品護照 (DPP)。利用 Base L2 區塊鏈和 NTAG 424 DNA 安全技術，我們將物流數據轉化為自動化的版稅收入。</p><h3>您的合規保障，是我們專注的核心。</h3><p>我們承擔技術複雜性和歐盟數據轉移的法律責任。實現零延誤的海關出口。無界限的業務擴展。</p>"
         },
         "tech": {
             "nav": "技術",
@@ -575,7 +575,7 @@ const translations = {
         "footerH2": "PIONEROS: BATERÍAS, TEXTILES Y RELOJES.",
         "footerP": "Sea el primer exportador cuya mercancía pase la aduana de la UE en 2027. Buscamos socios estratégicos.",
         "contact": "Solicitar auditoría",
-        "copy": "&copy; 2026 V-Leadger UG // SEGURIDAD DE EXPORTACIÓN E INGRESOS PASIVOS. TODOS LOS DERECHOS RESERVADOS.",
+        "copy": "&copy; 2026 V-Ledger // SEGURIDAD DE EXPORTACIÓN E INGRESOS PASIVOS. TODOS LOS DERECHOS RESERVADOS.",
         "s1h": "NFTs como servicio",
         "s1p": "Generación automatizada de Pasaportes Digitales de Producto para sus contenedores. Abstraemos el blockchain.",
         "s2h": "Regalías de Contratos Inteligentes",
@@ -593,7 +593,7 @@ const translations = {
         "p4h": "Hardware seguro de NXP.",
         "p4d": "Los anclajes físicos vinculan sus mercancías con nuestros NFTs, asegurando el valor de su marca desde la fábrica hasta el reciclaje.",
         "quote": "\"El acceso al mercado de la UE en 2027 ya no es un riesgo, es su ventaja competitiva definitiva.\"",
-        "quotesub": "— v-leadger // LA PUERTA DE EXPORTACIÓN",
+        "quotesub": "— V-Ledger // LA PUERTA DE EXPORTACIÓN",
         "badge": "Especializado en Baterías, Textiles y Relojes // Exportación Marítima",
         "calcH": "Calculadora de beneficios",
         "calcV": "Volumen de exportación (unidades/año)",
@@ -601,11 +601,11 @@ const translations = {
         "calcF": "Tarifa de regalía (€/unidad)",
         "calcP": "Beneficio pasivo anual:",
         "lang": "es-es",
-        "metaTitle": "V-Leadger | Cumplimiento de ESPR y Pasaporte de Producto (DPP)",
-        "metaDesc": "V-Leadger (Duisburgo) ofrece cumplimiento de ESPR para baterías, textiles y relojes. Pasaportes de producto seguros mediante NTAG 424 DNA y Blockchain.",
+        "metaTitle": "V-Ledger | Cumplimiento de ESPR y Pasaporte de Producto (DPP)",
+        "metaDesc": "V-Ledger (Duisburgo) ofrece cumplimiento de ESPR para baterías, textiles y relojes. Pasaportes de producto seguros mediante NTAG 424 DNA y Blockchain.",
         "cookie": {
             "title": "CONTROL DE SEGURIDAD Y CUMPLIMIENTO",
-            "msg": "Para asegurar el acceso a la infraestructura de V-Leadger y garantizar el cumplimiento de la UE, utilizamos identificadores criptográficos (Cookies). Confirme su identidad y preferencias.",
+            "msg": "Para asegurar el acceso a la infraestructura de V-Ledger y garantizar el cumplimiento de la UE, utilizamos identificadores criptográficos (Cookies). Confirme su identidad y preferencias.",
             "accept": "CONCEDER ACCESO (TODO)",
             "reject": "ACCESO MÍNIMO",
             "settings": "PREFERENCIAS",
@@ -645,7 +645,7 @@ const translations = {
             "back": "Volver al inicio",
             "agree": "Acepto el procesamiento de datos según",
             "content": {
-                "imprint": "<h1>Aviso Legal</h1><p>V-Leadger UG (Duisburgo)<br>Email: info@v-leadger.com</p>",
+                "imprint": "<h1>Aviso Legal</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>Política de Privacidad (RGPD)</h1><p>Valoramos la seguridad de sus datos...</p>",
                 "terms": "<h1>Términos de Servicio</h1><p>Nuestros servicios son exclusivos para clientes B2B.</p>"
             }
@@ -654,7 +654,7 @@ const translations = {
             "nav": "Sobre nosotros",
             "title": "La Puerta Europea",
             "subtitle": "Uniendo Tecnología y Cumplimiento.",
-            "content": "<h3>El Puerto de Duisburgo: Puerta de Europa</h3><p>V-Leadger UG opera como anclaje físico y legal en el puerto interior más grande de Europa. Proporcionamos la infraestructura para superar barreras regulatorias (ESPR 2027).</p><h3>Tecnología y Regulación Alemana</h3><p>Mientras los socios asiáticos dominan la producción, nosotros aseguramos que cada producto reciba un Pasaporte Digital (DPP) inforjable con Base L2 y NTAG 424 DNA.</p><h3>Su cumplimiento. Nuestro negocio.</h3><p>Manejamos la complejidad técnica y la responsabilidad legal. Exportación sin demoras aduaneras. Escalado sin límites.</p>"
+            "content": "<h3>El Puerto de Duisburgo: Puerta de Europa</h3><p>V-Ledger opera como anclaje físico y legal en el puerto interior más grande de Europa. Proporcionamos la infraestructura para superar barreras regulatorias (ESPR 2027).</p><h3>Tecnología y Regulación Alemana</h3><p>Mientras los socios asiáticos dominan la producción, nosotros aseguramos que cada producto reciba un Pasaporte Digital (DPP) inforjable con Base L2 y NTAG 424 DNA.</p><h3>Su cumplimiento. Nuestro negocio.</h3><p>Manejamos la complejidad técnica y la responsabilidad legal. Exportación sin demoras aduaneras. Escalado sin límites.</p>"
         },
         "tech": {
             "nav": "Tecnología",
@@ -674,7 +674,7 @@ const translations = {
         "footerH2": "ファーストムーバー：バッテリー、テキスタイル、および時計",
         "footerP": "2027年に欧州税関をスムーズに通過する最初の輸出業者になりましょう。戦略的パートナーを募集しています。",
         "contact": "監査をリクエスト",
-        "copy": "&copy; 2026 V-Leadger UG // 輸出セキュリティとパッシブ収益。全著作権所有。",
+        "copy": "&copy; 2026 V-Ledger // 輸出セキュリティとパッシブ収益。全著作権所有。",
         "s1h": "NFT as a Service",
         "s1p": "コンテナ用のデジタル製品パスポートを自動生成。ブロックチェーンを完全に抽象化します。",
         "s2h": "スマートコントラクト・ロイヤリティ",
@@ -692,7 +692,7 @@ const translations = {
         "p4h": "NXPセキュアハードウェア",
         "p4d": "物理的なアンカーが商品とNFTをリンクさせ、工場からリサイクルまでのブランド価値を保護します。",
         "quote": "\"2027年のEU市場へのアクセスはもはやリスクではなく、究極の競争優位性です。\"",
-        "quotesub": "— v-leadger // 輸出ゲートウェイ",
+        "quotesub": "— V-Ledger // 輸出ゲートウェイ",
         "badge": "バッテリー、テキスタイル、および時計専門 // 海上輸出",
         "calcH": "収益シミュレーター",
         "calcV": "年間輸出量（ユニット）",
@@ -700,11 +700,11 @@ const translations = {
         "calcF": "ロイヤリティ料（€/ユニット）",
         "calcP": "年間パッシブ利益：",
         "lang": "ja-jp",
-        "metaTitle": "V-Leadger | ESPR準拠とデジタル製品パスポート (DPP)",
-        "metaDesc": "V-Leadger（デュイスブルク）はバッテリーと繊維のESPR準拠を提供。NTAG 424 DNAとブロックチェーンによるセキュアな製品パスポート。",
+        "metaTitle": "V-Ledger | ESPR準拠とデジタル製品パスポート (DPP)",
+        "metaDesc": "V-Ledger（デュイスブルク）はバッテリーと繊維のESPR準拠を提供。NTAG 424 DNAとブロックチェーンによるセキュアな製品パスポート。",
         "cookie": {
             "title": "セキュリティ＆コンプライアンス・チェック",
-            "msg": "V-Leadgerインフラへのアクセスを保護し、EUコンプライアンスを確保するため、暗号化識別子（Cookie）を使用しています。本人確認と設定を行ってください。",
+            "msg": "V-Ledgerインフラへのアクセスを保護し、EUコンプライアンスを確保するため、暗号化識別子（Cookie）を使用しています。本人確認と設定を行ってください。",
             "accept": "アクセスを許可（すべて）",
             "reject": "最小限のアクセス",
             "settings": "設定",
@@ -744,7 +744,7 @@ const translations = {
             "back": "ホームに戻る",
             "agree": "データ処理に同意する：",
             "content": {
-                "imprint": "<h1>法的通知</h1><p>V-Leadger UG (デュイスブルク)<br>メール: info@v-leadger.com</p>",
+                "imprint": "<h1>法的通知</h1><p>V-Ledger (デュイスブルク)<br>メール: info@V-Ledger.com</p>",
                 "privacy": "<h1>プライバシーポリシー (GDPR)</h1><p>データの安全性を重視しています...</p>",
                 "terms": "<h1>利用規約</h1><p>当社のサービスはB2B顧客専用です。</p>"
             }
@@ -753,7 +753,7 @@ const translations = {
             "nav": "会社概要",
             "title": "欧州のゲートウェイ",
             "subtitle": "テクノロジーとコンプライアンスの架け橋",
-            "content": "<h3>デュイスブルク港：欧州の玄関口</h3><p>V-Leadger UGは、欧州最大の河川港であるデュイスブルクで物理的・法的な拠点として機能しています。欧州輸入規制（ESPR 2027）の壁を越えるインフラを提供します。</p><h3>テクノロジーとドイツの規制への適応</h3><p>アジアのパートナーが製造を担う一方で、当社はBase L2とNTAG 424 DNAを用いて、すべての製品に偽造不可能なDPPを発行します。</p><h3>お客様のコンプライアンスは当社のビジネスです</h3><p>技術的な複雑さと法的な責任を当社が引き受けます。遅延のない輸出と無限の拡張性を実現します。</p>"
+            "content": "<h3>デュイスブルク港：欧州の玄関口</h3><p>V-Ledgerは、欧州最大の河川港であるデュイスブルクで物理的・法的な拠点として機能しています。欧州輸入規制（ESPR 2027）の壁を越えるインフラを提供します。</p><h3>テクノロジーとドイツの規制への適応</h3><p>アジアのパートナーが製造を担う一方で、当社はBase L2とNTAG 424 DNAを用いて、すべての製品に偽造不可能なDPPを発行します。</p><h3>お客様のコンプライアンスは当社のビジネスです</h3><p>技術的な複雑さと法的な責任を当社が引き受けます。遅延のない輸出と無限の拡張性を実現します。</p>"
         },
         "tech": {
             "nav": "テクノロジー",
@@ -773,7 +773,7 @@ const translations = {
         "footerH2": "퍼스트 무버: 배터리, 섬유 및 시계",
         "footerP": "2027년 유럽 세관을 가장 먼저 통과하는 수출업체가 되십시오. 전략적 파트너를 찾고 있습니다.",
         "contact": "감사 요청하기",
-        "copy": "&copy; 2026 V-Leadger UG // 수출 보안 및 패시브 수익. 모든 권리 보유.",
+        "copy": "&copy; 2026 V-Ledger // 수출 보안 및 패시브 수익. 모든 권리 보유.",
         "s1h": "NFT as a Service",
         "s1p": "컨테이너를 위한 자동화된 디지털 제품 여권 생성. 블록체인을 완벽하게 추상화합니다.",
         "s2h": "스마트 컨트랙트 로열티",
@@ -791,7 +791,7 @@ const translations = {
         "p4h": "NXP 보안 하드웨어",
         "p4d": "물리적 앵커가 상품과 NFT를 연결하여 공장에서 재활용까지 브랜드 가치를 보호합니다.",
         "quote": "\"2027년 EU 시장 진입은 더 이상 리스크가 아니라, 궁극적인 경쟁 우위입니다.\"",
-        "quotesub": "— v-leadger // 수출 게이트웨이",
+        "quotesub": "— V-Ledger // 수출 게이트웨이",
         "badge": "배터리, 섬유 및 시계 전문 // 해상 수출",
         "calcH": "수익 계산기",
         "calcV": "연간 수출량 (유닛)",
@@ -799,11 +799,11 @@ const translations = {
         "calcF": "로열티 수수료 (€/유닛)",
         "calcP": "연간 패시브 수익:",
         "lang": "ko-kr",
-        "metaTitle": "V-Leadger | ESPR 준수 및 디지털 제품 여권 (DPP)",
-        "metaDesc": "V-Leadger (뒤스부르크)는 배터리, 섬유 및 시계를 위한 ESPR 준수 솔루션을 제공합니다. NTAG 424 DNA 및 블록체인을 통한 보안 제품 여권.",
+        "metaTitle": "V-Ledger | ESPR 준수 및 디지털 제품 여권 (DPP)",
+        "metaDesc": "V-Ledger (뒤스부르크)는 배터리, 섬유 및 시계를 위한 ESPR 준수 솔루션을 제공합니다. NTAG 424 DNA 및 블록체인을 통한 보안 제품 여권.",
         "cookie": {
             "title": "보안 및 규제 준수 확인",
-            "msg": "V-Leadger 인프라 접근을 보호하고 EU 규정 준수를 보장하기 위해 암호화 식별자(Cookie)를 사용합니다. 본인 확인 및 설정을 진행해 주십시오.",
+            "msg": "V-Ledger 인프라 접근을 보호하고 EU 규정 준수를 보장하기 위해 암호화 식별자(Cookie)를 사용합니다. 본인 확인 및 설정을 진행해 주십시오.",
             "accept": "접근 허용 (전체)",
             "reject": "최소 접근",
             "settings": "설정",
@@ -843,7 +843,7 @@ const translations = {
             "back": "홈으로 돌아가기",
             "agree": "데이터 처리에 동의합니다:",
             "content": {
-                "imprint": "<h1>법적 고지</h1><p>V-Leadger UG (뒤스부르크)<br>이메일: info@v-leadger.com</p>",
+                "imprint": "<h1>법적 고지</h1><p>V-Ledger (뒤스부르크)<br>이메일: info@V-Ledger.com</p>",
                 "privacy": "<h1>개인정보 처리방침 (GDPR)</h1><p>데이터 보안을 최우선으로 합니다...</p>",
                 "terms": "<h1>이용약관</h1><p>당사의 서비스는 B2B 고객 전용입니다.</p>"
             }
@@ -852,7 +852,7 @@ const translations = {
             "nav": "회사 소개",
             "title": "유럽의 관문",
             "subtitle": "기술과 규제 준수의 가교",
-            "content": "<h3>뒤스부르크 항: 유럽의 게이트웨이</h3><p>V-Leadger UG는 유럽 최대 내륙항인 뒤스부르크에서 물리적, 법적 거점으로 활동합니다. 유럽 수입 규제(ESPR 2027)를 넘어서는 인프라를 제공합니다.</p><h3>기술과 독일 규제의 만남</h3><p>아시아 파트너가 제조를 담당하는 동안, 당사는 Base L2와 NTAG 424 DNA를 사용하여 모든 제품에 위조 불가능한 DPP를 발행합니다.</p><h3>고객의 준수는 당사의 비즈니스입니다</h3><p>기술적 복잡성과 법적 책임을 당사가 대신합니다. 지연 없는 수출과 무한한 확장성을 실현하십시오.</p>"
+            "content": "<h3>뒤스부르크 항: 유럽의 게이트웨이</h3><p>V-Ledger는 유럽 최대 내륙항인 뒤스부르크에서 물리적, 법적 거점으로 활동합니다. 유럽 수입 규제(ESPR 2027)를 넘어서는 인프라를 제공합니다.</p><h3>기술과 독일 규제의 만남</h3><p>아시아 파트너가 제조를 담당하는 동안, 당사는 Base L2와 NTAG 424 DNA를 사용하여 모든 제품에 위조 불가능한 DPP를 발행합니다.</p><h3>고객의 준수는 당사의 비즈니스입니다</h3><p>기술적 복잡성과 법적 책임을 당사가 대신합니다. 지연 없는 수출과 무한한 확장성을 실현하십시오.</p>"
         },
         "tech": {
             "nav": "기술",
@@ -872,7 +872,7 @@ const translations = {
         "footerH2": "प्रथम प्रवर्तक: बैटरी, कपड़ा और घड़ियाँ।",
         "footerP": "2027 में यूरोपीय सीमा शुल्क को सुचारू रूप से पार करने वाले पहले निर्यातक बनें। हम रणनीतिक भागीदारों की तलाश कर रहे हैं।",
         "contact": "ऑडिट का अनुरोध करें",
-        "copy": "&copy; 2026 V-Leadger UG // निर्यात सुरक्षा और पैसिव इनकम। सर्वाधिकार सुरक्षित।",
+        "copy": "&copy; 2026 V-Ledger // निर्यात सुरक्षा और पैसिव इनकम। सर्वाधिकार सुरक्षित।",
         "s1h": "SaaS के रूप में NFT",
         "s1p": "आपके कंटेनरों के लिए डिजिटल उत्पाद पासपोर्ट का स्वचालित निर्माण। हम ब्लॉकचेन को पूरी तरह से सरल बनाते हैं।",
         "s2h": "स्मार्ट कॉन्ट्रैक्ट रॉयल्टी",
@@ -890,7 +890,7 @@ const translations = {
         "p4h": "NXP सुरक्षित हार्डवेयर।",
         "p4d": "भौतिक एंकर आपके सामान को हमारे NFT से जोड़ते हैं और फैक्ट्री से रीसाइक्लिंग तक आपके ब्रांड मूल्य को सुरक्षित करते हैं।",
         "quote": "\"2027 में EU बाजार तक पहुंच अब जोखिम नहीं है, यह आपका अंतिम प्रतिस्पर्धी लाभ है।\"",
-        "quotesub": "— v-leadger // निर्यात गेटवे",
+        "quotesub": "— V-Ledger // निर्यात गेटवे",
         "badge": "बैटरी, कपड़ा और घड़ियों के लिए विशेष // समुद्री निर्यात",
         "calcH": "लाभ कैलकुलेटर",
         "calcV": "निर्यात मात्रा (इकाई/वर्ष)",
@@ -898,11 +898,11 @@ const translations = {
         "calcF": "रॉयल्टी शुल्क (€/इकाई)",
         "calcP": "वार्षिक पैसिव लाभ:",
         "lang": "hi-in",
-        "metaTitle": "V-Leadger | ESPR अनुपालन और डिजिटल उत्पाद पासपोर्ट (DPP)",
-        "metaDesc": "V-Leadger (डिसबर्ग) बैटरी, कपड़ों और घड़ियों के लिए ESPR अनुपालन प्रदान करता है। NTAG 424 DNA और ब्लॉकचेन के माध्यम से सुरक्षित उत्पाद पासपोर्ट।",
+        "metaTitle": "V-Ledger | ESPR अनुपालन और डिजिटल उत्पाद पासपोर्ट (DPP)",
+        "metaDesc": "V-Ledger (डिसबर्ग) बैटरी, कपड़ों और घड़ियों के लिए ESPR अनुपालन प्रदान करता है। NTAG 424 DNA और ब्लॉकचेन के माध्यम से सुरक्षित उत्पाद पासपोर्ट।",
         "cookie": {
             "title": "सुरक्षा और अनुपालन जांच",
-            "msg": "V-Leadger इंफ्रास्ट्रक्चर तक पहुंच सुरक्षित करने और EU अनुपालन सुनिश्चित करने के लिए, हम क्रिप्टोग्राफ़िक पहचानकर्ता (Cookies) का उपयोग करते हैं। अपनी पहचान और प्राथमिकताओं की पुष्टि करें।",
+            "msg": "V-Ledger इंफ्रास्ट्रक्चर तक पहुंच सुरक्षित करने और EU अनुपालन सुनिश्चित करने के लिए, हम क्रिप्टोग्राफ़िक पहचानकर्ता (Cookies) का उपयोग करते हैं। अपनी पहचान और प्राथमिकताओं की पुष्टि करें।",
             "accept": "पहुंच प्रदान करें (सभी)",
             "reject": "न्यूनतम पहुंच",
             "settings": "प्राथमिकताएं",
@@ -942,7 +942,7 @@ const translations = {
             "back": "होम पेज पर वापस",
             "agree": "मैं इसके अनुसार डेटा प्रोसेसिंग के लिए सहमत हूं:",
             "content": {
-                "imprint": "<h1>कानूनी सूचना</h1><p>V-Leadger UG (डिसबर्ग)<br>ईमेल: info@v-leadger.com</p>",
+                "imprint": "<h1>कानूनी सूचना</h1><p>V-Ledger (डिसबर्ग)<br>ईमेल: info@V-Ledger.com</p>",
                 "privacy": "<h1>गोपनीयता नीति (GDPR)</h1><p>हम आपके डेटा की सुरक्षा को प्राथमिकता देते हैं...</p>",
                 "terms": "<h1>सेवा की शर्तें</h1><p>हमारी सेवाएं विशेष रूप से B2B ग्राहकों के लिए हैं।</p>"
             }
@@ -951,7 +951,7 @@ const translations = {
             "nav": "हमारे बारे में",
             "title": "यूरोपीय गेटवे",
             "subtitle": "तकनीक और अनुपालन के बीच सेतु।",
-            "content": "<h3>डिसबर्ग पोर्ट: यूरोप का प्रवेश द्वार</h3><p>V-Leadger UG डिसबर्ग में यूरोप के सबसे बड़े अंतर्देशीय बंदरगाह पर एक भौतिक और कानूनी एंकर के रूप में काम करता है। हम यूरोपीय आयात नियमों (ESPR 2027) को पार करने के लिए बुनियादी ढांचा प्रदान करते हैं।</p><h3>जर्मन विनियमन के साथ तकनीक का मिलन</h3><p>जबकि एशियाई भागीदार उत्पादन संभालते हैं, हम सुनिश्चित करते हैं कि हर उत्पाद को Base L2 और NTAG 424 DNA के साथ एक डिजिटल पासपोर्ट मिले।</p><h3>आपका अनुपालन। हमारा व्यवसाय।</h3><p>हम तकनीकी जटिलता और कानूनी जिम्मेदारी संभालते हैं। बिना सीमा शुल्क देरी के निर्यात करें। असीम रूप से विस्तार करें।</p>"
+            "content": "<h3>डिसबर्ग पोर्ट: यूरोप का प्रवेश द्वार</h3><p>V-Ledger डिसबर्ग में यूरोप के सबसे बड़े अंतर्देशीय बंदरगाह पर एक भौतिक और कानूनी एंकर के रूप में काम करता है। हम यूरोपीय आयात नियमों (ESPR 2027) को पार करने के लिए बुनियादी ढांचा प्रदान करते हैं।</p><h3>जर्मन विनियमन के साथ तकनीक का मिलन</h3><p>जबकि एशियाई भागीदार उत्पादन संभालते हैं, हम सुनिश्चित करते हैं कि हर उत्पाद को Base L2 और NTAG 424 DNA के साथ एक डिजिटल पासपोर्ट मिले।</p><h3>आपका अनुपालन। हमारा व्यवसाय।</h3><p>हम तकनीकी जटिलता और कानूनी जिम्मेदारी संभालते हैं। बिना सीमा शुल्क देरी के निर्यात करें। असीम रूप से विस्तार करें।</p>"
         },
         "tech": {
             "nav": "तकनीकी",
@@ -971,7 +971,7 @@ const translations = {
         "footerH2": "প্রথম উদ্যোক্তা: ব্যাটারি, টেক্সটাইল এবং ঘড়ি।",
         "footerP": "২০২৭ সালে ইউরোপীয় কাস্টমস সফলভাবে অতিক্রমকারী প্রথম রপ্তানিকারক হন। আমরা কৌশলগত অংশীদার খুঁজছি।",
         "contact": "অডিট অনুরোধ করুন",
-        "copy": "&copy; ২০২৬ V-Leadger UG // রপ্তানি নিরাপত্তা এবং প্যাসিভ ইনকাম। সর্বস্বত্ব সংরক্ষিত।",
+        "copy": "&copy; ২০২৬ V-Ledger // রপ্তানি নিরাপত্তা এবং প্যাসিভ ইনকাম। সর্বস্বত্ব সংরক্ষিত।",
         "s1h": "NFT as a Service",
         "s1p": "আপনার কন্টেইনারের জন্য ডিজিটাল প্রোডাক্ট পাসপোর্টের স্বয়ংক্রিয় উৎপাদন। আমরা ব্লকচেইনকে সম্পূর্ণ সহজ করি।",
         "s2h": "স্মার্ট কন্ট্রাক্ট রয়্যালটি",
@@ -989,7 +989,7 @@ const translations = {
         "p4h": "NXP সিকিউর হার্ডওয়্যার।",
         "p4d": "ভৌতিক মার্কার আপনার পণ্যকে আমাদের NFT-এর সাথে সংযুক্ত করে এবং ফ্যাক্টরি থেকে রিসাইক্লিং পর্যন্ত ব্র্যান্ড ভ্যালু রক্ষা করে।",
         "quote": "\"২০২৭ সালে EU বাজারে প্রবেশ আর কোনো ঝুঁকি নয়, এটি আপনার চূড়ান্ত প্রতিযোগিতামূলক সুবিধা।\"",
-        "quotesub": "— v-leadger // রপ্তানি গেটওয়ে",
+        "quotesub": "— V-Ledger // রপ্তানি গেটওয়ে",
         "badge": "ব্যাটারি, টেক্সটাইল এবং ঘড়ির জন্য বিশেষ // সমুদ্র রপ্তানি",
         "calcH": "মুনাফা ক্যালকুলেটর",
         "calcV": "রপ্তানি পরিমাণ (ইউনিট/বছর)",
@@ -997,11 +997,11 @@ const translations = {
         "calcF": "রয়্যালটি ফি (€/ইউনিট)",
         "calcP": "বার্ষিক প্যাসিভ মুনাফা:",
         "lang": "bn-bd",
-        "metaTitle": "V-Leadger | ESPR কমপ্লায়েন্স এবং ডিজিটাল প্রোডাক্ট পাসপোর্ট (DPP)",
-        "metaDesc": "V-Leadger (ডুইসবার্গ) ব্যাটারি এবং টেক্সটাইলের জন্য ESPR কমপ্লায়েন্স প্রদান করে। NTAG 424 DNA এবং ব্লকচেইনের মাধ্যমে সুরক্ষিত প্রোডাক্ট পাসপোর্ট।",
+        "metaTitle": "V-Ledger | ESPR কমপ্লায়েন্স এবং ডিজিটাল প্রোডাক্ট পাসপোর্ট (DPP)",
+        "metaDesc": "V-Ledger (ডুইসবার্গ) ব্যাটারি এবং টেক্সটাইলের জন্য ESPR কমপ্লায়েন্স প্রদান করে। NTAG 424 DNA এবং ব্লকচেইনের মাধ্যমে সুরক্ষিত প্রোডাক্ট পাসপোর্ট।",
         "cookie": {
             "title": "নিরাপত্তা এবং কমপ্লায়েন্স চেক",
-            "msg": "V-Leadger ইনফ্রাস্ট্রাকচারে প্রবেশ সুরক্ষিত করতে এবং EU কমপ্লায়েন্স নিশ্চিত করতে, আমরা ক্রিপ্টোগ্রাফিক আইডেন্টিফায়ার (Cookies) ব্যবহার করি। আপনার পরিচয় এবং পছন্দ নিশ্চিত করুন।",
+            "msg": "V-Ledger ইনফ্রাস্ট্রাকচারে প্রবেশ সুরক্ষিত করতে এবং EU কমপ্লায়েন্স নিশ্চিত করতে, আমরা ক্রিপ্টোগ্রাফিক আইডেন্টিফায়ার (Cookies) ব্যবহার করি। আপনার পরিচয় এবং পছন্দ নিশ্চিত করুন।",
             "accept": "প্রবেশাধিকার দিন (সব)",
             "reject": "নূনতম প্রবেশ",
             "settings": "পছন্দসমূহ",
@@ -1024,7 +1024,7 @@ const translations = {
             "back": "হোম পেজে ফিরে যান",
             "agree": "আমি এর অনুযায়ী ডেটা প্রসেসিংয়ে সম্মত:",
             "content": {
-                "imprint": "<h1>আইনি নোটিশ</h1><p>V-Leadger UG (ডুইসবার্গ)<br>ইমেল: info@v-leadger.com</p>",
+                "imprint": "<h1>আইনি নোটিশ</h1><p>V-Ledger (ডুইসবার্গ)<br>ইমেল: info@V-Ledger.com</p>",
                 "privacy": "<h1>গোপনীয়তা নীতি (GDPR)</h1><p>আমরা আপনার ডেটার নিরাপত্তাকে অগ্রাধিকার দিই...</p>",
                 "terms": "<h1>পরিষেবার শর্তাবলী</h1><p>আমাদের পরিষেবাগুলো শুধুমাত্র B2B গ্রাহকদের জন্য।</p>"
             }
@@ -1033,7 +1033,7 @@ const translations = {
             "nav": "আমাদের সম্পর্কে",
             "title": "ইউরোপীয় প্রবেশদ্বার",
             "subtitle": "প্রযুক্তি এবং কমপ্লায়েন্সের মধ্যে সেতুবন্ধন।",
-            "content": "<h3>ডুইসবার্গ বন্দর: ইউরোপের গেটওয়ে</h3><p>V-Leadger UG ডুইসবার্গে ইউরোপের বৃহত্তম অভ্যন্তরীণ বন্দরে একটি ভৌতিক এবং আইনি নোঙর হিসেবে কাজ করে। আমরা ইউরোপীয় আমদানি নিয়ম (ESPR 2027) অতিক্রম করার জন্য ইনফ্রাস্ট্রাকচার প্রদান করি।</p><h3>জার্মান রেগুলেশনের সাথে প্রযুক্তির মিলন</h3><p>যখন এশীয় অংশীদাররা উৎপাদন পরিচালনা করে, আমরা নিশ্চিত করি যে প্রতিটি পণ্য Base L2 এবং NTAG 424 DNA সহ একটি ডিজিটাল পাসপোর্ট পায়।</p><h3>আপনার কমপ্লায়েন্স। আমাদের ব্যবসা।</h3><p>আমরা প্রযুক্তিগত জটিলতা এবং আইনি দায়িত্ব সামলাই। কোনো কাস্টমস বিলম্ব ছাড়াই রপ্তানি করুন। অসীমভাবে প্রসারিত করুন।</p>"
+            "content": "<h3>ডুইসবার্গ বন্দর: ইউরোপের গেটওয়ে</h3><p>V-Ledger ডুইসবার্গে ইউরোপের বৃহত্তম অভ্যন্তরীণ বন্দরে একটি ভৌতিক এবং আইনি নোঙর হিসেবে কাজ করে। আমরা ইউরোপীয় আমদানি নিয়ম (ESPR 2027) অতিক্রম করার জন্য ইনফ্রাস্ট্রাকচার প্রদান করি।</p><h3>জার্মান রেগুলেশনের সাথে প্রযুক্তির মিলন</h3><p>যখন এশীয় অংশীদাররা উৎপাদন পরিচালনা করে, আমরা নিশ্চিত করি যে প্রতিটি পণ্য Base L2 এবং NTAG 424 DNA সহ একটি ডিজিটাল পাসপোর্ট পায়।</p><h3>আপনার কমপ্লায়েন্স। আমাদের ব্যবসা।</h3><p>আমরা প্রযুক্তিগত জটিলতা এবং আইনি দায়িত্ব সামলাই। কোনো কাস্টমস বিলম্ব ছাড়াই রপ্তানি করুন। অসীমভাবে প্রসারিত করুন।</p>"
         },
         "tech": {
             "nav": "প্রযুক্তি",
