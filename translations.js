@@ -36,7 +36,7 @@ const translations = {
         "calcP": "Jährlicher Passiv-Gewinn:",
         "lang": "de-de",
         "metaTitle": "V-Ledger | ESPR Compliance & Digitaler Produktpass (DPP)",
-        "metaDesc": "V-Ledger (Duisburg) bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
+        "metaDesc": "V-Ledger<br>Albertstr. 7, 47059 Duisburg bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "Um den Zugriff auf die V-Ledger-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
@@ -79,8 +79,8 @@ const translations = {
             "back": "Zurück zur Startseite",
             "agree": "Ich stimme der Datenverarbeitung gemäß der",
             "content": {
-                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Impressum</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Angaben gemäß § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Deutschland</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Vertreten durch</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Geschäftsführer)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Kontakt</h3><p class='text-white/60 leading-relaxed font-medium'>E-Mail: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telefonische Erreichbarkeit in Arbeit.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Registereintrag</h3><p class='text-white/60 leading-relaxed font-medium'>Amtsgericht Duisburg<br>Registernummer: In Gründung / In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Umsatzsteuer-ID</h3><p class='text-white/60 leading-relaxed font-medium'>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU-Streitbeilegung</h3><p class='text-white/40 text-sm leading-relaxed'>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p></section></div>",
-                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Datenschutzerklärung</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Verantwortlicher</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>E-Mail: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Datenerhebung</h3><p class='text-white/60 leading-relaxed font-medium'>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage oder zur Vorbereitung eines Audits. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Speicherdauer</h3><p class='text-white/60 leading-relaxed font-medium'>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Ihre Rechte</h3><p class='text-white/60 leading-relaxed font-medium'>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten gemäß Art. 15-21 DSGVO.</p></section></div>",
+                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Impressum</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Angaben gemäß § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger</p><p class='text-white/60 leading-relaxed font-medium'>Albertstr. 7<br>47059 Duisburg<br>Deutschland</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Vertreten durch</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Inhaber)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Kontakt</h3><p class='text-white/60 leading-relaxed font-medium'>E-Mail: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telefonische Erreichbarkeit in Arbeit.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Registereintrag</h3><p class='text-white/60 leading-relaxed font-medium'>Amtsgericht Duisburg<br>Registernummer: In Gründung / In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Umsatzsteuer-ID</h3><p class='text-white/60 leading-relaxed font-medium'>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: In Arbeit</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU-Streitbeilegung</h3><p class='text-white/40 text-sm leading-relaxed'>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p></section></div>",
+                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Datenschutzerklärung</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Verantwortlicher</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger<br>Arndt Christoph Handschuh<br>E-Mail: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Datenerhebung</h3><p class='text-white/60 leading-relaxed font-medium'>Wir erheben Name, E-Mail und Nachricht über unser Kontaktformular ausschließlich zur Bearbeitung Ihrer Anfrage oder zur Vorbereitung eines Audits. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Speicherdauer</h3><p class='text-white/60 leading-relaxed font-medium'>Ihre Daten werden nur so lange gespeichert, wie es für die Bearbeitung notwendig ist oder gesetzliche Aufbewahrungsfristen bestehen.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Ihre Rechte</h3><p class='text-white/60 leading-relaxed font-medium'>Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerspruch bezüglich Ihrer Daten gemäß Art. 15-21 DSGVO.</p></section></div>",
                 "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>AGB</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Geltungsbereich</h3><p class='text-white/60 leading-relaxed font-medium'>Unsere Dienstleistungen richten sich ausschließlich an B2B-Kunden (Unternehmer) im Bereich Export-Compliance und digitale Produktpässe.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Leistungsumfang</h3><p class='text-white/60 leading-relaxed font-medium'>Wir bieten SaaS-Lösungen zur Erstellung von DPPs via Blockchain-Technologie und NXP-Hardware-Integration.</p></section></div>"
             }
         },
@@ -135,7 +135,7 @@ const translations = {
         "calcP": "Annual Passive Profit:",
         "lang": "en-us",
         "metaTitle": "V-Ledger | ESPR Compliance & Battery Passport (DPP)",
-        "metaDesc": "V-Ledger (Duisburg) provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        "metaDesc": "V-Ledger<br>Albertstr. 7, 47059 Duisburg provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "To secure access to the V-Ledger infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
@@ -178,8 +178,8 @@ const translations = {
             "back": "Back to Home",
             "agree": "I agree to data processing according to the",
             "content": {
-                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger (haftungsbeschränkt)</p><p class='text-white/60 leading-relaxed font-medium'>Theodor-Heuss-Str. 104<br>47167 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
-                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger (haftungsbeschränkt)<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
+                "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger</p><p class='text-white/60 leading-relaxed font-medium'>Albertstr. 7<br>47059 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
+                "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
                 "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Terms of Service</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Application</h3><p class='text-white/60 leading-relaxed font-medium'>Our services are exclusively directed at B2B customers (entrepreneurs) in the field of export compliance and digital product passports.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Services</h3><p class='text-white/60 leading-relaxed font-medium'>We provide SaaS solutions for the creation of DPPs via blockchain technology and NXP hardware integration.</p></section></div>"
             }
         },
@@ -234,7 +234,7 @@ const translations = {
         "calcP": "Lợi nhuận Thụ động Hàng năm:",
         "lang": "vi-vn",
         "metaTitle": "V-Ledger | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
-        "metaDesc": "V-Ledger (Duisburg) cung cấp giải pháp tuân thủ ESPR cho pin, dệt may và đồng hồ. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
+        "metaDesc": "V-Ledger<br>Albertstr. 7, 47059 Duisburg cung cấp giải pháp tuân thủ ESPR cho pin, dệt may và đồng hồ. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
         "cookie": {
             "title": "KIỂM TRA AN NINH & TUÂN THỦ",
             "msg": "Để bảo mật quyền truy cập vào hạ tầng V-Ledger và đảm bảo tuân thủ EU, chúng tôi sử dụng các mã định danh mã hóa (Cookies). Hãy xác nhận danh tính và tùy chọn của bạn.",
@@ -333,7 +333,7 @@ const translations = {
         "calcP": "กำไรต่อเนื่องต่อปี:",
         "lang": "th-th",
         "metaTitle": "V-Ledger | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
-        "metaDesc": "V-Ledger (Duisburg) ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่ สิ่งทอ และนาฬิกา พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
+        "metaDesc": "V-Ledger<br>Albertstr. 7, 47059 Duisburg ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่ สิ่งทอ และนาฬิกา พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
         "cookie": {
             "title": "การตรวจสอบความปลอดภัยและข้อกำหนด",
             "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ V-Ledger และเพื่อให้เป็นไปตามกฎระเบียบของ EU เราใช้ตัวระบุรหัสประจำตัว (Cookies) โปรดยืนยันตัวตนและความต้องการของคุณ",
@@ -376,7 +376,7 @@ const translations = {
             "back": "กลับสู่หน้าหลัก",
             "agree": "ฉันยินยอมให้ประมวลผลข้อมูลตาม",
             "content": {
-                "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>V-Ledger (Duisburg)<br>อีเมล: info@V-Ledger.com</p>",
+                "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>V-Ledger<br>Albertstr. 7, 47059 Duisburg<br>อีเมล: info@V-Ledger.com</p>",
                 "privacy": "<h1>นโยบายความเป็นส่วนตัว (GDPR)</h1><p>เราให้ความสำคัญกับการคุ้มครองข้อมูลของคุณ...</p>",
                 "terms": "<h1>ข้อกำหนดการให้บริการ</h1><p>บริการของเรามีไว้สำหรับลูกค้า B2B เท่านั้น</p>"
             }
@@ -461,7 +461,7 @@ const translations = {
             "back": "返回首页",
             "agree": "我同意根据以下条款处理数据",
             "content": {
-                "imprint": "<h1>法律声明</h1><p>V-Ledger (杜伊斯堡)<br>电子邮件: info@V-Ledger.com</p>",
+                "imprint": "<h1>法律声明</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>隐私政策 (GDPR)</h1><p>我们非常重视您的数据保护...</p>",
                 "terms": "<h1>服务条款</h1><p>我们的服务仅面向 B2B 客户。</p>"
             }
@@ -546,7 +546,7 @@ const translations = {
             "back": "返回首頁",
             "agree": "我同意根據以下条款處理數據",
             "content": {
-                "imprint": "<h1>法律聲明</h1><p>V-Ledger (杜伊斯堡)<br>電子郵件: info@V-Ledger.com</p>",
+                "imprint": "<h1>法律聲明</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>隱私政策 (GDPR)</h1><p>我們非常重視您的數據保護...</p>",
                 "terms": "<h1>服務條款</h1><p>我們的服務僅面向 B2B 客戶。</p>"
             }
@@ -744,7 +744,7 @@ const translations = {
             "back": "ホームに戻る",
             "agree": "データ処理に同意する：",
             "content": {
-                "imprint": "<h1>法的通知</h1><p>V-Ledger (デュイスブルク)<br>メール: info@V-Ledger.com</p>",
+                "imprint": "<h1>法的通知</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>プライバシーポリシー (GDPR)</h1><p>データの安全性を重視しています...</p>",
                 "terms": "<h1>利用規約</h1><p>当社のサービスはB2B顧客専用です。</p>"
             }
@@ -843,7 +843,7 @@ const translations = {
             "back": "홈으로 돌아가기",
             "agree": "데이터 처리에 동의합니다:",
             "content": {
-                "imprint": "<h1>법적 고지</h1><p>V-Ledger (뒤스부르크)<br>이메일: info@V-Ledger.com</p>",
+                "imprint": "<h1>법적 고지</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>개인정보 처리방침 (GDPR)</h1><p>데이터 보안을 최우선으로 합니다...</p>",
                 "terms": "<h1>이용약관</h1><p>당사의 서비스는 B2B 고객 전용입니다.</p>"
             }
@@ -942,7 +942,7 @@ const translations = {
             "back": "होम पेज पर वापस",
             "agree": "मैं इसके अनुसार डेटा प्रोसेसिंग के लिए सहमत हूं:",
             "content": {
-                "imprint": "<h1>कानूनी सूचना</h1><p>V-Ledger (डिसबर्ग)<br>ईमेल: info@V-Ledger.com</p>",
+                "imprint": "<h1>कानूनी सूचना</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>गोपनीयता नीति (GDPR)</h1><p>हम आपके डेटा की सुरक्षा को प्राथमिकता देते हैं...</p>",
                 "terms": "<h1>सेवा की शर्तें</h1><p>हमारी सेवाएं विशेष रूप से B2B ग्राहकों के लिए हैं।</p>"
             }
@@ -1024,7 +1024,7 @@ const translations = {
             "back": "হোম পেজে ফিরে যান",
             "agree": "আমি এর অনুযায়ী ডেটা প্রসেসিংয়ে সম্মত:",
             "content": {
-                "imprint": "<h1>আইনি নোটিশ</h1><p>V-Ledger (ডুইসবার্গ)<br>ইমেল: info@V-Ledger.com</p>",
+                "imprint": "<h1>আইনি নোটিশ</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
                 "privacy": "<h1>গোপনীয়তা নীতি (GDPR)</h1><p>আমরা আপনার ডেটার নিরাপত্তাকে অগ্রাধিকার দিই...</p>",
                 "terms": "<h1>পরিষেবার শর্তাবলী</h1><p>আমাদের পরিষেবাগুলো শুধুমাত্র B2B গ্রাহকদের জন্য।</p>"
             }
