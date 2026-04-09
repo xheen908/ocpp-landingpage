@@ -57,9 +57,16 @@
         <button id="menu-contact-trigger" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors w-fit text-left"><%= t.lang === 'de-de' ? 'Kontakt' : 'Contact' %></button>
     </div>
 
-    <div class="mt-auto space-y-5 text-[10px] uppercase tracking-widest text-white/30 font-bold border-t border-white/10 pt-8">
-        <a href="/<%= t.lang %>/legal/imprint" class="block hover:text-[#a88c5a] transition-colors"><%= t.legal.imprint %></a>
-        <a href="/<%= t.lang %>/legal/privacy" class="block hover:text-[#a88c5a] transition-colors"><%= t.legal.privacy %></a>
-        <a href="/<%= t.lang %>/legal/terms" class="block hover:text-[#a88c5a] transition-colors"><%= t.legal.terms %></a>
+    <div class="mt-auto flex flex-col gap-8">
+        <div class="flex flex-col gap-4">
+            <a href="https://verify.v-ledger.com/" target="_blank" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.login %></a>
+            <a href="https://dashboard.v-ledger.com/login" target="_blank" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.manufacturerLogin %></a>
+        </div>
+
+        <div class="space-y-5 text-[10px] uppercase tracking-widest text-white/30 font-bold border-t border-white/10 pt-8">
+            <a href="/<%= t.lang %>/legal/imprint" class="block hover:text-[#a88c5a] transition-colors"><%= t.legal.imprint %></a>
+            <a href="/<%= t.lang %>/legal/privacy" class="block hover:text-[#a88c5a] transition-colors"><%= t.legal.privacy %></a>
+            <a href="/<%= t.lang %>/legal/terms" class="block hover:text-[#a88c5a] transition-colors"><%= t.legal.terms %></a>
+        </div>
     </div>
 </aside>
