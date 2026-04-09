@@ -3,12 +3,9 @@ services:
   nodejs-app:
     build: .
     container_name: V-Ledger-landing-app
-    restart: always
+    restart: unless-stopped
     ports:
       - "12000:12000"
-    volumes:
-      - .:/app
-      - /app/node_modules
     env_file: .env
     environment:
       - NODE_ENV=production
