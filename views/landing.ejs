@@ -125,8 +125,9 @@
                 </p>
                 
                 <div class="flex flex-wrap gap-8 items-center">
-                    <button id="v2-hero-trigger" class="pill-btn pill-btn-primary px-12 py-5 text-xs uppercase tracking-[0.3em] font-black">
-                        <%= t.cta %>
+                    <button id="v2-hero-trigger" class="pill-btn pill-btn-vault px-12 py-5 text-xs uppercase tracking-[0.3em] font-black group">
+                        <span class="relative z-10"><%= t.cta %></span>
+                        <div class="btn-slide"></div>
                     </button>
                     <div class="flex items-center gap-4 px-6 py-3 rounded-2xl border border-white/5 bg-white/2 backdrop-blur-md">
                         <div class="flex -space-x-2">
@@ -361,8 +362,9 @@
 
         <!-- Strategy Button at Bottom -->
         <div class="flex justify-center mt-48 mb-24">
-            <button id="v2-bottom-trigger" class="pill-btn pill-btn-primary px-20 py-6 text-lg uppercase tracking-widest transition-all">
-                <%= t.contact %>
+            <button id="v2-bottom-trigger" class="pill-btn pill-btn-vault px-20 py-6 text-lg uppercase tracking-widest font-black group">
+                <span class="relative z-10"><%= t.contact %></span>
+                <div class="btn-slide"></div>
             </button>
         </div>
     </main>

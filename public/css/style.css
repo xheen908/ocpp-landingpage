@@ -103,6 +103,37 @@ body {
     opacity: 1;
 }
 
+.pill-btn-vault {
+    background: #eab308; /* yellow-500 gold */
+    color: #000000 !important;
+    border: none;
+    box-shadow: 0 8px 30px rgba(234, 179, 8, 0.2);
+    overflow: hidden;
+}
+
+.pill-btn-vault:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(234, 179, 8, 0.5);
+}
+
+.pill-btn-vault .btn-slide {
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 0;
+}
+
+.pill-btn-vault:hover .btn-slide {
+    transform: translateY(0);
+}
+
+.pill-btn-vault span {
+    position: relative;
+    z-index: 10;
+}
+
 .pill-btn-secondary {
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
