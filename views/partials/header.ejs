@@ -6,11 +6,14 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </button>
 
-        <div class="text-2xl font-extrabold tracking-tighter">
+        <div class="flex flex-col">
             <a href="/<%= t.lang %>/" class="group flex items-center hover:opacity-80 transition-all">
-                <span class="bg-gradient-to-tr from-[#a88c5a] to-[#d4af37] bg-clip-text text-transparent">V</span>
-                <span class="text-white">-Ledger</span>
+                <h1 class="text-xl md:text-2xl font-black tracking-tighter italic uppercase leading-none">
+                    <span class="text-yellow-500">V</span><span class="text-white">-LEDGER</span>
+                </h1>
             </a>
+            <div class="h-[3px] w-8 bg-yellow-500 mt-1 rounded-full"></div>
+            <p class="text-[7px] md:text-[8px] text-yellow-500 uppercase tracking-[0.2em] font-black mt-1.5 opacity-90">DPP Blockchain Infrastruktur</p>
         </div>
     </div>
 
@@ -42,8 +45,13 @@
 <!-- Sidebar Drawer (Build 15.3) -->
 <div id="sidebar-backdrop" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[101] opacity-0 pointer-events-none transition-opacity duration-500"></div>
 <aside id="sidebar-drawer" class="fixed top-0 left-0 h-full w-[85vw] max-w-[320px] apple-glass border-r border-[#a88c5a]/20 translate-x-[-100%] transition-transform duration-500 z-[102] flex flex-col p-8">
-    <div class="flex justify-between items-center mb-12">
-        <div class="text-[#d4af37] font-extrabold tracking-widest uppercase text-[10px]">Menu</div>
+    <div class="flex flex-col mb-12">
+        <h1 class="text-2xl font-black tracking-tighter italic uppercase leading-none">
+            <span class="text-yellow-500">V</span><span class="text-white">-LEDGER</span>
+        </h1>
+        <div class="h-[3px] w-10 bg-yellow-500 mt-1 rounded-full"></div>
+        <p class="text-[8px] text-yellow-500 uppercase tracking-[0.2em] font-black mt-2">DPP Blockchain Infrastruktur</p>
+    </div>
         <button id="burger-close" class="text-white/50 hover:text-white transition-colors p-2 -mr-2">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
         </button>
