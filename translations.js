@@ -118,45 +118,45 @@ const translations = {
         }
     },
     "en-us": {
-        "h1": "The Compliance Infrastructure<br>for the EU Circular Economy.",
-        "sub": "V-Ledger V5.5 transforms the mandatory Digital Product Passport into a recurring revenue asset — for manufacturers, brands, and exporters entering the EU market.",
-        "cta": "Request Compliance Audit",
+        "h1": "The Universal Industrial Infrastructure<br>for the 2030 Circular Economy.",
+        "sub": "V-Ledger V5.5 replaces manual DPP compliance with full automation — and turns every product lifecycle touchpoint into a revenue event. Monetizing Trust. Securing Resources. Eliminating Chaos.",
+        "cta": "Request Strategic Audit 2030",
         "madeInGermany": "German Engineering & Legal Security",
         "mHeader": "Strategic Partner Audit",
         "faqNav": "FAQ",
         "login": "Login",
         "manufacturerLogin": "Developer Console",
-        "footerH2": "FIRST MOVER ADVANTAGE: 2027 COMPLIANCE WINDOW IS OPEN.",
-        "footerP": "The ESPR 2027 deadline is fixed. Brands that integrate the Digital Product Passport now secure supply chain visibility, secondary market revenue, and regulatory certainty before competitors. We are onboarding strategic partners for Phase 1 deployment.",
-        "contact": "Request Compliance Audit",
-        "copy": "&copy; 2025-2026 V-LEDGER // COMPLIANCE INFRASTRUCTURE FOR THE CIRCULAR ECONOMY.",
-        "s1h": "Digital Product Passports as a Service",
-        "s1p": "Fully automated generation of tamper-proof Digital Product Passports for your product catalogue. Blockchain complexity runs entirely in our backend — invisible to your team.",
-        "s2h": "Lifecycle Revenue Engine",
-        "s2p": "Our SaaS platform turns mandatory compliance into a recurring revenue stream. Receive automatic payouts on every certified resale — directly to your corporate account in EUR or USDT.",
-        "p1t": "SaaS Infrastructure",
-        "p1h": "Zero Technical Overhead.",
-        "p1d": "No technical prerequisites, no seed phrases. Our Account Abstraction technology runs entirely in the background.",
-        "p2t": "The Royalty Revolution",
-        "p2h": "Tokenized Exports.",
-        "p2d": "Programmable smart contracts automatically disburse fees in fiat/USDT to you on every resale.",
-        "p3t": "EU Provenance Trust",
-        "p3h": "Enterprise-Grade Infrastructure.",
-        "p3d": "The secure Web3 backend (Base L2) combined with the user experience of traditional online banking.",
-        "p4t": "Unforgeable Identity",
-        "p4h": "NXP Secure Hardware.",
-        "p4d": "Physical anchors link your goods with our NFTs and secure your brand value from factory to recycling.",
-        "quote": "\"The Digital Product Passport is not a regulatory burden. It is the infrastructure layer for lifecycle profitability.\"",
-        "quotesub": "— V-LEDGER V5.5 // CIRCULAR ECONOMY INFRASTRUCTURE",
-        "badge": "Digital Product Passport Infrastructure // EU ESPR 2027",
+        "footerH2": "FIRST MOVER ADVANTAGE: THE 2030 HORIZON STARTS NOW.",
+        "footerP": "By 2030, every major product category in the EU requires a Digital Product Passport. V-Ledger is the only infrastructure engineered to scale horizontally across all four regulatory waves — from Batteries & Textiles (2027) to Steel & Chemicals (2030). Brands that integrate now gain automated compliance, certified secondary market revenue, and resource autonomy before the window closes. We are onboarding strategic partners for Phase 1 deployment.",
+        "contact": "Request Strategic Audit 2030",
+        "copy": "&copy; 2025-2026 V-LEDGER // THE 2030 CIRCULAR ECONOMY STANDARD.",
+        "s1h": "Zero-Touch DPP Automation",
+        "s1p": "Direct API connection to SAP/ERP systems in under 8 hours. Automated CEN/CENELEC JTC 24 compliance mapping. Your team touches nothing — our infrastructure handles every SKU at industrial scale.",
+        "s2h": "Lifecycle Revenue Engine (Layer 1)",
+        "s2p": "A verified €650 resale generates a €32.50 royalty — automatically, without invoice or manual process. The 95/5 model turns your secondary market from an invisible blind spot into a permanent revenue stream.",
+        "p1t": "Layer 1: Resale Royalty",
+        "p1h": "95/5 Revenue Share.",
+        "p1d": "Trust increases secondary market prices. By certifying authenticity, resale values rise — the seller profits more, and the brand automatically receives 5% on every certified transaction. No invoice. No wallet required.",
+        "p2t": "Layer 2: D2C Lifecycle Portal",
+        "p2h": "Service-Driven Revenue.",
+        "p2d": "Every DPP becomes a direct marketing channel for the next owner: instant warranty extensions, certified spare parts sourced from the digital twin, and Maintenance-as-a-Service — all triggered by a single NFC scan.",
+        "p3t": "Layer 3: Circular Economy",
+        "p3h": "Digital Green Tokens.",
+        "p3d": "We incentivize Return-to-Loop behavior. Consumers receive Digital Green Tokens upon verified recycling. Recyclers get instant bounties for high-purity sorting. Manufacturers regain access to secondary raw materials below extraction cost.",
+        "p4t": "Layer 4: OPEX Excellence",
+        "p4h": "Eliminating Compliance Chaos.",
+        "p4d": "Automation eliminates the administrative overhead of manual DPP compliance: no printing, no manual data entry, no legal documentation cost per SKU. Zero-Touch Integration saves enterprises millions over the 2030 horizon.",
+        "quote": "\"V-Ledger V5.5 is the only infrastructure combining Industrial Maturity, Legal Certainty, and Business Model Innovation. We are not just compliant. We are profitable.\"",
+        "quotesub": "— V-LEDGER V5.5 // THE PATHWAY TO PROFITABLE CIRCULARITY",
+        "badge": "Monetizing Trust · Securing Resources · Eliminating Chaos // V5.5",
         "calcH": "Profit Calculator",
         "calcV": "Export Volume (Units/Year)",
         "calcR": "Resale Rate (%)",
         "calcF": "Royalty Fee (€/Unit)",
         "calcP": "Annual Passive Profit:",
         "lang": "en-us",
-        "metaTitle": "V-LEDGER | ESPR Compliance & Battery Passport (DPP)",
-        "metaDesc": "V-LEDGER<br>Albertstr. 7, 47059 Duisburg provides ESPR compliance for batteries, textiles & watches. Secure Digital Product Passports via NTAG 424 DNA & Blockchain for EU market entry.",
+        "metaTitle": "V-LEDGER | The 2030 Circular Economy Infrastructure (DPP)",
+        "metaDesc": "V-Ledger V5.5 — The universal industrial infrastructure for the EU Digital Product Passport. Zero-Touch SAP integration, 4-layer monetization, CEN/CENELEC JTC 24 compliant. Engineered in Duisburg.",
         "cookie": {
             "title": "SECURITY & COMPLIANCE CHECK",
             "msg": "To secure access to the V-Ledger infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
@@ -185,27 +185,35 @@ const translations = {
             },
             {
                 "q": "Which industries are currently supported?",
-                "a": "We are currently focusing on sectors with the highest compliance urgency: Batteries, Textiles, and high-end Watches/Luxury goods."
+                "a": "Wave 1 (Jan 2027, in force): Batteries (Lithium Purity: 98%), Textiles, Electronics (Rare Earth Recovery: 92%). Wave 2 (2027-28): Furniture (Wood Re-use: 78%), Tires (Rubber Recovery: 65%). Wave 3 (late 2028-29): Furniture, advanced material traceability. Wave 4 (2029-30): Steel (Recycled Content: 90%), Chemicals (Material Purity: 99%), High-Impact Intermediate Products."
             },
             {
                 "q": "How does the audit process work?",
-                "a": "During the audit, we analyze your current export infrastructure and create a roadmap for DPP integration and hardware authentication for your products."
+                "a": "During the strategic audit, we analyze your current ERP/SAP infrastructure, product catalogue, and compliance gaps. You receive a concrete roadmap for Zero-Touch DPP integration, hardware authentication deployment, and lifecycle revenue activation — executable in under 8 hours of integration time."
             },
             {
                 "q": "How does V-Ledger differ from other DPP providers?",
-                "a": "V-Ledger is the only platform combining physical hardware authentication (NXP NTAG 424 DNA), automated ERP integration (SAP-ready), and a built-in lifecycle revenue engine. Most DPP providers store data. We monetize it."
+                "a": "V-Ledger is the only platform combining Industrial Maturity (V5.5 stack, mass-deployment ready), Legal Certainty (CEN/CENELEC JTC 24, NTAG 424 DNA SUN — dismisses counterfeiting liability), and Business Model Innovation (4-layer monetization: royalties, D2C portal, Digital Green Tokens, OPEX savings). Most DPP providers store data. We monetize it."
             },
             {
                 "q": "On which platforms does the royalty system work?",
-                "a": "Royalty payouts are triggered on certified resale platforms integrated with the V-Ledger protocol. Unverified private sales (e.g. classifieds) are outside the certified ecosystem and do not trigger automated payouts."
+                "a": "Royalty payouts are triggered on certified resale platforms integrated with the V-Ledger protocol. Unverified private sales are outside the certified ecosystem. The 95/5 model means: the seller keeps 95% of the verified value increase — the brand receives 5% automatically, without invoice."
             },
             {
                 "q": "What happens if ESPR timelines change?",
-                "a": "V-Ledger is built on the CEN/CENELEC JTC 24 framework, which evolves alongside ESPR. Our architecture is modular — compliance mappings update automatically as standards are finalized."
+                "a": "V-Ledger is built on the CEN/CENELEC JTC 24 framework, which evolves alongside ESPR. Our architecture is modular — compliance mappings update automatically as standards are finalized. Your investment is protected regardless of regulatory adjustment."
             },
             {
                 "q": "Which product categories will be supported beyond 2027?",
-                "a": "Phase 1 (2026-27): Batteries, Textiles, Electronics. Phase 2 (2027-28): Furniture, Tires, Detergents, Paints. Phase 3 (2029-30): Steel, Aluminum, Chemicals."
+                "a": "Phase 1 (2026-27): Batteries, Textiles, Electronics. Phase 2 (2027-28): Furniture, Tires, Detergents, Paints. Phase 3 (2029-30): Steel, Aluminum, Chemicals, High-Impact Intermediate Products. V-Ledger scales horizontally across all EU priority sectors as defined by the European Commission."
+            },
+            {
+                "q": "What is the D2C Lifecycle Portal and how does it generate revenue for brands?",
+                "a": "Layer 2 of our monetization stack. Every DPP becomes a direct marketing channel for subsequent product owners. Upon a verified ownership change, the new owner is offered real-time warranty extensions, certified spare parts (sourced from the digital twin data), and automated Maintenance-as-a-Service bookings with certified repair partners — all monetizable touchpoints for the original brand."
+            },
+            {
+                "q": "What are Digital Green Tokens and how does the Return-to-Loop system work?",
+                "a": "Layer 3 of our monetization stack. When a consumer returns a product for verified recycling (confirmed by NFC hardware scan), they automatically receive Digital Green Tokens or store credits. Recyclers receive instant bounties for high-purity material sorting — enabled by the hardware anchor's material identification data. Manufacturers regain access to secondary raw materials at costs significantly below virgin extraction, securing resource autonomy."
             }
         ],
         "legal": {
@@ -222,9 +230,9 @@ const translations = {
         },
         "aboutUs": {
             "nav": "About Us",
-            "title": "The Compliance Infrastructure Layer",
-            "subtitle": "Built where European regulation meets global supply chains.",
-            "content": "<h3>V-Ledger is headquartered in Duisburg — Europe's largest inland port.</h3><p>We do not view the ESPR 2027 mandate as a compliance burden. We have built the infrastructure that makes it a competitive advantage.</p><h3>Every product in our network receives a cryptographically secured Digital Product Passport.</h3><p>Anchored in physical hardware and recorded on an immutable blockchain. Result: automated compliance, counterfeit-proof brand protection, and secondary market revenue.</p><h3>Your Compliance is Our Infrastructure.</h3><p>We absorb the full technical and operational complexity of DPP generation, hardware integration, and regulatory mapping. You focus on your product. We ensure it meets every EU requirement — automatically, at scale.</p>"
+            "title": "The 2030 Circular Economy Standard",
+            "subtitle": "Monetizing Trust. Securing Resources. Eliminating Chaos.",
+            "content": "<h3>V-Ledger is headquartered in Duisburg — Europe's largest inland port.</h3><p>We do not view the ESPR 2027 mandate as a compliance burden. We have engineered the infrastructure that transforms it into a 4-layer revenue engine and a permanent competitive advantage.</p><h3>From Organizational Chaos to Strategic Profitability.</h3><p>Current DPP approaches fail because they focus on static data storage. V-Ledger replaces organizational effort with technical automation: Zero-Touch SAP/ERP integration in under 8 hours, automated JTC 24 compliance mapping, and hardware trust anchors that eliminate counterfeiting liability — at industrial scale.</p><h3>The 4-Layer Monetization Stack.</h3><p>Every product lifecycle touchpoint generates revenue: Layer 1 (95/5 Resale Royalty), Layer 2 (D2C Lifecycle Portal with warranty & MaaS), Layer 3 (Digital Green Tokens / Return-to-Loop), Layer 4 (OPEX savings through full automation). We are not just compliant. We are profitable.</p><h3>From 2027 Compliance to 2030 Resource Autonomy.</h3><p>The ESPR mandate is only the beginning. By 2030, the Circular Economy framework will cover every major EU product category. V-Ledger is the only infrastructure engineered to scale horizontally across all four regulatory waves — from Batteries & Textiles today to Steel, Chemicals, and High-Impact Intermediate Products by 2029/30. We are not building a compliance tool. We are building the standard.</p>"
         },
         "tech": {
             "nav": "Technology",
