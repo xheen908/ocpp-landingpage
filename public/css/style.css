@@ -543,3 +543,22 @@ body.cookie-lock {
 
 /* Hide legacy Swiper */
 .swiper { display: none !important; }
+
+/* Typewriter Cursor (H1 Hero Animation) */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+}
+
+.typewriter-cursor {
+    display: inline-block;
+    width: 3px;
+    height: 0.85em;
+    background: linear-gradient(135deg, #ffffff 0%, #a88c5a 100%);
+    margin-left: 2px;
+    vertical-align: middle;
+    border-radius: 1px;
+    animation: blink 0.7s step-start infinite;
+    position: relative;
+    top: -0.05em;
+}
