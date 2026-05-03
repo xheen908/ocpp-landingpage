@@ -41,12 +41,12 @@ const translations = {
         "metaTitle": "V-LEDGER | ESPR Compliance & Digitaler Produktpass (DPP)",
         "metaDesc": "V-LEDGER<br>Albertstr. 7, 47059 Duisburg bietet ESPR-Compliance für Batterien, Textilien & Uhren. Fälschungssichere Produktpässe via NTAG 424 DNA & Blockchain für den EU-Marktzugang.",
         "cookie": {
-            "title": "SECURITY & COMPLIANCE CHECK",
-            "msg": "Um den Zugriff auf die V-Ledger-Infrastruktur zu sichern und die EU-Compliance zu gewährleisten, verwenden wir kryptographische Identifikatoren (Cookies). Bestätigen Sie Ihre Identität und Präferenzen.",
-            "accept": "ZUGRIFF GEWÄHREN (ALLE)",
-            "reject": "MINIMALER ZUGRIFF",
-            "settings": "PRÄFERENZEN",
-            "checking": "Systemprüfung läuft..."
+            "title": "Cookie-Einwilligung",
+            "msg": "Wenn Sie auf „Alle Cookies akzeptieren“ klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät zu, um die Websitenavigation zu verbessern, die Websitenutzung zu analysieren und unsere Marketingbemühungen zu unterstützen.",
+            "accept": "Alle Cookies akzeptieren",
+            "reject": "Nur notwendige",
+            "settings": "Einstellungen",
+            "checking": "Wird verarbeitet..."
         },
         "faqTitle": "Häufig gestellte Fragen (FAQ)",
         "faqs": [
