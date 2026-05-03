@@ -1,197 +1,258 @@
 <!DOCTYPE html>
 <html lang="<%= t.lang %>">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/assets/coin-icon.png">
-    <title><%= t.lang === 'de-de' ? 'Preise & Abonnements' : 'Pricing & Subscriptions' %> | V-LEDGER</title>
-    <meta name="description" content="<%= t.lang === 'de-de' ? 'Flexibles Tier-System zur Skalierung vom ersten Prototyp bis zur weltweiten Fertigungslinie.' : 'Flexible tier system to scale from initial prototype to enterprise global manufacturing lines.' %>">
+    <title>
+        <%= t.lang==='de-de' ? 'Preise & Abonnements' : 'Pricing & Subscriptions' %> | V-LEDGER
+    </title>
+    <meta name="description"
+        content="<%= t.lang === 'de-de' ? 'Flexibles Tier-System zur Skalierung vom ersten Prototyp bis zur weltweiten Fertigungslinie.' : 'Flexible tier system to scale from initial prototype to enterprise global manufacturing lines.' %>">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Hreflang Clusters -->
     <link rel="alternate" hreflang="de-de" href="https://V-Ledger.com/de-de/pricing">
     <link rel="alternate" hreflang="en-us" href="https://V-Ledger.com/en-us/pricing">
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <!-- Flag Icons for Header -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css" />
     <link rel="stylesheet" href="/css/style.css?v=15.0">
 </head>
+
 <body class="selection:bg-[#d4af37] selection:text-black overflow-x-hidden">
     <div class="mesh-bg opacity-30"></div>
 
     <%- include('partials/header', { t }) %>
 
-    <main class="max-w-6xl mx-auto px-6 py-24 md:py-32 min-h-screen relative z-10">
-        
-        <!-- Hero Section for Pricing -->
-        <div class="text-center mb-20 relative animate-fade-in">
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#d4af37]/20 blur-[100px] rounded-full pointer-events-none"></div>
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-6">
-                <%= t.lang === 'de-de' ? 'Tier-System & Metering' : 'Tier System & Metering' %>
-            </div>
-            <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tighter uppercase leading-[0.9]">
-                <%= t.lang === 'de-de' ? 'Preise & Abonnements' : 'Pricing & Subscriptions' %>
-            </h1>
-            <p class="text-xl md:text-2xl font-light text-white/70 max-w-2xl mx-auto">
-                <%= t.lang === 'de-de' ? 'Flexibles Metering- und Tier-System zur Skalierung vom Prototyp bis zur weltweiten Fertigungslinie.' : 'Flexible metering and tier system to scale from initial prototype to enterprise global manufacturing lines.' %>
-            </p>
-        </div>
+        <main class="max-w-6xl mx-auto px-6 py-24 md:py-32 min-h-screen relative z-10">
 
-        <!-- Tier Cards Deck -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 animate-fade-in-up" style="animation: fadeInUp 1s ease 0.2s forwards;">
-            
-            <!-- Starter Tier -->
-            <div class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
-                <div>
-                    <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Starter</div>
-                    <h3 class="text-2xl font-black italic uppercase text-white mb-2">Free</h3>
-                    <p class="text-white/40 text-xs mb-6">
-                        <%= t.lang === 'de-de' ? 'Ideal zum Testen von physischen Scans und ersten Prototypen.' : 'Ideal for testing out physical scans and minting initial prototypes.' %>
-                    </p>
-                    <div class="text-3xl font-black text-white italic mb-2">€0 <span class="text-sm font-normal text-white/40">/mo</span></div>
-                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">Restricted Volume</div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Basis GS1 Resolver-Zugriff' : 'Basic GS1 Resolver access' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Community Support' : 'Community Support' %>
-                        </li>
-                    </ul>
+            <!-- Hero Section for Pricing -->
+            <div class="text-center mb-20 relative animate-fade-in">
+                <div
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#d4af37]/20 blur-[100px] rounded-full pointer-events-none">
+                </div>
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-6">
+                    <%= t.lang==='de-de' ? 'Tier-System & Metering' : 'Tier System & Metering' %>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-black mb-6 tracking-tighter uppercase leading-[0.9]">
+                    <%= t.lang==='de-de' ? 'Preise & Abonnements' : 'Pricing & Subscriptions' %>
+                </h1>
+                <p class="text-xl md:text-2xl font-light text-white/70 max-w-2xl mx-auto">
+                    <%= t.lang==='de-de'
+                        ? 'Flexibles Metering- und Tier-System zur Skalierung vom Prototyp bis zur weltweiten Fertigungslinie.'
+                        : 'Flexible metering and tier system to scale from initial prototype to enterprise global manufacturing lines.'
+                        %>
+                </p>
+            </div>
+
+            <!-- Tier Cards Deck -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 animate-fade-in-up"
+                style="animation: fadeInUp 1s ease 0.2s forwards;">
+
+                <!-- Starter Tier -->
+                <div
+                    class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+                    <div>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Starter</div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Free</h3>
+                        <p class="text-white/40 text-xs mb-6">
+                            <%= t.lang==='de-de' ? 'Ideal zum Testen von physischen Scans und ersten Prototypen.'
+                                : 'Ideal for testing out physical scans and minting initial prototypes.' %>
+                        </p>
+                        <div class="text-3xl font-black text-white italic mb-2">€0 <span
+                                class="text-sm font-normal text-white/40">/mo</span></div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">Restricted Volume
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Basis GS1 Resolver-Zugriff' : 'Basic GS1 Resolver access' %>
+                            </li>
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Community Support' : 'Community Support' %>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Essential Tier -->
+                <div
+                    class="apple-glass border-2 border-[#a88c5a] rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group transition-all duration-500">
+                    <div
+                        class="absolute top-0 right-0 bg-[#a88c5a] text-black font-black uppercase text-[8px] tracking-widest px-3 py-1 rounded-bl-xl">
+                        Popular</div>
+                    <div>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Emerging</div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Essential</h3>
+                        <p class="text-white/40 text-xs mb-6">
+                            <%= t.lang==='de-de' ? 'Für kleinere Unternehmen, die erste EU-ESPR-Anforderungen erfüllen.'
+                                : 'For smaller businesses implementing initial ESPR circular compliance.' %>
+                        </p>
+                        <div class="text-3xl font-black text-white italic mb-2">€49 <span
+                                class="text-sm font-normal text-white/40">/mo</span></div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.05 PER MINT
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Unbegrenzte digitale Zwillinge' : 'Unlimited digital twins' %>
+                            </li>
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Standard Support' : 'Standard Support' %>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pro Tier -->
+                <div
+                    class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+                    <div>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Scale-Up</div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Pro</h3>
+                        <p class="text-white/40 text-xs mb-6">
+                            <%= t.lang==='de-de' ? 'Erweiterte Features, Bulk API Provisioning und hohe Volumina.'
+                                : 'Advanced features, bulk API provisioning and high volume automation.' %>
+                        </p>
+                        <div class="text-3xl font-black text-white italic mb-2">€199 <span
+                                class="text-sm font-normal text-white/40">/mo</span></div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.02 PER MINT
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Priorisierter Support SLA' : 'Prioritized support SLA' %>
+                            </li>
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'API-Zugriff für Batch-Mints' : 'Batch mint API access' %>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Enterprise Tier -->
+                <div
+                    class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+                    <div>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Unlimited
+                        </div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Enterprise</h3>
+                        <p class="text-white/40 text-xs mb-6">
+                            <%= t.lang==='de-de' ? 'Volumen nach Bedarf, eigene Gas-Netzwerke & On-Premises Option.'
+                                : 'Fully custom volume, custom gas networks, and on-premises deployment.' %>
+                        </p>
+                        <div class="text-3xl font-black text-white italic mb-2">Custom</div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">Individual Tier
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Eigener Account Manager' : 'Dedicated Account Manager' %>
+                            </li>
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'On-Premises-Bereitstellung' : 'On-premise deployment option' %>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pay-Per-Mint Explained -->
+            <div class="w-full apple-glass border border-white/10 border-l-4 border-l-[#a88c5a] rounded-[2.5rem] p-8 md:p-12 shadow-2xl relative overflow-hidden mb-16 animate-fade-in-up block clear-both"
+                style="animation: fadeInUp 1s ease 0.4s forwards;">
+                <h2 class="text-2xl font-black italic uppercase text-white mb-4">
+                    <%= t.lang==='de-de' ? 'Pay-Per-Mint Erklärt' : 'Pay-Per-Mint Explained' %>
+                </h2>
+                <p class="text-sm text-white/60 mb-8 max-w-4xl leading-relaxed">
+                    <%= t.lang==='de-de'
+                        ? 'Zusätzlich zur monatlichen Grundgebühr nutzt unsere Infrastruktur Smart Contracts, um zirkuläre Produktpass-Daten manipulationssicher On-Chain zu speichern. Jeder im V-Ledger-Ökosystem registrierte digitale Zwilling erzeugt eine geringe Nutzungsgebühr für die gasfreie Account Abstraction-Transaktion und die Metadaten-Verifizierung.'
+                        : 'Besides the monthly base subscription fee, our infrastructure leverages smart contracts to secure circular product deposits on-chain. Each digital twin registered in the V-Ledger ecosystem incurs a small usage fee to sponsor the gas-less Account Abstraction transaction and metadata verification on the blockchain.'
+                        %>
+                </p>
+
+                <div class="overflow-x-auto w-full">
+                    <table class="w-full text-left text-sm text-white/70">
+                        <thead class="text-[10px] text-white/40 uppercase tracking-widest bg-white/5">
+                            <tr>
+                                <th class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'Volumen-Stufe' : 'Volume Tier' %>
+                                </th>
+                                <th class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'Gebühr pro Zwilling' : 'Fee per Digital Twin' %>
+                                </th>
+                                <th class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'Enthaltene Transaktionen' : 'Included Transactions' %>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-white/5">
+                            <tr class="hover:bg-white/2 transition-colors">
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Startup (Free)</td>
+                                <td class="px-6 py-4">€0</td>
+                                <td class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'Bis zu 10 pro Monat' : 'Up to 10 per month' %>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-white/2 transition-colors">
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Essential Plan</td>
+                                <td class="px-6 py-4">€0.05</td>
+                                <td class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'Unbegrenzt über Limit hinaus'
+                                        : 'Unlimited beyond tier limits' %>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-white/2 transition-colors">
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Pro Plan</td>
+                                <td class="px-6 py-4">€0.02</td>
+                                <td class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'Unbegrenzte API-Calls'
+                                        : 'Enterprise bulk-provision API calls' %>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-white/2 transition-colors">
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Enterprise Plan</td>
+                                <td class="px-6 py-4">Custom</td>
+                                <td class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'On-Premises-Option' : 'On-premise deployment option' %>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
-            <!-- Essential Tier -->
-            <div class="apple-glass border-2 border-[#a88c5a] rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group transition-all duration-500">
-                <div class="absolute top-0 right-0 bg-[#a88c5a] text-black font-black uppercase text-[8px] tracking-widest px-3 py-1 rounded-bl-xl">Popular</div>
-                <div>
-                    <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Emerging</div>
-                    <h3 class="text-2xl font-black italic uppercase text-white mb-2">Essential</h3>
-                    <p class="text-white/40 text-xs mb-6">
-                        <%= t.lang === 'de-de' ? 'Für kleinere Unternehmen, die erste EU-ESPR-Anforderungen erfüllen.' : 'For smaller businesses implementing initial ESPR circular compliance.' %>
-                    </p>
-                    <div class="text-3xl font-black text-white italic mb-2">€19 <span class="text-sm font-normal text-white/40">/mo</span></div>
-                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.80 PER MINT</div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Unbegrenzte digitale Zwillinge' : 'Unlimited digital twins' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Standard Support' : 'Standard Support' %>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        </main>
 
-            <!-- Professional Tier -->
-            <div class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
-                <div>
-                    <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Scale-Up</div>
-                    <h3 class="text-2xl font-black italic uppercase text-white mb-2">Professional</h3>
-                    <p class="text-white/40 text-xs mb-6">
-                        <%= t.lang === 'de-de' ? 'Erweiterte Features, Bulk API Provisioning und hohe Volumina.' : 'Advanced features, bulk API provisioning and high volume automation.' %>
-                    </p>
-                    <div class="text-3xl font-black text-white italic mb-2">€49 <span class="text-sm font-normal text-white/40">/mo</span></div>
-                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.50 PER MINT</div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Priorisierter Support SLA' : 'Prioritized support SLA' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'API-Zugriff für Batch-Mints' : 'Batch mint API access' %>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <%- include('partials/footer', { t }) %>
 
-            <!-- Enterprise Tier -->
-            <div class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
-                <div>
-                    <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Unlimited</div>
-                    <h3 class="text-2xl font-black italic uppercase text-white mb-2">Enterprise</h3>
-                    <p class="text-white/40 text-xs mb-6">
-                        <%= t.lang === 'de-de' ? 'Volumen nach Bedarf, eigene Gas-Netzwerke & On-Premises Option.' : 'Fully custom volume, custom gas networks, and on-premises deployment.' %>
-                    </p>
-                    <div class="text-3xl font-black text-white italic mb-2">€149 <span class="text-sm font-normal text-white/40">/mo</span></div>
-                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.15 PER MINT</div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Eigener Account Manager' : 'Dedicated Account Manager' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'On-Premises-Bereitstellung' : 'On-premise deployment option' %>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <style>
+                @keyframes fadeInUp {
+                    from {
+                        opacity: 0;
+                        transform: translateY(40px);
+                    }
 
-        </div>
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
 
-        <!-- Pay-Per-Mint Explained -->
-        <div class="w-full apple-glass border border-white/10 border-l-4 border-l-[#a88c5a] rounded-[2.5rem] p-8 md:p-12 shadow-2xl relative overflow-hidden mb-16 animate-fade-in-up block clear-both" style="animation: fadeInUp 1s ease 0.4s forwards;">
-            <h2 class="text-2xl font-black italic uppercase text-white mb-4">
-                <%= t.lang === 'de-de' ? 'Pay-Per-Mint Erklärt' : 'Pay-Per-Mint Explained' %>
-            </h2>
-            <p class="text-sm text-white/60 mb-8 max-w-4xl leading-relaxed">
-                <%= t.lang === 'de-de' ? 'Zusätzlich zur monatlichen Grundgebühr nutzt unsere Infrastruktur Smart Contracts, um zirkuläre Produktpass-Daten manipulationssicher On-Chain zu speichern. Jeder im V-Ledger-Ökosystem registrierte digitale Zwilling erzeugt eine geringe Nutzungsgebühr für die gasfreie Account Abstraction-Transaktion und die Metadaten-Verifizierung.' : 'Besides the monthly base subscription fee, our infrastructure leverages smart contracts to secure circular product deposits on-chain. Each digital twin registered in the V-Ledger ecosystem incurs a small usage fee to sponsor the gas-less Account Abstraction transaction and metadata verification on the blockchain.' %>
-            </p>
-
-            <div class="overflow-x-auto w-full">
-                <table class="w-full text-left text-sm text-white/70">
-                    <thead class="text-[10px] text-white/40 uppercase tracking-widest bg-white/5">
-                        <tr>
-                            <th class="px-6 py-4"><%= t.lang === 'de-de' ? 'Volumen-Stufe' : 'Volume Tier' %></th>
-                            <th class="px-6 py-4"><%= t.lang === 'de-de' ? 'Gebühr pro Zwilling' : 'Fee per Digital Twin' %></th>
-                            <th class="px-6 py-4"><%= t.lang === 'de-de' ? 'Enthaltene Transaktionen' : 'Included Transactions' %></th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-white/5">
-                        <tr class="hover:bg-white/2 transition-colors">
-                            <td class="px-6 py-4 font-black text-white uppercase italic">Startup (Free)</td>
-                            <td class="px-6 py-4">€0</td>
-                            <td class="px-6 py-4"><%= t.lang === 'de-de' ? 'Bis zu 10 pro Monat' : 'Up to 10 per month' %></td>
-                        </tr>
-                        <tr class="hover:bg-white/2 transition-colors">
-                            <td class="px-6 py-4 font-black text-white uppercase italic">Essential Plan</td>
-                            <td class="px-6 py-4">€0.80</td>
-                            <td class="px-6 py-4"><%= t.lang === 'de-de' ? 'Unbegrenzt über Limit hinaus' : 'Unlimited beyond tier limits' %></td>
-                        </tr>
-                        <tr class="hover:bg-white/2 transition-colors">
-                            <td class="px-6 py-4 font-black text-white uppercase italic">Professional Plan</td>
-                            <td class="px-6 py-4">€0.50</td>
-                            <td class="px-6 py-4"><%= t.lang === 'de-de' ? 'Unbegrenzte API-Calls' : 'Enterprise bulk-provision API calls' %></td>
-                        </tr>
-                        <tr class="hover:bg-white/2 transition-colors">
-                            <td class="px-6 py-4 font-black text-white uppercase italic">Enterprise Plan</td>
-                            <td class="px-6 py-4">€0.15</td>
-                            <td class="px-6 py-4"><%= t.lang === 'de-de' ? 'On-Premises-Option' : 'On-premise deployment option' %></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-    </main>
-
-    <%- include('partials/footer', { t }) %>
-
-    <style>
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(40px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade-in { animation: fadeInUp 0.8s ease forwards; }
-    </style>
-    <script src="/js/main.js?v=15.7"></script>
+                .animate-fade-in {
+                    animation: fadeInUp 0.8s ease forwards;
+                }
+            </style>
+            <script src="/js/main.js?v=15.7"></script>
 </body>
+
 </html>
