@@ -50,41 +50,36 @@
                     <p class="text-white/40 text-xs mb-6">
                         <%= t.lang === 'de-de' ? 'Ideal zum Testen von physischen Scans und ersten Prototypen.' : 'Ideal for testing out physical scans and minting initial prototypes.' %>
                     </p>
-                    <div class="text-3xl font-black text-white italic mb-6">€0 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-3xl font-black text-white italic mb-2">€0 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">Restricted Volume</div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start gap-2 text-xs text-white/70">
                             <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Bis zu 10 digitale Zwillinge' : 'Up to 10 digital twins' %>
+                            <%= t.lang === 'de-de' ? 'Basis GS1 Resolver-Zugriff' : 'Basic GS1 Resolver access' %>
                         </li>
                         <li class="flex items-start gap-2 text-xs text-white/70">
                             <span class="text-[#a88c5a] font-bold">✓</span>
                             <%= t.lang === 'de-de' ? 'Community Support' : 'Community Support' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Basis GS1 Resolver-Zugriff' : 'Basic GS1 Resolver access' %>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <!-- Essential Tier -->
-            <div class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+            <div class="apple-glass border-2 border-[#a88c5a] rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group transition-all duration-500">
+                <div class="absolute top-0 right-0 bg-[#a88c5a] text-black font-black uppercase text-[8px] tracking-widest px-3 py-1 rounded-bl-xl">Popular</div>
                 <div>
                     <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Emerging</div>
                     <h3 class="text-2xl font-black italic uppercase text-white mb-2">Essential</h3>
                     <p class="text-white/40 text-xs mb-6">
                         <%= t.lang === 'de-de' ? 'Für kleinere Unternehmen, die erste EU-ESPR-Anforderungen erfüllen.' : 'For smaller businesses implementing initial ESPR circular compliance.' %>
                     </p>
-                    <div class="text-3xl font-black text-white italic mb-6">€29 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-3xl font-black text-white italic mb-2">€19 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.80 PER MINT</div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start gap-2 text-xs text-white/70">
                             <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Bis zu 5.000 digitale Zwillinge' : 'Up to 5,000 digital twins' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Pay-per-Mint: €0,05 / Zwilling' : 'Pay-per-Mint: €0.05 / twin' %>
+                            <%= t.lang === 'de-de' ? 'Unbegrenzte digitale Zwillinge' : 'Unlimited digital twins' %>
                         </li>
                         <li class="flex items-start gap-2 text-xs text-white/70">
                             <span class="text-[#a88c5a] font-bold">✓</span>
@@ -94,28 +89,24 @@
                 </div>
             </div>
 
-            <!-- Pro Tier (Popular) -->
-            <div class="apple-glass border-2 border-[#a88c5a] rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group transition-all duration-500">
-                <div class="absolute top-0 right-0 bg-[#a88c5a] text-black font-black uppercase text-[8px] tracking-widest px-3 py-1 rounded-bl-xl">Popular</div>
+            <!-- Professional Tier -->
+            <div class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
                 <div>
-                    <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Enterprise Plus</div>
-                    <h3 class="text-2xl font-black italic uppercase text-white mb-2">Pro</h3>
+                    <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Scale-Up</div>
+                    <h3 class="text-2xl font-black italic uppercase text-white mb-2">Professional</h3>
                     <p class="text-white/40 text-xs mb-6">
                         <%= t.lang === 'de-de' ? 'Erweiterte Features, Bulk API Provisioning und hohe Volumina.' : 'Advanced features, bulk API provisioning and high volume automation.' %>
                     </p>
-                    <div class="text-3xl font-black text-white italic mb-6">€99 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-3xl font-black text-white italic mb-2">€49 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.50 PER MINT</div>
                     <ul class="space-y-3 mb-8">
                         <li class="flex items-start gap-2 text-xs text-white/70">
                             <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Bis zu 50.000 digitale Zwillinge' : 'Up to 50,000 digital twins' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Pay-per-Mint: €0,02 / Zwilling' : 'Pay-per-Mint: €0.02 / twin' %>
-                        </li>
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
                             <%= t.lang === 'de-de' ? 'Priorisierter Support SLA' : 'Prioritized support SLA' %>
+                        </li>
+                        <li class="flex items-start gap-2 text-xs text-white/70">
+                            <span class="text-[#a88c5a] font-bold">✓</span>
+                            <%= t.lang === 'de-de' ? 'API-Zugriff für Batch-Mints' : 'Batch mint API access' %>
                         </li>
                     </ul>
                 </div>
@@ -129,12 +120,9 @@
                     <p class="text-white/40 text-xs mb-6">
                         <%= t.lang === 'de-de' ? 'Volumen nach Bedarf, eigene Gas-Netzwerke & On-Premises Option.' : 'Fully custom volume, custom gas networks, and on-premises deployment.' %>
                     </p>
-                    <div class="text-3xl font-black text-white italic mb-6">Custom</div>
+                    <div class="text-3xl font-black text-white italic mb-2">€149 <span class="text-sm font-normal text-white/40">/mo</span></div>
+                    <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.15 PER MINT</div>
                     <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2 text-xs text-white/70">
-                            <span class="text-[#a88c5a] font-bold">✓</span>
-                            <%= t.lang === 'de-de' ? 'Unbegrenzte digitale Zwillinge' : 'Unlimited digital twins' %>
-                        </li>
                         <li class="flex items-start gap-2 text-xs text-white/70">
                             <span class="text-[#a88c5a] font-bold">✓</span>
                             <%= t.lang === 'de-de' ? 'Eigener Account Manager' : 'Dedicated Account Manager' %>
