@@ -109,6 +109,18 @@ app.get('/:langCode/technology', (req, res) => {
     res.render('technology', { t });
 });
 
+// Pricing & Subscriptions Route
+app.get('/:langCode/pricing', (req, res) => {
+    const langCode = req.params.langCode.toLowerCase();
+    
+    if (!supportedLangs.includes(langCode)) {
+        return res.redirect('/en-us/pricing');
+    }
+
+    const t = translations[langCode];
+    res.render('pricing', { t });
+});
+
 // Handle missing trailing slash
 app.get('/:langCode', (req, res) => {
     const langCode = req.params.langCode.toLowerCase();

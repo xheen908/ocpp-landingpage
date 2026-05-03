@@ -53,6 +53,7 @@
     <div class="flex flex-col gap-8">
         <a href="/<%= t.lang %>/" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.lang === 'de-de' ? 'Startseite' : 'Home' %></a>
         <a href="/<%= t.lang %>/technology" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.tech?.nav || 'Technology' %></a>
+        <a href="/<%= t.lang %>/pricing" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.lang === 'de-de' ? 'Preise' : 'Pricing' %></a>
         <a href="/<%= t.lang %>/about" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.aboutUs?.nav || 'About Us' %></a>
         <a href="https://docs.v-ledger.com/" target="_blank" rel="noreferrer" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.lang === 'de-de' ? 'Dokumentation' : 'Documentation' %></a>
         <a href="/<%= t.lang %>/#faq" class="text-2xl font-black tracking-tighter uppercase text-white/80 hover:text-[#a88c5a] transition-colors"><%= t.faqNav %></a>
