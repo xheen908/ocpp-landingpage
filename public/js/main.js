@@ -1296,6 +1296,30 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             }
+        },
+        recycling: {
+            "circularEconomy": {
+                "id": "REC-829038592019",
+                "type": "PFAND_DEPOSIT_REFUND_RECEIPT",
+                "tokenId": "1328507507778448",
+                "chipUid": "04B84542152390",
+                "status": "REFUNDED",
+                "materialRecoveryRate": "95.4%",
+                "recoveredMaterials": [
+                    { "name": "Lithium-Carbonate", "weightKg": 4.2, "purity": "99.8%" },
+                    { "name": "Cobalt-Sulfate", "weightKg": 3.1, "purity": "99.4%" },
+                    { "name": "Nickel-Sulfate", "weightKg": 8.5, "purity": "99.7%" }
+                ],
+                "co2SavedKg": 412.5,
+                "timestamp": "2026-05-09T20:13:50.000Z"
+            },
+            "depositEscrow": {
+                "initialPfandLocked": 100.00,
+                "currency": "EUR",
+                "releasingContract": "0x581f1fcfd6a72c9da79b39c0aab5ffce848a1138f82b0106372fd9b01b98c317",
+                "destinationConsumerWallet": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735",
+                "gaslessRelayerReward": 5.00
+            }
         }
     };
 
@@ -1316,6 +1340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 else if (btn.id === 'demo-prod-lifecycle') activeProduct = 'lifecycle';
                 else if (btn.id === 'demo-prod-customs') activeProduct = 'customs';
                 else if (btn.id === 'demo-prod-resell') activeProduct = 'resell';
+                else if (btn.id === 'demo-prod-recycling') activeProduct = 'recycling';
 
                 demoTerminalLog.innerHTML = `<span class="text-white/40">Product category switched to ${activeProduct.toUpperCase()}. Ready for cryptographic NFC scan.</span>`;
             });
@@ -1483,6 +1508,59 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
                 }, 5000);
+            } else if (activeProduct === 'recycling') {
+                const stepLogs = [
+                    { text: `> DETECTING RECYCLING DEPOSIT INQUIRY FOR TOKENID: 1328507507778448...`, delay: 0, color: '#a88c5a' },
+                    { text: `> NFC SCAN TRIGGERED: SCANNING CHIP UID: 04B84542152390 SECURE ANCHOR... PASSED`, delay: 400, color: '#ffffff' },
+                    { text: `> VERIFYING HARDWARE INTEGRITY & CMAC AUTHENTICATION COUNTER... PASSED (Counter: 3)`, delay: 800, color: '#22c55e' },
+                    { text: `> RETRIEVING DEPLOYED PFAND-ESCROW CONTRACT ADDRESS ON BASE L2...`, delay: 1200, color: '#ffffff' },
+                    { text: `> AUDITING CERTIFIED MATERIAL RECOVERY VALUE IN CLOSED LOOP...`, delay: 1600, color: '#e0cfb3' },
+                    { text: `  * RECOVERABLE LITHIUM-CARBONATE PURITY: 99.8% (95.4% TOTAL RECOVERY VALUE)`, delay: 1800, color: '#e0cfb3' },
+                    { text: `  * CO2 EMISSIONS RECLAIMED: 412.5 KG SAVED`, delay: 2000, color: '#e0cfb3' },
+                    { text: `> PFAND-ESCROW AUDIT COMPLETED successfully.`, delay: 2400, color: '#22c55e' },
+                    { text: `> RELEASING LOCKED ON-CHAIN PFAND-DEPOSIT...`, delay: 2800, color: '#a88c5a' },
+                    { text: `  * €100.00 EUR REFUND ROUTED TO CONSUMER WALLET (0x8b4F...) THROUGH STRIPE CONNECT`, delay: 3000, color: '#22c55e' },
+                    { text: `  * €5.00 EUR RELAYER INCENTIVE AWARDED TO REGISTERED RECYCLER HUB (0x581f...)`, delay: 3200, color: '#22c55e' },
+                    { text: `> DEPOSIT REFUND CONFIRMED ON-CHAIN (TX HASH: 0x581f1fcf...)`, delay: 3600, color: '#22c55e' },
+                    { text: `> UPDATING DPP STATE TO: RECYCLED_COMPLETED (Closed-Loop Cradle-to-Cradle)`, delay: 4000, color: '#22c55e' }
+                ];
+
+                stepLogs.forEach(log => {
+                    setTimeout(() => {
+                        const line = document.createElement('div');
+                        line.style.color = log.color;
+                        line.style.whiteSpace = 'pre-wrap';
+                        line.innerText = log.text;
+                        demoTerminalLog.appendChild(line);
+                        demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                    }, log.delay);
+                });
+
+                // Print formatted JSON & Append Conversion Hook
+                setTimeout(() => {
+                    const jsonBlock = document.createElement('pre');
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-4 rounded-2xl border border-white/5 overflow-x-auto select-all font-mono';
+                    jsonBlock.style.fontSize = '8px';
+                    jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
+                    demoTerminalLog.appendChild(jsonBlock);
+                    
+                    // Create Action Hook Button
+                    const hookBtn = document.createElement('button');
+                    hookBtn.type = 'button';
+                    hookBtn.className = 'w-full mt-4 bg-gradient-to-r from-[#a88c5a] to-[#c7aa74] hover:from-[#bfa573] hover:to-[#dec495] text-black font-extrabold py-3.5 rounded-xl text-[10px] uppercase tracking-[0.2em] transition-all hover:scale-[1.01] active:scale-95 shadow-[0_0_25px_rgba(168,140,90,0.3)] animate-pulse flex items-center justify-center gap-2';
+                    hookBtn.innerHTML = '<span>Request Circular Economy Pilot</span> <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+                    hookBtn.addEventListener('click', () => {
+                        const contactModal = document.getElementById('contact-modal');
+                        const leadTextarea = document.querySelector('textarea[name="message"]');
+                        if (contactModal && leadTextarea) {
+                            leadTextarea.value = 'I am highly interested in launching a strategic pilot project based on the Circular Economy Recycling & Pfand-deposit refund flow simulation. Please contact me with more information regarding closed-loop integration.';
+                            contactModal.classList.remove('hidden');
+                        }
+                    });
+                    demoTerminalLog.appendChild(hookBtn);
+                    
+                    demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                }, 4600);
             } else {
                 const logs = [
                     { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
