@@ -477,34 +477,75 @@ document.addEventListener('DOMContentLoaded', () => {
         demoScanBtn.addEventListener('click', () => {
             demoTerminalLog.innerHTML = '';
             
-            const logs = [
-                { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
-                { text: `> EXTRACTING SUN CRYPTO SIGNATURE (CMAC): ${activeProduct === 'battery' ? '04B84542152390' : activeProduct === 'textile' ? '04C92518413990' : activeProduct === 'watch' ? '04D11645392880' : '04E22857416210'}80AFEAEB92...`, delay: 500, color: '#ffffff' },
-                { text: `> COMMUNICATING WITH BASE L2 DEPLOYED PAYMASTER...`, delay: 1000, color: '#a88c5a' },
-                { text: `> VERIFYING AES-128 DECRYPTION KEY... MATCHED successfully.`, delay: 1500, color: '#22c55e' },
-                { text: `> REQUESTING DIGITAL TWIN STATE FOR TOKENID ON-CHAIN...`, delay: 2000, color: '#ffffff' },
-                { text: `> SUCCESS! GENERATING DIGITAL PRODUCT PASSPORT (DPP) PAYLOAD:`, delay: 2500, color: '#22c55e' }
-            ];
+            if (activeProduct === 'lifecycle') {
+                const stepLogs = [
+                    { text: `> INITIALIZING SECURE CRADLE-TO-CRADLE E2E LEDGER INQUIRY...`, delay: 0, color: '#a88c5a' },
+                    { text: `> SCANNING CHIP UID: 04E22857416210 WITH SUN SIGNATURE... PASSED`, delay: 400, color: '#ffffff' },
+                    { text: `> FETCHING COMPLETE LIFECYCLE HISTORY FROM BASE LAYER-2 LEDGER...`, delay: 800, color: '#ffffff' },
+                    { text: `\n=== STARTING ON-CHAIN LIFECYCLE SIMULATION (10 PHASES) ===`, delay: 1200, color: '#a88c5a' },
+                    { text: `[1/10] RAW_MATERIAL_MINING -> GLENCORE CORP (Katanga Mining Hub)\n       Status: COMPLIANT | ESG Verification Hash: 0x9a8f...`, delay: 1600, color: '#e0cfb3' },
+                    { text: `[2/10] REFINED_MATERIAL_BATCH -> BASF BATTERY MATERIALS (Harjavalta Refinery)\n       Status: VERIFIED | Cathode Material Grade-A Cert: Issued`, delay: 2200, color: '#e0cfb3' },
+                    { text: `[3/10] CELL_MANUFACTURING -> NORTHVOLT AB (Ett Skellefteå Plant)\n       Status: VERIFIED | Attached Cryptographic NXP Identity`, delay: 2800, color: '#e0cfb3' },
+                    { text: `[4/10] PACK_ASSEMBLY -> BMW GROUP MANUFACTURING (Dingolfing Plant)\n       Status: QC_PASSED | On-Chain Battery Passport Minted`, delay: 3400, color: '#e0cfb3' },
+                    { text: `[5/10] CUSTOMS_GATEWAY_EXPORT -> MAERSK LOGISTICS (Port of Gothenburg)\n       Status: CLEARED | EU Border Transit Pre-Approved`, delay: 4000, color: '#e0cfb3' },
+                    { text: `[6/10] CUSTOMS_GATEWAY_IMPORT -> CUSTOMS GERMANY (Port of Duisburg)\n       Status: CLEARED | Verification Key Decrypted & Verified`, delay: 4600, color: '#e0cfb3' },
+                    { text: `[7/10] VEHICLE_INTEGRATION_SALE -> BMW MUNICH (Munich Showroom)\n       Status: ACTIVE_DRIVE | Owner Wallet Set to Consumer DID`, delay: 5200, color: '#e0cfb3' },
+                    { text: `[8/10] SECOND_LIFE_STATIONARY -> RWE POWER GRID (Essen Storage Hub)\n       Status: PURPOSED | Battery Re-assigned to Grid Storage`, delay: 5800, color: '#e0cfb3' },
+                    { text: `[9/10] CIRCULAR_RECYCLING -> REMONDIS LI-CYCLE (Duisburg Center)\n       Status: DEPOSIT_RELEASED | On-Chain 100 EUR Deposit Reclaimed`, delay: 6400, color: '#e0cfb3' },
+                    { text: `[10/10] RE-ENTRY_RAW_POWDER -> BASF CATHODE LABS (Schwarzheide Plant)\n        Status: COMPLETED_CRADLE | Zero-Waste Loop Back to Step 1`, delay: 7000, color: '#22c55e' },
+                    { text: `\n> SUCCESS! ALL 10 BLOCKCHAIN COMPLIANCE EVENTS VERIFIED END-TO-END.`, delay: 7600, color: '#22c55e' }
+                ];
 
-            logs.forEach(log => {
+                stepLogs.forEach(log => {
+                    setTimeout(() => {
+                        const line = document.createElement('div');
+                        line.style.color = log.color;
+                        line.style.whiteSpace = 'pre-wrap';
+                        line.innerText = log.text;
+                        demoTerminalLog.appendChild(line);
+                        demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                    }, log.delay);
+                });
+
+                // Print formatted JSON
                 setTimeout(() => {
-                    const line = document.createElement('div');
-                    line.style.color = log.color;
-                    line.innerText = log.text;
-                    demoTerminalLog.appendChild(line);
+                    const jsonBlock = document.createElement('pre');
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-3 rounded border border-white/5 overflow-x-auto select-all';
+                    jsonBlock.style.fontSize = '8px';
+                    jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
+                    demoTerminalLog.appendChild(jsonBlock);
                     demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
-                }, log.delay);
-            });
+                }, 8000);
+            } else {
+                const logs = [
+                    { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
+                    { text: `> EXTRACTING SUN CRYPTO SIGNATURE (CMAC): ${activeProduct === 'battery' ? '04B84542152390' : activeProduct === 'textile' ? '04C92518413990' : '04D11645392880'}80AFEAEB92...`, delay: 500, color: '#ffffff' },
+                    { text: `> COMMUNICATING WITH BASE L2 DEPLOYED PAYMASTER...`, delay: 1000, color: '#a88c5a' },
+                    { text: `> VERIFYING AES-128 DECRYPTION KEY... MATCHED successfully.`, delay: 1500, color: '#22c55e' },
+                    { text: `> REQUESTING DIGITAL TWIN STATE FOR TOKENID ON-CHAIN...`, delay: 2000, color: '#ffffff' },
+                    { text: `> SUCCESS! GENERATING DIGITAL PRODUCT PASSPORT (DPP) PAYLOAD:`, delay: 2500, color: '#22c55e' }
+                ];
 
-            // Print formatted JSON
-            setTimeout(() => {
-                const jsonBlock = document.createElement('pre');
-                jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-3 rounded border border-white/5 overflow-x-auto select-all';
-                jsonBlock.style.fontSize = '8px';
-                jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
-                demoTerminalLog.appendChild(jsonBlock);
-                demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
-            }, 3000);
+                logs.forEach(log => {
+                    setTimeout(() => {
+                        const line = document.createElement('div');
+                        line.style.color = log.color;
+                        line.innerText = log.text;
+                        demoTerminalLog.appendChild(line);
+                        demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                    }, log.delay);
+                });
+
+                // Print formatted JSON
+                setTimeout(() => {
+                    const jsonBlock = document.createElement('pre');
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-3 rounded border border-white/5 overflow-x-auto select-all';
+                    jsonBlock.style.fontSize = '8px';
+                    jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
+                    demoTerminalLog.appendChild(jsonBlock);
+                    demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                }, 3000);
+            }
         });
     }
 });
