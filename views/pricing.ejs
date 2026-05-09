@@ -50,105 +50,121 @@
                 </p>
             </div>
 
-            <!-- Tier Cards Deck (Overhauled to Balanced 3-Column Enterprise Structure) -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 animate-fade-in-up"
+            <!-- Tier Cards Deck (Overhauled to Balanced 4-Column Enterprise Structure) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 animate-fade-in-up"
                 style="animation: fadeInUp 1s ease 0.2s forwards;">
  
-                <!-- Sandbox Plan -->
+                <!-- Free/Starter Plan -->
                 <div
-                    class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+                    class="apple-glass border border-white/10 rounded-[2.5rem] p-6 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
                     <div>
-                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Dev Sandbox</div>
-                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Sandbox</h3>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Starter</div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Free</h3>
                         <p class="text-white/40 text-xs mb-6">
-                            <%= t.lang==='de-de' ? 'Ideal für Entwickler zum Testen von physischen Scans, APIs und Datenstrukturen.'
-                                : 'Ideal for developers to test out physical scans, core APIs, and compliance data schemas.' %>
+                            <%= t.lang==='de-de' ? 'Ideal für Entwickler zum Testen von physischen Scans und ersten Prototypen.'
+                                : 'Ideal for testing out physical scans and minting initial prototypes.' %>
                         </p>
                         <div class="text-3xl font-black text-white italic mb-2">€0 <span
                                 class="text-sm font-normal text-white/40">/mo</span></div>
                         <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">
-                            <%= t.lang==='de-de' ? 'Bis zu 50 aktive Pässe' : 'Up to 50 active Passports' %>
+                            <%= t.lang==='de-de' ? 'Bis zu 25 Mints / Monat' : 'Up to 25 Mints / month' %>
                         </div>
                         <ul class="space-y-3 mb-8">
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Voller Core API-Zugriff (Sandbox)' : 'Full core API access (Sandbox)' %>
+                                <%= t.lang==='de-de' ? 'Basis-Zugriff auf GS1 Resolver' : 'Basic GS1 Resolver access' %>
                             </li>
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Kryptographische Testschlüssel (NXP CMAC)' : 'Cryptographic test keys (NXP CMAC)' %>
-                            </li>
-                            <li class="flex items-start gap-2 text-xs text-white/70">
-                                <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Community & Entwickler-Support' : 'Community & developer support' %>
+                                <%= t.lang==='de-de' ? 'Community-Support' : 'Community support' %>
                             </li>
                         </ul>
                     </div>
                 </div>
  
-                <!-- Standard Compliance Plan -->
+                <!-- Essential Plan -->
                 <div
-                    class="apple-glass border-2 border-[#a88c5a] rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group transition-all duration-500">
+                    class="apple-glass border-2 border-[#a88c5a] rounded-[2.5rem] p-6 shadow-2xl relative overflow-hidden flex flex-col justify-between group transition-all duration-500">
                     <div
                         class="absolute top-0 right-0 bg-[#a88c5a] text-black font-black uppercase text-[8px] tracking-widest px-3 py-1 rounded-bl-xl">
-                        Recommended</div>
+                        Popular</div>
                     <div>
-                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">ESPR Compliance</div>
-                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Standard</h3>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Emerging</div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Essential</h3>
                         <p class="text-white/40 text-xs mb-6">
-                            <%= t.lang==='de-de' ? 'Für etablierte Hersteller zur gesetzeskonformen Umsetzung von ESPR-Standards.'
-                                : 'For established manufacturers to implement fully compliant ESPR standards.' %>
+                            <%= t.lang==='de-de' ? 'Für kleinere Unternehmen zur gesetzeskonformen ESPR-Kreislaufkonformität.'
+                                : 'For smaller businesses implementing initial ESPR circular compliance.' %>
                         </p>
-                        <div class="text-3xl font-black text-white italic mb-2">€149 <span
+                        <div class="text-3xl font-black text-white italic mb-2">€49 <span
                                 class="text-sm font-normal text-white/40">/mo</span></div>
-                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.05 per active Passport
-                        </div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.05 PER MINT</div>
                         <ul class="space-y-3 mb-8">
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Konform nach W3C VC & AAS-Spezifikationen' : 'Fully compliant with W3C VC & AAS specs' %>
+                                <%= t.lang==='de-de' ? '500 digitale Zwillinge inklusive' : '500 digital twins included' %>
                             </li>
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Sponsor-Transaktionen (Gas-Abstraktion)' : 'Sponsored transactions (Gas Abstraction)' %>
+                                <%= t.lang==='de-de' ? 'Standard-Support' : 'Standard Support' %>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div
+                    class="apple-glass border border-white/10 rounded-[2.5rem] p-6 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+                    <div>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Scale-Up</div>
+                        <h3 class="text-2xl font-black italic uppercase text-white mb-2">Pro</h3>
+                        <p class="text-white/40 text-xs mb-6">
+                            <%= t.lang==='de-de' ? 'Erweiterte Features, Bulk-API Provisionierung und Automatisierung.'
+                                : 'Advanced features, bulk API provisioning and high volume automation.' %>
+                        </p>
+                        <div class="text-3xl font-black text-white italic mb-2">€199 <span
+                                class="text-sm font-normal text-white/40">/mo</span></div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">+ €0.02 PER MINT</div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Priorisierter SLA Support' : 'Prioritized support SLA' %>
                             </li>
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Kunden-Besitzrechte-Anspruch via Web-NFC' : 'Customer ownership claim via Web NFC' %>
+                                <%= t.lang==='de-de' ? 'Batch Mint API-Zugriff' : 'Batch mint API access' %>
                             </li>
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Priorisierter E-Mail-Support SLA (< 24h)' : 'Prioritized email support SLA (< 24h)' %>
+                                <%= t.lang==='de-de' ? 'Erweiterte Webhooks & Tantiemen' : 'Advanced Webhooks & Royalties' %>
+                            </li>
+                            <li class="flex items-start gap-2 text-xs text-white/70">
+                                <span class="text-[#a88c5a] font-bold">✓</span>
+                                <%= t.lang==='de-de' ? 'Lieferketten-Event-Verfolgung' : 'Supply Chain Event Tracking' %>
                             </li>
                         </ul>
                     </div>
                 </div>
  
-                <!-- Sovereign Node Plan -->
+                <!-- Enterprise Plan -->
                 <div
-                    class="apple-glass border border-white/10 rounded-[2.5rem] p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
+                    class="apple-glass border border-white/10 rounded-[2.5rem] p-6 shadow-2xl relative overflow-hidden flex flex-col justify-between group hover:border-[#a88c5a]/30 transition-all duration-500">
                     <div>
-                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Sovereign Operations</div>
+                        <div class="text-[#a88c5a] text-[10px] font-black uppercase tracking-widest mb-4">Unlimited</div>
                         <h3 class="text-2xl font-black italic uppercase text-white mb-2">Enterprise</h3>
                         <p class="text-white/40 text-xs mb-6">
-                            <%= t.lang==='de-de' ? 'Für industriellen Großbetrieb, eigene Gas-Paymaster und souveräne Core-Nodes.'
-                                : 'For large industrial operations, custom gas paymasters, and sovereign core nodes.' %>
+                            <%= t.lang==='de-de' ? 'Unbegrenztes Volumen, eigene Gas-Paymaster und souveräne Nodes.'
+                                : 'Fully custom volume, custom gas networks, and on-premises deployment.' %>
                         </p>
                         <div class="text-3xl font-black text-white italic mb-2">Custom</div>
-                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">Sovereign Tier
-                        </div>
+                        <div class="text-[#a88c5a] text-xs font-bold uppercase tracking-wide mb-6">Individual Tier</div>
                         <ul class="space-y-3 mb-8">
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Dedizierte physische oder virtuelle Nodes' : 'Dedicated physical or virtual core nodes' %>
+                                <%= t.lang==='de-de' ? 'Dedizierter Account Manager' : 'Dedicated Account Manager' %>
                             </li>
                             <li class="flex items-start gap-2 text-xs text-white/70">
                                 <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Private Cloud- oder On-Premises Option' : 'Private cloud or on-premises deployment option' %>
-                            </li>
-                            <li class="flex items-start gap-2 text-xs text-white/70">
-                                <span class="text-[#a88c5a] font-bold">✓</span>
-                                <%= t.lang==='de-de' ? 'Eigener Solutions-Architekt & 24/7 SLA' : 'Dedicated Solutions Architect & 24/7 SLA' %>
+                                <%= t.lang==='de-de' ? 'On-Premises Option' : 'On-premise deployment option' %>
                             </li>
                         </ul>
                     </div>
@@ -186,24 +202,31 @@
                         </thead>
                         <tbody class="divide-y divide-white/5">
                             <tr class="hover:bg-white/2 transition-colors">
-                                <td class="px-6 py-4 font-black text-white uppercase italic">Sandbox (Free)</td>
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Startup (Free)</td>
                                 <td class="px-6 py-4">€0</td>
                                 <td class="px-6 py-4">
-                                    <%= t.lang==='de-de' ? 'Bis zu 50 aktive digitale Pässe' : 'Up to 50 active passports' %>
+                                    <%= t.lang==='de-de' ? 'Bis zu 25 Mints pro Monat' : 'Up to 25 per month' %>
                                 </td>
                             </tr>
                             <tr class="hover:bg-white/2 transition-colors">
-                                <td class="px-6 py-4 font-black text-white uppercase italic">Standard Compliance</td>
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Essential Plan</td>
                                 <td class="px-6 py-4">€0.05</td>
                                 <td class="px-6 py-4">
-                                    <%= t.lang==='de-de' ? 'Sponsor-Transaktionen inklusive' : 'Sponsored Gas-Abstraction transactions included' %>
+                                    <%= t.lang==='de-de' ? 'Unbegrenzt über Tier-Limits hinaus' : 'Unlimited beyond tier limits' %>
                                 </td>
                             </tr>
                             <tr class="hover:bg-white/2 transition-colors">
-                                <td class="px-6 py-4 font-black text-white uppercase italic">Sovereign Node / Enterprise</td>
-                                <td class="px-6 py-4">Custom (Bulk pricing)</td>
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Pro Plan</td>
+                                <td class="px-6 py-4">€0.02</td>
                                 <td class="px-6 py-4">
-                                    <%= t.lang==='de-de' ? 'Dedizierte Nodes & unbegrenzter Batch-Durchsatz' : 'Dedicated Core Nodes & unlimited batch throughput' %>
+                                    <%= t.lang==='de-de' ? 'Bulk-Provision API-Aufrufe' : 'Enterprise bulk-provision API calls' %>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-white/2 transition-colors">
+                                <td class="px-6 py-4 font-black text-white uppercase italic">Enterprise Plan</td>
+                                <td class="px-6 py-4">Custom</td>
+                                <td class="px-6 py-4">
+                                    <%= t.lang==='de-de' ? 'On-Premises Deployment Option' : 'On-premise deployment option' %>
                                 </td>
                             </tr>
                         </tbody>
