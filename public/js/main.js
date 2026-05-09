@@ -324,11 +324,53 @@ document.addEventListener('DOMContentLoaded', () => {
                 "chipUid": "04B84542152390",
                 "productId": "CERT-04B84542152390",
                 "ownerWallet": "0x24954DA952B9590d7726DEDd1C1ccD4bB130F9b8",
-                "material": "V-Ledger Demo Batterie (Lithium)",
-                "warrantyExpiry": "2032-12-31",
+                "material": "V-Ledger Demo Batterie (Lithium NMC)",
                 "vledgerUid": "2b130671-a603-4037-ab2b-4ea0ed56ed3d",
-                "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e"
-            }
+                "status": "ACTIVE"
+            },
+            "chainOfCustody": {
+                "totalEvents": 5,
+                "firstSeen": "2026-05-01T01:02:28.000Z",
+                "lastSeen": "2026-05-09T14:30:00.000Z",
+                "integrityHash": "304a2b32099904ee1ea8fb9be273bf0f9e872e5aad52669d275150186e83c274"
+            },
+            "events": [
+                {
+                    "action": "MINT",
+                    "actor": "manufacturer@v-ledger.com",
+                    "locationName": "Duisburg Assembly Plant",
+                    "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
+                    "timestamp": "2026-05-01T01:02:28.000Z"
+                },
+                {
+                    "action": "QC_PASSED",
+                    "actor": "qc-officer@v-ledger.com",
+                    "locationName": "Quality Control Lab",
+                    "transactionHash": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032",
+                    "timestamp": "2026-05-03T22:48:32.000Z"
+                },
+                {
+                    "action": "IMPORT_CLEARED",
+                    "actor": "customs@duisburg-port.de",
+                    "locationName": "Port of Duisburg",
+                    "transactionHash": "0x52e2535e36521d5f5a8944825c27ca39fc818adb24081cfc00263be20cc5e6d1",
+                    "timestamp": "2026-05-04T10:15:40.000Z"
+                },
+                {
+                    "action": "CLAIM_OWNERSHIP",
+                    "actor": "logistic-partner@blue-cargo.com",
+                    "locationName": "Regional Distribution Hub",
+                    "transactionHash": "0xeeddf81e342103675912f819cc10e5db8bc772440e94dbcc5a14ce718470eddb",
+                    "timestamp": "2026-05-06T11:22:52.000Z"
+                },
+                {
+                    "action": "RECYCLE_TRANSFER",
+                    "actor": "intake@remondis-recycling.com",
+                    "locationName": "Recycling Center Duisburg",
+                    "transactionHash": "0x304a2b32099904ee1ea8fb9be273bf0f9e872e5aad52669d275150186e83c274",
+                    "timestamp": "2026-05-09T14:30:00.000Z"
+                }
+            ]
         },
         textile: {
             "id": "https://api.v-ledger.com/aas/01/04200000000001/21/04C92518413990",
@@ -343,9 +385,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 ]
             },
             "submodels": [
-                { "id": "DigitalTwin-Identity", "type": "W3C_VerifiableCredential" },
-                { "id": "Circular-Economy-ESPR", "purity": "100% Recycled Wool" }
-            ]
+                { 
+                    "id": "DigitalTwin-Identity", 
+                    "type": "W3C_VerifiableCredential",
+                    "lifecycleState": "QC_PASSED"
+                },
+                { 
+                    "id": "Circular-Economy-ESPR", 
+                    "purity": "100% Recycled Wool",
+                    "recyclabilityIndex": "94.8% A-Grade"
+                }
+            ],
+            "lifecycle": {
+                "currentStatus": "CLAIMED",
+                "history": [
+                    { "step": "MINT", "date": "2026-05-02" },
+                    { "step": "QC_PASSED", "date": "2026-05-03" },
+                    { "step": "RETAIL_SALE", "date": "2026-05-05" },
+                    { "step": "CLAIMED", "date": "2026-05-08" }
+                ]
+            }
         },
         watch: {
             "context": "W3C Verifiable Credential",
@@ -357,7 +416,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 "modelName": "Precision Chronograph",
                 "material": "904L Oystersteel / Ceramic",
                 "resaleRoyaltyRate": "5.00% (On-Chain Lock)",
-                "blockchainAnchor": "Base L2 Ledger"
+                "blockchainAnchor": "Base L2 Ledger",
+                "currentOwner": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735"
+            },
+            "chainOfCustody": {
+                "status": "AUTHENTICITY_SECURED",
+                "lifecycleEvents": [
+                    { "event": "ORIGIN_MINT", "timestamp": "2026-05-01T12:00:00Z" },
+                    { "event": "BOUTIQUE_RECEIPT", "timestamp": "2026-05-04T09:30:00Z" },
+                    { "event": "FIRST_OWNER_CLAIM", "timestamp": "2026-05-09T18:45:00Z" }
+                ]
             }
         }
     };
