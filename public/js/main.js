@@ -427,6 +427,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     { "event": "FIRST_OWNER_CLAIM", "timestamp": "2026-05-09T18:45:00Z" }
                 ]
             }
+        },
+        lifecycle: {
+            "context": "V-Ledger V5.5 End-to-End Lifecycle Tracking",
+            "productId": "E2E-LOOP-13285075",
+            "materialCode": "RECYCLE-NMC-BATT-042",
+            "cradleToCradleCertified": "A-Grade Platinum",
+            "chainOfCustody": {
+                "totalStates": 10,
+                "currentPhase": "CIRCULAR_RECYCLING",
+                "integrityHash": "0x55ffb273bf0f9e872e5aad52669d275150186e83c274bda1b4a82ef86a961842"
+            },
+            "events": [
+                { "step": 1, "phase": "RAW_MATERIAL_MINING", "actor": "Glencore Corp", "location": "Katanga Mining Hub", "status": "COMPLIANT" },
+                { "step": 2, "phase": "REFINED_MATERIAL_BATCH", "actor": "BASF Battery Materials", "location": "Harjavalta Refinery", "status": "VERIFIED" },
+                { "step": 3, "phase": "CELL_MANUFACTURING", "actor": "Northvolt AB", "location": "Ett Skellefteå", "status": "VERIFIED" },
+                { "step": 4, "phase": "PACK_ASSEMBLY", "actor": "BMW Group Manufacturing", "location": "Dingolfing Plant", "status": "QC_PASSED" },
+                { "step": 5, "phase": "CUSTOMS_GATEWAY_EXPORT", "actor": "Maersk Logistics", "location": "Port of Gothenburg", "status": "CLEARED" },
+                { "step": 6, "phase": "CUSTOMS_GATEWAY_IMPORT", "actor": "German Customs Authority", "location": "Port of Duisburg", "status": "CLEARED" },
+                { "step": 7, "phase": "VEHICLE_INTEGRATION_SALE", "actor": "BMW Niederlassung", "location": "Munich Showroom", "status": "ACTIVE_DRIVE" },
+                { "step": 8, "phase": "SECOND_LIFE_STATIONARY", "actor": "RWE Power Grid", "location": "Essen Storage Hub", "status": "PURPOSED" },
+                { "step": 9, "phase": "CIRCULAR_RECYCLING", "actor": "Remondis Li-Cycle", "location": "Duisburg Recycling Center", "status": "DEPOSIT_RELEASED" },
+                { "step": 10, "phase": "RE-ENTRY_RAW_POWDER", "actor": "BASF Cathode Labs", "location": "Schwarzheide Plant", "status": "COMPLETED_CRADLE" }
+            ]
         }
     };
 
@@ -444,6 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (btn.id === 'demo-prod-battery') activeProduct = 'battery';
                 else if (btn.id === 'demo-prod-textile') activeProduct = 'textile';
                 else if (btn.id === 'demo-prod-watch') activeProduct = 'watch';
+                else if (btn.id === 'demo-prod-lifecycle') activeProduct = 'lifecycle';
 
                 demoTerminalLog.innerHTML = `<span class="text-white/40">Product category switched to ${activeProduct.toUpperCase()}. Ready for cryptographic NFC scan.</span>`;
             });
@@ -455,7 +479,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const logs = [
                 { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
-                { text: `> EXTRACTING SUN CRYPTO SIGNATURE (CMAC): ${activeProduct === 'battery' ? '04B84542152390' : activeProduct === 'textile' ? '04C92518413990' : '04D11645392880'}80AFEAEB92...`, delay: 500, color: '#ffffff' },
+                { text: `> EXTRACTING SUN CRYPTO SIGNATURE (CMAC): ${activeProduct === 'battery' ? '04B84542152390' : activeProduct === 'textile' ? '04C92518413990' : activeProduct === 'watch' ? '04D11645392880' : '04E22857416210'}80AFEAEB92...`, delay: 500, color: '#ffffff' },
                 { text: `> COMMUNICATING WITH BASE L2 DEPLOYED PAYMASTER...`, delay: 1000, color: '#a88c5a' },
                 { text: `> VERIFYING AES-128 DECRYPTION KEY... MATCHED successfully.`, delay: 1500, color: '#22c55e' },
                 { text: `> REQUESTING DIGITAL TWIN STATE FOR TOKENID ON-CHAIN...`, delay: 2000, color: '#ffffff' },
