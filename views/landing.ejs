@@ -104,7 +104,7 @@
     <link rel="stylesheet" href="/css/style.css?v=13.3-SSR">
 
     <!-- SES-Proof Scripts (Programmatic Only) -->
-    <script src="/js/main.js?v=13.3-SSR" defer></script>
+    <script src="/js/main.js?v=15.5-SSR" defer></script>
 </head>
 <body class="selection:bg-white/10">
     <div class="mesh-bg"></div>
@@ -188,6 +188,101 @@
                 <span class="text-[11px] font-black tracking-[0.3em] uppercase">ERC-4337 Full Abstraction</span>
             </div>
         </div>
+
+        <!-- Interactive DPP Live Simulator Section (Build 25.0 - Enterprise Standard) -->
+        <section class="my-32 reveal-on-scroll relative">
+            <div class="absolute -right-40 top-1/2 -translate-y-1/2 w-96 h-96 bg-[#a88c5a]/5 blur-[150px] rounded-full pointer-events-none"></div>
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#a88c5a]/30 bg-[#a88c5a]/10 text-[#a88c5a] text-[10px] uppercase tracking-widest font-black mb-4 animate-pulse">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-yellow-500"></span>
+                    </span>
+                    Live Technology Showcase
+                </div>
+                <h2 class="text-3xl md:text-5xl font-black tracking-tight uppercase mb-4 text-white">
+                    <%= t.demoTitle || 'Interactive DPP Sandbox' %>
+                </h2>
+                <p class="text-white/40 text-sm md:text-base font-medium max-w-xl mx-auto leading-relaxed">
+                    <%= t.demoDesc || 'Select a category & simulate an NXP secure element scan to compile on-chain Verifiable Credentials and Asset Administration Shell (AAS) submodels instantly.' %>
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8 items-stretch max-w-6xl mx-auto">
+                <!-- Left Control Panel -->
+                <div class="lg:col-span-5 flex flex-col justify-between apple-glass rounded-[2.5rem] border border-white/5 p-8 relative overflow-hidden bg-black/40 min-h-[380px]">
+                    <div class="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-[#a88c5a]/5 to-transparent opacity-50 pointer-events-none"></div>
+                    
+                    <div class="relative z-10">
+                        <span class="text-[10px] font-black tracking-[0.2em] uppercase text-[#a88c5a] mb-6 block">01 / Choose Category</span>
+                        
+                        <div class="flex flex-col gap-3 mb-8">
+                            <button type="button" id="demo-prod-battery" class="demo-prod-btn active flex items-center gap-4 p-4 rounded-2xl border border-[#a88c5a]/40 bg-[#a88c5a]/10 text-white transition-all text-left group">
+                                <span class="text-3xl filter drop-shadow-[0_0_10px_rgba(168,140,90,0.3)] transition-transform group-hover:scale-110">🔋</span>
+                                <div class="flex flex-col">
+                                    <span class="text-xs uppercase tracking-wider font-extrabold text-white group-hover:text-[#a88c5a] transition-colors"><%= t.batteryName || 'Li-Ion Battery' %></span>
+                                    <span class="text-[9px] text-white/40 uppercase tracking-widest mt-0.5">ESPR 2027 // Wave 1 Standard</span>
+                                </div>
+                            </button>
+
+                            <button type="button" id="demo-prod-textile" class="demo-prod-btn flex items-center gap-4 p-4 rounded-2xl border border-white/5 bg-white/5 text-white/50 hover:text-white transition-all text-left group">
+                                <span class="text-3xl transition-transform group-hover:scale-110">🧥</span>
+                                <div class="flex flex-col">
+                                    <span class="text-xs uppercase tracking-wider font-extrabold text-white/70 group-hover:text-white transition-colors"><%= t.textileName || 'Wool Coat (ESPR)' %></span>
+                                    <span class="text-[9px] text-white/30 uppercase tracking-widest mt-0.5">ESPR 2027 // Wave 1 Textiles</span>
+                                </div>
+                            </button>
+
+                            <button type="button" id="demo-prod-watch" class="demo-prod-btn flex items-center gap-4 p-4 rounded-2xl border border-white/5 bg-white/5 text-white/50 hover:text-white transition-all text-left group">
+                                <span class="text-3xl transition-transform group-hover:scale-110">⌚</span>
+                                <div class="flex flex-col">
+                                    <span class="text-xs uppercase tracking-wider font-extrabold text-white/70 group-hover:text-white transition-colors"><%= t.watchName || 'Precision Chronograph' %></span>
+                                    <span class="text-[9px] text-white/30 uppercase tracking-widest mt-0.5">ESPR 2028 // Wave 2 Luxury Goods</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="relative z-10">
+                        <span class="text-[10px] font-black tracking-[0.2em] uppercase text-[#a88c5a] mb-3 block">02 / Execute Action</span>
+                        <button id="demo-scan-btn" type="button" class="w-full bg-gradient-to-r from-[#a88c5a] to-[#c7aa74] hover:from-[#bfa573] hover:to-[#dec495] text-black font-extrabold py-4 rounded-2xl text-[11px] uppercase tracking-[0.2em] transition-all hover:scale-[1.01] active:scale-95 shadow-[0_0_30px_rgba(168,140,90,0.15)] flex justify-center items-center gap-3">
+                            <svg class="animate-pulse" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1"/><path d="M12 9h10v12H12z"/></svg>
+                            <span><%= t.scanBtn || 'Simulate NXP secure NFC Scan' %></span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Simulated Terminal Display -->
+                <div class="lg:col-span-7 flex flex-col justify-between border border-white/10 rounded-[2.5rem] p-6 text-left relative overflow-hidden bg-black/85 shadow-2xl min-h-[380px]">
+                    <div class="absolute inset-0 bg-radial-at-t from-white/[0.02] to-transparent pointer-events-none"></div>
+                    
+                    <div>
+                        <!-- Header panel of console -->
+                        <div class="flex items-center justify-between border-b border-white/5 pb-4 mb-4">
+                            <div class="flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-red-500/80 shadow-[0_0_8px_rgba(239,68,68,0.5)]"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80 shadow-[0_0_8px_rgba(234,179,8,0.5)]"></span>
+                                <span class="w-2.5 h-2.5 rounded-full bg-green-500/80 shadow-[0_0_8px_rgba(34,197,94,0.5)]"></span>
+                                <span class="text-[9px] font-mono text-white/30 uppercase tracking-widest ml-3">v-ledger-core-node // active</span>
+                            </div>
+                            <div class="flex items-center gap-1.5 px-3 py-1 rounded-full border border-green-500/20 bg-green-500/5 text-green-400 text-[8px] uppercase tracking-widest font-mono">
+                                <span class="relative flex h-1.5 w-1.5">
+                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-500"></span>
+                                </span>
+                                DUISBURG GATEWAY
+                            </div>
+                        </div>
+
+                        <!-- Terminal Output Console -->
+                        <div id="demo-terminal-log" class="font-mono text-[10px] leading-relaxed text-[#e0cfb3] h-[280px] overflow-y-auto pr-2 space-y-2 select-text custom-scrollbar">
+                            <span class="text-white/30 block mt-2">Console initialized. Select a category on the left and click "EXECUTE CRYPTOGRAPHIC NXP SCAN" to verify hardware-backed digital product twins directly on Base Layer-2 ledger.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Flying Article Stack: Build 21.0 (The Epic 6-Part Story) -->
         <div id="article-stack" class="article-stack-section mb-32">
