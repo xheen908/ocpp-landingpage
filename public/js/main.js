@@ -507,13 +507,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     }, log.delay);
                 });
 
-                // Print formatted JSON
+                // Print formatted JSON & Append Conversion Hook
                 setTimeout(() => {
                     const jsonBlock = document.createElement('pre');
-                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-3 rounded border border-white/5 overflow-x-auto select-all';
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-4 rounded-2xl border border-white/5 overflow-x-auto select-all font-mono';
                     jsonBlock.style.fontSize = '8px';
                     jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
                     demoTerminalLog.appendChild(jsonBlock);
+                    
+                    // Create Action Hook Button
+                    const hookBtn = document.createElement('button');
+                    hookBtn.type = 'button';
+                    hookBtn.className = 'w-full mt-4 bg-gradient-to-r from-[#a88c5a] to-[#c7aa74] hover:from-[#bfa573] hover:to-[#dec495] text-black font-extrabold py-3.5 rounded-xl text-[10px] uppercase tracking-[0.2em] transition-all hover:scale-[1.01] active:scale-95 shadow-[0_0_25px_rgba(168,140,90,0.3)] animate-pulse flex items-center justify-center gap-2';
+                    hookBtn.innerHTML = '<span>Request Strategic Pilot Integration for this Flow</span> <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+                    hookBtn.addEventListener('click', () => {
+                        const contactModal = document.getElementById('contact-modal');
+                        const leadTextarea = document.querySelector('textarea[name="message"]');
+                        if (contactModal && leadTextarea) {
+                            leadTextarea.value = 'I am highly interested in launching a strategic pilot project based on the End-to-End Lifecycle flow simulation. Please contact me with more information regarding the compliance scope.';
+                            contactModal.classList.remove('hidden');
+                        }
+                    });
+                    demoTerminalLog.appendChild(hookBtn);
+                    
                     demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
                 }, 8000);
             } else {
@@ -536,13 +552,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     }, log.delay);
                 });
 
-                // Print formatted JSON
+                // Print formatted JSON & Append Conversion Hook
                 setTimeout(() => {
                     const jsonBlock = document.createElement('pre');
-                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-3 rounded border border-white/5 overflow-x-auto select-all';
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-4 rounded-2xl border border-white/5 overflow-x-auto select-all font-mono';
                     jsonBlock.style.fontSize = '8px';
                     jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
                     demoTerminalLog.appendChild(jsonBlock);
+
+                    // Create Action Hook Button
+                    const hookBtn = document.createElement('button');
+                    hookBtn.type = 'button';
+                    hookBtn.className = 'w-full mt-4 bg-gradient-to-r from-[#a88c5a] to-[#c7aa74] hover:from-[#bfa573] hover:to-[#dec495] text-black font-extrabold py-3.5 rounded-xl text-[10px] uppercase tracking-[0.2em] transition-all hover:scale-[1.01] active:scale-95 shadow-[0_0_25px_rgba(168,140,90,0.3)] animate-pulse flex items-center justify-center gap-2';
+                    hookBtn.innerHTML = `<span>Request Pilot Integration for ${activeProduct.toUpperCase()}</span> <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg>`;
+                    hookBtn.addEventListener('click', () => {
+                        const contactModal = document.getElementById('contact-modal');
+                        const leadTextarea = document.querySelector('textarea[name="message"]');
+                        if (contactModal && leadTextarea) {
+                            leadTextarea.value = `I am highly interested in launching a strategic pilot project based on the ${activeProduct.toUpperCase()} flow simulation. Please contact me with more information regarding the compliance scope.`;
+                            contactModal.classList.remove('hidden');
+                        }
+                    });
+                    demoTerminalLog.appendChild(hookBtn);
+
                     demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
                 }, 3000);
             }
