@@ -630,7 +630,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 "type": "DataIntegrityProof",
                 "cryptosuite": "eddsa-rdfc-2022",
                 "created": "2026-05-09T17:59:04.697Z",
-                "verifi        watch: {
+                "verificationMethod": "did:web:dashboard.v-ledger.com#key-1",
+                "proofPurpose": "assertionMethod",
+                "proofValue": "z5TSNbxh2fuLgWBgHQpTPXJCoa368kuXzr6ejBWQG3xdBGZnY1E2Av36Wv6PotVBBHDpSatoxFrMbyNfyFJLrGLbX"
+            }
+        },
+        watch: {
             "id": "https://api.v-ledger.com/aas/01/04200000000001/21/04B84542152390",
             "idType": "IRI",
             "modelType": "AssetAdministrationShell",
