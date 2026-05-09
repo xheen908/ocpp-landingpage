@@ -303,4 +303,116 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // ── Interactive DPP Live Simulator (B2B Sandbox Demo) ───────────────────
+    const demoButtons = document.querySelectorAll('.demo-prod-btn');
+    const demoScanBtn = document.getElementById('demo-scan-btn');
+    const demoTerminalLog = document.getElementById('demo-terminal-log');
+
+    let activeProduct = 'battery'; // Default active product
+
+    const dppPayloads = {
+        battery: {
+            "context": "SAP/Oracle Enterprise Sync",
+            "integrationInfo": {
+                "systemSource": "V-Ledger IaaS",
+                "dataIntegrity": "BLOCKCHAIN_VERIFIED"
+            },
+            "productData": {
+                "id": 14,
+                "tokenId": "1328507507778448",
+                "chipUid": "04B84542152390",
+                "productId": "CERT-04B84542152390",
+                "ownerWallet": "0x24954DA952B9590d7726DEDd1C1ccD4bB130F9b8",
+                "material": "V-Ledger Demo Batterie (Lithium)",
+                "warrantyExpiry": "2032-12-31",
+                "vledgerUid": "2b130671-a603-4037-ab2b-4ea0ed56ed3d",
+                "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e"
+            }
+        },
+        textile: {
+            "id": "https://api.v-ledger.com/aas/01/04200000000001/21/04C92518413990",
+            "idType": "IRI",
+            "modelType": "AssetAdministrationShell",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://api.v-ledger.com/01/04200000000001/21/04C92518413990",
+                "specificAssetIds": [
+                    { "name": "GTIN", "value": "04200000000001" },
+                    { "name": "SerialNumber", "value": "04C92518413990" }
+                ]
+            },
+            "submodels": [
+                { "id": "DigitalTwin-Identity", "type": "W3C_VerifiableCredential" },
+                { "id": "Circular-Economy-ESPR", "purity": "100% Recycled Wool" }
+            ]
+        },
+        watch: {
+            "context": "W3C Verifiable Credential",
+            "id": "urn:uuid:6ca8420-1a28-490f-90db-28104c990a2a",
+            "type": ["VerifiableCredential", "DigitalProductPassport"],
+            "credentialSubject": {
+                "id": "did:vledger:04D11645392880",
+                "brand": "Elite Chrono Manufacture",
+                "modelName": "Precision Chronograph",
+                "material": "904L Oystersteel / Ceramic",
+                "resaleRoyaltyRate": "5.00% (On-Chain Lock)",
+                "blockchainAnchor": "Base L2 Ledger"
+            }
+        }
+    };
+
+    if (demoButtons.length > 0 && demoScanBtn && demoTerminalLog) {
+        // Toggle active product
+        demoButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                demoButtons.forEach(b => {
+                    b.classList.remove('active', 'border-[#a88c5a]/40', 'bg-[#a88c5a]/10');
+                    b.classList.add('border-white/5', 'bg-white/5');
+                });
+                btn.classList.add('active', 'border-[#a88c5a]/40', 'bg-[#a88c5a]/10');
+                btn.classList.remove('border-white/5', 'bg-white/5');
+
+                if (btn.id === 'demo-prod-battery') activeProduct = 'battery';
+                else if (btn.id === 'demo-prod-textile') activeProduct = 'textile';
+                else if (btn.id === 'demo-prod-watch') activeProduct = 'watch';
+
+                demoTerminalLog.innerHTML = `<span class="text-white/40">Product category switched to ${activeProduct.toUpperCase()}. Ready for cryptographic NFC scan.</span>`;
+            });
+        });
+
+        // Scan button click handler
+        demoScanBtn.addEventListener('click', () => {
+            demoTerminalLog.innerHTML = '';
+            
+            const logs = [
+                { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
+                { text: `> EXTRACTING SUN CRYPTO SIGNATURE (CMAC): ${activeProduct === 'battery' ? '04B84542152390' : activeProduct === 'textile' ? '04C92518413990' : '04D11645392880'}80AFEAEB92...`, delay: 500, color: '#ffffff' },
+                { text: `> COMMUNICATING WITH BASE L2 DEPLOYED PAYMASTER...`, delay: 1000, color: '#a88c5a' },
+                { text: `> VERIFYING AES-128 DECRYPTION KEY... MATCHED successfully.`, delay: 1500, color: '#22c55e' },
+                { text: `> REQUESTING DIGITAL TWIN STATE FOR TOKENID ON-CHAIN...`, delay: 2000, color: '#ffffff' },
+                { text: `> SUCCESS! GENERATING DIGITAL PRODUCT PASSPORT (DPP) PAYLOAD:`, delay: 2500, color: '#22c55e' }
+            ];
+
+            logs.forEach(log => {
+                setTimeout(() => {
+                    const line = document.createElement('div');
+                    line.style.color = log.color;
+                    line.innerText = log.text;
+                    demoTerminalLog.appendChild(line);
+                    demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                }, log.delay);
+            });
+
+            // Print formatted JSON
+            setTimeout(() => {
+                const jsonBlock = document.createElement('pre');
+                jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-3 rounded border border-white/5 overflow-x-auto select-all';
+                jsonBlock.style.fontSize = '8px';
+                jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
+                demoTerminalLog.appendChild(jsonBlock);
+                demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+            }, 3000);
+        });
+    }
 });

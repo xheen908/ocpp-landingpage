@@ -1,5 +1,12 @@
 const translations = {
     "de-de": {
+        "demoTitle": "Interaktive DPP-Sandbox",
+        "demoDesc": "Wähle ein Produkt & simuliere einen NXP-Scan:",
+        "selectProduct": "Produkt wählen",
+        "scanBtn": "NXP NFC-Scan simulieren (SUN AES-128)",
+        "batteryName": "Li-Ion Batterie",
+        "textileName": "Wollmantel (ESPR)",
+        "watchName": "Chronograph",
         "h1": "The Compliance Infrastructure<br>for the EU Circular Economy.",
         "sub": "V-Ledger V5.5 transforms the mandatory Digital Product Passport into a recurring revenue asset — for manufacturers, brands, and exporters entering the EU market.",
         "cta": "Audit anfordern",
@@ -118,6 +125,13 @@ const translations = {
         }
     },
     "en-us": {
+        "demoTitle": "Interactive DPP Sandbox",
+        "demoDesc": "Select a category & simulate an NXP scan:",
+        "selectProduct": "Select Product",
+        "scanBtn": "Simulate NXP NFC Scan (SUN AES-128)",
+        "batteryName": "Li-Ion Battery",
+        "textileName": "Wool Coat (ESPR)",
+        "watchName": "Chronograph",
         "h1": "The Universal Industrial Infrastructure<br>for the 2030 Circular Economy.",
         "sub": "V-Ledger V5.5 replaces manual DPP compliance with full automation — and turns every product lifecycle touchpoint into a revenue event. Monetizing Trust. Securing Resources. Eliminating Chaos.",
         "cta": "Request Strategic Audit 2030",
