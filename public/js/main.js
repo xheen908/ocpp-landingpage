@@ -1256,6 +1256,46 @@ document.addEventListener('DOMContentLoaded', () => {
                 "proofPurpose": "assertionMethod",
                 "proofValue": "z5TSNbxh2fuLgWBgHQpTPXJCoa368kuXzr6ejBWQG3xdBGZnY1E2Av36Wv6PotVBBHDpSatoxFrMbyNfyFJLrGLbX"
             }
+        },
+        resell: {
+            "transaction": {
+                "id": "TX-928507507778",
+                "type": "ON_CHAIN_SECONDARY_RESALE",
+                "tokenId": "1328507507778448",
+                "chipUid": "04B84542152390",
+                "status": "COMPLETED",
+                "blockchain": "Base Layer-2",
+                "contractAddress": "0x6e3e71841bda1b4a82ef86a961842f3e89928752",
+                "transactionHash": "0xeeddf81e342103675912f819cc10e5db8bc772440e94dbcc5a14ce718470eddb",
+                "timestamp": "2026-05-09T20:09:56.000Z"
+            },
+            "ownership": {
+                "previousOwner": "0x24954DA952B9590d7726DEDd1C1ccD4bB130F9b8",
+                "newOwner": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735",
+                "verificationMethod": "NFC Secure Authenticated Claim"
+            },
+            "paymentDetails": {
+                "provider": "Stripe Escrow Connect",
+                "currency": "EUR",
+                "amount": 100.00,
+                "splitRouting": {
+                    "sellerPayout": {
+                        "percentage": "94.0%",
+                        "amount": 94.00,
+                        "destinationWallet": "0x24954DA952B9590d7726DEDd1C1ccD4bB130F9b8"
+                    },
+                    "brandRoyalty": {
+                        "percentage": "5.0%",
+                        "amount": 5.00,
+                        "destinationWallet": "0x6e3e71841bda1b4a82ef86a961842f3e89928752"
+                    },
+                    "platformSystemFee": {
+                        "percentage": "1.0%",
+                        "amount": 1.00,
+                        "destinationWallet": "0x1111111111111111111111111111111111111111"
+                    }
+                }
+            }
         }
     };
 
@@ -1275,6 +1315,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 else if (btn.id === 'demo-prod-watch') activeProduct = 'watch';
                 else if (btn.id === 'demo-prod-lifecycle') activeProduct = 'lifecycle';
                 else if (btn.id === 'demo-prod-customs') activeProduct = 'customs';
+                else if (btn.id === 'demo-prod-resell') activeProduct = 'resell';
 
                 demoTerminalLog.innerHTML = `<span class="text-white/40">Product category switched to ${activeProduct.toUpperCase()}. Ready for cryptographic NFC scan.</span>`;
             });
@@ -1388,6 +1429,60 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
                 }, 3800);
+            } else if (activeProduct === 'resell') {
+                const stepLogs = [
+                    { text: `> DETECTING PENDING RE-SELL ON-CHAIN FOR TOKENID: 1328507507778448...`, delay: 0, color: '#a88c5a' },
+                    { text: `> NFC SCAN TRIGGERED: SCANNING CHIP UID: 04B84542152390 SECURE ANCHOR... PASSED`, delay: 400, color: '#ffffff' },
+                    { text: `> EXTRACTING PICCDATA CRYPTOGRAPHIC CMAC SIGNATURE... MATCHED`, delay: 800, color: '#22c55e' },
+                    { text: `> INITIATING SECURE ESCROW DISPATCH PROTOCOL ON BASE L2...`, delay: 1200, color: '#ffffff' },
+                    { text: `> PROCESSING STRIPE ESCROW SECONDARY MARKET PAYMENT ROUTING...`, delay: 1600, color: '#a88c5a' },
+                    { text: `  * TRANSACTION AMOUNT: €100.00 EUR`, delay: 1800, color: '#e0cfb3' },
+                    { text: `  * 94.0% SELLER RETENTION ROUTED: €94.00 EUR TO PREVIOUS OWNER WALLET (0x2495...)`, delay: 2000, color: '#e0cfb3' },
+                    { text: `  * 5.0% AUTOMATED BRAND ROYALTY ROUTED: €5.00 EUR TO BRAND POOL CONTRACT (0x6e3e...)`, delay: 2200, color: '#e0cfb3' },
+                    { text: `  * 1.0% PLATFORM SYSTEM FEE ROUTED: €1.00 EUR TO FEE TREASURY (0x1111...)`, delay: 2400, color: '#e0cfb3' },
+                    { text: `> PAYMENT IN EUR CLEARED THROUGH STRIPE ESCROW CONNECT... SUCCESS`, delay: 2800, color: '#22c55e' },
+                    { text: `> RETRIEVING PURCHASER SMART ACCOUNT DECENTRALIZED IDENTITY... SUCCESS`, delay: 3200, color: '#ffffff' },
+                    { text: `> CALLING claimOwnership ON-CHAIN VIA RELAYER (GASLESS ERC-4337)... COMPLETED`, delay: 3600, color: '#22c55e' },
+                    { text: `> TRANSACTION CONFIRMED (TX HASH: 0xeeddf81e...)... SUCCESS`, delay: 4000, color: '#22c55e' },
+                    { text: `> SUCCESS! OWNERSHIP OFFICIALLY TRANSFERRED TO: 0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735`, delay: 4400, color: '#22c55e' }
+                ];
+
+                stepLogs.forEach(log => {
+                    setTimeout(() => {
+                        const line = document.createElement('div');
+                        line.style.color = log.color;
+                        line.style.whiteSpace = 'pre-wrap';
+                        line.innerText = log.text;
+                        demoTerminalLog.appendChild(line);
+                        demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                    }, log.delay);
+                });
+
+                // Print formatted JSON & Append Conversion Hook
+                setTimeout(() => {
+                    const jsonBlock = document.createElement('pre');
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-4 rounded-2xl border border-white/5 overflow-x-auto select-all font-mono';
+                    jsonBlock.style.fontSize = '8px';
+                    jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
+                    demoTerminalLog.appendChild(jsonBlock);
+                    
+                    // Create Action Hook Button
+                    const hookBtn = document.createElement('button');
+                    hookBtn.type = 'button';
+                    hookBtn.className = 'w-full mt-4 bg-gradient-to-r from-[#a88c5a] to-[#c7aa74] hover:from-[#bfa573] hover:to-[#dec495] text-black font-extrabold py-3.5 rounded-xl text-[10px] uppercase tracking-[0.2em] transition-all hover:scale-[1.01] active:scale-95 shadow-[0_0_25px_rgba(168,140,90,0.3)] animate-pulse flex items-center justify-center gap-2';
+                    hookBtn.innerHTML = '<span>Request Resell Escrow Integration</span> <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+                    hookBtn.addEventListener('click', () => {
+                        const contactModal = document.getElementById('contact-modal');
+                        const leadTextarea = document.querySelector('textarea[name="message"]');
+                        if (contactModal && leadTextarea) {
+                            leadTextarea.value = 'I am highly interested in launching a strategic pilot project based on the Ownership Resell & Royalty payment flow simulation. Please contact me with more information regarding secondary market integration.';
+                            contactModal.classList.remove('hidden');
+                        }
+                    });
+                    demoTerminalLog.appendChild(hookBtn);
+                    
+                    demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                }, 5000);
             } else {
                 const logs = [
                     { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
