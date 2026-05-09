@@ -630,12 +630,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "type": "DataIntegrityProof",
                 "cryptosuite": "eddsa-rdfc-2022",
                 "created": "2026-05-09T17:59:04.697Z",
-                "verificationMethod": "did:web:dashboard.v-ledger.com#key-1",
-                "proofPurpose": "assertionMethod",
-                "proofValue": "z5TSNbxh2fuLgWBgHQpTPXJCoa368kuXzr6ejBWQG3xdBGZnY1E2Av36Wv6PotVBBHDpSatoxFrMbyNfyFJLrGLbX"
-            }
-        },
-        watch: {
+                "verifi        watch: {
             "id": "https://api.v-ledger.com/aas/01/04200000000001/21/04B84542152390",
             "idType": "IRI",
             "modelType": "AssetAdministrationShell",
@@ -717,7 +712,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             "value": "04B84542152390"
                         },
                         {
-                            "idShort": "WatchModel",
+                            "idShort": "BatteryModel",
                             "modelType": "Property",
                             "valueType": "xs:string",
                             "semanticId": {
@@ -729,9 +724,138 @@ document.addEventListener('DOMContentLoaded', () => {
                                     }
                                 ]
                             },
-                            "value": "CHRONO-STEEL-PRO-X"
+                            "value": "BAT-LITHIUM-PRO-X"
                         }
                     ]
+                },
+                {
+                    "idShort": "SustainabilityData",
+                    "id": "https://api.v-ledger.com/aas/submodels/sustainability/04B84542152390",
+                    "modelType": "Submodel",
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://admin-shell.io/idta/CarbonFootprint/1/0"
+                            }
+                        ]
+                    },
+                    "submodelElements": [
+                        {
+                            "idShort": "CarbonFootprint",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "0173-1#02-ADF012#001"
+                                    }
+                                ]
+                            },
+                            "value": "1.2 kg CO2e"
+                        },
+                        {
+                            "idShort": "RecycledContent",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "0173-1#02-BAA489#005"
+                                    }
+                                ]
+                            },
+                            "value": "95%"
+                        },
+                        {
+                            "idShort": "StateOfHealth",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://admin-shell.io/idta/BatteryPass/Submodel/02003-1-2/SoH"
+                                    }
+                                ]
+                            },
+                            "value": "100%"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Security",
+                    "id": "https://api.v-ledger.com/aas/submodels/security/04B84542152390",
+                    "modelType": "Submodel",
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://v-ledger.com/aas/Security/1/0"
+                            }
+                        ]
+                    },
+                    "submodelElements": [
+                        {
+                            "idShort": "ChipType",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://v-ledger.com/semantic/ChipType"
+                                    }
+                                ]
+                            },
+                            "value": "NXP NTAG 424 DNA"
+                        },
+                        {
+                            "idShort": "CryptographicStatus",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://v-ledger.com/semantic/CryptoStatus"
+                                    }
+                                ]
+                            },
+                            "value": "AUTHENTIC"
+                        },
+                        {
+                            "idShort": "SunCounter",
+                            "modelType": "Property",
+                            "valueType": "xs:integer",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "https://v-ledger.com/semantic/SunCounter"
+                                    }
+                                ]
+                            },
+                            "value": 3
+                        }
+                    ]
+                }
+            ],
+            "extensions": [
+                {
+                    "name": "eclassVersion",
+                    "valueType": "xs:string",
+                    "value": "12.0"
                 }
             ]
         },
@@ -748,12 +872,98 @@ document.addEventListener('DOMContentLoaded', () => {
                 "productId": "CERT-04B84542152390",
                 "ownerWallet": "0x24954DA952B9590d7726DEDd1C1ccD4bB130F9b8",
                 "material": "V-Ledger Demo Batterie",
+                "warrantyExpiry": null,
                 "metadataUrl": "ipfs://QmR8qpMFWqLrdn8N3nNAxR7RR1yGfzvAS5tJBFtomtag1Q",
+                "sapMaterialId": null,
+                "sapSerial": null,
+                "sapOrderId": null,
                 "vledgerUid": "2b130671-a603-4037-ab2b-4ea0ed56ed3d",
+                "parentUid": null,
                 "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
+                "mintBlock": 40914530,
                 "mintTimestamp": "2026-05-01T01:02:27.000Z",
                 "lockedDeposit": "1.62",
-                "status": "ACTIVE"
+                "metadataCache": {
+                    "name": "V-Ledger Demo Batterie",
+                    "image": "ipfs://QmazCNumbt2RCVWMALkcxcSSpdHexTxJjtNG1z7PUeXPmZ",
+                    "chipUid": "04B84542152390",
+                    "nfcData": {
+                        "cmac": "AFEAEBC91A841FFAnc=XXtest",
+                        "urlPath": "https://dashboard.v-ledger.com/verify/01/04200000000001/21/04B84542152390",
+                        "piccData": "93D47B697065490EF296ABEBCD9BFB22"
+                    },
+                    "attributes": [
+                        {
+                            "value": 2026,
+                            "trait_type": "Herstellungsjahr",
+                            "display_type": "number"
+                        },
+                        {
+                            "value": "Batterie Fabrik China (Shenzhen, CN)",
+                            "trait_type": "Herkunft"
+                        },
+                        {
+                            "value": "BATTERY",
+                            "trait_type": "Kategorie"
+                        },
+                        {
+                            "value": "1.2 kg CO2e",
+                            "trait_type": "CO2-Fußabdruck"
+                        },
+                        {
+                            "value": "CERT-04B84542152390",
+                            "trait_type": "Echtheits-ID"
+                        },
+                        {
+                            "value": "V-Ledger Precision Labs",
+                            "trait_type": "Hersteller"
+                        },
+                        {
+                            "value": "BATCH-2026-A1",
+                            "trait_type": "Charge"
+                        },
+                        {
+                            "value": "Konform",
+                            "trait_type": "REACH Konformität"
+                        },
+                        {
+                            "value": "85 kWh",
+                            "trait_type": "Kapazität"
+                        },
+                        {
+                            "value": "NMC (Nickel-Mangan-Kobalt)",
+                            "trait_type": "Chemie"
+                        }
+                    ],
+                    "description": "V-Ledger Demo Batterie",
+                    "external_url": "",
+                    "custom_dpp_data": {
+                        "gtin": "04200000000001",
+                        "hsCode": "85076000",
+                        "category": "battery",
+                        "service_url": "",
+                        "svhc_exists": false,
+                        "batch_number": "BATCH-2026-A1",
+                        "repair_guide": "",
+                        "originCountry": "CN",
+                        "conformity_url": "https://v-ledger.com/compliance/doc",
+                        "manufacturer_gln": "4012345678901",
+                        "manufacturer_name": "V-Ledger Precision Labs",
+                        "manufacturingDate": "2026-04-26",
+                        "manufacturer_address": "Friedrichstraße 100, 10117 Berlin, Germany",
+                        "material_composition": {
+                            "Kobalt": 30,
+                            "Mangan": 20,
+                            "Nickel": 40,
+                            "Lithium": 10
+                        }
+                    }
+                },
+                "contractAddress": "0x6e3e71841bda1b4a82ef86a961842f3e89928752",
+                "environment": "test",
+                "status": "ACTIVE",
+                "createdAt": "2026-05-01T01:02:27.000Z",
+                "updatedAt": "2026-05-01T01:02:28.000Z"
             },
             "chainOfCustody": {
                 "totalEvents": 8,
@@ -764,67 +974,163 @@ document.addEventListener('DOMContentLoaded', () => {
             "events": [
                 {
                     "id": 57,
+                    "tokenId": "1328507507778448",
                     "action": "MINT",
                     "actor": "xhe***@gmail.com",
                     "locationName": "V-Ledger Factory",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": {
+                        "gtin": "04200000000001"
+                    },
                     "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
-                    "timestamp": "2026-05-01T01:02:28.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "test",
+                    "timestamp": "2026-05-01T01:02:28.000Z",
+                    "createdAt": "2026-05-01T01:02:28.000Z",
+                    "updatedAt": "2026-05-01T01:02:28.000Z",
+                    "actorEmail": "xhe***@gmail.com"
                 },
                 {
                     "id": 58,
+                    "tokenId": "1328507507778448",
                     "action": "QC_PASSED",
                     "actor": "fac***@shenzhen-assembly.com",
                     "locationName": "Quality Control",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": {
+                        "demo": true
+                    },
                     "transactionHash": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032",
-                    "timestamp": "2026-05-03T22:48:32.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:32.000Z",
+                    "createdAt": "2026-05-03T22:48:32.000Z",
+                    "updatedAt": "2026-05-03T22:48:32.000Z",
+                    "actorEmail": "fac***@shenzhen-assembly.com"
                 },
                 {
                     "id": 59,
+                    "tokenId": "1328507507778448",
                     "action": "EXPORT_CLEARED",
                     "actor": "fac***@shenzhen-assembly.com",
                     "locationName": "Export Port",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": {
+                        "demo": true
+                    },
                     "transactionHash": "0xca2dddf8fff0d26777a481f2891f8e4de301566d20e22f168ed16b490cc2518d",
-                    "timestamp": "2026-05-03T22:48:36.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:36.000Z",
+                    "createdAt": "2026-05-03T22:48:36.000Z",
+                    "updatedAt": "2026-05-03T22:48:36.000Z",
+                    "actorEmail": "fac***@shenzhen-assembly.com"
                 },
                 {
                     "id": 60,
+                    "tokenId": "1328507507778448",
                     "action": "IMPORT_CLEARED",
                     "actor": "fac***@shenzhen-assembly.com",
                     "locationName": "Import Hub",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": {
+                        "demo": true
+                    },
                     "transactionHash": "0x52e2535e36521d5f5a8944825c27ca39fc818adb24081cfc00263be20cc5e6d1",
-                    "timestamp": "2026-05-03T22:48:40.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:40.000Z",
+                    "createdAt": "2026-05-03T22:48:40.000Z",
+                    "updatedAt": "2026-05-03T22:48:40.000Z",
+                    "actorEmail": "fac***@shenzhen-assembly.com"
                 },
                 {
                     "id": 61,
+                    "tokenId": "1328507507778448",
                     "action": "INITIAL_SALE",
                     "actor": "fac***@shenzhen-assembly.com",
                     "locationName": "Retail Arrival",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": {
+                        "demo": true
+                    },
                     "transactionHash": "0xb88e9a580eefaedb29bbf9f9f41d7dc85beb3408abe47f76adf5235337bdc254",
-                    "timestamp": "2026-05-03T22:48:44.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:44.000Z",
+                    "createdAt": "2026-05-03T22:48:44.000Z",
+                    "updatedAt": "2026-05-03T22:48:44.000Z",
+                    "actorEmail": "fac***@shenzhen-assembly.com"
                 },
                 {
                     "id": 62,
+                    "tokenId": "1328507507778448",
                     "action": "AUTHORIZE_CLAIM",
                     "actor": "xhe***@gmail.com",
                     "locationName": "Brand Headquarters",
+                    "latitude": 48.137,
+                    "longitude": 11.575,
+                    "metadata": {
+                        "authorizedAccount": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735"
+                    },
                     "transactionHash": "0xb79514247c0f79c53f7b6aecb1206f7d0b163ef86f026bf034544a9c74db939f",
-                    "timestamp": "2026-05-03T22:48:48.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:48.000Z",
+                    "createdAt": "2026-05-03T22:48:48.000Z",
+                    "updatedAt": "2026-05-03T22:48:48.000Z",
+                    "actorEmail": "xhe***@gmail.com"
                 },
                 {
                     "id": 63,
+                    "tokenId": "1328507507778448",
                     "action": "CLAIM_OWNERSHIP",
                     "actor": "xhe***@googlemail.com",
                     "locationName": "Consumer Wallet",
+                    "latitude": 48.137,
+                    "longitude": 11.575,
+                    "metadata": {
+                        "newOwner": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735"
+                    },
                     "transactionHash": "0xeeddf81e342103675912f819cc10e5db8bc772440e94dbcc5a14ce718470eddb",
-                    "timestamp": "2026-05-03T22:48:52.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:52.000Z",
+                    "createdAt": "2026-05-03T22:48:52.000Z",
+                    "updatedAt": "2026-05-03T22:48:52.000Z",
+                    "actorEmail": "xhe***@googlemail.com"
                 },
                 {
                     "id": 64,
+                    "tokenId": "1328507507778448",
                     "action": "RECYCLE_TRANSFER",
                     "actor": "int***@remondis-recycling.com",
                     "locationName": "Recycling Hub",
+                    "latitude": 51.5,
+                    "longitude": 7.4,
+                    "metadata": {
+                        "from": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735",
+                        "to": "0xf01BAdDCAC6aacD04cBdf3Bf2aEDFb074c8C791b"
+                    },
                     "transactionHash": "0x581f1fcfd6a72c9da79b39c0aab5ffce848a1138f82b0106372fd9b01b98c317",
-                    "timestamp": "2026-05-03T22:48:56.000Z"
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:56.000Z",
+                    "createdAt": "2026-05-03T22:48:56.000Z",
+                    "updatedAt": "2026-05-03T22:48:56.000Z",
                 }
             ],
             "hardware": {
@@ -833,6 +1139,117 @@ document.addEventListener('DOMContentLoaded', () => {
                 "status": "AUTHENTIC",
                 "verified": true,
                 "counter": 3
+            }
+        },
+        customs: {
+            "@context": [
+                "https://www.w3.org/ns/credentials/v2",
+                "https://www.w3.org/ns/status/v1",
+                "https://vocabulary.uncefact.org/untp/v1",
+                {
+                    "schema": "http://schema.org/",
+                    "dpp": "https://ec.europa.eu/espr/dpp/v1#",
+                    "idpp": "https://v-ledger.com/voc/",
+                    "provenance": "idpp:provenance"
+                }
+            ],
+            "id": "urn:dpp:gtin:04200000000001:serial:04B84542152390:customs-v1",
+            "type": [
+                "VerifiableCredential",
+                "CustomsDeclarationCredential"
+            ],
+            "issuer": "did:web:dashboard.v-ledger.com",
+            "validFrom": "2026-05-09T17:59:04.697Z",
+            "credentialStatus": {
+                "id": "https://api.v-ledger.com/credentials/status/1#04B84542152390",
+                "type": "BitstringStatusListEntry",
+                "statusPurpose": "revocation",
+                "statusListIndex": "0",
+                "statusListCredential": "https://api.v-ledger.com/credentials/status/1"
+            },
+            "credentialSubject": {
+                "id": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390",
+                "type": "Product",
+                "dpp:upi": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390",
+                "dpp:modelIdentifier": "04200000000001",
+                "dpp:instanceIdentifier": "04B84542152390",
+                "schema:name": "V-Ledger Demo Batterie (Industrial-Grade)",
+                "dpp:hsCode": "85076000",
+                "dpp:originCountry": "CN",
+                "dpp:materialComposition": [
+                    {
+                        "type": "MaterialComponent",
+                        "schema:name": "Nickel",
+                        "dpp:percentage": 40
+                    },
+                    {
+                        "type": "MaterialComponent",
+                        "schema:name": "Kobalt",
+                        "dpp:percentage": 30
+                    }
+                ],
+                "idpp:hardware": {
+                    "chipType": "NXP NTAG 424 DNA",
+                    "status": "AUTHENTIC",
+                    "verificationCount": 3
+                },
+                "dpp:conformity": {
+                    "type": "ConformityAssessment",
+                    "dpp:complianceStatus": "compliant",
+                    "dpp:declarationOfConformity": "https://v-ledger.com/compliance/doc"
+                },
+                "dpp:economicOperator": {
+                    "type": "Exporter",
+                    "schema:name": "V-Ledger Precision Labs",
+                    "schema:address": "Friedrichstraße 100, 10117 Berlin, Germany",
+                    "idpp:gln": "4012345678901"
+                },
+                "provenance": [
+                    {
+                        "action": "MINT",
+                        "location": "V-Ledger Factory",
+                        "actor": "did:vledger:actor:e8f18cc71a8cf19a",
+                        "latitude": 22.543,
+                        "longitude": 114.057,
+                        "timestamp": "2026-05-01T01:02:28.000Z",
+                        "tx": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422"
+                    },
+                    {
+                        "action": "QC_PASSED",
+                        "location": "Quality Control",
+                        "actor": "did:vledger:actor:fbf60f75ed43d95e",
+                        "latitude": 22.543,
+                        "longitude": 114.057,
+                        "timestamp": "2026-05-03T22:48:32.000Z",
+                        "tx": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032"
+                    }
+                ],
+                "dpp:batchNumber": "BATCH-2026-A1",
+                "dpp:emissionsScorecard": {
+                    "type": "EmissionsData",
+                    "dpp:carbonFootprint": {
+                        "type": "Measurement",
+                        "value": 1.2,
+                        "unit": "KGM",
+                        "metricName": "GHG emissions"
+                    }
+                },
+                "dpp:circularityScorecard": {
+                    "type": "CircularityData",
+                    "dpp:recycledContent": {
+                        "type": "Measurement",
+                        "value": 95,
+                        "unit": "P1"
+                    }
+                }
+            },
+            "proof": {
+                "type": "DataIntegrityProof",
+                "cryptosuite": "eddsa-rdfc-2022",
+                "created": "2026-05-09T17:59:04.697Z",
+                "verificationMethod": "did:web:dashboard.v-ledger.com#key-1",
+                "proofPurpose": "assertionMethod",
+                "proofValue": "z5TSNbxh2fuLgWBgHQpTPXJCoa368kuXzr6ejBWQG3xdBGZnY1E2Av36Wv6PotVBBHDpSatoxFrMbyNfyFJLrGLbX"
             }
         }
     };
@@ -852,6 +1269,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 else if (btn.id === 'demo-prod-textile') activeProduct = 'textile';
                 else if (btn.id === 'demo-prod-watch') activeProduct = 'watch';
                 else if (btn.id === 'demo-prod-lifecycle') activeProduct = 'lifecycle';
+                else if (btn.id === 'demo-prod-customs') activeProduct = 'customs';
 
                 demoTerminalLog.innerHTML = `<span class="text-white/40">Product category switched to ${activeProduct.toUpperCase()}. Ready for cryptographic NFC scan.</span>`;
             });
@@ -916,6 +1334,55 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
                 }, 8000);
+            } else if (activeProduct === 'customs') {
+                const stepLogs = [
+                    { text: `> INITIALIZING UNTP COMPLIANCE TRANSIT INQUIRY...`, delay: 0, color: '#a88c5a' },
+                    { text: `> NFC SCAN TRIGGERED: EXTRACTING CHIP SIGNATURE... PASSED`, delay: 400, color: '#ffffff' },
+                    { text: `> DECRYPTING VERIFIABLE CREDENTIAL PAYLOAD VIA W3C STANDARDS...`, delay: 800, color: '#ffffff' },
+                    { text: `> RETRIEVING DECENTRALIZED IDENTITY DOC: did:web:dashboard.v-ledger.com... SUCCESS`, delay: 1200, color: '#ffffff' },
+                    { text: `> VALIDATING DATA INTEGRITY PROOF (eddsa-rdfc-2022)... VALID`, delay: 1600, color: '#22c55e' },
+                    { text: `> CHECKING BITSTRING STATUS LIST INDEX 0 FOR REVOCATION... NOT REVOKED`, delay: 2000, color: '#22c55e' },
+                    { text: `> EVALUATING CONFORMITY STATUS: compliant`, delay: 2400, color: '#22c55e' },
+                    { text: `> CROSS-CHECKING HS-CODE: 85076000 (LI-ION BATTERY) WITH ORIGIN: CN`, delay: 2800, color: '#e0cfb3' },
+                    { text: `> BORDER TRANSIT CLEARED. GENERATING UNTP VERIFIABLE CREDENTIAL FOR CUSTOMS...`, delay: 3200, color: '#22c55e' }
+                ];
+
+                stepLogs.forEach(log => {
+                    setTimeout(() => {
+                        const line = document.createElement('div');
+                        line.style.color = log.color;
+                        line.style.whiteSpace = 'pre-wrap';
+                        line.innerText = log.text;
+                        demoTerminalLog.appendChild(line);
+                        demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                    }, log.delay);
+                });
+
+                // Print formatted JSON & Append Conversion Hook
+                setTimeout(() => {
+                    const jsonBlock = document.createElement('pre');
+                    jsonBlock.className = 'text-[#e0cfb3] mt-2 bg-black/40 p-4 rounded-2xl border border-white/5 overflow-x-auto select-all font-mono';
+                    jsonBlock.style.fontSize = '8px';
+                    jsonBlock.innerText = JSON.stringify(dppPayloads[activeProduct], null, 2);
+                    demoTerminalLog.appendChild(jsonBlock);
+                    
+                    // Create Action Hook Button
+                    const hookBtn = document.createElement('button');
+                    hookBtn.type = 'button';
+                    hookBtn.className = 'w-full mt-4 bg-gradient-to-r from-[#a88c5a] to-[#c7aa74] hover:from-[#bfa573] hover:to-[#dec495] text-black font-extrabold py-3.5 rounded-xl text-[10px] uppercase tracking-[0.2em] transition-all hover:scale-[1.01] active:scale-95 shadow-[0_0_25px_rgba(168,140,90,0.3)] animate-pulse flex items-center justify-center gap-2';
+                    hookBtn.innerHTML = '<span>Request Customs Pilot Integration</span> <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+                    hookBtn.addEventListener('click', () => {
+                        const contactModal = document.getElementById('contact-modal');
+                        const leadTextarea = document.querySelector('textarea[name="message"]');
+                        if (contactModal && leadTextarea) {
+                            leadTextarea.value = 'I am highly interested in launching a strategic pilot project based on the UNTP Customs Verification flow simulation. Please contact me with more information regarding the border transit compliance scope.';
+                            contactModal.classList.remove('hidden');
+                        }
+                    });
+                    demoTerminalLog.appendChild(hookBtn);
+                    
+                    demoTerminalLog.scrollTop = demoTerminalLog.scrollHeight;
+                }, 3800);
             } else {
                 const logs = [
                     { text: `> SCANNING PHYSICAL OBJECT VIA NFC (NTAG 424 DNA)...`, delay: 0, color: '#a88c5a' },
