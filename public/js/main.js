@@ -313,6 +313,429 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const dppPayloads = {
         battery: {
+            "@context": [
+                "https://ref.gs1.org/contexts/gs1-context.jsonld",
+                {
+                    "schema": "http://schema.org/",
+                    "idpp": "https://v-ledger.com/voc/"
+                }
+            ],
+            "@type": "gs1:Product",
+            "@id": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390",
+            "name": "V-Ledger Demo Batterie",
+            "description": "V-Ledger Demo Batterie",
+            "image": "ipfs://QmazCNumbt2RCVWMALkcxcSSpdHexTxJjtNG1z7PUeXPmZ",
+            "brand": {
+                "@type": "Brand",
+                "name": "V-Ledger"
+            },
+            "gs1:gtin": "04200000000001",
+            "gs1:serialNumber": "04B84542152390",
+            "gs1:productionDate": "2026-05-01",
+            "gs1:countryOfOrigin": "CN",
+            "tokenId": "1328507507778448",
+            "status": "ACTIVE",
+            "smartContract": "0x2523822b6182f3c9705bd928f3481b61b182d61e",
+            "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
+            "idpp:hardware": {
+                "chipType": "NXP NTAG 424 DNA",
+                "status": "AUTHENTIC",
+                "verificationCount": 3
+            },
+            "links": [
+                {
+                    "rel": "gs1:pip",
+                    "target": "https://v-ledger.com/product-info",
+                    "title": "Produktinformationsseite"
+                },
+                {
+                    "rel": "gs1:repairAndServiceInfo",
+                    "target": "https://v-ledger.com/support",
+                    "title": "Support & Reparatur"
+                },
+                {
+                    "rel": "gs1:certificationInfo",
+                    "target": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390?format=vc",
+                    "title": "Amtlicher DPP (Verifiable Credential)"
+                }
+            ],
+            "custom_dpp_data": {
+                "gtin": "04200000000001",
+                "hsCode": "85076000",
+                "category": "battery",
+                "service_url": "",
+                "svhc_exists": false,
+                "batch_number": "BATCH-2026-A1",
+                "repair_guide": "",
+                "originCountry": "CN",
+                "conformity_url": "https://v-ledger.com/compliance/doc",
+                "manufacturer_gln": "4012345678901",
+                "manufacturer_name": "V-Ledger Precision Labs",
+                "manufacturingDate": "2026-04-26",
+                "manufacturer_address": "Friedrichstraße 100, 10117 Berlin, Germany",
+                "material_composition": {
+                    "Kobalt": 30,
+                    "Mangan": 20,
+                    "Nickel": 40,
+                    "Lithium": 10
+                }
+            },
+            "history": [
+                {
+                    "id": 57,
+                    "tokenId": "1328507507778448",
+                    "action": "MINT",
+                    "actor": "xhe***@gmail.com",
+                    "locationName": "V-Ledger Factory",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": "{\"gtin\":\"04200000000001\"}",
+                    "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "test",
+                    "timestamp": "2026-05-01T01:02:28.000Z",
+                    "createdAt": "2026-05-01T01:02:28.000Z",
+                    "updatedAt": "2026-05-01T01:02:28.000Z"
+                },
+                {
+                    "id": 58,
+                    "tokenId": "1328507507778448",
+                    "action": "QC_PASSED",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Quality Control",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": "{\"demo\":true}",
+                    "transactionHash": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:32.000Z",
+                    "createdAt": "2026-05-03T22:48:32.000Z",
+                    "updatedAt": "2026-05-03T22:48:32.000Z"
+                },
+                {
+                    "id": 59,
+                    "tokenId": "1328507507778448",
+                    "action": "EXPORT_CLEARED",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Export Port",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": "{\"demo\":true}",
+                    "transactionHash": "0xca2dddf8fff0d26777a481f2891f8e4de301566d20e22f168ed16b490cc2518d",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:36.000Z",
+                    "createdAt": "2026-05-03T22:48:36.000Z",
+                    "updatedAt": "2026-05-03T22:48:36.000Z"
+                },
+                {
+                    "id": 60,
+                    "tokenId": "1328507507778448",
+                    "action": "IMPORT_CLEARED",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Import Hub",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": "{\"demo\":true}",
+                    "transactionHash": "0x52e2535e36521d5f5a8944825c27ca39fc818adb24081cfc00263be20cc5e6d1",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:40.000Z",
+                    "createdAt": "2026-05-03T22:48:40.000Z",
+                    "updatedAt": "2026-05-03T22:48:40.000Z"
+                },
+                {
+                    "id": 61,
+                    "tokenId": "1328507507778448",
+                    "action": "INITIAL_SALE",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Retail Arrival",
+                    "latitude": 0,
+                    "longitude": 0,
+                    "metadata": "{\"demo\":true}",
+                    "transactionHash": "0xb88e9a580eefaedb29bbf9f9f41d7dc85beb3408abe47f76adf5235337bdc254",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:44.000Z",
+                    "createdAt": "2026-05-03T22:48:44.000Z",
+                    "updatedAt": "2026-05-03T22:48:44.000Z"
+                },
+                {
+                    "id": 62,
+                    "tokenId": "1328507507778448",
+                    "action": "AUTHORIZE_CLAIM",
+                    "actor": "xhe***@gmail.com",
+                    "locationName": "Brand Headquarters",
+                    "latitude": 48.137,
+                    "longitude": 11.575,
+                    "metadata": "{\"authorizedAccount\":\"0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735\"}",
+                    "transactionHash": "0xb79514247c0f79c53f7b6aecb1206f7d0b163ef86f026bf034544a9c74db939f",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:48.000Z",
+                    "createdAt": "2026-05-03T22:48:48.000Z",
+                    "updatedAt": "2026-05-03T22:48:48.000Z"
+                },
+                {
+                    "id": 63,
+                    "tokenId": "1328507507778448",
+                    "action": "CLAIM_OWNERSHIP",
+                    "actor": "xhe***@googlemail.com",
+                    "locationName": "Consumer Wallet",
+                    "latitude": 48.137,
+                    "longitude": 11.575,
+                    "metadata": "{\"newOwner\":\"0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735\"}",
+                    "transactionHash": "0xeeddf81e342103675912f819cc10e5db8bc772440e94dbcc5a14ce718470eddb",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:52.000Z",
+                    "createdAt": "2026-05-03T22:48:52.000Z",
+                    "updatedAt": "2026-05-03T22:48:52.000Z"
+                },
+                {
+                    "id": 64,
+                    "tokenId": "1328507507778448",
+                    "action": "RECYCLE_TRANSFER",
+                    "actor": "int***@remondis-recycling.com",
+                    "locationName": "Recycling Hub",
+                    "latitude": 51.5,
+                    "longitude": 7.4,
+                    "metadata": "{\"from\":\"0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735\",\"to\":\"0xf01BAdDCAC6aacD04cBdf3Bf2aEDFb074c8C791b\"}",
+                    "transactionHash": "0x581f1fcfd6a72c9da79b39c0aab5ffce848a1138f82b0106372fd9b01b98c317",
+                    "blockNumber": null,
+                    "contractAddress": null,
+                    "environment": "live",
+                    "timestamp": "2026-05-03T22:48:56.000Z",
+                    "createdAt": "2026-05-03T22:48:56.000Z",
+                    "updatedAt": "2026-05-03T22:48:56.000Z"
+                }
+            ]
+        },
+        textile: {
+            "@context": [
+                "https://www.w3.org/ns/credentials/v2",
+                "https://www.w3.org/ns/status/v1",
+                "https://vocabulary.uncefact.org/untp/v1",
+                {
+                    "schema": "http://schema.org/",
+                    "dpp": "https://ec.europa.eu/espr/dpp/v1#",
+                    "idpp": "https://v-ledger.com/voc/",
+                    "provenance": "idpp:provenance"
+                }
+            ],
+            "id": "urn:dpp:gtin:04200000000001:serial:04B84542152390:v1",
+            "type": [
+                "VerifiableCredential",
+                "DigitalProductPassport"
+            ],
+            "issuer": "did:web:dashboard.v-ledger.com",
+            "validFrom": "2026-05-09T17:59:04.697Z",
+            "credentialStatus": {
+                "id": "https://api.v-ledger.com/credentials/status/1#04B84542152390",
+                "type": "BitstringStatusListEntry",
+                "statusPurpose": "revocation",
+                "statusListIndex": "0",
+                "statusListCredential": "https://api.v-ledger.com/credentials/status/1"
+            },
+            "credentialSubject": {
+                "id": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390",
+                "type": "Product",
+                "dpp:upi": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390",
+                "dpp:modelIdentifier": "04200000000001",
+                "dpp:instanceIdentifier": "04B84542152390",
+                "schema:name": "V-Ledger Demo Wool Coat",
+                "dpp:hsCode": "62014000",
+                "dpp:originCountry": "IT",
+                "dpp:materialComposition": [
+                    {
+                        "type": "MaterialComponent",
+                        "schema:name": "Schurwolle",
+                        "dpp:percentage": 90
+                    },
+                    {
+                        "type": "MaterialComponent",
+                        "schema:name": "Kaschmir",
+                        "dpp:percentage": 10
+                    }
+                ],
+                "idpp:hardware": {
+                    "chipType": "NXP NTAG 424 DNA",
+                    "status": "AUTHENTIC",
+                    "verificationCount": 5
+                },
+                "dpp:conformity": {
+                    "type": "ConformityAssessment",
+                    "dpp:complianceStatus": "compliant",
+                    "dpp:declarationOfConformity": "https://v-ledger.com/compliance/doc"
+                },
+                "dpp:economicOperator": {
+                    "type": "Manufacturer",
+                    "schema:name": "V-Ledger Textile Labs",
+                    "schema:address": "Via della Moda 50, Milan, Italy",
+                    "idpp:gln": "4012345000002"
+                },
+                "provenance": [
+                    {
+                        "action": "MINT",
+                        "location": "Milan Factory",
+                        "actor": "did:vledger:actor:e8f18cc71a8cf19a",
+                        "latitude": 45.464,
+                        "longitude": 9.19,
+                        "timestamp": "2026-05-02T10:00:00.000Z",
+                        "tx": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422"
+                    },
+                    {
+                        "action": "QC_PASSED",
+                        "location": "Quality Assurance",
+                        "actor": "did:vledger:actor:fbf60f75ed43d95e",
+                        "latitude": 45.464,
+                        "longitude": 9.19,
+                        "timestamp": "2026-05-03T14:30:00.000Z",
+                        "tx": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032"
+                    }
+                ],
+                "dpp:batchNumber": "BATCH-WOOL-2026",
+                "dpp:emissionsScorecard": {
+                    "type": "EmissionsData",
+                    "dpp:carbonFootprint": {
+                        "type": "Measurement",
+                        "value": 0.8,
+                        "unit": "KGM",
+                        "metricName": "GHG emissions"
+                    }
+                },
+                "dpp:circularityScorecard": {
+                    "type": "CircularityData",
+                    "dpp:recycledContent": {
+                        "type": "Measurement",
+                        "value": 100,
+                        "unit": "P1"
+                    },
+                    "dpp:repairabilityScore": {
+                        "type": "Measurement",
+                        "value": 9.5,
+                        "unit": "SCORE"
+                    }
+                }
+            },
+            "proof": {
+                "type": "DataIntegrityProof",
+                "cryptosuite": "eddsa-rdfc-2022",
+                "created": "2026-05-09T17:59:04.697Z",
+                "verificationMethod": "did:web:dashboard.v-ledger.com#key-1",
+                "proofPurpose": "assertionMethod",
+                "proofValue": "z5TSNbxh2fuLgWBgHQpTPXJCoa368kuXzr6ejBWQG3xdBGZnY1E2Av36Wv6PotVBBHDpSatoxFrMbyNfyFJLrGLbX"
+            }
+        },
+        watch: {
+            "id": "https://api.v-ledger.com/aas/01/04200000000001/21/04B84542152390",
+            "idType": "IRI",
+            "modelType": "AssetAdministrationShell",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "https://api.v-ledger.com/01/04200000000001/21/04B84542152390",
+                "specificAssetIds": [
+                    {
+                        "name": "GTIN",
+                        "value": "04200000000001",
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "0173-1#02-BAA120#008"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "SerialNumber",
+                        "value": "04B84542152390",
+                        "semanticId": {
+                            "type": "ExternalReference",
+                            "keys": [
+                                {
+                                    "type": "GlobalReference",
+                                    "value": "0173-1#02-AAO034#002"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "submodels": [
+                {
+                    "idShort": "DigitalNameplate",
+                    "id": "https://api.v-ledger.com/aas/submodels/nameplate/04B84542152390",
+                    "modelType": "Submodel",
+                    "semanticId": {
+                        "type": "ExternalReference",
+                        "keys": [
+                            {
+                                "type": "GlobalReference",
+                                "value": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate"
+                            }
+                        ]
+                    },
+                    "submodelElements": [
+                        {
+                            "idShort": "ManufacturerName",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "0173-1#02-AAO677#002"
+                                    }
+                                ]
+                            },
+                            "value": "V-Ledger Precision Labs"
+                        },
+                        {
+                            "idShort": "SerialNumber",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "0173-1#02-AAO034#002"
+                                    }
+                                ]
+                            },
+                            "value": "04B84542152390"
+                        },
+                        {
+                            "idShort": "WatchModel",
+                            "modelType": "Property",
+                            "valueType": "xs:string",
+                            "semanticId": {
+                                "type": "ExternalReference",
+                                "keys": [
+                                    {
+                                        "type": "GlobalReference",
+                                        "value": "0173-1#02-BAA120#008"
+                                    }
+                                ]
+                            },
+                            "value": "CHRONO-STEEL-PRO-X"
+                        }
+                    ]
+                }
+            ]
+        },
+        lifecycle: {
             "context": "SAP/Oracle Enterprise Sync",
             "integrationInfo": {
                 "systemSource": "V-Ledger IaaS",
@@ -324,132 +747,93 @@ document.addEventListener('DOMContentLoaded', () => {
                 "chipUid": "04B84542152390",
                 "productId": "CERT-04B84542152390",
                 "ownerWallet": "0x24954DA952B9590d7726DEDd1C1ccD4bB130F9b8",
-                "material": "V-Ledger Demo Batterie (Lithium NMC)",
+                "material": "V-Ledger Demo Batterie",
+                "metadataUrl": "ipfs://QmR8qpMFWqLrdn8N3nNAxR7RR1yGfzvAS5tJBFtomtag1Q",
                 "vledgerUid": "2b130671-a603-4037-ab2b-4ea0ed56ed3d",
+                "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
+                "mintTimestamp": "2026-05-01T01:02:27.000Z",
+                "lockedDeposit": "1.62",
                 "status": "ACTIVE"
             },
             "chainOfCustody": {
-                "totalEvents": 5,
+                "totalEvents": 8,
                 "firstSeen": "2026-05-01T01:02:28.000Z",
-                "lastSeen": "2026-05-09T14:30:00.000Z",
+                "lastSeen": "2026-05-03T22:48:56.000Z",
                 "integrityHash": "304a2b32099904ee1ea8fb9be273bf0f9e872e5aad52669d275150186e83c274"
             },
             "events": [
                 {
+                    "id": 57,
                     "action": "MINT",
-                    "actor": "manufacturer@v-ledger.com",
-                    "locationName": "Duisburg Assembly Plant",
+                    "actor": "xhe***@gmail.com",
+                    "locationName": "V-Ledger Factory",
                     "transactionHash": "0x784496e3199dbbc68696a217d1c41e1bb60c4ddf79313e0af249af51a9f16422",
                     "timestamp": "2026-05-01T01:02:28.000Z"
                 },
                 {
+                    "id": 58,
                     "action": "QC_PASSED",
-                    "actor": "qc-officer@v-ledger.com",
-                    "locationName": "Quality Control Lab",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Quality Control",
                     "transactionHash": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032",
                     "timestamp": "2026-05-03T22:48:32.000Z"
                 },
                 {
+                    "id": 59,
+                    "action": "EXPORT_CLEARED",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Export Port",
+                    "transactionHash": "0xca2dddf8fff0d26777a481f2891f8e4de301566d20e22f168ed16b490cc2518d",
+                    "timestamp": "2026-05-03T22:48:36.000Z"
+                },
+                {
+                    "id": 60,
                     "action": "IMPORT_CLEARED",
-                    "actor": "customs@duisburg-port.de",
-                    "locationName": "Port of Duisburg",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Import Hub",
                     "transactionHash": "0x52e2535e36521d5f5a8944825c27ca39fc818adb24081cfc00263be20cc5e6d1",
-                    "timestamp": "2026-05-04T10:15:40.000Z"
+                    "timestamp": "2026-05-03T22:48:40.000Z"
                 },
                 {
+                    "id": 61,
+                    "action": "INITIAL_SALE",
+                    "actor": "fac***@shenzhen-assembly.com",
+                    "locationName": "Retail Arrival",
+                    "transactionHash": "0xb88e9a580eefaedb29bbf9f9f41d7dc85beb3408abe47f76adf5235337bdc254",
+                    "timestamp": "2026-05-03T22:48:44.000Z"
+                },
+                {
+                    "id": 62,
+                    "action": "AUTHORIZE_CLAIM",
+                    "actor": "xhe***@gmail.com",
+                    "locationName": "Brand Headquarters",
+                    "transactionHash": "0xb79514247c0f79c53f7b6aecb1206f7d0b163ef86f026bf034544a9c74db939f",
+                    "timestamp": "2026-05-03T22:48:48.000Z"
+                },
+                {
+                    "id": 63,
                     "action": "CLAIM_OWNERSHIP",
-                    "actor": "logistic-partner@blue-cargo.com",
-                    "locationName": "Regional Distribution Hub",
+                    "actor": "xhe***@googlemail.com",
+                    "locationName": "Consumer Wallet",
                     "transactionHash": "0xeeddf81e342103675912f819cc10e5db8bc772440e94dbcc5a14ce718470eddb",
-                    "timestamp": "2026-05-06T11:22:52.000Z"
+                    "timestamp": "2026-05-03T22:48:52.000Z"
                 },
                 {
+                    "id": 64,
                     "action": "RECYCLE_TRANSFER",
-                    "actor": "intake@remondis-recycling.com",
-                    "locationName": "Recycling Center Duisburg",
-                    "transactionHash": "0x304a2b32099904ee1ea8fb9be273bf0f9e872e5aad52669d275150186e83c274",
-                    "timestamp": "2026-05-09T14:30:00.000Z"
-                }
-            ]
-        },
-        textile: {
-            "id": "https://api.v-ledger.com/aas/01/04200000000001/21/04C92518413990",
-            "idType": "IRI",
-            "modelType": "AssetAdministrationShell",
-            "assetInformation": {
-                "assetKind": "Instance",
-                "globalAssetId": "https://api.v-ledger.com/01/04200000000001/21/04C92518413990",
-                "specificAssetIds": [
-                    { "name": "GTIN", "value": "04200000000001" },
-                    { "name": "SerialNumber", "value": "04C92518413990" }
-                ]
-            },
-            "submodels": [
-                { 
-                    "id": "DigitalTwin-Identity", 
-                    "type": "W3C_VerifiableCredential",
-                    "lifecycleState": "QC_PASSED"
-                },
-                { 
-                    "id": "Circular-Economy-ESPR", 
-                    "purity": "100% Recycled Wool",
-                    "recyclabilityIndex": "94.8% A-Grade"
+                    "actor": "int***@remondis-recycling.com",
+                    "locationName": "Recycling Hub",
+                    "transactionHash": "0x581f1fcfd6a72c9da79b39c0aab5ffce848a1138f82b0106372fd9b01b98c317",
+                    "timestamp": "2026-05-03T22:48:56.000Z"
                 }
             ],
-            "lifecycle": {
-                "currentStatus": "CLAIMED",
-                "history": [
-                    { "step": "MINT", "date": "2026-05-02" },
-                    { "step": "QC_PASSED", "date": "2026-05-03" },
-                    { "step": "RETAIL_SALE", "date": "2026-05-05" },
-                    { "step": "CLAIMED", "date": "2026-05-08" }
-                ]
+            "hardware": {
+                "chipUid": "04B84542152390",
+                "chipType": "NXP NTAG 424 DNA",
+                "status": "AUTHENTIC",
+                "verified": true,
+                "counter": 3
             }
-        },
-        watch: {
-            "context": "W3C Verifiable Credential",
-            "id": "urn:uuid:6ca8420-1a28-490f-90db-28104c990a2a",
-            "type": ["VerifiableCredential", "DigitalProductPassport"],
-            "credentialSubject": {
-                "id": "did:vledger:04D11645392880",
-                "brand": "Elite Chrono Manufacture",
-                "modelName": "Precision Chronograph",
-                "material": "904L Oystersteel / Ceramic",
-                "resaleRoyaltyRate": "5.00% (On-Chain Lock)",
-                "blockchainAnchor": "Base L2 Ledger",
-                "currentOwner": "0x8b4FeAb0aaA199724e57A4b01d9aFa66dA9C1735"
-            },
-            "chainOfCustody": {
-                "status": "AUTHENTICITY_SECURED",
-                "lifecycleEvents": [
-                    { "event": "ORIGIN_MINT", "timestamp": "2026-05-01T12:00:00Z" },
-                    { "event": "BOUTIQUE_RECEIPT", "timestamp": "2026-05-04T09:30:00Z" },
-                    { "event": "FIRST_OWNER_CLAIM", "timestamp": "2026-05-09T18:45:00Z" }
-                ]
-            }
-        },
-        lifecycle: {
-            "context": "V-Ledger V5.5 End-to-End Lifecycle Tracking",
-            "productId": "E2E-LOOP-13285075",
-            "materialCode": "RECYCLE-NMC-BATT-042",
-            "cradleToCradleCertified": "A-Grade Platinum",
-            "chainOfCustody": {
-                "totalStates": 10,
-                "currentPhase": "CIRCULAR_RECYCLING",
-                "integrityHash": "0x55ffb273bf0f9e872e5aad52669d275150186e83c274bda1b4a82ef86a961842"
-            },
-            "events": [
-                { "step": 1, "phase": "RAW_MATERIAL_MINING", "actor": "Glencore Corp", "location": "Katanga Mining Hub", "status": "COMPLIANT" },
-                { "step": 2, "phase": "REFINED_MATERIAL_BATCH", "actor": "BASF Battery Materials", "location": "Harjavalta Refinery", "status": "VERIFIED" },
-                { "step": 3, "phase": "CELL_MANUFACTURING", "actor": "Northvolt AB", "location": "Ett Skellefteå", "status": "VERIFIED" },
-                { "step": 4, "phase": "PACK_ASSEMBLY", "actor": "BMW Group Manufacturing", "location": "Dingolfing Plant", "status": "QC_PASSED" },
-                { "step": 5, "phase": "CUSTOMS_GATEWAY_EXPORT", "actor": "Maersk Logistics", "location": "Port of Gothenburg", "status": "CLEARED" },
-                { "step": 6, "phase": "CUSTOMS_GATEWAY_IMPORT", "actor": "German Customs Authority", "location": "Port of Duisburg", "status": "CLEARED" },
-                { "step": 7, "phase": "VEHICLE_INTEGRATION_SALE", "actor": "BMW Niederlassung", "location": "Munich Showroom", "status": "ACTIVE_DRIVE" },
-                { "step": 8, "phase": "SECOND_LIFE_STATIONARY", "actor": "RWE Power Grid", "location": "Essen Storage Hub", "status": "PURPOSED" },
-                { "step": 9, "phase": "CIRCULAR_RECYCLING", "actor": "Remondis Li-Cycle", "location": "Duisburg Recycling Center", "status": "DEPOSIT_RELEASED" },
-                { "step": 10, "phase": "RE-ENTRY_RAW_POWDER", "actor": "BASF Cathode Labs", "location": "Schwarzheide Plant", "status": "COMPLETED_CRADLE" }
-            ]
         }
     };
 
