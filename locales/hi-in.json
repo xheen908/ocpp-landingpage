@@ -1,0 +1,136 @@
+{
+  "demoTitle": "इंटरैक्टिव DPP सैंडबॉक्स",
+  "demoDesc": "एक श्रेणी चुनें और NXP स्कैन का अनुकरण करें:",
+  "selectProduct": "उत्पाद चुनें",
+  "scanBtn": "NXP NFC स्कैन सिम्युलेट करें (SUN AES-128)",
+  "batteryName": "Li-Ion बैटरी",
+  "textileName": "ऊन कोट (ESPR)",
+  "watchName": "क्रोनोग्रफ़",
+  "lifecycleName": "एंड-टू-एंड लाइफसाइकिल",
+  "customsName": "सीमा शुल्क सत्यापन (UNTP)",
+  "resellName": "स्वामित्व परिवर्तन और पुनर्विक्रय",
+  "recyclingName": "रीसाइक्लिंग और धनवापसी",
+  "h1": "आपके निर्यात के लिए SaaS समाधान।<br>ESPR अनुपालन और NFTs।<br><span class=\"gradient-text\">रॉयल्टी के माध्यम से आय।</span>",
+  "sub": "जर्मन इंजीनियरिंग और वैश्विक लॉजिस्टिक्स: हम आपकी आपूर्ति श्रृंखला को SaaS के रूप में टोकनयुक्त करते हैं और यूरोप में हर पुनर्विक्रय पर पैसिव इनकम सुनिश्चित करते हैं।",
+  "cta": "निर्यात चेक 2027 शुरू करें",
+  "madeInGermany": "जर्मन इंजीनियरिंग और कानूनी सुरक्षा",
+  "mHeader": "रणनीतिक भागीदार ऑडिट",
+  "faqNav": "FAQ",
+  "login": "Login",
+  "manufacturerLogin": "डेवलपर कंसोल",
+  "footerH2": "प्रथम प्रवर्तक: बैटरी, कपड़ा और घड़ियाँ।",
+  "footerP": "2027 में यूरोपीय सीमा शुल्क को सुचारू रूप से पार करने वाले पहले निर्यातक बनें। हम रणनीतिक भागीदारों की तलाश कर रहे हैं।",
+  "contact": "ऑडिट का अनुरोध करें",
+  "copy": "&copy; 2025-2026 V-LEDGER // निर्यात सुरक्षा और पैसिव इनकम।",
+  "s1h": "SaaS के रूप में NFT",
+  "s1p": "आपके कंटेनरों के लिए डिजिटल उत्पाद पासपोर्ट का स्वचालित निर्माण। हम ब्लॉकचेन को पूरी तरह से सरल बनाते हैं।",
+  "s2h": "स्मार्ट कॉन्ट्रैक्ट रॉयल्टी",
+  "s2p": "हमारा SaaS प्लेटफॉर्म अनुपालन को लाभ में बदल देता है। हर पुनर्विक्रय पर सीधे अपने कॉर्पोरेट खाते में भुगतान प्राप्त करें।",
+  "p1t": "SaaS इंफ्रास्ट्रक्चर",
+  "p1h": "इनविजिबल वॉलेट।",
+  "p1d": "कोई तकनीकी पूर्व-आवश्यकता नहीं, कोई बीज वाक्यांश नहीं। हमारी अकाउंट एब्स्ट्रैक्शन तकनीक पूरी तरह से बैकग्राउंड में चलती है।",
+  "p2t": "रॉयल्टी क्रांति",
+  "p2h": "टोकनयुक्त निर्यात।",
+  "p2d": "प्रोग्राम योग्य स्मार्ट कॉन्ट्रैक्ट हर पुनर्विक्रय पर स्वचालित रूप से आपके लिए फिएट/USDT में शुल्क वितरित करते हैं।",
+  "p3t": "EU उत्पत्ति विश्वास",
+  "p3h": "B2B SaaS प्लेटफॉर्म।",
+  "p3d": "पारंपरिक ऑनलाइन बैंकिंग के उपयोगकर्ता अनुभव के साथ संयुक्त सुरक्षित Web3 बैकएंड (Base L2)।",
+  "p4t": "अक्षय पहचान",
+  "p4h": "NXP सुरक्षित हार्डवेयर।",
+  "p4d": "भौतिक एंकर आपके सामान को हमारे NFT से जोड़ते हैं और फैक्ट्री से रीसाइक्लिंग तक आपके ब्रांड मूल्य को सुरक्षित करते हैं।",
+  "quote": "\"2027 में EU बाजार तक पहुंच अब जोखिम नहीं है, यह आपका अंतिम प्रतिस्पर्धी लाभ है।\"",
+  "quotesub": "— V-LEDGER // निर्यात गेटवे",
+  "badge": "बैटरी, कपड़ा और घड़ियों के लिए विशेष // समुद्री निर्यात",
+  "calcH": "लाभ कैलकुलेटर",
+  "calcV": "निर्यात मात्रा (इकाई/वर्ष)",
+  "calcR": "पुनर्विक्रय दर (%)",
+  "calcF": "रॉयल्टी शुल्क (€/इकाई)",
+  "calcP": "वार्षिक पैसिव लाभ:",
+  "lang": "hi-in",
+  "metaTitle": "V-LEDGER | ESPR अनुपालन और डिजिटल उत्पाद पासपोर्ट (DPP)",
+  "metaDesc": "V-Ledger (डिसबर्ग) बैटरी, कपड़ों और घड़ियों के लिए ESPR अनुपालन प्रदान करता है। NTAG 424 DNA और ब्लॉकचेन के माध्यम से सुरक्षित उत्पाद पासपोर्ट।",
+  "cookie": {
+    "title": "सुरक्षा और अनुपालन जांच",
+    "msg": "V-Ledger इंफ्रास्ट्रक्चर तक पहुंच सुरक्षित करने और EU अनुपालन सुनिश्चित करने के लिए, हम क्रिप्टोग्राफ़िक पहचानकर्ता (Cookies) का उपयोग करते हैं। अपनी पहचान और प्राथमिकताओं की पुष्टि करें।",
+    "accept": "पहुंच प्रदान करें (सभी)",
+    "reject": "न्यूनतम पहुंच",
+    "settings": "प्राथमिकताएं",
+    "checking": "सिस्टम जांच चल रही है..."
+  },
+  "faqTitle": "अक्सर पूछे जाने वाले प्रश्न (FAQ)",
+  "faqs": [
+    {
+      "q": "डिजिटल उत्पाद पासपोर्ट (DPP) क्या है और V-Ledger इसे कैसे लागू करता है?",
+      "a": "डिजिटल उत्पाद पासपोर्ट ESPR 2027 के तहत अनिवार्य उत्पाद पहचान है। V-Ledger स्वचालित रूप से DPP बनाता और प्रबंधित करता है, जो ब्लॉकचेन पर सुरक्षित रहता है।"
+    },
+    {
+      "q": "NXP सुरक्षित हार्डवेयर का उपयोग क्यों करें?",
+      "a": "QR कोड आसानी से कॉपी किए जा सकते हैं। हम भौतिक सामान और उनके डिजिटल पासपोर्ट के बीच छेड़छाड़-रोधी पुल बनाने के लिए NTAG 424 DNA चिप्स का उपयोग करते हैं।"
+    },
+    {
+      "q": "क्रिप्टो वॉलेट के बिना रॉयल्टी कैसे काम करती है?",
+      "a": "अकाउंट एब्स्ट्रैक्शन के माध्यम से, हमारा सिस्टम जटिलता को संभालता है। आपको हर प्रमाणित पुनर्विक्रय पर आपकी रॉयल्टी सीधे यूरो या USDT में मिलती है।"
+    },
+    {
+      "q": "क्या यह समाधान EU ESPR 2027 के अनुरूप है?",
+      "a": "हाँ, हमारा प्लेटफ़ॉर्म अनिवार्य डिजिटल उत्पाद पासपोर्ट सहित स्थायी उत्पादों के लिए इकोडिज़ाइन विनियमन (ESPR) की आवश्यकताओं को पूरा करने के लिए निर्मित है।"
+    },
+    {
+      "q": "वर्तमान में कौन से उद्योग समर्थित हैं?",
+      "a": "हम वर्तमान में उन क्षेत्रों पर केंद्रित हैं जिनकी आवश्यकताएं सबसे जरूरी हैं: बैटरी, कपड़े और इलेक्ट्रॉनिक्स।"
+    },
+    {
+      "q": "ऑडिट प्रक्रिया कैसे काम करती है?",
+      "a": "ऑडिट के दौरान, हम आपके वर्तमान इंफ्रास्ट्रक्चर का विश्लेषण करते हैं और आपके उत्पादों के लिए जीरो-टच DPP एकीकरण का रोडमैप तैयार करते हैं।"
+    },
+    {
+      "q": "V-Ledger अन्य DPP प्रदाताओं से कैसे अलग है?",
+      "a": "V-Ledger एकमात्र मंच है जो औद्योगिक परिपक्वता, कानूनी निश्चितता और 4-स्तरीय मुद्रीकरण मॉडल को जोड़ता है।"
+    },
+    {
+      "q": "रॉयल्टी प्रणाली किन प्लेटफार्मों पर काम करती है?",
+      "a": "रॉयल्टी भुगतान उन एकीकृत पुनर्विक्रय प्लेटफार्मों पर शुरू होते हैं जो V-Ledger प्रोटोकॉल का हिस्सा हैं।"
+    },
+    {
+      "q": "क्या होगा यदि ESPR की समय सीमा बदल जाए?",
+      "a": "हमारा आर्किटेक्चर मॉड्यूलर है - मानकों के अंतिम रूप लेने पर अनुपालन मैपिंग स्वचालित रूप से अपडेट हो जाती है।"
+    },
+    {
+      "q": "2027 के बाद किन उत्पाद श्रेणियों का समर्थन किया जाएगा?",
+      "a": "चरण 1 (2026-27): बैटरी, वस्त्र। चरण 2 (2027-28): फर्नीचर, टायर। चरण 3 (2029-30): स्टील, रसायन।"
+    },
+    {
+      "q": "D2C लाइफसाइकिल पोर्टल क्या है?",
+      "a": "यह हमारे मुद्रीकरण स्टैक की दूसरी परत है, जो ब्रांडों को बाद के मालिकों के साथ सीधे जुड़ने और सेवाएं प्रदान करने की अनुमति देता है।"
+    },
+    {
+      "q": "डिजिटल ग्रीन टोकन क्या हैं?",
+      "a": "यह हमारे स्टैक की तीसरी परत है, जहाँ उपभोक्ताओं को सत्यापित रीसाइक्लिंग के लिए टोकन मिलते हैं और निर्माताओं को कच्चे माल तक पहुंच प्राप्त होती है।"
+    }
+  ],
+  "legal": {
+    "imprint": "कानूनी नोटिस",
+    "privacy": "गोपनीयता",
+    "terms": "शर्तें",
+    "back": "होम पेज पर वापस",
+    "agree": "मैं इसके अनुसार डेटा प्रोसेसिंग के लिए सहमत हूं:",
+    "content": {
+      "imprint": "<h1>कानूनी सूचना</h1><p>V-LEDGER<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
+      "privacy": "<h1>गोपनीयता नीति (GDPR)</h1><p>हम आपके डेटा की सुरक्षा को प्राथमिकता देते हैं...</p>",
+      "terms": "<h1>सेवा की शर्तें</h1><p>हमारी सेवाएं विशेष रूप से B2B ग्राहकों के लिए हैं।</p>"
+    }
+  },
+  "aboutUs": {
+    "nav": "हमारे बारे में",
+    "title": "यूरोपीय गेटवे",
+    "subtitle": "तकनीक और अनुपालन के बीच सेतु।",
+    "content": "<h3>डिसबर्ग पोर्ट: यूरोप का प्रवेश द्वार</h3><p>V-Ledger डिसबर्ग में यूरोप के सबसे बड़े अंतर्देशीय बंदरगाह पर एक भौतिक और कानूनी एंकर के रूप में काम करता है। हम यूरोपीय आयात नियमों (ESPR 2027) को पार करने के लिए बुनियादी ढांचा प्रदान करते हैं।</p><h3>जर्मन विनियमन के साथ तकनीक का मिलन</h3><p>जबकि एशियाई भागीदार उत्पादन संभालते हैं, हम सुनिश्चित करते हैं कि हर उत्पाद को Base L2 और NTAG 424 DNA के साथ एक डिजिटल पासपोर्ट मिले।</p><h3>आपका अनुपालन। हमारा व्यवसाय।</h3><p>हम तकनीकी जटिलता और कानूनी जिम्मेदारी संभालते हैं। बिना सीमा शुल्क देरी के निर्यात करें। असीम रूप से विस्तार करें।</p>"
+  },
+  "tech": {
+    "nav": "तकनीकी",
+    "title": "उन्नत Web3 टेक स्टैक",
+    "subtitle": "छेड़छाड़-मुक्त निर्यात के लिए औद्योगिक SaaS इंफ्रास्ट्रक्चर।",
+    "sidebar": "SaaS प्लेटफॉर्म क्रिप्टोग्राफ़िक हार्डवेयर (NXP) को स्मार्ट कॉन्ट्रैक्ट्स (Base L2) के साथ जोड़ता है, 100% इनविजिबल वॉलेट के माध्यम से सरल।",
+    "content": "<h3>अगली पीढ़ी का आर्किटेक्चर</h3><p class='text-white/60 max-w-3xl mb-8'>हम मजबूत हार्डवेयर के साथ Web3 सॉफ्टवेयर को मिलाते हैं। SaaS प्रदाता के रूप में, हम बैकएंड संभालते हैं जबकि आप अनुपालन जोखिमों को खत्म करते हैं।</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (हार्डवेयर एंकर)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">QR कोड जालसाजी के खिलाफ बेकार हैं। हम NXP के एनक्रिप्टेड NFC चिप्स का उपयोग करते हैं जो DPP के लिए एक सुरक्षित पुल बनाते हैं।</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (सुरक्षित लेजर)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">उत्पाद की पहचान Base (Ethereum L2) पर स्थायी रूप से दर्ज की जाती है, जो न्यूनतम लागत के साथ अधिकतम सुरक्षा और स्केलेबिलिटी सुनिश्चित करती है।</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"रॉयल्टी इंजन\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">रॉयल्टी इंजन</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">हमारा कस्टम स्मार्ट कॉन्ट्रैक्ट पुनर्विक्रय पर भुगतान सक्रिय करता है और स्वायत्त रूप से तय करता है कि फीस किसे मिलती है।</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"खाता अमूर्तन\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">खाता अमूर्तन</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">हम ERC-4337 मानक का उपयोग करते हैं। कोई बीज वाक्यांश नहीं, बस सीधे फिएट या USDT भुगतान, जो उद्यम के लिए तैयार है।</p>\n            </div>\n        </div>\n        </div>"
+  }
+}

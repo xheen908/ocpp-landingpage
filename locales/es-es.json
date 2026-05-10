@@ -1,0 +1,136 @@
+{
+  "demoTitle": "Sandbox DPP Interactivo",
+  "demoDesc": "Seleccione una categoría y simule un escaneo NXP:",
+  "selectProduct": "Seleccionar Producto",
+  "scanBtn": "Simular escaneo NFC NXP (SUN AES-128)",
+  "batteryName": "Batería de Ion-Litio",
+  "textileName": "Abrigo de Lana (ESPR)",
+  "watchName": "Cronógrafo",
+  "lifecycleName": "Ciclo de Vida de Extremo a Extremo",
+  "customsName": "Verificación Aduanera (UNTP)",
+  "resellName": "Cambio de Propietario y Reventa",
+  "recyclingName": "Reciclaje y Reembolso",
+  "h1": "La solución SaaS para su exportación.<br>Cumplimiento de ESPR y NFTs.<br><span class=\"gradient-text\">INGRESOS MEDIANTE REGALÍAS.</span>",
+  "sub": "Ingeniería alemana para la logística global: Tokenizamos su cadena de suministro como SaaS y aseguramos ingresos pasivos en cada reventa en Europa.",
+  "cta": "Iniciar chequeo de exportación 2027",
+  "madeInGermany": "Ingeniería Alemana y Seguridad Jurídica",
+  "mHeader": "Auditoría de socios estratégicos",
+  "faqNav": "FAQ",
+  "login": "Login",
+  "manufacturerLogin": "Consola de Desarrolladores",
+  "footerH2": "PIONEROS: BATERÍAS, TEXTILES Y RELOJES.",
+  "footerP": "Sea el primer exportador cuya mercancía pase la aduana de la UE en 2027. Buscamos socios estratégicos.",
+  "contact": "Solicitar auditoría",
+  "copy": "&copy; 2025-2026 V-LEDGER // SEGURIDAD DE EXPORTACIÓN E INGRESOS PASIVOS.",
+  "s1h": "NFTs como servicio",
+  "s1p": "Generación automatizada de Pasaportes Digitales de Producto para sus contenedores. Abstraemos el blockchain.",
+  "s2h": "Regalías de Contratos Inteligentes",
+  "s2p": "Nuestra plataforma SaaS convierte el cumplimiento en beneficio. Reciba pagos directamente en su cuenta corporativa en cada reventa.",
+  "p1t": "Infraestructura SaaS",
+  "p1h": "Invisible Wallets.",
+  "p1d": "Sin requisitos técnicos, sin frases semilla. Nuestra tecnología de Account Abstraction funciona completamente en segundo plano.",
+  "p2t": "La revolución de las regalías",
+  "p2h": "Exportaciones Tokenizadas.",
+  "p2d": "Contratos inteligentes programables desembolsan automáticamente tarifas en fiat/USDT para usted en cada reventa.",
+  "p3t": "Confianza de procedencia UE",
+  "p3h": "Plataforma SaaS B2B.",
+  "p3d": "Backend Web3 seguro (Base L2) combinado con una experiencia de banca en línea tradicional.",
+  "p4t": "Identidad Inforjable",
+  "p4h": "Hardware seguro de NXP.",
+  "p4d": "Los anclajes físicos vinculan sus mercancías con nuestros NFTs, asegurando el valor de su marca desde la fábrica hasta el reciclaje.",
+  "quote": "\"El acceso al mercado de la UE en 2027 ya no es un riesgo, es su ventaja competitiva definitiva.\"",
+  "quotesub": "— V-LEDGER // LA PUERTA DE EXPORTACIÓN",
+  "badge": "Especializado en Baterías, Textiles y Relojes // Exportación Marítima",
+  "calcH": "Calculadora de beneficios",
+  "calcV": "Volumen de exportación (unidades/año)",
+  "calcR": "Tasa de reventa (%)",
+  "calcF": "Tarifa de regalía (€/unidad)",
+  "calcP": "Beneficio pasivo anual:",
+  "lang": "es-es",
+  "metaTitle": "V-LEDGER | Cumplimiento de ESPR y Pasaporte de Producto (DPP)",
+  "metaDesc": "V-Ledger (Duisburgo) ofrece cumplimiento de ESPR para baterías, textiles y relojes. Pasaportes de producto seguros mediante NTAG 424 DNA y Blockchain.",
+  "cookie": {
+    "title": "CONTROL DE SEGURIDAD Y CUMPLIMIENTO",
+    "msg": "Para asegurar el acceso a la infraestructura de V-Ledger y garantizar el cumplimiento de la UE, utilizamos identificadores criptográficos (Cookies). Confirme su identidad y preferencias.",
+    "accept": "CONCEDER ACCESO (TODO)",
+    "reject": "ACCESO MÍNIMO",
+    "settings": "PREFERENCIAS",
+    "checking": "Comprobación del sistema en curso..."
+  },
+  "faqTitle": "Preguntas Frecuentes (FAQ)",
+  "faqs": [
+    {
+      "q": "¿Qué es un Pasaporte Digital de Producto (DPP) y cómo lo implementa V-Ledger?",
+      "a": "Un Pasaporte Digital de Producto es la identidad de producto exigida por la UE bajo el ESPR 2027. V-Ledger genera, almacena y gestiona los DPPs automáticamente, respaldados por hardware NFC criptográfico y registros blockchain inmutables."
+    },
+    {
+      "q": "¿Por qué usar hardware seguro de NXP?",
+      "a": "Los códigos QR se copian fácilmente. Utilizamos chips criptográficos NTAG 424 DNA para crear un puente a prueba de manipulaciones entre la mercancía física y su NFT."
+    },
+    {
+      "q": "¿Cómo funcionan las regalías sin billetera cripto?",
+      "a": "Mediante el Account Abstraction y las Invisible Wallets, nuestra plataforma maneja toda la complejidad del blockchain. Usted recibe sus regalías directamente en euros o USDT automáticamente en cada reventa certificada."
+    },
+    {
+      "q": "¿Es la solución compatible con la ESPR 2027 de la UE?",
+      "a": "Sí, nuestra plataforma está diseñada específicamente para cumplir con los requisitos del Reglamento de Ecodiseño para Productos Sostenibles (ESPR), incluyendo el Pasaporte Digital de Producto obligatorio."
+    },
+    {
+      "q": "¿Qué industrias son compatibles actualmente?",
+      "a": "Actualmente nos enfocamos en los sectores con mayor urgencia de cumplimiento: Baterías, Textiles y Relojes de alta gama/Artículos de lujo."
+    },
+    {
+      "q": "¿Cómo funciona el proceso de auditoría?",
+      "a": "Durante la auditoría, analizamos su infraestructura de exportación actual y creamos una hoja de ruta para la integración de blockchain y el etiquetado de sus productos."
+    },
+    {
+      "q": "¿En qué se diferencia V-Ledger de otros proveedores de DPP?",
+      "a": "V-Ledger es la única plataforma que combina madurez industrial, certeza legal y monetización en 4 capas. La mayoría de proveedores solo almacenan datos. Nosotros los monetizamos."
+    },
+    {
+      "q": "¿En qué plataformas funciona el sistema de regalías?",
+      "a": "Los pagos se activan en plataformas de reventa certificadas integradas con el protocolo V-Ledger. Las ventas privadas no verificadas quedan fuera del ecosistema certificado."
+    },
+    {
+      "q": "¿Qué pasa si cambian los plazos de ESPR?",
+      "a": "V-Ledger se basa en el marco CEN/CENELEC JTC 24 que evoluciona con ESPR. Nuestra arquitectura modular actualiza el mapeo de cumplimiento automáticamente."
+    },
+    {
+      "q": "¿Qué categorías de productos serán admitidas más allá de 2027?",
+      "a": "Fase 1 (2026-27): Baterías, Textiles, Electrónica. Fase 2 (2027-28): Muebles, Neumáticos, Detergentes. Fase 3 (2029-30): Acero, Aluminio, Químicos."
+    },
+    {
+      "q": "¿Qué es el Portal de Ciclo de Vida D2C?",
+      "a": "Capa 2 de nuestra monetización. Cada DPP se convierte en un canal de marketing directo para el siguiente dueño, ofreciendo extensiones de garantía instantáneas y repuestos certificados."
+    },
+    {
+      "q": "¿Qué son los Digital Green Tokens?",
+      "a": "Capa 3 de nuestra monetización. Cuando un consumidor devuelve un producto para reciclaje verificado, recibe tokens digitales de recompensa, asegurando la autonomía de recursos para fabricantes."
+    }
+  ],
+  "legal": {
+    "imprint": "Aviso legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "back": "Volver al inicio",
+    "agree": "Acepto el procesamiento de datos según",
+    "content": {
+      "imprint": "<h1>Aviso Legal</h1><p>V-LEDGER<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
+      "privacy": "<h1>Política de Privacidad (RGPD)</h1><p>Valoramos la seguridad de sus datos...</p>",
+      "terms": "<h1>Términos de Servicio</h1><p>Nuestros servicios son exclusivos para clientes B2B.</p>"
+    }
+  },
+  "aboutUs": {
+    "nav": "Sobre nosotros",
+    "title": "La Puerta Europea",
+    "subtitle": "Uniendo Tecnología y Cumplimiento.",
+    "content": "<h3>El Puerto de Duisburgo: Puerta de Europa</h3><p>V-Ledger opera como anclaje físico y legal en el puerto interior más grande de Europa. Proporcionamos la infraestructura para superar barreras regulatorias (ESPR 2027).</p><h3>Tecnología y Regulación Alemana</h3><p>Mientras los socios asiáticos dominan la producción, nosotros aseguramos que cada producto reciba un Pasaporte Digital (DPP) inforjable con Base L2 y NTAG 424 DNA.</p><h3>Su cumplimiento. Nuestro negocio.</h3><p>Manejamos la complejidad técnica y la responsabilidad legal. Exportación sin demoras aduaneras. Escalado sin límites.</p>"
+  },
+  "tech": {
+    "nav": "Tecnología",
+    "title": "Stack Tecnológico Web3 Avanzado",
+    "subtitle": "Infraestructura SaaS industrial para exportación a prueba de manipulaciones.",
+    "sidebar": "SaaS que fusiona hardware criptográfico (NXP) con contratos inteligentes (Base L2), 100% abstraído vía Invisible Wallets.",
+    "content": "<h3>Arquitectura de Próxima Generación</h3><p class='text-white/60 max-w-3xl mb-8'>Unimos software Web3 con hardware robusto. Como proveedor SaaS, manejamos la complejidad del backend mientras usted elimina riesgos de cumplimiento.</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (Anclaje Hardware)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">Los códigos QR no sirven contra la piratería. Usamos chips NFC de NXP que generan códigos dinámicos, creando un puente inforjable al DPP.</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (Libro Seguro)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">La identidad del producto se inmortaliza en Base (Ethereum L2), asegurando escalabilidad con costos mínimos y máxima seguridad.</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"Motor de Regalías\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Motor de Regalías</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">Contratos inteligentes propios activan pagos automáticamente en cada reventa, dictando de forma autónoma on-chain quién recibe la comisión.</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"Account Abstraction\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Account Abstraction</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">Utilizamos el estándar ERC-4337 para eliminar la fricción. Pagos directos en fiat o USDT sin necesidad de frases semilla, haciendo la criptografía enterprise-ready.</p>\n            </div>\n        </div>\n        </div>"
+  }
+}

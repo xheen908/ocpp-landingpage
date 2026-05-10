@@ -2,7 +2,23 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const nodemailer = require('nodemailer');
-const translations = require('./translations');
+// Dynamic Locale Loading at Startup
+const translations = {};
+const localesPath = path.join(__dirname, 'locales');
+if (fs.existsSync(localesPath)) {
+    fs.readdirSync(localesPath).forEach(file => {
+        if (file.endsWith('.json')) {
+            const langKey = path.basename(file, '.json');
+            try {
+                translations[langKey] = JSON.parse(fs.readFileSync(path.join(localesPath, file), 'utf-8'));
+            } catch (e) {
+                console.error(`Error loading locale ${file}:`, e);
+            }
+        }
+    });
+} else {
+    console.error('Locales folder not found!');
+}
 const app = express();
 const PORT = process.env.PORT || 12000;
 

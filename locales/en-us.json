@@ -1,0 +1,136 @@
+{
+  "demoTitle": "Interactive DPP Sandbox",
+  "demoDesc": "Select a category & simulate an NXP scan:",
+  "selectProduct": "Select Product",
+  "scanBtn": "Simulate NXP NFC Scan (SUN AES-128)",
+  "batteryName": "Li-Ion Battery",
+  "textileName": "Wool Coat (ESPR)",
+  "watchName": "Chronograph",
+  "lifecycleName": "End-to-End Lifecycle",
+  "customsName": "Customs Verification (UNTP)",
+  "resellName": "Ownership Swap & Resell",
+  "recyclingName": "Recycling & Refund",
+  "h1": "The Universal Industrial Infrastructure<br>for the 2030 Circular Economy.",
+  "sub": "V-Ledger V5.5 replaces manual DPP compliance with full automation — and turns every product lifecycle touchpoint into a revenue event. Monetizing Trust. Securing Resources. Eliminating Chaos.",
+  "cta": "Request Strategic Audit 2030",
+  "madeInGermany": "German Engineering & Legal Security",
+  "mHeader": "Strategic Partner Audit",
+  "faqNav": "FAQ",
+  "login": "Login",
+  "manufacturerLogin": "Developer Console",
+  "footerH2": "FIRST MOVER ADVANTAGE: THE 2030 HORIZON STARTS NOW.",
+  "footerP": "By 2030, every major product category in the EU requires a Digital Product Passport. V-Ledger is the only infrastructure engineered to scale horizontally across all four regulatory waves — from Batteries & Textiles (2027) to Steel & Chemicals (2030). Brands that integrate now gain automated compliance, certified secondary market revenue, and resource autonomy before the window closes. We are onboarding strategic partners for Phase 1 deployment.",
+  "contact": "Request Strategic Audit 2030",
+  "copy": "&copy; 2025-2026 V-LEDGER // THE 2030 CIRCULAR ECONOMY STANDARD.",
+  "s1h": "Zero-Touch DPP Automation",
+  "s1p": "Direct API connection to SAP/ERP systems in under 8 hours. Automated CEN/CENELEC JTC 24 compliance mapping. Your team touches nothing — our infrastructure handles every SKU at industrial scale.",
+  "s2h": "Lifecycle Revenue Engine (Layer 1)",
+  "s2p": "A verified €650 resale generates a €32.50 royalty — automatically, without invoice or manual process. The 94/5/1 model turns your secondary market from an invisible blind spot into a permanent revenue stream.",
+  "p1t": "Layer 1: Resale Royalty",
+  "p1h": "94/5/1 Revenue Share.",
+  "p1d": "Trust increases secondary market prices. By certifying authenticity, resale values rise — the seller profits more, and the brand automatically receives 5% on every certified transaction. No invoice. No wallet required.",
+  "p2t": "Layer 2: D2C Lifecycle Portal",
+  "p2h": "Service-Driven Revenue.",
+  "p2d": "Every DPP becomes a direct marketing channel for the next owner: instant warranty extensions, certified spare parts sourced from the digital twin, and Maintenance-as-a-Service — all triggered by a single NFC scan.",
+  "p3t": "Layer 3: Circular Economy",
+  "p3h": "Digital Green Tokens.",
+  "p3d": "We incentivize Return-to-Loop behavior. Consumers receive Digital Green Tokens upon verified recycling. Recyclers get instant bounties for high-purity sorting. Manufacturers regain access to secondary raw materials below extraction cost.",
+  "p4t": "Layer 4: OPEX Excellence",
+  "p4h": "Eliminating Compliance Chaos.",
+  "p4d": "Automation eliminates the administrative overhead of manual DPP compliance: no printing, no manual data entry, no legal documentation cost per SKU. Zero-Touch Integration saves enterprises millions over the 2030 horizon.",
+  "quote": "\"V-Ledger V5.5 is the only infrastructure combining Industrial Maturity, Legal Certainty, and Business Model Innovation. We are not just compliant. We are profitable.\"",
+  "quotesub": "— V-LEDGER V5.5 // THE PATHWAY TO PROFITABLE CIRCULARITY",
+  "badge": "Monetizing Trust · Securing Resources · Eliminating Chaos // V5.5",
+  "calcH": "Profit Calculator",
+  "calcV": "Export Volume (Units/Year)",
+  "calcR": "Resale Rate (%)",
+  "calcF": "Royalty Fee (€/Unit)",
+  "calcP": "Annual Passive Profit:",
+  "lang": "en-us",
+  "metaTitle": "V-LEDGER | The 2030 Circular Economy Infrastructure (DPP)",
+  "metaDesc": "V-Ledger V5.5 — The universal industrial infrastructure for the EU Digital Product Passport. Zero-Touch SAP integration, 4-layer monetization, CEN/CENELEC JTC 24 compliant. Engineered in Duisburg.",
+  "cookie": {
+    "title": "SECURITY & COMPLIANCE CHECK",
+    "msg": "To secure access to the V-Ledger infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
+    "accept": "GRANT ACCESS (ALL)",
+    "reject": "MINIMAL ACCESS",
+    "settings": "PREFERENCES",
+    "checking": "System check in progress..."
+  },
+  "faqTitle": "Frequently Asked Questions (FAQ)",
+  "faqs": [
+    {
+      "q": "What is a Digital Product Passport (DPP) and how does V-Ledger implement it?",
+      "a": "A Digital Product Passport is the EU-mandated product identity required under ESPR 2027. V-Ledger automatically generates, stores, and manages DPPs — backed by cryptographic NFC hardware and immutable blockchain records."
+    },
+    {
+      "q": "Why use NXP Secure Hardware?",
+      "a": "QR codes are easily copied. We utilize cryptographic NTAG 424 DNA chips to create a tamper-proof bridge between the physical goods and their Digital Product Passport."
+    },
+    {
+      "q": "How do royalties work without a crypto wallet?",
+      "a": "Through ERC-4337 Account Abstraction, our backend handles all complexity. You receive royalty payouts automatically on every certified resale via integrated partner platforms — in EUR or USDT. No wallet, no seed phrase required."
+    },
+    {
+      "q": "Is the solution compliant with EU ESPR 2027?",
+      "a": "Yes, our platform is specifically designed to meet the requirements of the Ecodesign for Sustainable Products Regulation (ESPR), including the mandatory Digital Product Passport."
+    },
+    {
+      "q": "Which industries are currently supported?",
+      "a": "Wave 1 (Jan 2027, in force): Batteries (Lithium Purity: 98%), Textiles, Electronics (Rare Earth Recovery: 92%). Wave 2 (2027-28): Furniture (Wood Re-use: 78%), Tires (Rubber Recovery: 65%). Wave 3 (late 2028-29): Furniture, advanced material traceability. Wave 4 (2029-30): Steel (Recycled Content: 90%), Chemicals (Material Purity: 99%), High-Impact Intermediate Products."
+    },
+    {
+      "q": "How does the audit process work?",
+      "a": "During the strategic audit, we analyze your current ERP/SAP infrastructure, product catalogue, and compliance gaps. You receive a concrete roadmap for Zero-Touch DPP integration, hardware authentication deployment, and lifecycle revenue activation — executable in under 8 hours of integration time."
+    },
+    {
+      "q": "How does V-Ledger differ from other DPP providers?",
+      "a": "V-Ledger is the only platform combining Industrial Maturity (V5.5 stack, mass-deployment ready), Legal Certainty (CEN/CENELEC JTC 24, NTAG 424 DNA SUN — dismisses counterfeiting liability), and Business Model Innovation (4-layer monetization: royalties, D2C portal, Digital Green Tokens, OPEX savings). Most DPP providers store data. We monetize it."
+    },
+    {
+      "q": "On which platforms does the royalty system work?",
+      "a": "Royalty payouts are triggered on certified resale platforms integrated with the V-Ledger protocol. Unverified private sales are outside the certified ecosystem. The 94/5/1 model means: the seller keeps 94% of the verified value increase — the brand receives 5% automatically, without invoice."
+    },
+    {
+      "q": "What happens if ESPR timelines change?",
+      "a": "V-Ledger is built on the CEN/CENELEC JTC 24 framework, which evolves alongside ESPR. Our architecture is modular — compliance mappings update automatically as standards are finalized. Your investment is protected regardless of regulatory adjustment."
+    },
+    {
+      "q": "Which product categories will be supported beyond 2027?",
+      "a": "Phase 1 (2026-27): Batteries, Textiles, Electronics. Phase 2 (2027-28): Furniture, Tires, Detergents, Paints. Phase 3 (2029-30): Steel, Aluminum, Chemicals, High-Impact Intermediate Products. V-Ledger scales horizontally across all EU priority sectors as defined by the European Commission."
+    },
+    {
+      "q": "What is the D2C Lifecycle Portal and how does it generate revenue for brands?",
+      "a": "Layer 2 of our monetization stack. Every DPP becomes a direct marketing channel for subsequent product owners. Upon a verified ownership change, the new owner is offered real-time warranty extensions, certified spare parts (sourced from the digital twin data), and automated Maintenance-as-a-Service bookings with certified repair partners — all monetizable touchpoints for the original brand."
+    },
+    {
+      "q": "What are Digital Green Tokens and how does the Return-to-Loop system work?",
+      "a": "Layer 3 of our monetization stack. When a consumer returns a product for verified recycling (confirmed by NFC hardware scan), they automatically receive Digital Green Tokens or store credits. Recyclers receive instant bounties for high-purity material sorting — enabled by the hardware anchor's material identification data. Manufacturers regain access to secondary raw materials at costs significantly below virgin extraction, securing resource autonomy."
+    }
+  ],
+  "legal": {
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "back": "Back to Home",
+    "agree": "I agree to data processing according to the",
+    "content": {
+      "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Legal Notice</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Information according to § 5 TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger</p><p class='text-white/60 leading-relaxed font-medium'>Albertstr. 7<br>47059 Duisburg<br>Germany</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Represented by</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Contact</h3><p class='text-white/60 leading-relaxed font-medium'>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>Telephone contact details in progress.</span></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Commercial Register</h3><p class='text-white/60 leading-relaxed font-medium'>District Court of Duisburg<br>Registration number: In progress / i.Gr.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>VAT ID</h3><p class='text-white/60 leading-relaxed font-medium'>VAT identification number according to § 27 a Umsatzsteuergesetz: In progress</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>EU Dispute Resolution</h3><p class='text-white/40 text-sm leading-relaxed'>The European Commission provides a platform for online dispute resolution (ODR): <a href='https://ec.europa.eu/consumers/odr' target='_blank' class='text-white underline decoration-white/20 hover:decoration-white transition-all'>https://ec.europa.eu/consumers/odr</a>.<br>We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.</p></section></div>",
+      "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Privacy Policy</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. Controller</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger<br>Arndt Christoph Handschuh<br>Email: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. Data Collection</h3><p class='text-white/60 leading-relaxed font-medium'>We collect name, email, and message via our form exclusively to process your inquiry or prepare an audit. Legal basis is Art. 6 (1) (b) GDPR.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>3. Storage Duration</h3><p class='text-white/60 leading-relaxed font-medium'>Data is stored only as long as necessary for processing or as required by statutory retention periods.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>4. Your Rights</h3><p class='text-white/60 leading-relaxed font-medium'>You have the right to access, rectify, erase, or object regarding your data according to Art. 15-21 GDPR.</p></section></div>",
+      "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>Terms of Service</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Application</h3><p class='text-white/60 leading-relaxed font-medium'>Our services are exclusively directed at B2B customers (entrepreneurs) in the field of export compliance and digital product passports.</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>Scope of Services</h3><p class='text-white/60 leading-relaxed font-medium'>We provide SaaS solutions for the creation of DPPs via blockchain technology and NXP hardware integration.</p></section></div>"
+    }
+  },
+  "aboutUs": {
+    "nav": "About Us",
+    "title": "The 2030 Circular Economy Standard",
+    "subtitle": "Monetizing Trust. Securing Resources. Eliminating Chaos.",
+    "content": "<h3>V-Ledger is headquartered in Duisburg — Europe's largest inland port.</h3><p>We do not view the ESPR 2027 mandate as a compliance burden. We have engineered the infrastructure that transforms it into a 4-layer revenue engine and a permanent competitive advantage.</p><h3>From Organizational Chaos to Strategic Profitability.</h3><p>Current DPP approaches fail because they focus on static data storage. V-Ledger replaces organizational effort with technical automation: Zero-Touch SAP/ERP integration in under 8 hours, automated JTC 24 compliance mapping, and hardware trust anchors that eliminate counterfeiting liability — at industrial scale.</p><h3>The 4-Layer Monetization Stack.</h3><p>Every product lifecycle touchpoint generates revenue: Layer 1 (94/5/1 Resale Royalty), Layer 2 (D2C Lifecycle Portal with warranty & MaaS), Layer 3 (Digital Green Tokens / Return-to-Loop), Layer 4 (OPEX savings through full automation). We are not just compliant. We are profitable.</p><h3>From 2027 Compliance to 2030 Resource Autonomy.</h3><p>The ESPR mandate is only the beginning. By 2030, the Circular Economy framework will cover every major EU product category. V-Ledger is the only infrastructure engineered to scale horizontally across all four regulatory waves — from Batteries & Textiles today to Steel, Chemicals, and High-Impact Intermediate Products by 2029/30. We are not building a compliance tool. We are building the standard.</p>"
+  },
+  "tech": {
+    "nav": "Technology",
+    "title": "Industrial-Grade DPP Infrastructure",
+    "subtitle": "The technology stack behind automated EU compliance and lifecycle revenue.",
+    "sidebar": "V-Ledger unites cryptographic hardware, immutable blockchain records, and enterprise ERP integration into a single, automated compliance layer.",
+    "content": "<h3>Industrial-Grade DPP Infrastructure</h3><p class='text-white/60 max-w-3xl mb-8'>V-Ledger unites cryptographic hardware, immutable blockchain records, and enterprise ERP integration into a single, automated compliance layer. We absorb all technical complexity — you interact only with the business outcome.</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424 (Hardware Anchor)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" ry=\"2\"></rect><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\"></rect><line x1=\"9\" y1=\"1\" x2=\"9\" y2=\"4\"></line><line x1=\"15\" y1=\"1\" x2=\"15\" y2=\"4\"></line><line x1=\"9\" y1=\"20\" x2=\"9\" y2=\"23\"></line><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"23\"></line><line x1=\"20\" y1=\"9\" x2=\"23\" y2=\"9\"></line><line x1=\"20\" y1=\"14\" x2=\"23\" y2=\"14\"></line><line x1=\"1\" y1=\"9\" x2=\"4\" y2=\"9\"></line><line x1=\"1\" y1=\"14\" x2=\"4\" y2=\"14\"></line></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (Hardware Anchor)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    QR codes are worthless against professional piracy. We use cryptographically secure NFC chips from NXP. Every time a product is scanned, it generates a unique, dynamic crypto code. This creates a tamper-proof bridge to the Digital Product Passport (DPP).\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2 (Secure Ledger)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"></polygon><polyline points=\"2 17 12 22 22 17\"></polyline><polyline points=\"2 12 12 17 22 12\"></polyline></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (Secure Ledger)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    The digital product identity is immortalized on <strong>Base (Ethereum Layer 2)</strong>. This guarantees unprecedented scalability at extremely low transaction costs, inheriting the security of the Ethereum mainnet.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"Royalty Engine\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"></path><path d=\"M22 12A10 10 0 0 0 12 2v10z\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Royalty Engine</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Your investment turns into profit: Custom-written smart contracts automatically trigger a payment function upon every resale of the goods. The logic autonomously dictates on-chain who receives the royalty fee.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"Account Abstraction\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M22 12h-4l-3 9L9 3l-3 9H2\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Account Abstraction</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    We utilize the ERC-4337 standard. All gas fees are subsidized by our proprietary backend paymaster. No seed phrases, just direct payouts in fiat or USDT — making complex cryptography enterprise-ready.\n                </p>\n            </div>\n        </div></div>"
+  }
+}
