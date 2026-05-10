@@ -5,132 +5,133 @@
   "scanBtn": "จำลองการสแกน NXP NFC (SUN AES-128)",
   "batteryName": "แบตเตอรี่ Li-Ion",
   "textileName": "เสื้อโค้ทขนสัตว์ (ESPR)",
-  "watchName": "นาฬิกาจับเวลา",
-  "lifecycleName": "วงจรชีวิตครบวงจร",
-  "customsName": "การยืนยันศุลกากร (UNTP)",
+  "watchName": "โครโนกราฟ",
+  "lifecycleName": "วงจรชีวิตแบบครบวงจร",
+  "customsName": "การยืนยันทางศุลกากร (UNTP)",
   "resellName": "การเปลี่ยนเจ้าของ & การขายต่อ",
-  "recyclingName": "การรีไซเคิล & การรับคืนเงิน",
-  "h1": "โซลูชัน SaaS สำหรับการส่งออก.<br>มาตรฐาน ESPR และ NFTs.<br><span class=\"gradient-text\">รายได้จากค่าลิขสิทธิ์.</span>",
-  "sub": "วิศวกรรมเยอรมันตอบโจทย์โลจิสติกส์ทั่วโลก: เราแปลงห่วงโซ่อุปทานของคุณให้เป็นโทเค็นในรูปแบบ SaaS และรับประกันรายได้แบบพาสซีฟจากการขายต่อทุกครั้งในยุโรป",
-  "cta": "เริ่มการตรวจสอบการส่งออกปี 2027",
-  "madeInGermany": "วิศวกรรมเยอรมันและความปลอดภัยทางกฎหมาย",
-  "mHeader": "การประเมินพันธมิตรรเชิงกลยุทธ์",
+  "recyclingName": "การรีไซเคิล & การคืนเงิน",
+  "h1": "โครงสร้างพื้นฐานทางอุตสาหกรรมระดับสากล<br>สำหรับเศรษฐกิจหมุนเวียนปี 2030",
+  "sub": "V-Ledger V5.5 เข้ามาแทนที่การปฏิบัติตามข้อกำหนด DPP แบบดั้งเดิมด้วยระบบอัตโนมัติเต็มรูปแบบ — เปลี่ยนทุกจุดสัมผัสในวงจรชีวิตผลิตภัณฑ์ให้กลายเป็นเหตุการณ์สร้างรายได้ เปลี่ยนความไว้วางใจให้เป็นผลกำไร รักษาทรัพยากร และขจัดความสับสน",
+  "cta": "ขอรับการตรวจสอบเชิงกลยุทธ์ปี 2030",
+  "madeInGermany": "วิศวกรรมเยอรมัน & ความปลอดภัยทางกฎหมาย",
+  "mHeader": "การตรวจสอบพันธมิตรเชิงกลยุทธ์",
   "faqNav": "FAQ",
-  "login": "Login",
-  "manufacturerLogin": "Developer Console",
-  "footerH2": "ผู้นำกลุ่มแรก: แบตเตอรี่ สิ่งทอ และนาฬิกา",
-  "footerP": "เป็นผู้ส่งออกรายแรกที่สินค้าผ่านพิธีการศุลกากร EU ได้อย่างรวดเร็วในปี 2027 เรากำลังเปิดรับพันธมิตรเชิงกลยุทธ์",
-  "contact": "ขอรับการประเมิน",
-  "copy": "&copy; 2025-2026 V-LEDGER // ความปลอดภัยในการส่งออกและรายได้ต่อเนื่อง",
-  "s1h": "NFTs as a Service",
-  "s1p": "สร้างพาสปอร์ตผลิตภัณฑ์ดิจิทัลอัตโนมัติสำหรับตู้คอนเทนเนอร์ของคุณ เราขจัดความซับซ้อนของบล็อกเชน",
-  "s2h": "ค่าลิขสิทธิ์จาก Smart Contract",
-  "s2p": "แพลตฟอร์ม SaaS เปลี่ยนการทำตามกฎหมายให้เป็นกำไร รับเงินเข้าบัญชีบริษัทโดยตรงบนทุกการขายต่อ",
-  "p1t": "โครงสร้างพื้นฐาน SaaS",
-  "p1h": "Invisible Wallets.",
-  "p1d": "ไม่มีเงื่อนไขความรู้ทางเทคนิค ไม่มีรหัสผ่าน เทคโนโลยี Account Abstraction ทำงานเบื้องหลังอัตโนมัติ 100%",
-  "p2t": "การปฏิวัติค่าลิขสิทธิ์",
-  "p2h": "Tokenized Exports.",
-  "p2d": "Smart contract จ่ายค่าลิขสิทธิ์ในรูปแบบ Fiat/USDT ให้คุณโดยอัตโนมัติเมื่อเกิดการขายต่อ",
-  "p3t": "ความไว้วางใจของยุโรป",
-  "p3h": "แพลตฟอร์ม SaaS B2B",
-  "p3d": "ระบบหลังบ้าน Web3 ที่ปลอดภัยสุดยอด (Base L2) มอบประสบการณ์เสมือนบริการธนาคารออนไลน์ทั่วไป",
-  "p4t": "การระบุที่ปลอมแปลงไม่ได้",
-  "p4h": "ฮาร์ดแวร์ NXP",
-  "p4d": "ตัวเชื่อมต่อฮาร์ดแวร์ผสานสินค้าของคุณเข้ากับ NFT ปกป้องคุณค่าของแบรนด์คุณจากโรงงานสู่การรีไซเคิล",
-  "quote": "\"การเข้าถึงตลาด EU 2027 จะไม่ใช่ความเสี่ยงอีกต่อไป แต่มันคืออาวุธลับในการแข่งขันระดับสากลของคุณ\"",
-  "quotesub": "— V-LEDGER // ช่องทางสู่การส่งออกยุโรป",
-  "badge": "แบตเตอรี่ สิ่งทอ และนาฬิกา // SEA Export",
+  "menu": "เมนู",
+  "login": "เข้าสู่ระบบ",
+  "manufacturerLogin": "คอนโซลนักพัฒนา",
+  "footerH2": "ความได้เปรียบของผู้เริ่มก่อน: เส้นขอบฟ้าปี 2030 เริ่มขึ้นแล้ว",
+  "footerP": "ภายในปี 2030 ผลิตภัณฑ์เกือบทุกประเภทหลักในสหภาพยุโรปจะต้องมี Digital Product Passport V-Ledger เป็นโครงสร้างพื้นฐานเดียวที่ได้รับการออกแบบมาเพื่อขยายตัวครอบคลุมกฎระเบียบทั้ง 4 ระลอก — ตั้งแต่แบตเตอรี่และสิ่งทอ (ปี 2027) ไปจนถึงเหล็กและสารเคมี (ปี 2030) แบรนด์ที่รวมระบบตั้งแต่ตอนนี้จะได้รับสิทธิ์การปฏิบัติตามกฎระเบียบโดยอัตโนมัติ รายได้จากตลาดรองที่ผ่านการรับรอง และความเป็นอิสระของทรัพยากร เรากำลังเปิดรับพันธมิตรเชิงกลยุทธ์สำหรับการใช้งานในเฟสที่ 1",
+  "contact": "ขอรับการตรวจสอบเชิงกลยุทธ์ปี 2030",
+  "copy": "&copy; 2025-2026 V-LEDGER // มาตรฐานเศรษฐกิจหมุนเวียนปี 2030",
+  "s1h": "ระบบอัตโนมัติ DPP แบบไร้การสัมผัส",
+  "s1p": "เชื่อมต่อ API โดยตรงกับระบบ SAP/ERP ภายในเวลาน้อยกว่า 8 ชั่วโมง การจับคู่ความสอดคล้องตามมาตรฐาน CEN/CENELEC JTC 24 อัตโนมัติ ทีมของคุณไม่ต้องดำเนินการใดๆ — โครงสร้างพื้นฐานของเราจัดการทุก SKU ในระดับอุตสาหกรรม",
+  "s2h": "Lifecycle Revenue Engine (เลเยอร์ 1)",
+  "s2p": "การขายต่อที่ได้รับการยืนยันมูลค่า €650 จะสร้างรายได้ค่าลิขสิทธิ์ €32.50 โดยอัตโนมัติ — โดยไม่มีใบแจ้งหนี้หรือกระบวนการด้วยมือ โมเดล 94/5/1 เปลี่ยนตลาดรองจากจุดบอดที่มองไม่เห็นให้กลายเป็นกระแสรายได้ถาวรของคุณ",
+  "p1t": "เลเยอร์ 1: ค่าลิขสิทธิ์จากการขายต่อ",
+  "p1h": "ส่วนแบ่งรายได้ 94/5/1",
+  "p1d": "ความไว้วางใจเพิ่มราคาตลาดรอง การรับรองความถูกต้องช่วยเพิ่มมูลค่าการขายต่อ — ผู้ขายได้กำไรมากขึ้น และแบรนด์จะได้รับ 5% โดยอัตโนมัติจากการทำธุรกรรมที่ได้รับการรับรองทุกครั้ง ไม่ต้องใช้ใบแจ้งหนี้ ไม่ต้องมีกระเป๋าเงินคริปโต",
+  "p2t": "เลเยอร์ 2: D2C Lifecycle Portal",
+  "p2h": "รายได้ที่ขับเคลื่อนด้วยบริการ",
+  "p2d": "DPP ทุกชุดกลายเป็นช่องทางการตลาดโดยตรงไปยังเจ้าของคนถัดไป: การขยายเวลาการรับประกันทันที อะไหล่แท้ที่คัดสรรจากข้อมูล Digital Twin และบริการ Maintenance-as-a-Service — ทั้งหมดเกิดขึ้นจากการสแกน NFC เพียงครั้งเดียว",
+  "p3t": "เลเยอร์ 3: เศรษฐกิจหมุนเวียน",
+  "p3h": "โทเค็นสีเขียวดิจิทัล",
+  "p3d": "เราให้แรงจูงใจสำหรับพฤติกรรม Return-to-Loop ผู้บริโภคจะได้รับ Digital Green Tokens เมื่อส่งคืนผลิตภัณฑ์เพื่อการรีไซเคิลที่ได้รับการยืนยันแล้ว ผู้รีไซเคิลได้รับรางวัลทันทีสำหรับการคัดแยกความบริสุทธิ์สูง ช่วยให้ผู้ผลิตเข้าถึงวัตถุดิบรอบสองที่ต้นทุนต่ำกว่าการสกัดใหม่",
+  "p4t": "เลเยอร์ 4: ความเป็นเลิศด้าน OPEX",
+  "p4h": "ขจัดความวุ่นวายด้านกฎระเบียบ",
+  "p4d": "ระบบอัตโนมัติช่วยลดภาระการบริหารงานในการจัดการ DPP แบบเดิม: ไม่มีการพิมพ์เอกสาร ไม่มีการกรอกข้อมูลด้วยมือ ไม่มีต้นทุนเอกสารทางกฎหมายต่อ SKU การผนวกรวมแบบไร้การสัมผัสช่วยประหยัดเงินหลายล้านให้กับองค์กรในช่วงเวลาถึงปี 2030",
+  "quote": "\"V-Ledger V5.5 เป็นโครงสร้างพื้นฐานเดียวที่ผสมผสานความพร้อมระดับอุตสาหกรรม ความแน่นอนทางกฎหมาย และนวัตกรรมโมเดลธุรกิจ เราไม่ได้แค่ปฏิบัติตามกฎ แต่เราทำกำไรได้ด้วย\"",
+  "quotesub": "— V-LEDGER V5.5 // เส้นทางสู่การหมุนเวียนที่ทำกำไร",
+  "badge": "เปลี่ยนความไว้ใจเป็นรายได้ · รักษาทรัพยากร · ขจัดความยุ่งยาก // V5.5",
   "calcH": "เครื่องคำนวณกำไร",
   "calcV": "ปริมาณการส่งออก (ชิ้น/ปี)",
   "calcR": "อัตราการขายต่อ (%)",
-  "calcF": "ค่าลิขสิทธิ์ (€/ชิ้น)",
+  "calcF": "ค่าธรรมเนียมลิขสิทธิ์ (€/ชิ้น)",
   "calcP": "กำไรต่อเนื่องต่อปี:",
   "lang": "th-th",
-  "metaTitle": "V-LEDGER | มาตรฐาน ESPR และพาสปอร์ตดิจิทัล (DPP)",
-  "metaDesc": "V-Ledger<br>Albertstr. 7, 47059 Duisburg ให้บริการโซลูชัน ESPR สำหรับแบตเตอรี่ สิ่งทอ และนาฬิกา พาสปอร์ตดิจิทัลที่ปลอดภัยผ่าน NTAG 424 DNA และ Blockchain",
+  "metaTitle": "V-LEDGER | โครงสร้างพื้นฐานเศรษฐกิจหมุนเวียนปี 2030 (DPP)",
+  "metaDesc": "V-Ledger V5.5 — โครงสร้างพื้นฐานอุตสาหกรรมระดับสากลสำหรับสหภาพยุโรป Digital Product Passport การรวม SAP แบบไร้การสัมผัส การสร้างรายได้ 4 ชั้น เป็นไปตามมาตรฐาน CEN/CENELEC JTC 24 ออกแบบในเมืองดุยส์บวร์ก",
   "cookie": {
-    "title": "การตรวจสอบความปลอดภัยและข้อกำหนด",
-    "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ V-Ledger และเพื่อให้เป็นไปตามกฎระเบียบของ EU เราใช้ตัวระบุรหัสประจำตัว (Cookies) โปรดยืนยันตัวตนและความต้องการของคุณ",
+    "title": "การตรวจสอบความปลอดภัยและกฎระเบียบ",
+    "msg": "เพื่อความปลอดภัยในการเข้าถึงโครงสร้างพื้นฐานของ V-Ledger และเพื่อความสอดคล้องตามข้อกำหนดของ EU เราจึงใช้ตัวระบุเข้ารหัส (Cookies) โปรดยืนยันตัวตนและการตั้งค่าของคุณ",
     "accept": "อนุญาตการเข้าถึง (ทั้งหมด)",
     "reject": "การเข้าถึงขั้นต่ำ",
     "settings": "การตั้งค่า",
-    "checking": "กำลังตรวจสอบระบบ..."
+    "checking": "ระบบกำลังดำเนินการตรวจสอบ..."
   },
   "faqTitle": "คำถามที่พบบ่อย (FAQ)",
   "faqs": [
     {
-      "q": "Digital Product Passport (DPP) คืออะไร และ V-Ledger ใช้งานอย่างไร?",
-      "a": "Digital Product Passport เป็นเอกลักษณ์ผลิตภัณฑ์ที่ EU กำหนดภายใต้ ESPR 2027 ซึ่ง V-Ledger สร้าง จัดเก็บ และบริหารจัดการ DPP อัตโนมัติด้วยฮาร์ดแวร์ NFC แบบเข้ารหัสและบล็อกเชนที่ไม่สามารถแก้ไขได้"
+      "q": "Digital Product Passport (DPP) คืออะไร และ V-Ledger นำไปใช้อย่างไร?",
+      "a": "Digital Product Passport คืออัตลักษณ์ของผลิตภัณฑ์ที่สหภาพยุโรปบังคับให้มีภายใต้ข้อกำหนด ESPR 2027 V-Ledger จะสร้าง จัดเก็บ และจัดการ DPP โดยอัตโนมัติ — รับรองความถูกต้องด้วยฮาร์ดแวร์ NFC แบบเข้ารหัสและบันทึกบนบล็อกเชนที่ไม่สามารถเปลี่ยนแปลงได้"
     },
     {
-      "q": "ทำไมต้องใช้ NXP Secure Hardware?",
-      "a": "รหัส QR ถูกคัดลอกได้ง่าย เราใช้ชิป NTAG 424 DNA เพื่อสร้างสะพานที่ป้องกันการปลอมแปลงระหว่างสินค้าทางกายภาพและ NFT"
+      "q": "ทำไมต้องใช้ฮาร์ดแวร์ความปลอดภัย NXP?",
+      "a": "คิวอาร์โค้ดสามารถคัดลอกได้ง่าย เราใช้ชิป NTAG 424 DNA ที่มีการเข้ารหัสลับเพื่อสร้างสะพานที่ป้องกันการปลอมแปลงระหว่างสินค้าทางกายภาพกับ Digital Product Passport ของสินค้าเหล่านั้น"
     },
     {
-      "q": "ค่าลิขสิทธิ์ทำงานอย่างไรโดยไม่ต้องมีกระเป๋าคริปโต?",
-      "a": "ผ่าน Account Abstraction และ Invisible Wallets แพลตฟอร์ม SaaS ของเราจัดการความซับซ้อนของบล็อกเชนทั้งหมด คุณได้รับค่าลิขสิทธิ์จากการขายต่อโดยตรงเป็นยูโรหรือ USDT"
+      "q": "ค่าลิขสิทธิ์ทำงานอย่างไรโดยไม่ต้องมีกระเป๋าเงินคริปโต?",
+      "a": "ผ่าน ERC-4337 Account Abstraction ระบบหลังบ้านของเราจะจัดการความซับซ้อนทั้งหมดให้ คุณจะได้รับเงินค่าลิขสิทธิ์โดยอัตโนมัติจากการขายต่อที่ได้รับการยืนยันแล้วผ่านแพลตฟอร์มพันธมิตรที่รวมระบบไว้ — ในรูปแบบสกุลเงิน EUR หรือ USDT โดยไม่ต้องมีวอลเล็ตหรือ Seed Phrase"
     },
     {
-      "q": "โซลูชันนี้เป็นไปตาม EU ESPR 2027 หรือไม่?",
-      "a": "ใช่ แพลตฟอร์มของเราได้รับการออกแบบมาโดยเฉพาะเพื่อตอบสนองข้อกำหนดของ Ecodesign for Sustainable Products Regulation (ESPR) รวมถึงพาสปอร์ตผลิตภัณฑ์ดิจิทัลภาคบังคับ"
+      "q": "โซลูชันนี้สอดคล้องตามข้อกำหนด EU ESPR 2027 หรือไม่?",
+      "a": "ใช่ แพลตฟอร์มของเราได้รับการออกแบบมาโดยเฉพาะเพื่อตอบสนองข้อกำหนดของ Ecodesign for Sustainable Products Regulation (ESPR) รวมถึงข้อกำหนดบังคับของ Digital Product Passport"
     },
     {
       "q": "ปัจจุบันรองรับอุตสาหกรรมใดบ้าง?",
-      "a": "ขณะนี้เรากำลังมุ่งเน้นไปที่ภาคส่วนที่มีความเร่งด่วนในการปฏิบัติตามกฎระเบียบสูงสุด: แบตเตอรี่ สิ่งทอ และนาฬิการะดับไฮเอนด์/สินค้าฟุ่มเฟือย"
+      "a": "ระลอกที่ 1 (ม.ค. 2027, มีผลบังคับใช้): แบตเตอรี่, สิ่งทอ, อิเล็กทรอนิกส์ ระลอกที่ 2 (ปี 2027-28): เฟอร์นิเจอร์, ยางรถยนต์ ระลอกที่ 3 (ปลายปี 2028-29): การติดตามวัสดุขั้นสูง ระลอกที่ 4 (ปี 2029-30): เหล็ก, สารเคมี, ผลิตภัณฑ์ขั้นกลางที่มีผลกระทบสูง"
     },
     {
-      "q": "กระบวนการตรวจสอบทำงานอย่างไร?",
-      "a": "ในระหว่างการตรวจสอบ เราจะวิเคราะห์โครงสร้างพื้นฐานการส่งออกในปัจจุบันของคุณ และจัดทำโรดแมปสำหรับการรวมบล็อกเชนและการติดแท็กฮาร์ดแวร์ของผลิตภัณฑ์ของคุณ"
+      "q": "กระบวนการตรวจสอบ (Audit) ทำงานอย่างไร?",
+      "a": "ในระหว่างการตรวจสอบเชิงกลยุทธ์ เราจะวิเคราะห์โครงสร้างพื้นฐาน ERP/SAP แคตตาล็อกสินค้า และช่องว่างการปฏิบัติตามกฎระเบียบปัจจุบันของคุณ คุณจะได้รับโรดแมปที่ชัดเจนสำหรับการผนวกรวม DPP แบบ Zero-Touch การติดตั้งระบบตรวจสอบฮาร์ดแวร์ และการเปิดใช้งานรายได้ตลอดวงจรชีวิต ซึ่งสามารถดำเนินการได้ภายในเวลาไม่ถึง 8 ชั่วโมง"
     },
     {
       "q": "V-Ledger แตกต่างจากผู้ให้บริการ DPP รายอื่นอย่างไร?",
-      "a": "V-Ledger เป็นแพลตฟอร์มเดียวที่รวมความพร้อมเชิงอุตสาหกรรม ความชัดเจนทางกฎหมาย และนวัตกรรมโมเดลธุรกิจ (การสร้างรายได้ 4 ชั้น) ผู้ให้บริการส่วนใหญ่แค่เก็บข้อมูล แต่เราแปลงเป็นรายได้"
+      "a": "V-Ledger เป็นเพียงแพลตฟอร์มเดียวที่รวมเอาความพร้อมระดับอุตสาหกรรม (V5.5 stack) ความชัดเจนทางกฎหมาย (CEN/CENELEC JTC 24, NTAG 424 DNA SUN — ช่วยลดความรับผิดจากการปลอมแปลง) และนวัตกรรมโมเดลธุรกิจ (การสร้างรายได้ 4 ชั้น: ค่าลิขสิทธิ์, พอร์ทัล D2C, Digital Green Tokens และการประหยัด OPEX) ในขณะที่ผู้ให้บริการ DPP รายอื่นส่วนใหญ่เน้นแค่การจัดเก็บข้อมูล แต่เราเปลี่ยนข้อมูลนั้นให้เป็นกำไร"
     },
     {
       "q": "ระบบค่าลิขสิทธิ์ทำงานบนแพลตฟอร์มใดบ้าง?",
-      "a": "การจ่ายค่าลิขสิทธิ์จะถูกกระตุ้นบนแพลตฟอร์มขายต่อที่ได้รับการรับรองและรวมเข้ากับโปรโตคอล V-Ledger การขายส่วนตัวที่ไม่ผ่านการรับรองจะอยู่นอกเหนือระบบนี้"
+      "a": "การจ่ายค่าลิขสิทธิ์จะเกิดขึ้นบนแพลตฟอร์มการขายต่อที่ผ่านการรับรองซึ่งผสานการทำงานกับโปรโตคอล V-Ledger การขายส่วนตัวที่ไม่ได้รับการยืนยันจะอยู่นอกระบบนิเวศที่ได้รับการรับรองนี้ โมเดล 94/5/1 หมายความว่า: ผู้ขายจะได้รับ 94% ของมูลค่าเพิ่มที่ผ่านการรับรอง และแบรนด์จะได้รับ 5% โดยอัตโนมัติโดยไม่ต้องออกใบแจ้งหนี้"
     },
     {
-      "q": "จะเกิดอะไรขึ้นหากระยะเวลา ESPR เปลี่ยนแปลง?",
-      "a": "V-Ledger สร้างขึ้นบนเฟรมเวิร์ก CEN/CENELEC JTC 24 ซึ่งพัฒนาไปพร้อมกับ ESPR สถาปัตยกรรมของเราเป็นแบบโมดูลาร์ จะอัปเดตการตอบสนองกฎเกณฑ์อัตโนมัติเมื่อมาตรฐานสรุป"
+      "q": "จะเกิดอะไรขึ้นหากกำหนดการ ESPR เปลี่ยนแปลง?",
+      "a": "V-Ledger สร้างขึ้นบนกรอบงาน CEN/CENELEC JTC 24 ซึ่งพัฒนาควบคู่ไปกับ ESPR สถาปัตยกรรมของเราเป็นแบบโมดูลาร์ — การจับคู่ความสอดคล้องจะอัปเดตโดยอัตโนมัติเมื่อมาตรฐานได้รับการสรุป การลงทุนของคุณจึงได้รับการคุ้มครองโดยไม่คำนึงถึงการปรับแก้ระเบียบข้อบังคับ"
     },
     {
-      "q": "ประเภทผลิตภัณฑ์ใดบ้างที่จะได้รับการรองรับหลังปี 2027?",
-      "a": "ระยะที่ 1 (2026-27): แบตเตอรี่ สิ่งทอ อิเล็กทรอนิกส์ ระยะที่ 2 (2027-28): เฟอร์นิเจอร์ ยางรถยนต์ ผงซักฟอก ระยะที่ 3 (2029-30): เหล็ก อลูมิเนียม สารเคมี"
+      "q": "หมวดหมู่ผลิตภัณฑ์ใดบ้างที่จะรองรับหลังจากปี 2027?",
+      "a": "เฟส 1 (2026-27): แบตเตอรี่, สิ่งทอ, อิเล็กทรอนิกส์ เฟส 2 (2027-28): เฟอร์นิเจอร์, ยางรถยนต์, สารซักฟอก, สี เฟส 3 (2029-30): เหล็ก, อะลูมิเนียม, สารเคมี, ผลิตภัณฑ์ขั้นกลาง V-Ledger ขยายตัวในแนวนอนครอบคลุมภาคส่วนที่สหภาพยุโรปให้ความสำคัญทั้งหมดตามที่คณะกรรมาธิการยุโรปกำหนด"
     },
     {
-      "q": "D2C Lifecycle Portal คืออะไร?",
-      "a": "ชั้นที่ 2 ของการสร้างรายได้ ทุก DPP จะกลายเป็นช่องทางการตลาดทางตรงไปยังเจ้าของผลิตภัณฑ์ถัดไป โดยนำเสนอการขยายเวลารับประกัน อะไหล่แท้ และบริการบำรุงรักษา"
+      "q": "D2C Lifecycle Portal คืออะไร และมันสร้างรายได้ให้แบรนด์ได้อย่างไร?",
+      "a": "นี่คือเลเยอร์ที่ 2 ของการสร้างรายได้ของเรา DPP ทุกอันจะกลายเป็นช่องทางการตลาดโดยตรงไปยังเจ้าของคนถัดไป เมื่อมีการเปลี่ยนกรรมสิทธิ์ที่ผ่านการรับรองแล้ว เจ้าของรายใหม่จะได้รับข้อเสนอขยายการรับประกันแบบเรียลไทม์ อะไหล่แท้ที่ผ่านการรับรอง (มาจากฐานข้อมูล Digital Twin) และการจอง Maintenance-as-a-Service อัตโนมัติกับพันธมิตรที่ผ่านการรับรอง ซึ่งทั้งหมดนี้เป็นจุดสัมผัสที่ทำเงินให้กับแบรนด์เดิมได้"
     },
     {
-      "q": "Digital Green Tokens คืออะไร?",
-      "a": "ชั้นที่ 3 ของการสร้างรายได้ เมื่อผู้บริโภคส่งคืนผลิตภัณฑ์เพื่อการรีไซเคิลที่ได้รับการยืนยัน พวกเขาจะได้รับโทเค็นเพื่อรับสิทธิประโยชน์ ช่วยให้ผู้ผลิตมีอำนาจในการบริหารจัดการวัตถุดิบรีไซเคิล"
+      "q": "Digital Green Tokens คืออะไร และระบบ Return-to-Loop ทำงานอย่างไร?",
+      "a": "นี่คือเลเยอร์ที่ 3 ของการสร้างรายได้ เมื่อผู้บริโภคส่งคืนสินค้าเพื่อรีไซเคิลแบบยืนยันได้ (ยืนยันผ่านการสแกนฮาร์ดแวร์ NFC) พวกเขาจะได้รับ Digital Green Tokens หรือเครดิตร้านค้าทันที ผู้รีไซเคิลจะได้รับรางวัลโบนัสสำหรับการคัดแยกวัสดุที่มีความบริสุทธิ์สูง ซึ่งเป็นไปได้เพราะข้อมูลระบุประเภทวัสดุจากชิปฮาร์ดแวร์ ผู้ผลิตจึงสามารถเข้าถึงวัตถุดิบรอบสองในราคาที่ต่ำกว่าการสกัดแบบดั้งเดิม ช่วยสร้างอิสระในการจัดการทรัพยากร"
     }
   ],
   "legal": {
-    "imprint": "ข้อมูลทางกฎหมาย",
-    "privacy": "ความเป็นส่วนตัว",
-    "terms": "ข้อกำหนด",
-    "back": "กลับสู่หน้าหลัก",
+    "imprint": "ข้อมูลด้านกฎหมาย",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "ข้อตกลงและเงื่อนไข",
+    "back": "กลับไปยังหน้าหลัก",
     "agree": "ฉันยินยอมให้ประมวลผลข้อมูลตาม",
     "content": {
-      "imprint": "<h1>ประกาศทางกฎหมาย</h1><p>V-Ledger<br>Albertstr. 7, 47059 Duisburg<br>อีเมล: info@V-Ledger.com</p>",
-      "privacy": "<h1>นโยบายความเป็นส่วนตัว (GDPR)</h1><p>เราให้ความสำคัญกับการคุ้มครองข้อมูลของคุณ...</p>",
-      "terms": "<h1>ข้อกำหนดการให้บริการ</h1><p>บริการของเรามีไว้สำหรับลูกค้า B2B เท่านั้น</p>"
+      "imprint": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>ข้อมูลประกาศทางกฎหมาย</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>ข้อมูลตามมาตรา 5 แห่งกฎหมาย TMG</h3><p class='text-xl text-white font-bold mb-1'>V-Ledger</p><p class='text-white/60 leading-relaxed font-medium'>Albertstr. 7<br>47059 Duisburg<br>ประเทศเยอรมนี</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>ตัวแทนดำเนินการ</h3><p class='text-white/80 leading-relaxed font-medium'>Arndt Christoph Handschuh (Managing Director)</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>ข้อมูลติดต่อ</h3><p class='text-white/60 leading-relaxed font-medium'>อีเมล: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a><br><span class='text-[10px] opacity-40 uppercase'>ช่องทางติดต่อทางโทรศัพท์กำลังดำเนินการจัดเตรียม</span></p></section></div>",
+      "privacy": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>นโยบายความเป็นส่วนตัว</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>1. ผู้ควบคุมข้อมูล</h3><p class='text-white/60 leading-relaxed font-medium'>V-Ledger<br>Arndt Christoph Handschuh<br>อีเมล: <a href='mailto:info@V-Ledger.com' class='text-white underline decoration-[#a88c5a]/40 hover:decoration-[#a88c5a] transition-all'>info@V-Ledger.com</a></p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>2. การเก็บรวบรวมข้อมูล</h3><p class='text-white/60 leading-relaxed font-medium'>เรารวบรวมชื่อ อีเมล และข้อความผ่านทางฟอร์มการกรอกข้อมูล เพื่อวัตถุประสงค์ในการประมวลผลคำขอของคุณ หรือเพื่อจัดเตรียมการตรวจสอบเท่านั้น โดยอาศัยฐานทางกฎหมายตาม GDPR มาตรา 6 (1) (b)</p></section></div>",
+      "terms": "<h1 class='text-4xl font-black mb-12 tracking-tight uppercase'>ข้อกำหนดและเงื่อนไขการให้บริการ</h1><div class='space-y-10'><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>ขอบเขตการใช้บริการ</h3><p class='text-white/60 leading-relaxed font-medium'>การให้บริการของเรามีไว้สำหรับลูกค้าประเภท B2B (ผู้ประกอบการ) ในส่วนของการปฏิบัติตามกฎระเบียบส่งออกและพาสปอร์ตดิจิทัลของผลิตภัณฑ์โดยเฉพาะ</p></section><section><h3 class='text-[#a88c5a] text-xs uppercase tracking-widest font-black mb-4'>รายละเอียดการให้บริการ</h3><p class='text-white/60 leading-relaxed font-medium'>เรามีโซลูชันระบบ SaaS สำหรับการสร้าง DPP ผ่านทางเทคโนโลยีบล็อกเชน และการรวมระบบของฮาร์ดแวร์ NXP</p></section></div>"
     }
   },
   "aboutUs": {
     "nav": "เกี่ยวกับเรา",
-    "title": "ประตูสู่ยุโรป",
-    "subtitle": "เชื่อมโยงเทคโนโลยีและกฎระเบียบ",
-    "content": "<h3>ท่าเรือดุยส์บวร์ก: ประตูสู่ยุโรป</h3><p>V-Ledger ดำเนินงานในฐานะศูนย์กลางทางกายภาพและกฎหมายที่ท่าเรือภายในประเทศที่ใหญ่ที่สุดในยุโรปที่เมืองดุยส์บวร์ก เราให้บริการโครงสร้างพื้นฐานเพื่อก้าวผ่านกฎระเบียบการนำเข้าของยุโรป (ESPR 2027)</p><h3>เทคโนโลยีพบกับกฎระเบียบเยอรมัน</h3><p>พันธมิตรเอเชียของเราจัดการการผลิต เราดูแลให้ทุกผลิตภัณฑ์ได้รับ Digital Product Passport (DPP) ที่ปลอดภัยสูงสุดโดยใช้ Base L2 Blockchain และ NTAG 424 DNA</p><h3>ความถูกต้องของคุณ คือธุรกิจของเรา</h3><p>เราจัดการความซับซ้อนและรับผิดชอบทางกฎหมาย ส่งออกอย่างราบรื่นและเติบโตอย่างไร้ขีดจำกัด</p>"
+    "title": "มาตรฐานเศรษฐกิจหมุนเวียนปี 2030",
+    "subtitle": "เปลี่ยนความไว้วางใจให้เป็นรายได้ รักษาทรัพยากร ขจัดความสับสน",
+    "content": "<h3>V-Ledger มีสำนักงานใหญ่ตั้งอยู่ที่เมืองดุยส์บวร์ก — ท่าเรือในประเทศที่ใหญ่ที่สุดของยุโรป</h3><p>เราไม่เคยมองว่าข้อบังคับ ESPR 2027 เป็นภาระในการปฏิบัติตามกฎเกณฑ์ แต่เราได้สร้างโครงสร้างพื้นฐานที่เปลี่ยนข้อบังคับนั้นให้กลายเป็นกลไกสร้างรายได้แบบ 4 เลเยอร์ และมอบความได้เปรียบทางการแข่งขันแบบถาวร</p><h3>จากความวุ่นวายในองค์กร สู่ความสามารถในการทำกำไรเชิงกลยุทธ์</h3><p>แนวทางการจัดการ DPP ในปัจจุบันมักล้มเหลวเพราะให้ความสำคัญไปที่เพียงการเก็บข้อมูลแบบคงที่ V-Ledger เปลี่ยนงานเอกสารในองค์กรให้เป็นระบบอัตโนมัติทางเทคโนโลยี: การเชื่อมต่อกับระบบ SAP/ERP แบบไร้การสัมผัสในเวลาต่ำกว่า 8 ชั่วโมง, การจับคู่ความสอดคล้องตามมาตรฐาน JTC 24 อัตโนมัติ และการใช้ตัวเชื่อมความไว้ใจทางฮาร์ดแวร์ที่ช่วยขจัดความรับผิดต่อสินค้าปลอมแปลง — ทั้งหมดนี้ทำได้ในสเกลระดับอุตสาหกรรม</p><h3>โครงสร้างการสร้างรายได้แบบ 4 เลเยอร์</h3><p>ทุกจุดสัมผัสในวงจรชีวิตผลิตภัณฑ์ล้วนสามารถสร้างรายได้: เลเยอร์ที่ 1 (ค่าลิขสิทธิ์ขายต่อแบบ 94/5/1), เลเยอร์ที่ 2 (พอร์ทัล D2C ที่เชื่อมกับบริการรับประกัน & MaaS), เลเยอร์ที่ 3 (โทเค็นสีเขียวดิจิทัล / Return-to-Loop), เลเยอร์ที่ 4 (การประหยัด OPEX ผ่านระบบอัตโนมัติเต็มรูปแบบ) เราไม่ได้แค่ทำตามกฎข้อบังคับ แต่เราทำกำไรได้จริง</p><h3>จากการปฏิบัติตามกฎระเบียบปี 2027 สู่ความเป็นอิสระของทรัพยากรปี 2030</h3><p>กฎข้อบังคับ ESPR นั้นเป็นเพียงแค่จุดเริ่มต้นเท่านั้น ภายในปี 2030 กรอบการทำงานเศรษฐกิจหมุนเวียนจะครอบคลุมผลิตภัณฑ์หลักทุกประเภทในสหภาพยุโรป V-Ledger เป็นโครงสร้างพื้นฐานระบบเดียวที่ออกแบบมาเพื่อขยายขอบเขตการทำงานครอบคลุมการเปลี่ยนแปลงทั้ง 4 ระลอก — เริ่มต้นจากแบตเตอรี่และสิ่งทอในวันนี้ ไปจนถึงเหล็ก เคมี และผลิตภัณฑ์อื่นๆ ในปี 2029/30 เราไม่ได้สร้างเครื่องมือสำหรับแค่ปฏิบัติตามกฎ แต่เรากำลังร่วมสร้างมาตรฐานใหม่ให้กับโลก</p>"
   },
   "tech": {
     "nav": "เทคโนโลยี",
-    "title": "Advanced Web3 Tech Stack",
-    "subtitle": "โครงสร้างพื้นฐาน SaaS อุตสาหกรรมสำหรับการส่งออกโดยไม่มีการปลอมแปลง",
-    "sidebar": "แพลตฟอร์ม SaaS ผสานระบบฮาร์ดแวร์แห่งศตวรรษ (NXP) เข้ากับ Smart Contracts อัจฉริยะ (Base L2) โดยไร้รอยต่อผ่าน Invisible Wallets",
-    "content": "<h3>สถาปัตยกรรมระดับถัดไป</h3><p class='text-white/60 max-w-3xl mb-8'>เราผสานซอฟต์แวร์ Web3 เข้ากับฮาร์ดแวร์ที่แข็งแกร่ง ในฐานะผู้ให้บริการ SaaS เราจัดการความซับซ้อนให้คุณทั้งหมด ป้องกันความเสี่ยงตามกฎระเบียบและสร้างรายได้</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NTAG 424 DNA (การเชื่อมโยงกายภาพ)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" ry=\"2\"></rect><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\"></rect><line x1=\"9\" y1=\"1\" x2=\"9\" y2=\"4\"></line><line x1=\"15\" y1=\"1\" x2=\"15\" y2=\"4\"></line><line x1=\"9\" y1=\"20\" x2=\"9\" y2=\"23\"></line><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"23\"></line><line x1=\"20\" y1=\"9\" x2=\"23\" y2=\"9\"></line><line x1=\"20\" y1=\"14\" x2=\"23\" y2=\"14\"></line><line x1=\"1\" y1=\"9\" x2=\"4\" y2=\"9\"></line><line x1=\"1\" y1=\"14\" x2=\"4\" y2=\"14\"></line></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">NTAG 424 DNA (การเชื่อมโยงกายภาพ)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    คิวอาร์โค้ดไร้ค่าต่อการปลอมแปลงระดับมืออาชีพ เราใช้ชิป NFC ที่ปลอดภัยทางรหัสผ่านจาก NXP สแกนแล้วจะสร้างโค้ดแบบไดนามิก ป้องกันการปลอมแปลงร้อยเปอร์เซ็นต์\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2 Blockchain\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"></polygon><polyline points=\"2 17 12 22 22 17\"></polyline><polyline points=\"2 12 12 17 22 12\"></polyline></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 Blockchain</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    การระบุตัวตนบนสินค้าถูกเข้ารหัสบน Base L2 ตลอดกาล มีความสามารถในการขยายระบบสูงมากด้วยต้นทุนการทำธุรกรรมที่ต่ำ\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"Royalty Engine\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"></path><path d=\"M22 12A10 10 0 0 0 12 2v10z\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Royalty Engine</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    ก้าวข้ามต้นทุนสู่ผลกำไร: สัญญาอัจฉริยะทำให้การชำระเงินเกิดขึ้นโดยอัตโนมัติเมื่อมีการขายต่อสินค้า แจกแจงผลตอบแทนผ่าน On-Chain ทันที\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"Account Abstraction\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M22 12h-4l-3 9L9 3l-3 9H2\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Account Abstraction</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    มาตรฐาน ERC-4337 ใช้ขจัดภาระของผู้ใช้งาน ค่าธรรมเนียมทั้งหมดถูกชำระโดยระบบหลังบ้าน ไม่ต้องมีรหัสผ่าน ให้ประสบการณ์ดั่งระบบธนาคารออนไลน์\n                </p>\n            </div>\n        </div></div>"
+    "title": "โครงสร้างพื้นฐาน DPP เกรดอุตสาหกรรม",
+    "subtitle": "กลุ่มเทคโนโลยีเบื้องหลังระบบปฏิบัติตามกฎของ EU แบบอัตโนมัติและรายได้ตลอดอายุการใช้งาน",
+    "sidebar": "V-Ledger รวบรวมฮาร์ดแวร์การเข้ารหัสลับ บันทึกบล็อกเชนที่แก้ไขไม่ได้ และการรวมระบบ SAP ERP ขององค์กรเข้าไว้ในเลเยอร์การจัดการกฎระเบียบแบบอัตโนมัติเพียงจุดเดียว",
+    "content": "<h3>โครงสร้างพื้นฐาน DPP เกรดอุตสาหกรรม</h3><p class='text-white/60 max-w-3xl mb-8'>V-Ledger รวมเอาฮาร์ดแวร์เข้ารหัส บันทึกบล็อกเชนที่ไม่เปลี่ยนแปลง และการรวมระบบ ERP ระดับองค์กรมาไว้ในเลเยอร์การปฏิบัติตามกฎหมายแบบอัตโนมัติชั้นเดียว เราจะช่วยจัดการความซับซ้อนทางเทคนิคทั้งหมด — ให้คุณโฟกัสไปเพียงผลลัพธ์ทางธุรกิจเท่านั้น</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424 (Hardware Anchor)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (ตัวยึดโยงฮาร์ดแวร์)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    คิวอาร์โค้ดไม่มีประโยชน์ในการต่อต้านสินค้าปลอมแบบมืออาชีพ เราจึงใช้ชิป NFC ที่เข้ารหัสลับปลอดภัยสูงจาก NXP ทุกครั้งที่มีการสแกนผลิตภัณฑ์ ชิปจะสร้างรหัสเข้ารหัสแบบไดนามิกที่มีเอกลักษณ์ขึ้นมา สร้างสะพานที่ป้องกันการแอบอ้างสิทธิ์ใดๆ ไปยัง Digital Product Passport (DPP)\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2 (Secure Ledger)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (บัญชีแยกประเภทที่ปลอดภัย)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    ข้อมูลอัตลักษณ์ดิจิทัลของผลิตภัณฑ์จะถูกจารึกไว้ตลอดกาลบน <strong>Base (Ethereum Layer 2)</strong> เพื่อรับรองความสามารถในการขยายตัวที่ยอดเยี่ยมด้วยค่าธรรมเนียมธุรกรรมที่ต่ำมาก พร้อมสืบทอดความปลอดภัยที่แข็งแกร่งจากเครือข่ายหลัก Ethereum\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"Royalty Engine\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Royalty Engine</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    เปลี่ยนการลงทุนของคุณให้เป็นกำไร: Smart Contracts ที่เขียนขึ้นมาเป็นการเฉพาะ จะทำหน้าที่เริ่มสั่งจ่ายเงินโดยอัตโนมัติเมื่อใดก็ตามที่มีการขายทอดตลาดสินค้าเกิดขึ้น ตรรกะบนเชน (On-Chain) จะควบคุมและแจกจ่ายค่าธรรมเนียมลิขสิทธิ์ไปยังผู้ที่ได้รับสิทธิ์โดยตรงและอิสระ\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"Account Abstraction\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Account Abstraction</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    เราใช้มาตรฐาน ERC-4337 ค่าธรรมเนียมการทำธุรกรรมทั้งหมดจะได้รับการสนับสนุนผ่านระบบชำระเงินหลังบ้านที่เป็นกรรมสิทธิ์ของเรา ไม่ต้องจดจำ Seed Phrases เพียงแค่รอรับรายได้ในรูปเงินสกุล Fiat หรือ USDT — เปลี่ยนการเข้ารหัสลับที่ซับซ้อนให้พร้อมสำหรับธุรกิจองค์กรโดยสมบูรณ์\n                </p>\n            </div>\n        </div>\n        </div>"
   }
 }

@@ -1,136 +1,137 @@
 {
-  "demoTitle": "Sandbox DPP Tương tác",
-  "demoDesc": "Chọn danh mục & mô phỏng quét NXP:",
+  "demoTitle": "Interactive DPP Sandbox",
+  "demoDesc": "Chọn danh mục & giả lập quét NXP:",
   "selectProduct": "Chọn Sản phẩm",
-  "scanBtn": "Mô phỏng quét NFC NXP (SUN AES-128)",
+  "scanBtn": "Giả lập Quét NFC NXP (SUN AES-128)",
   "batteryName": "Pin Li-Ion",
   "textileName": "Áo khoác len (ESPR)",
   "watchName": "Đồng hồ bấm giờ",
-  "lifecycleName": "Chu kỳ sống End-to-End",
+  "lifecycleName": "Vòng đời đầu cuối",
   "customsName": "Xác minh Hải quan (UNTP)",
-  "resellName": "Đổi chủ & Bán lại",
+  "resellName": "Chuyển đổi sở hữu & Bán lại",
   "recyclingName": "Tái chế & Hoàn tiền",
-  "h1": "Giải pháp SaaS cho Xuất khẩu.<br>Tuân thủ ESPR & NFTs.<br><span class=\"gradient-text\">DOANH THU TỪ PHÍ BẢN QUYỀN.</span>",
-  "sub": "Kỹ thuật của Đức đáp ứng dịch vụ hậu cần toàn cầu: Chúng tôi mã hóa chuỗi cung ứng của bạn dưới dạng SaaS và đảm bảo thu nhập thụ động cho mỗi lần bán lại ở Châu Âu.",
-  "cta": "Bắt đầu Kiểm tra Xuất khẩu 2027",
-  "madeInGermany": "Kỹ thuật Đức & An ninh Pháp lý",
-  "mHeader": "Kiểm tra Đối tác Chiến lược",
+  "h1": "Cơ sở Hạ tầng Công nghiệp Toàn cầu<br>cho Kinh tế Tuần hoàn 2030.",
+  "sub": "V-Ledger V5.5 thay thế việc tuân thủ DPP thủ công bằng tự động hóa hoàn toàn — và biến mọi điểm chạm vòng đời thành sự kiện tạo doanh thu. Tiền tệ hóa Niềm tin. Bảo vệ Nguồn lực. Loại bỏ Sự hỗn loạn.",
+  "cta": "Yêu cầu Kiểm tra Chiến lược 2030",
+  "madeInGermany": "Kỹ thuật Đức & Bảo mật Pháp lý",
+  "mHeader": "Kiểm toán Đối tác Chiến lược",
   "faqNav": "FAQ",
-  "login": "Login",
-  "manufacturerLogin": "Developer Console",
-  "footerH2": "NGƯỜI ĐI ĐẦU: PIN, DỆT MAY & ĐỒNG HỒ.",
-  "footerP": "Hãy là nhà xuất khẩu đầu tiên làm thủ tục hải quan EU mà không gặp trở ngại nào. Chúng tôi đang tuyển chọn đối tác chiến lược.",
-  "contact": "Yêu cầu Kiểm tra",
-  "copy": "&copy; 2025-2026 V-LEDGER // BẢO MẬT XUẤT KHẨU & DOANH THU THỤ ĐỘNG.",
-  "s1h": "NFTs as a Service",
-  "s1p": "Tự động hóa số hóa Hộ chiếu Sản phẩm cho container của bạn. Chúng tôi trừu tượng hóa blockchain.",
-  "s2h": "Phí Bản quyền Smart Contract",
-  "s2p": "Nền tảng SaaS biến tuân thủ thành lợi nhuận. Nhận thanh toán trực tiếp vào tài khoản công ty với mọi lần bán lại.",
-  "p1t": "Hạ tầng SaaS",
-  "p1h": "Ví Vô hình.",
-  "p1d": "Không yêu cầu kỹ thuật, không có key lưu trữ. Công nghệ Account Abstraction hoạt động 100% trong nền.",
-  "p2t": "Cách mạng Bản quyền",
-  "p2h": "Xuất khẩu qua Token.",
-  "p2d": "Hợp đồng thông minh phân bổ doanh thu tự động bằng fiat/USDT cho bạn trên mỗi lần bán lại.",
-  "p3t": "Niềm tin Nguồn gốc EU",
-  "p3h": "Nền tảng SaaS B2B.",
-  "p3d": "Hạ tầng Web3 bảo mật (Base L2) kết hợp với trải nghiệm như ngân hàng trực tuyến truyền thống.",
-  "p4t": "Định danh Bí mật",
-  "p4h": "Phần cứng Bảo mật NXP.",
-  "p4d": "Mỏ neo vật lý liên kết hàng hóa với NFT, bảo vệ giá trị thương hiệu từ nhà máy đến tái chế.",
-  "quote": "\"Truy cập thị trường EU 2027 không còn là rủi ro. Đó là lợi thế cạnh tranh tối thượng của bạn trên thị trường toàn cầu.\"",
-  "quotesub": "— V-LEDGER // CỔNG XUẤT KHẨU CHÂU ÂU",
-  "badge": "Chuyên dùng cho Pin, Dệt may & Đồng hồ // SEA Export",
-  "calcH": "Công cụ Tính Lợi nhuận",
-  "calcV": "Sản lượng Xuất khẩu (Sản phẩm/Năm)",
+  "menu": "MENU",
+  "login": "Đăng nhập",
+  "manufacturerLogin": "Console Nhà phát triển",
+  "footerH2": "LỢI THẾ NGƯỜI ĐI ĐẦU: TẦM NHÌN 2030 BẮT ĐẦU NGAY BÂY GIỜ.",
+  "footerP": "Đến năm 2030, mọi danh mục sản phẩm chính tại EU đều yêu cầu Hộ chiếu Sản phẩm Kỹ thuật số. V-Ledger là cơ sở hạ tầng duy nhất được thiết kế để mở rộng quy mô trên tất cả bốn làn sóng quy định — từ Pin & Dệt may (2027) đến Thép & Hóa chất (2030). Các thương hiệu tích hợp ngay từ bây giờ sẽ đạt được sự tuân thủ tự động, doanh thu thị trường thứ cấp được xác thực và tự chủ về nguồn lực.",
+  "contact": "Yêu cầu Kiểm tra Chiến lược 2030",
+  "copy": "&copy; 2025-2026 V-LEDGER // TIÊU CHUẨN KINH TẾ TUẦN HOÀN 2030.",
+  "s1h": "Tự động hóa DPP Zero-Touch",
+  "s1p": "Kết nối API trực tiếp tới các hệ thống SAP/ERP dưới 8 giờ. Tự động ánh xạ tuân thủ CEN/CENELEC JTC 24. Cơ sở hạ tầng của chúng tôi xử lý mọi SKU ở quy mô công nghiệp.",
+  "s2h": "Động cơ Doanh thu Vòng đời (Lớp 1)",
+  "s2p": "Một đợt bán lại trị giá €650 được xác minh sẽ tự động tạo ra phí bản quyền €32.50 — không cần hóa đơn hay quy trình thủ công. Mô hình 94/5/1 biến thị trường thứ cấp thành dòng doanh thu vĩnh viễn.",
+  "p1t": "Lớp 1: Phí bản quyền Bán lại",
+  "p1h": "Chia sẻ Doanh thu 94/5/1.",
+  "p1d": "Niềm tin làm tăng giá thị trường thứ cấp. Bằng cách chứng nhận tính xác thực, giá trị bán lại tăng — người bán có thêm lợi nhuận và thương hiệu tự động nhận được 5% trên mỗi giao dịch.",
+  "p2t": "Lớp 2: Cổng thông tin Vòng đời D2C",
+  "p2h": "Doanh thu Định hướng Dịch vụ.",
+  "p2d": "Mỗi DPP trở thành một kênh tiếp thị trực tiếp cho chủ sở hữu tiếp theo: gia hạn bảo hành tức thì, phụ tùng thay thế chính hãng và Dịch vụ Bảo trì — tất cả được kích hoạt bằng một lần quét NFC duy nhất.",
+  "p3t": "Lớp 3: Kinh tế Tuần hoàn",
+  "p3h": "Token Xanh Kỹ thuật số.",
+  "p3d": "Chúng tôi khuyến khích hành vi Return-to-Loop. Người tiêu dùng nhận được Token Xanh Kỹ thuật số khi tái chế đã được xác minh. Nhà tái chế nhận được tiền thưởng tức thì cho việc phân loại có độ tinh khiết cao.",
+  "p4t": "Lớp 4: Xuất sắc về OPEX",
+  "p4h": "Loại bỏ Hỗn loạn Tuân thủ.",
+  "p4d": "Tự động hóa loại bỏ chi phí hành chính tuân thủ DPP thủ công: không in ấn, không nhập dữ liệu thủ công, không tốn chi phí tài liệu pháp lý trên mỗi SKU.",
+  "quote": "\"V-Ledger V5.5 là cơ sở hạ tầng duy nhất kết hợp Sự trưởng thành Công nghiệp, Tính chắc chắn về Pháp lý và Đổi mới Mô hình Kinh doanh.\"",
+  "quotesub": "— V-LEDGER V5.5 // CON ĐƯỜNG ĐẾN TÍNH TUẦN HOÀN CÓ LỢI NHUẬN",
+  "badge": "Tiền tệ hóa Niềm tin · Bảo vệ Nguồn lực · Loại bỏ Hỗn loạn // V5.5",
+  "calcH": "Máy tính Lợi nhuận",
+  "calcV": "Khối lượng Xuất khẩu (Đơn vị/Năm)",
   "calcR": "Tỷ lệ Bán lại (%)",
-  "calcF": "Phí Bản quyền (€/Sản phẩm)",
+  "calcF": "Phí Bản quyền (€/Đơn vị)",
   "calcP": "Lợi nhuận Thụ động Hàng năm:",
   "lang": "vi-vn",
-  "metaTitle": "V-LEDGER | Tuân thủ ESPR & Hộ chiếu Pin (DPP)",
-  "metaDesc": "V-Ledger<br>Albertstr. 7, 47059 Duisburg cung cấp giải pháp tuân thủ ESPR cho pin, dệt may và đồng hồ. Hộ chiếu sản phẩm kỹ thuật số bảo mật qua NTAG 424 DNA & Blockchain.",
+  "metaTitle": "V-LEDGER | Cơ sở Hạ tầng Kinh tế Tuần hoàn 2030 (DPP)",
+  "metaDesc": "V-Ledger V5.5 — Cơ sở hạ tầng công nghiệp phổ quát cho Hộ chiếu Sản phẩm Kỹ thuật số EU. Tích hợp SAP Zero-Touch, kiếm tiền 4 lớp, tuân thủ CEN/CENELEC JTC 24.",
   "cookie": {
-    "title": "KIỂM TRA AN NINH & TUÂN THỦ",
-    "msg": "Để bảo mật quyền truy cập vào hạ tầng V-Ledger và đảm bảo tuân thủ EU, chúng tôi sử dụng các mã định danh mã hóa (Cookies). Hãy xác nhận danh tính và tùy chọn của bạn.",
+    "title": "KIỂM TRA BẢO MẬT & TUÂN THỦ",
+    "msg": "Để bảo mật quyền truy cập vào cơ sở hạ tầng V-Ledger và đảm bảo tuân thủ EU, chúng tôi sử dụng các định danh mật mã (Cookies). Xác minh danh tính và tùy chọn của bạn.",
     "accept": "CẤP QUYỀN TRUY CẬP (TẤT CẢ)",
     "reject": "TRUY CẬP TỐI THIỂU",
-    "settings": "TÙY CHỌN",
-    "checking": "Đang kiểm tra hệ thống..."
+    "settings": "CÀI ĐẶT",
+    "checking": "Hệ thống đang kiểm tra..."
   },
-  "faqTitle": "Các câu hỏi thường gặp (FAQ)",
+  "faqTitle": "Câu hỏi Thường gặp (FAQ)",
   "faqs": [
     {
-      "q": "Hộ chiếu Sản phẩm Kỹ thuật số (DPP) là gì và V-Ledger thực hiện nó như thế nào?",
-      "a": "Hộ chiếu Sản phẩm Số là định danh sản phẩm theo quy định của EU thuộc ESPR 2027. V-Ledger tự động tạo, lưu trữ và quản lý DPP dựa trên phần cứng NFC mật mã và sổ cái blockchain không thể thay đổi."
+      "q": "Hộ chiếu Sản phẩm Kỹ thuật số (DPP) là gì và V-Ledger triển khai nó như thế nào?",
+      "a": "DPP là nhận dạng sản phẩm bắt buộc của EU theo ESPR 2027. V-Ledger tự động tạo, lưu trữ và quản lý các DPP — được hỗ trợ bởi phần cứng NFC mật mã và hồ sơ blockchain bất biến."
     },
     {
-      "q": "Tại sao sử dụng Phần cứng Bảo mật NXP?",
-      "a": "Mã QR rất dễ bị sao chép. Chúng tôi sử dụng chip mã hóa NTAG 424 DNA để tạo ra một cầu nối chống giả mạo giữa hàng hóa vật lý và hộ chiếu sản phẩm kỹ thuật số."
+      "q": "Tại sao nên sử dụng Phần cứng Bảo mật NXP?",
+      "a": "Mã QR dễ dàng bị sao chép. Chúng tôi sử dụng chip mật mã NTAG 424 DNA để tạo ra cầu nối chống giả mạo giữa hàng hóa vật lý và Hộ chiếu Sản phẩm Kỹ thuật số của chúng."
     },
     {
-      "q": "Phí bản quyền hoạt động như thế nào nếu không có ví điện tử?",
-      "a": "Thông qua Account Abstraction, nền tảng SaaS của chúng tôi xử lý tất cả sự phức tạp. Bạn nhận được phí bản quyền trực tiếp qua thanh toán ngân hàng tự động bằng Euro hoặc USDT."
+      "q": "Các khoản phí bản quyền hoạt động như thế nào mà không cần ví tiền điện tử?",
+      "a": "Thông qua Trừu tượng hóa Tài khoản ERC-4337, backend của chúng tôi xử lý mọi sự phức tạp. Bạn nhận được các khoản thanh toán phí bản quyền tự động trên mỗi lần bán lại đã được xác minh thông qua các nền tảng đối tác tích hợp — bằng EUR hoặc USDT."
     },
     {
       "q": "Giải pháp có tuân thủ EU ESPR 2027 không?",
-      "a": "Có, nền tảng của chúng tôi được thiết kế để đáp ứng đầy đủ yêu cầu của Quy định Thiết kế Sinh thái cho Sản phẩm Bền vững (ESPR)."
+      "a": "Có, nền tảng của chúng tôi được thiết kế đặc biệt để đáp ứng các yêu cầu của Quy định Thiết kế Sinh thái cho Sản phẩm Bền vững (ESPR), bao gồm DPP bắt buộc."
     },
     {
       "q": "Những ngành công nghiệp nào hiện đang được hỗ trợ?",
-      "a": "Chúng tôi tập trung vào các nhóm ưu tiên: Pin, Dệt may, Điện tử và Hàng tiêu dùng cao cấp."
+      "a": "Làn sóng 1 (Tháng 1 năm 2027): Pin, Dệt may, Điện tử. Làn sóng 2 (2027-28): Nội thất, Lốp xe. Làn sóng 3 (cuối 2028-29): Truy xuất nguồn gốc vật liệu tiên tiến. Làn sóng 4 (2029-30): Thép, Hóa chất."
     },
     {
-      "q": "Quy trình kiểm toán hoạt động như thế nào?",
-      "a": "Chúng tôi phân tích cơ sở hạ tầng ERP hiện tại và thiết lập lộ trình tích hợp blockchain và gắn nhãn phần cứng bảo mật cho sản phẩm của bạn."
+      "q": "Quá trình kiểm tra hoạt động như thế nào?",
+      "a": "Trong quá trình kiểm tra chiến lược, chúng tôi phân tích cơ sở hạ tầng ERP/SAP hiện tại của bạn. Bạn nhận được lộ trình cụ thể để tích hợp DPP Zero-Touch, triển khai xác thực phần cứng, có thể thực hiện trong dưới 8 giờ."
     },
     {
       "q": "V-Ledger khác biệt như thế nào so với các nhà cung cấp DPP khác?",
-      "a": "V-Ledger kết hợp hoàn hảo Sự trưởng thành của ngành, Tính chắc chắn pháp lý và Mô hình kinh doanh 4 lớp. Hầu hết các bên chỉ lưu trữ dữ liệu, còn chúng tôi kiếm tiền từ nó."
+      "a": "Là nền tảng duy nhất kết hợp Sự trưởng thành Công nghiệp (V5.5), Sự chắc chắn về Pháp lý (JTC 24) và Đổi mới Mô hình Kinh doanh (kiếm tiền 4 lớp). Hầu hết chỉ lưu trữ dữ liệu, chúng tôi kiếm tiền từ nó."
     },
     {
-      "q": "Hệ thống phí bản quyền hoạt động trên những nền tảng nào?",
-      "a": "Thanh toán được kích hoạt trên các nền tảng bán lại được tích hợp giao thức V-Ledger. Mô hình 94/5/1 đảm bảo thương hiệu nhận 5% tự động không cần hóa đơn."
+      "q": "Hệ thống bản quyền hoạt động trên những nền tảng nào?",
+      "a": "Thanh toán phí bản quyền được kích hoạt trên các nền tảng bán lại được chứng nhận được tích hợp với giao thức V-Ledger. Các giao dịch cá nhân không được xác minh nằm ngoài hệ sinh thái này."
     },
     {
-      "q": "Chuyện gì xảy ra nếu thời hạn ESPR thay đổi?",
-      "a": "V-Ledger dựa trên khung chuẩn CEN/CENELEC JTC 24, tự động cập nhật ánh xạ tuân thủ khi các quy định mới được hoàn tất."
+      "q": "Điều gì xảy ra nếu mốc thời gian ESPR thay đổi?",
+      "a": "V-Ledger được xây dựng trên khung CEN/CENELEC JTC 24, phát triển song song với ESPR. Kiến trúc của chúng tôi có dạng mô-đun — ánh xạ tuân thủ sẽ tự động cập nhật khi các tiêu chuẩn được hoàn thiện."
     },
     {
-      "q": "Những danh mục sản phẩm nào sẽ được hỗ trợ sau năm 2027?",
-      "a": "Giai đoạn 1: Pin, Dệt may, Điện tử. Giai đoạn 2: Nội thất, Lốp xe, Hóa mỹ phẩm. Giai đoạn 3: Thép, Nhôm, Hóa chất."
+      "q": "Các loại sản phẩm nào sẽ được hỗ trợ ngoài năm 2027?",
+      "a": "Giai đoạn 1: Pin, Dệt may. Giai đoạn 2: Nội thất, Lốp xe, Sơn. Giai đoạn 3: Thép, Nhôm, Hóa chất. V-Ledger mở rộng quy mô theo chiều ngang trên tất cả các lĩnh vực ưu tiên của EU."
     },
     {
-      "q": "Cổng Thông tin Vòng đời D2C là gì?",
-      "a": "Lớp thứ 2 trong hệ thống kiếm tiền. Mỗi DPP trở thành kênh tiếp thị trực tiếp tới chủ sở hữu tiếp theo để bán gia hạn bảo hành và phụ tùng chính hãng."
+      "q": "Cổng thông tin Vòng đời D2C là gì?",
+      "a": "Lớp 2 trong nhóm kiếm tiền của chúng tôi. Khi thay đổi quyền sở hữu được xác minh, chủ sở hữu mới được cung cấp dịch vụ gia hạn bảo hành, phụ tùng thay thế và đặt chỗ bảo trì tự động, tạo ra doanh thu cho thương hiệu gốc."
     },
     {
-      "q": "Digital Green Tokens là gì?",
-      "a": "Lớp 3. Khi khách hàng trả lại sản phẩm để tái chế, họ nhận được token số để đổi điểm mua sắm, giúp nhà sản xuất tự chủ nguồn nguyên liệu tái chế."
+      "q": "Token Xanh Kỹ thuật số là gì?",
+      "a": "Lớp 3 trong nhóm kiếm tiền của chúng tôi. Khi người tiêu dùng trả lại sản phẩm để tái chế đã được xác minh (qua quét NFC), họ tự động nhận được Token Xanh Kỹ thuật số. Nhà sản xuất lấy lại quyền truy cập vào nguyên liệu tái chế."
     }
   ],
   "legal": {
-    "imprint": "Ấn bản",
-    "privacy": "Bảo mật",
+    "imprint": "Thông tin Pháp lý",
+    "privacy": "Riêng tư",
     "terms": "Điều khoản",
-    "back": "Quay lại Trang chủ",
-    "agree": "Tôi đồng ý xử lý dữ liệu theo",
+    "back": "Trở lại Trang chủ",
+    "agree": "Tôi đồng ý với việc xử lý dữ liệu theo",
     "content": {
-      "imprint": "<h1>Thông tin Pháp lý</h1><p>V-Ledger<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
-      "privacy": "<h1>Chính sách Bảo mật (GDPR)</h1><p>Chúng tôi coi trọng việc bảo mật dữ liệu của bạn...</p>",
-      "terms": "<h1>Điều khoản Dịch vụ</h1><p>Dịch vụ của chúng tôi dành riêng cho khách hàng B2B.</p>"
+      "imprint": "<h1>Thông báo Pháp lý</h1><p>V-Ledger<br>Albertstr. 7, 47059 Duisburg<br>Đức</p>",
+      "privacy": "<h1>Chính sách Riêng tư</h1><p>Chúng tôi xử lý dữ liệu của bạn theo quy chuẩn GDPR...</p>",
+      "terms": "<h1>Điều khoản Dịch vụ</h1><p>Dịch vụ của chúng tôi hướng tới đối tượng khách hàng B2B...</p>"
     }
   },
   "aboutUs": {
-    "nav": "Về chúng tôi",
-    "title": "Cổng vào Châu Âu",
-    "subtitle": "Kết nối Công nghệ và Tuân thủ.",
-    "content": "<h3>Cảng Duisburg: Cửa ngõ của Châu Âu</h3><p>V-Ledger hoạt động như một mỏ neo vật lý và pháp lý tại cảng nội địa lớn nhất Châu Âu ở Duisburg. Chúng tôi cung cấp dịch vụ hạ tầng để vượt qua các rào cản quy định nhập khẩu của Châu Âu (ESPR 2027).</p><h3>Công nghệ và Quy định của Đức</h3><p>Trong khi các đối tác Châu Á thống trị sản xuất, chúng tôi đảm bảo mỗi sản phẩm nhận được một Hộ chiếu Sản phẩm Số (DPP) không thể làm giả. Sử dụng Chuỗi khối Base L2 và Bảo mật NTAG 424 DNA, chúng tôi tạo ra doanh thu thụ động từ dữ liệu hậu cần.</p><h3>Sự tuân thủ của bạn là sứ mệnh của chúng tôi.</h3><p>Chúng tôi xử lý sự phức tạp về công nghệ và trách nhiệm pháp lý. Xuất khẩu không lo hải quan. Mở rộng không ranh giới.</p>"
+    "nav": "Về Chúng tôi",
+    "title": "Tiêu chuẩn Kinh tế Tuần hoàn 2030",
+    "subtitle": "Tiền tệ hóa Niềm tin. Bảo vệ Nguồn lực. Loại bỏ Hỗn loạn.",
+    "content": "<h3>V-Ledger có trụ sở chính tại Duisburg — cảng nội địa lớn nhất châu Âu.</h3><p>Chúng tôi thiết kế cơ sở hạ tầng biến chỉ thị ESPR 2027 từ gánh nặng tuân thủ thành động cơ doanh thu 4 lớp và lợi thế cạnh tranh vĩnh viễn.</p><h3>Từ Hỗn loạn Tổ chức đến Lợi nhuận Chiến lược.</h3><p>V-Ledger thay thế nỗ lực tổ chức bằng tự động hóa kỹ thuật: Tích hợp SAP/ERP Zero-Touch trong dưới 8 giờ, ánh xạ tuân thủ JTC 24 và chốt neo niềm tin phần cứng giúp loại bỏ trách nhiệm pháp lý về hàng giả.</p>"
   },
   "tech": {
     "nav": "Công nghệ",
-    "title": "Tech Stack Web3 Tiên tiến",
-    "subtitle": "Hạ tầng SaaS công nghiệp cho hoạt động xuất khẩu chống giả mạo.",
-    "sidebar": "Nền tảng SaaS kết hợp phần cứng mật mã (NXP) với Hợp đồng Thông minh (Base L2) – 100% trừu tượng hóa qua Ví vô hình.",
-    "content": "<h3>Kiến trúc Thế hệ Mới</h3><p class='text-white/60 max-w-3xl mb-8'>Chúng tôi kết hợp phần mềm Web3 với phần cứng mạnh mẽ. Là nhà cung cấp SaaS, chúng tôi xử lý sự phức tạp, còn bạn loại bỏ rủi ro tuân thủ và tạo doanh thu mới.</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424 (Mỏ neo Vật lý)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" ry=\"2\"></rect><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\"></rect><line x1=\"9\" y1=\"1\" x2=\"9\" y2=\"4\"></line><line x1=\"15\" y1=\"1\" x2=\"15\" y2=\"4\"></line><line x1=\"9\" y1=\"20\" x2=\"9\" y2=\"23\"></line><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"23\"></line><line x1=\"20\" y1=\"9\" x2=\"23\" y2=\"9\"></line><line x1=\"20\" y1=\"14\" x2=\"23\" y2=\"14\"></line><line x1=\"1\" y1=\"9\" x2=\"4\" y2=\"9\"></line><line x1=\"1\" y1=\"14\" x2=\"4\" y2=\"14\"></line></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (Mỏ neo Vật lý)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Mã QR vô giá trị trước hàng giả tinh vi. Chúng tôi dùng chip NFC mã hóa. Mỗi lần quét tạo ra một mã crypto động duy nhất. Đây là cầu nối chống giả mạo sang Hộ chiếu Sản phẩm Số (DPP).\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2 (Sổ cái Bảo mật)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"></polygon><polyline points=\"2 17 12 22 22 17\"></polyline><polyline points=\"2 12 12 17 22 12\"></polyline></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (Sổ cái Bảo mật)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Định danh sản phẩm được lưu mãi mãi trên Base L2. Đảm bảo mở rộng cao với chi phí giao dịch siêu thấp. Không hacker nào có thể làm giả nguồn gốc của bạn.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"Động cơ Bản quyền\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"></path><path d=\"M22 12A10 10 0 0 0 12 2v10z\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Động cơ Bản quyền</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Đầu tư tạo lợi nhuận: Hợp đồng thông minh tự động kích hoạt thanh toán ở mọi lần bán lại hàng hóa, phân bổ doanh thu on-chain chuẩn xác.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"Ví Vô hình\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M22 12h-4l-3 9L9 3l-3 9H2\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Ví Vô hình</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Chúng tôi sử dụng chuẩn ERC-4337. Mọi phí gas đều được backend tài trợ. Trải nghiệm như ngân hàng điện tử, nhận thanh toán trực tiếp qua fiat hoặc USDT dễ dàng.\n                </p>\n            </div>\n        </div></div>"
+    "title": "Cơ sở Hạ tầng DPP Cấp Công nghiệp",
+    "subtitle": "Hệ thống công nghệ đằng sau việc tuân thủ EU tự động.",
+    "sidebar": "V-Ledger kết hợp phần cứng mật mã, hồ sơ blockchain bất biến và tích hợp ERP vào một lớp tuân thủ duy nhất.",
+    "content": "<h3>Cơ sở Hạ tầng DPP Cấp Công nghiệp</h3><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (Neo Phần cứng)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Chúng tôi sử dụng các chip NFC an toàn về mặt mật mã từ NXP. Tạo mã động duy nhất mỗi lần quét để xây dựng cầu nối chống giả mạo với DPP.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (Sổ cái Bảo mật)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Danh tính kỹ thuật số được lưu giữ trên Base (Ethereum Lớp 2), đảm bảo khả năng mở rộng chưa từng có với chi phí giao dịch cực kỳ thấp.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Động cơ Phí bản quyền</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Các hợp đồng thông minh tự động kích hoạt chức năng thanh toán sau mỗi lần bán lại hàng hóa. Logic hoạt động on-chain một cách tự chủ.\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Trừu tượng hóa Tài khoản</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    Sử dụng tiêu chuẩn ERC-4337. Không cần cụm từ hạt giống, chỉ thanh toán trực tiếp bằng fiat hoặc USDT, chuẩn bị cho mật mã phức tạp sẵn sàng cho doanh nghiệp.\n                </p>\n            </div>\n        </div></div>"
   }
 }

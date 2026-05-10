@@ -1,136 +1,137 @@
 {
-  "demoTitle": "互動式 DPP 沙盒",
+  "demoTitle": "交互式 DPP 沙盒",
   "demoDesc": "選擇類別並模擬 NXP 掃描：",
   "selectProduct": "選擇產品",
   "scanBtn": "模擬 NXP NFC 掃描 (SUN AES-128)",
   "batteryName": "鋰離子電池",
   "textileName": "羊毛大衣 (ESPR)",
-  "watchName": "計時碼錶",
+  "watchName": "計時碼表",
   "lifecycleName": "端到端生命週期",
   "customsName": "海關驗證 (UNTP)",
-  "resellName": "所有權變更與轉售",
+  "resellName": "所有權轉讓與轉售",
   "recyclingName": "回收與退款",
-  "h1": "出口專屬 SaaS 解決方案。<br>ESPR 合規與 NFTs。<br><span class=\"gradient-text\">透過版稅費用獲取收益。</span>",
-  "sub": "德國工程助力全球物流：我們將您的供應鏈進行 SaaS 代幣化，確保您在歐洲的每一次轉售中都能獲得被動收入。",
-  "cta": "開啟 2027 出口核查",
-  "madeInGermany": "德國工程與法律安全",
-  "mHeader": "戰略合作夥伴審計",
+  "h1": "2030 年循環經濟的<br>全球通用工業基礎設施",
+  "sub": "V-Ledger V5.5 將手動 DPP 合規性升級為全面自動化 — 將產品生命週期的每一個觸點轉化為收入事件。將信任變現。保障資源。消除混亂。",
+  "cta": "申請 2030 戰略審計",
+  "madeInGermany": "德國工程與法律安全保障",
+  "mHeader": "戰略夥伴審計",
   "faqNav": "FAQ",
-  "login": "Login",
-  "manufacturerLogin": "開發者控制台",
-  "footerH2": "首批試點：電池與紡織品",
-  "footerP": "成為首批無障礙通過 2027 歐盟海關的出口商。我們正在尋找戰略合作夥伴。",
-  "contact": "申請審計",
-  "copy": "&copy; 2025-2026 V-LEDGER // 出口安全與被動收益。",
-  "s1h": "NFTs as a Service",
-  "s1p": "為您的貨櫃全自動生成數位產品護照。我們幫您屏蔽了所有區塊鏈的複雜度。",
-  "s2h": "智能合約版稅",
-  "s2p": "我們的 SaaS 平台將合規成本轉化為利潤。每次轉售時貨款得益自動執行會直接打入您的企業帳戶。",
-  "p1t": "SaaS 基礎架構",
-  "p1h": "隱形錢包。",
-  "p1d": "無需技術背景，不需要助記詞。我們的帳戶抽象化技術完全在無縫的後台運行。",
-  "p2t": "版稅革命",
-  "p2h": "出口代幣化。",
-  "p2d": "可編程的智能合約會自動在每次產品轉售時向註冊企業發放分配法幣或 USDT 退款。",
-  "p3t": "歐洲信任機制",
-  "p3h": "B2B SaaS 平台。",
-  "p3d": "安全的 Web3 後端 (Base L2) 結合了如同傳統網上銀行業務一般的流暢體感。",
-  "p4t": "不可證偽標識",
-  "p4h": "NXP 高端硬體。",
-  "p4d": "透過物理錨點將您的產品與我們的 NFT 綁定，從出廠到後續回收整個生命週期內保護您的品牌。",
-  "quote": "“歐盟市場進入是眼前的門檻。受控的二級市場是未來利潤。”",
-  "quotesub": "— V-LEDGER // 歐盟出口門戶",
-  "badge": "電池與紡織品 // 东南亚出口",
-  "calcH": "利潤計算器",
+  "menu": "菜單",
+  "login": "登入",
+  "manufacturerLogin": "開發者主控台",
+  "footerH2": "先發優勢：2030 的征程現已開啟",
+  "footerP": "到 2030 年，歐盟的每一個主要產品類別都將需要數位產品護照。V-Ledger 是唯一旨在橫跨所有四波監管浪潮（從 2027 年的電池和紡織品到 2030 年的鋼鐵和化學品）進行橫向擴展的基礎設施。立即整合的品牌將獲得自動化合規、認證的二級市場收入以及資源自主權。我們正在招募第一階段部署的戰略合作夥伴。",
+  "contact": "申請 2030 戰略審計",
+  "copy": "&copy; 2025-2026 V-LEDGER // 2030 循環經濟標準",
+  "s1h": "零接觸 DPP 自動化",
+  "s1p": "在 8 小時內直接 API 連接到 SAP/ERP 系統。自動化的 CEN/CENELEC JTC 24 合規映射。您的團隊無需進行任何操作 — 我們的基礎設施處理工業規模的每一個 SKU。",
+  "s2h": "生命週期收入引擎 (Layer 1)",
+  "s2p": "一次經過驗證的 €650 轉售會自動產生 €32.50 的權利金 — 無需發票或手動流程。94/5/1 模式將您的二級市場從看不見的盲區變成持久的收入流。",
+  "p1t": "Layer 1: 轉售權利金",
+  "p1h": "94/5/1 收入分成",
+  "p1d": "信任推高了二級市場的價格。通過認證真實性，轉售價值得以提升 — 賣家利潤更高，品牌在每筆認證交易中自動獲得 5%。",
+  "p2t": "Layer 2: D2C 生命周期門戶",
+  "p2h": "服務驅動型收入",
+  "p2d": "每個 DPP 都成為面向下一位所有者的直接行銷管道：即時延長保固服務、來自數位分身的原廠認證配件以及維保即服務 — 全部通過單次 NFC 掃描觸發。",
+  "p3t": "Layer 3: 循環經濟",
+  "p3h": "數位綠色代幣",
+  "p3d": "我們激勵“回歸閉環”的行為。消費者在經核實的回收時獲得數位綠色代幣。回收商因高純度分類獲得即時獎勵。製造商能以低於原生開採的成本重新獲取再生原材料。",
+  "p4t": "Layer 4: 卓越 OPEX",
+  "p4h": "消除合規混亂",
+  "p4d": "自動化消除了傳統 DPP 合規的行政負擔：無需列印、無需手動數據錄入、無需為每個 SKU 支付法律文件費用。零接觸整合為企業節省了數百萬成本。",
+  "quote": "\"V-Ledger V5.5 是唯一將工業成熟度、法律確定性和商業模式創新相結合的基礎設施。我們不僅僅是合規，我們更是有利可圖。\"",
+  "quotesub": "— V-LEDGER V5.5 // 通往盈利循環的途徑",
+  "badge": "將信任變現 · 保障資源 · 消除混亂 // V5.5",
+  "calcH": "盈利計算器",
   "calcV": "出口量 (件/年)",
-  "calcR": "二次銷售比例 (%)",
-  "calcF": "每件版税金額 (€/件)",
-  "calcP": "年度被動收益估值:",
+  "calcR": "轉售率 (%)",
+  "calcF": "權利金費用 (歐元/件)",
+  "calcP": "年度被動收益:",
   "lang": "zh-tw",
-  "metaTitle": "V-LEDGER | ESPR 合規與數位產品護照 (DPP)",
-  "metaDesc": "V-Ledger (杜伊斯堡) 為電池和紡織品提供 ESPR 合規解決方案。透過 NTAG 424 DNA 和區塊鏈實施安全產品護照。",
+  "metaTitle": "V-LEDGER | 2030 循環經濟基礎設施 (DPP)",
+  "metaDesc": "V-Ledger V5.5 — 用於歐盟數位產品護照的通用工業基礎設施。零接觸 SAP 整合，4 層貨幣化，符合 CEN/CENELEC JTC 24 標準。杜伊斯堡工程製造。",
   "cookie": {
-    "title": "安全與合規檢查",
-    "msg": "為了確保訪問 V-Ledger 基礎設施的安全並符合歐盟合規要求，我們使用加密識別符 (Cookies)。請確認您的身份和偏好。",
-    "accept": "授予訪問權限 (所有)",
-    "reject": "最小權限訪問",
-    "settings": "偏好設置",
-    "checking": "系統檢查中..."
+    "title": "安全與合規性檢查",
+    "msg": "為了保障對 V-Ledger 基礎設施的存取並確保符合歐盟法規，我們使用了加密識別符 (Cookies)。請驗證您的身份與偏好。",
+    "accept": "授予所有權限",
+    "reject": "最小限度權限",
+    "settings": "首選項設定",
+    "checking": "系統檢查進行中..."
   },
   "faqTitle": "常見問題 (FAQ)",
   "faqs": [
     {
-      "q": "什麼是數位產品護照 (DPP) 以及 V-Ledger 如何實施？",
-      "a": "數位產品護照是歐盟規定的產品標識，屬於 ESPR 2027 的一部分。V-Ledger 自動生成、存儲和管理 DPP，並依託加密 NFC 硬體和不可篡改的區塊鏈記錄。"
+      "q": "什麼是數位產品護照 (DPP)，V-Ledger 如何實現它？",
+      "a": "數位產品護照是歐盟 ESPR 2027 強制要求的产品身分。V-Ledger 借助加密的 NFC 硬體和不可篡改的區塊鏈記錄，自動生成、儲存並管理 DPP。"
     },
     {
       "q": "為什麼使用 NXP 安全硬體？",
-      "a": "傳統的 QR Code 極易被複製拷貝。我們利用先進密碼學 NTAG 424 DNA 晶片，在真實世界商品及其鏈上的 NFT 數據間建立防篡改物理橋樑。"
+      "a": "QR碼極易被複製。我們利用加密的 NTAG 424 DNA 晶片，在實物商品與其數位產品護照之間架起一座防篡改的橋梁。"
     },
     {
-      "q": "沒有加密錢包能夠運作版稅流嗎？",
-      "a": "得益於 ERC-4337 帳戶抽象化，我們的後台處理所有複雜性。產品每次在整合平台上轉售產生的版稅將直接以等值歐元或 USDT 發放，無需錢包和助記詞。"
+      "q": "沒有加密錢包，權利金如何運作？",
+      "a": "通過 ERC-4337 帳戶抽象技術，我們的後臺處理所有複雜事項。您將通過整合的合作夥伴平臺，在每筆通過驗證的轉售中自動收到歐元或 USDT 形式的權利金支付。無需助記詞。"
     },
     {
-      "q": "解決方案是否符合歐盟 ESPR 2027 規範？",
-      "a": "是的，我們的平台專門設計以滿足《可持續產品生態設計法規》(ESPR) 的要求，包括強制性數位產品護照。"
+      "q": "該解決方案符合歐盟 ESPR 2027 標準嗎？",
+      "a": "是的，我們的平臺是專門為滿足《永續產品生態設計法規》(ESPR) 的要求而設計的，其中包括強制性的數位產品護照。"
     },
     {
       "q": "目前支持哪些行業？",
-      "a": "目前我們正專注於法規遵循緊迫性最高的行業：電池、紡織品以及高端手錶/奢侈品。"
+      "a": "第一波（2027 年 1 月）：電池、紡織品、電子產品。第二波（2027-28）：家具、輪胎。第三波（2028 年底-29）：高級材料溯源。第四波（2029-30）：鋼鐵、化工原料。"
     },
     {
-      "q": "審計過程如何運作？",
-      "a": "在審計過程中，我們將分析您目前的 ERP/SAP 基礎設施，並為您的產品提供區塊鏈整合和硬體標記的路線圖。"
+      "q": "審計流程如何運作？",
+      "a": "在戰略審計期間，我們將分析您當前的 ERP/SAP 基礎設施及合規差距。您將獲得一份零接觸 DPP 整合、硬體身分部署的路線圖，實施時間少於 8 小時。"
     },
     {
       "q": "V-Ledger 與其他 DPP 提供商有何不同？",
-      "a": "V-Ledger 是唯一整合了工業成熟度 (V5.5)、法律確定性與商業模式創新 (4 層級變現) 的平台。大多數提供商只是存儲數據，而我們使其變現。"
+      "a": "V-Ledger 是唯一結合了工業成熟度（V5.5 架構）、法律確定性（CEN/CENELEC JTC 24）和商業模式創新（4 層變現）的平臺。大多數只儲存數據，而我們將數據變現。"
     },
     {
-      "q": "版稅系統在哪些平台上運作？",
-      "a": "版稅支付在整合了 V-Ledger 協議的認證轉售平台上觸發。非驗證的私人銷售不屬於認證生態系統。品牌會在每筆認證交易中自動獲得 5%。"
+      "q": "權利金系統在哪些平臺上運行？",
+      "a": "權利金支付會在與 V-Ledger 協議整合的經過認證的轉售平臺上觸發。未經驗證的私人交易不在生態系統內。94/5/1 模式意味著品牌自動獲得 5%，無需發票。"
     },
     {
-      "q": "如果 ESPR 時間表發生變化怎麼辦？",
-      "a": "V-Ledger 構建於 CEN/CENELEC JTC 24 框架之上，該框架隨 ESPR 演進。我們的架構是模組化的，當標準最終確定時合規映射將自動更新。"
+      "q": "如果 ESPR 時間表發生變化會怎樣？",
+      "a": "V-Ledger 建立在 CEN/CENELEC JTC 24 框架之上，該框架與 ESPR 同步發展。我們的架構是模組化的 — 合規映射會隨標準定稿自動更新，保護您的投資。"
     },
     {
-      "q": "除了 2027 年之外，還支持哪些類型的產品？",
-      "a": "第 1 階段 (2026-27)：電池、紡織、電子。第 2 階段 (2027-28)：家具、輪胎、清潔劑、油漆。第 3 階段 (2029-30)：鋼鐵、鋁、化學品。"
+      "q": "2027 年後將支持哪些產品類別？",
+      "a": "第一階段：電池、紡織。第二階段：家具、輪胎。第三階段：鋼鐵、鋁材、化學品。V-Ledger 橫向覆蓋歐盟委員會確定的所有重點領域。"
     },
     {
-      "q": "什麼是 D2C 生命週期門戶？",
-      "a": "這是我們變現堆疊的第 2 層。每個 DPP 都成為對後續產品所有者的直接營銷渠道。所有權變更後，新所有者可獲得即時保固延長、原廠零配件訂購以及自動化保養服務。"
+      "q": "什麼是 D2C 生命周期門戶，它如何為品牌創收？",
+      "a": "變現架構的第 2 層。在發生經核實的所有權變更時，新所有者將獲推即時延保、原廠配件和自動化維保預約——為原始品牌創造收益。"
     },
     {
-      "q": "什麼是數位綠色代幣 (Digital Green Tokens)？",
-      "a": "變現堆疊的第 3 層。當消費者通過 NFC 驗證回收產品時，他們將自動獲得數位綠色代幣或商店積分，製造商以此確保二次原材料的自主權。"
+      "q": "什麼是數位綠色代幣，它是如何促進再循環系統的？",
+      "a": "變現架構的第 3 層。當消費者返回產品進行經核實的回收時（NFC 掃描確認），會獲得數位代幣獎勵。製造商藉此重新獲取再生原材料，實現資源自主。"
     }
   ],
   "legal": {
     "imprint": "法律聲明",
-    "privacy": "隱私政策",
+    "privacy": "隱私權政策",
     "terms": "服務條款",
     "back": "返回首頁",
-    "agree": "我同意根據以下条款處理數據",
+    "agree": "我同意遵守以下資料處理規定",
     "content": {
-      "imprint": "<h1>法律聲明</h1><p>V-LEDGER<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
-      "privacy": "<h1>隱私政策 (GDPR)</h1><p>我們非常重視您的數據保護...</p>",
-      "terms": "<h1>服務條款</h1><p>我們的服務僅面向 B2B 客戶。</p>"
+      "imprint": "<h1>法律通知</h1><p>V-Ledger<br>Albertstr. 7, 47059 Duisburg<br>德國</p>",
+      "privacy": "<h1>隱私權政策</h1><p>我們依據 GDPR 條例妥善處理您的個人資料...</p>",
+      "terms": "<h1>條款與細則</h1><p>我們的服務僅面向 B2B 客戶...</p>"
     }
   },
   "aboutUs": {
     "nav": "關於我們",
-    "title": "歐洲的數位化門戶",
-    "subtitle": "連接前沿技術與合規監管。",
-    "content": "<h3>杜伊斯堡港：歐洲的樞紐</h3><p>V-Ledger 在歐洲最大的內陸港杜伊斯堡作為物理和法律的基石運營。我們將歐洲複雜的進口法規 (ESPR 2027) 轉化為無縫的基礎設施服務。</p><h3>技術結合德國監管底蘊</h3><p>當我們的亞洲合作夥伴主導實物生產時，我們確保每一件產品都能獲得防偽的數位產品護照 (DPP)。利用 Base L2 區塊鏈和 NTAG 424 DNA 安全技術，我們將物流數據轉化為自動化的版稅收入。</p><h3>您的合規保障，是我們專注的核心。</h3><p>我們承擔技術複雜性和歐盟數據轉移的法律責任。實現零延誤的海關出口。無界限的業務擴展。</p>"
+    "title": "2030 循環經濟標準",
+    "subtitle": "將信任變現。保障資源。消除混亂。",
+    "content": "<h3>V-Ledger 總部位於杜伊斯堡 — 歐洲最大的內河港口。</h3><p>我們不把 ESPR 2027 的強制要求視為合規負擔。我們設計的基礎設施已將其轉變為 4 層收入引擎和持久的競爭優勢。</p><h3>從組織混亂到戰略盈利。</h3><p>目前的 DPP 方法因專注於靜態數據而失敗。V-Ledger 用技術自動化取代組織勞動：小於 8 小時的零接觸 ERP 整合、自動合規映射、以及杜絕造假責任的硬體信任錨。</p><h3>4 層變現架構。</h3><p>每一個產品觸點都產生收益：第 1 層（轉售權利金）、第 2 層（D2C 服務門戶）、第 3 層（綠色代幣）、第 4 層（OPEX 節省）。我們不僅是為了合規，更是為了盈利。</p>"
   },
   "tech": {
-    "nav": "技術",
-    "title": "高級 Web3 架構體系",
-    "subtitle": "面向防篡改出口鏈路的工業級 SaaS 基礎設施。",
-    "sidebar": "SaaS 平台將硬核加密硬體 (NXP) 與高擴展性的智能合約 (Base L2) 相結合 —— 透過隱形錢包全抽象化體驗。",
-    "content": "<h3>下一代科技架構</h3><p class='text-white/60 max-w-3xl mb-8'>我們將絕妙的 Web3 協議與堅固的硬體融合，建立無懈可擊的安全出口網絡。作為 SaaS 提供商，我們為您接管後端所有的架構複雜性。</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG (物理防偽錨)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\" ry=\"2\"></rect><rect x=\"9\" y=\"9\" width=\"6\" height=\"6\"></rect><line x1=\"9\" y1=\"1\" x2=\"9\" y2=\"4\"></line><line x1=\"15\" y1=\"1\" x2=\"15\" y2=\"4\"></line><line x1=\"9\" y1=\"20\" x2=\"9\" y2=\"23\"></line><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"23\"></line><line x1=\"20\" y1=\"9\" x2=\"23\" y2=\"9\"></line><line x1=\"20\" y1=\"14\" x2=\"23\" y2=\"14\"></line><line x1=\"1\" y1=\"9\" x2=\"4\" y2=\"9\"></line><line x1=\"1\" y1=\"14\" x2=\"4\" y2=\"14\"></line></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG (物理防偽錨)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    純二維碼在專業造假面前不堪一擊。我們採用物理級安全加密的 NFC 晶片。每次掃描均產生極為複雜的動態變化密碼，構建通往數位護照的防偽屏障。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2 (安全帳本)\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"12 2 2 7 12 12 22 7 12 2\"></polygon><polyline points=\"2 17 12 22 22 17\"></polyline><polyline points=\"2 12 12 17 22 12\"></polyline></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (安全帳本)</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    讓產品身份長存於 Base (以太坊二層網絡)。在極低的交易手續費下擁有極高的全網安全擴展性，杜絕伺服器遭駭客改寫源頭的悲劇。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"版稅引擎\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\"></path><path d=\"M22 12A10 10 0 0 0 12 2v10z\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">版稅引擎</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    合規不再純燒錢：智能合約自發執行在產品於歐洲的每一次轉售中收取版稅的過程。不可修改的代碼即規則，實時鏈上決策分成。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <!-- Giant Number -->\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <!-- Premium Image -->\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"帳戶抽象化\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <!-- Content -->\n                <div class=\"flex items-center gap-4 mb-4\">\n                    <div class=\"w-12 h-12 rounded-2xl bg-[#a88c5a]/10 flex items-center justify-center flex-shrink-0 shadow-inner border border-[#a88c5a]/20\">\n                        <svg width=\"24\" height=\"24\" class=\"text-[#a88c5a]\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M22 12h-4l-3 9L9 3l-3 9H2\"></path></svg>\n                    </div>\n                    <h4 class=\"text-xl font-bold text-white tracking-wide\">帳戶抽象化</h4>\n                </div>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    我們採用最新的 ERC-4337 標準。所有的 Gas (礦工費) 統統由我們的後端付款代理出資補償貼現。以使用傳統網上銀行直充法幣或 USDT 的體驗進行企業結算全流程。\n                </p>\n            </div>\n        </div></div>"
+    "nav": "核心技術",
+    "title": "工業級 DPP 基礎設施",
+    "subtitle": "自動化歐盟合規與生命週期收益背後的技術堆疊。",
+    "sidebar": "V-Ledger 將加密硬體、不可篡改的區塊鏈記錄和企業級 ERP 整合統一到單層自動化合規架構中。",
+    "content": "<h3>工業級 DPP 基礎設施</h3><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (硬體信任錨)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    QR碼對於專業造假無能為力。我們使用 NXP 的加密安全 NFC 晶片，每次掃描生成唯一動態加密碼，建立起通往 DPP 的防篡改橋樑。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (安全分布式帳本)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    數位產品身分永久記錄在 Base (以太坊二層網路) 上。這在保證前所未有的可擴充性和極低交易費用的同時，完全繼承了以太坊主網的安全性。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">權利金引擎</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    定制編寫的智慧合約在商品每次轉售時自動觸發付款功能。該鏈上邏輯能自主決定權利金費用的接受方。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">帳戶抽象技術</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    我們採用 ERC-4337 標準，Gas 費由後臺代付。無需助記詞，只需直接收取法幣或 USDT，使複雜的加密技術完全符合企業應用級水準。\n                </p>\n            </div>\n        </div></div>"
   }
 }

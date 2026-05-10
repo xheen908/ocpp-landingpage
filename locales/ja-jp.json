@@ -1,136 +1,137 @@
 {
-  "demoTitle": "対話型DPPサンドボックス",
-  "demoDesc": "カテゴリを選択してNXPスキャンをシミュレートします：",
+  "demoTitle": "インタラクティブ DPP サンドボックス",
+  "demoDesc": "カテゴリを選択して NXP スキャンをシミュレート:",
   "selectProduct": "製品を選択",
-  "scanBtn": "NXP NFCスキャンをシミュレート (SUN AES-128)",
+  "scanBtn": "NXP NFC スキャンをシミュレート (SUN AES-128)",
   "batteryName": "リチウムイオン電池",
   "textileName": "ウールコート (ESPR)",
   "watchName": "クロノグラフ",
-  "lifecycleName": "エンドツーエンドのライフサイクル",
+  "lifecycleName": "エンドツーエンド ライフサイクル",
   "customsName": "税関検証 (UNTP)",
-  "resellName": "所有権の移転と再販",
-  "recyclingName": "リサイクルと返金",
-  "h1": "輸出のためのSaaSソリューション。<br>ESPR準拠とNFT。<br><span class=\"gradient-text\">ロイヤリティによる収益化。</span>",
-  "sub": "ドイツの技術がグローバル物流を変える：サプライチェーンをSaaSとしてトークン化し、欧州での再販ごとにパッシブ収益を確保します。",
-  "cta": "2027年輸出チェックを開始",
+  "resellName": "所有権譲渡＆再販",
+  "recyclingName": "リサイクル＆返金",
+  "h1": "2030年循環経済のための<br>グローバル産業インフラ",
+  "sub": "V-Ledger V5.5 は、手動の DPP コンプライアンスを完全自動化に置き換え、製品ライフサイクルのあらゆるタッチポイントを収益イベントに変えます。信頼を収益化。資源を確保。混乱を排除。",
+  "cta": "2030年 戦略監査をリクエスト",
   "madeInGermany": "ドイツのエンジニアリングと法的セキュリティ",
-  "mHeader": "戦略的パートナー監査",
+  "mHeader": "戦略パートナー監査",
   "faqNav": "FAQ",
-  "login": "Login",
+  "menu": "メニュー",
+  "login": "ログイン",
   "manufacturerLogin": "開発者コンソール",
-  "footerH2": "ファーストムーバー：バッテリー、テキスタイル、および時計",
-  "footerP": "2027年に欧州税関をスムーズに通過する最初の輸出業者になりましょう。戦略的パートナーを募集しています。",
-  "contact": "監査をリクエスト",
-  "copy": "&copy; 2025-2026 V-LEDGER // 輸出セキュリティとパッシブ収益。",
-  "s1h": "NFT as a Service",
-  "s1p": "コンテナ用のデジタル製品パスポートを自動生成。ブロックチェーンを完全に抽象化します。",
-  "s2h": "スマートコントラクト・ロイヤリティ",
-  "s2p": "当社のSaaSプラットフォームがコンプライアンスを利益に変えます。再販のたびに企業口座に直接入金されます。",
-  "p1t": "SaaSインフラ",
-  "p1h": "不可視ウォレット",
-  "p1d": "技術的要件や秘密鍵の管理は不要。アカウント抽象化技術がバックグラウンドで完全に動作します。",
-  "p2t": "ロイヤリティ革命",
-  "p2h": "トークン化された輸出",
-  "p2d": "プログラム可能なスマートコントラクトが、再販のたびに法定通貨またはUSDTでロイヤリティを自動配分します。",
-  "p3t": "EU原産地信頼",
-  "p3h": "B2B SaaSプラットフォーム",
-  "p3d": "安全なWeb3バックエンド（Base L2）と、オンラインバンキングのようなユーザー体験を融合。",
-  "p4t": "偽造不可能なアイデンティティ",
-  "p4h": "NXPセキュアハードウェア",
-  "p4d": "物理的なアンカーが商品とNFTをリンクさせ、工場からリサイクルまでのブランド価値を保護します。",
-  "quote": "\"2027年のEU市場へのアクセスはもはやリスクではなく、究極の競争優位性です。\"",
-  "quotesub": "— V-LEDGER // 輸出ゲートウェイ",
-  "badge": "バッテリー、テキスタイル、および時計専門 // 海上輸出",
-  "calcH": "収益シミュレーター",
-  "calcV": "年間輸出量（ユニット）",
-  "calcR": "再販率（％）",
-  "calcF": "ロイヤリティ料（€/ユニット）",
-  "calcP": "年間パッシブ利益：",
+  "footerH2": "先行者利益：2030年の地平が今始まる",
+  "footerP": "2030年までに、EU内のすべての主要製品カテゴリでデジタル製品パスポートが必要になります。V-Ledger は、バッテリー＆テキスタイル（2027年）から鉄鋼＆化学（2030年）まで、すべての規制波にわたって水平方向にスケールするように設計された唯一のインフラです。今すぐ統合するブランドは、自動化されたコンプライアンス、認証された二次市場収益、および資源の自律性を獲得します。現在、フェーズ1展開の戦略的パートナーを募集しています。",
+  "contact": "2030年 戦略監査をリクエスト",
+  "copy": "&copy; 2025-2026 V-LEDGER // 2030年 循環型経済の標準",
+  "s1h": "ゼロタッチ DPP 自動化",
+  "s1p": "8時間以内に SAP/ERP システムに直接 API 接続。自動化された CEN/CENELEC JTC 24 コンプライアンス・マッピング。貴社のチームは何もしません。当社のインフラが産業規模ですべての SKU を処理します。",
+  "s2h": "ライフサイクル収益エンジン (レイヤー 1)",
+  "s2p": "認証済みの €650 の再販により、請求書や手動プロセスなしで自動的に €32.50 のロイヤリティが発生します。94/5/1 モデルは、貴社の二次市場を永続的な収益源に変えます。",
+  "p1t": "レイヤー 1: 再販ロイヤリティ",
+  "p1h": "94/5/1 収益シェア",
+  "p1d": "信頼が二次市場の価格を上げます。真正性を証明することで再販価値が高まり、販売者はより多くの利益を得、ブランドはすべての認証取引で自動的に 5% を受け取ります。",
+  "p2t": "レイヤー 2: D2C ライフサイクルポータル",
+  "p2h": "サービス主導型収益",
+  "p2d": "すべての DPP が次の所有者へのダイレクトマーケティングチャネルになります。即時の保証延長、デジタルツインデータからの純正スペアパーツ、およびMaaS。すべて単一の NFC スキャンでトリガーされます。",
+  "p3t": "レイヤー 3: 循環型経済",
+  "p3h": "デジタルグリーントークン",
+  "p3d": "リターン・トゥ・ループの行動を動機付けます。消費者は確認済みのリサイクル時にデジタルグリーントークンを受け取ります。リサイクル業者は高純度の分別に対して即時の報奨金を得ます。",
+  "p4t": "レイヤー 4: OPEX エクセレンス",
+  "p4h": "コンプライアンス混乱の解消",
+  "p4d": "自動化により、印刷、手動データ入力、SKUごとの法的文書コストなどの管理オーバーヘッドが排除されます。ゼロタッチ統合は、2030年に向けて企業に数百万の節約をもたらします。",
+  "quote": "\"V-Ledger V5.5 は、産業の成熟度、法的確実性、ビジネスモデルの革新を組み合わせた唯一のインフラです。私たちはただ準拠しているだけではありません。私たちは収益性が高いのです。\"",
+  "quotesub": "— V-LEDGER V5.5 // 収益性の高い循環性への道",
+  "badge": "信頼を収益化 · 資源を確保 · 混乱を排除 // V5.5",
+  "calcH": "利益計算機",
+  "calcV": "輸出量 (ユニット/年)",
+  "calcR": "再販率 (%)",
+  "calcF": "ロイヤリティ料 (€/ユニット)",
+  "calcP": "年間パッシブ利益:",
   "lang": "ja-jp",
-  "metaTitle": "V-LEDGER | ESPR準拠とデジタル製品パスポート (DPP)",
-  "metaDesc": "V-Ledger（デュイスブルク）はバッテリーと繊維のESPR準拠を提供。NTAG 424 DNAとブロックチェーンによるセキュアな製品パスポート。",
+  "metaTitle": "V-LEDGER | 2030年循環型経済インフラ (DPP)",
+  "metaDesc": "V-Ledger V5.5 — EUデジタル製品パスポートのためのユニバーサル産業インフラ。ゼロタッチSAP統合、4レイヤー収益化、CEN/CENELEC JTC 24準拠。",
   "cookie": {
-    "title": "セキュリティ＆コンプライアンス・チェック",
-    "msg": "V-Ledgerインフラへのアクセスを保護し、EUコンプライアンスを確保するため、暗号化識別子（Cookie）を使用しています。本人確認と設定を行ってください。",
-    "accept": "アクセスを許可（すべて）",
+    "title": "セキュリティとコンプライアンスのチェック",
+    "msg": "V-Ledger インフラへのアクセスを保護し、EUのコンプライアンスを確保するため、暗号化識別子（Cookie）を使用します。",
+    "accept": "アクセスを許可 (すべて)",
     "reject": "最小限のアクセス",
     "settings": "設定",
-    "checking": "システムチェック中..."
+    "checking": "システムチェック実行中..."
   },
   "faqTitle": "よくある質問 (FAQ)",
   "faqs": [
     {
-      "q": "デジタル製品パスポート(DPP)とは何ですか、またV-Ledgerはどのように実装しますか？",
-      "a": "デジタル製品パスポートは、ESPR 2027の下でEUが義務付ける製品IDです。V-Ledgerは、暗号化NFCハードウェアと不変のブロックチェーン記録に裏打ちされたDPPを自動的に生成、保存、管理します。"
+      "q": "デジタル製品パスポート (DPP) とは何ですか？V-Ledger はそれをどのように実装しますか？",
+      "a": "DPP は ESPR 2027 の下で義務付けられた製品アイデンティティです。V-Ledger は、暗号化 NFC ハードウェアと不変のブロックチェーン記録に裏打ちされた DPP を自動的に生成、保存、管理します。"
     },
     {
-      "q": "なぜNXPセキュアハードウェアを使用するのですか？",
-      "a": "QRコードは簡単にコピーされてしまいます。当社は暗号化NTAG 424 DNAチップを使用し、物理的な商品とそのDPPの間に改ざん防止の架け橋を築きます。"
+      "q": "なぜ NXP セキュアハードウェアを使用するのですか？",
+      "a": "QRコードは簡単に複製されます。当社は暗号化 NTAG 424 DNA チップを利用して、物理的な商品とその DPP との間に改ざん不可能な架け橋を作成します。"
     },
     {
-      "q": "仮想通貨ウォレットなしでどうやってロイヤリティを受け取りますか？",
-      "a": "アカウント抽象化と不可視ウォレットにより、当社のSaaSプラットフォームがブロックチェーンの複雑さをすべて処理します。再販ごとのロイヤリティ料をユーロまたはUSDTで直接受け取れます。"
+      "q": "暗号資産ウォレットなしでロイヤリティはどのように機能しますか？",
+      "a": "ERC-4337 アカウント抽象化を通じて、当社のバックエンドがすべての複雑さを処理します。統合されたパートナープラットフォームを介して、すべての認証済み再販でロイヤリティ支払いを自動的に EUR または USDT で受け取ります。"
     },
     {
-      "q": "このソリューションはEU ESPR 2027に準拠していますか？",
-      "a": "はい、当社のプラットフォームは、義務化されるデジタル製品パスポートを含む、持続可能な製品のためのエコデザイン規則（ESPR）の要件を満たすように特別に設計されています。"
+      "q": "ソリューションは EU ESPR 2027 に準拠していますか？",
+      "a": "はい。当社のプラットフォームは、義務付けられた DPP を含むエコデザイン規制（ESPR）の要件を満たすように特別に設計されています。"
     },
     {
-      "q": "現在、どのような業界がサポートされていますか？",
-      "a": "現在、コンプライアンスの緊急性が最も高いセクター（バッテリー、テキスタイル、高級時計/高級品）に注力しています。"
+      "q": "現在サポートされている業界は？",
+      "a": "ウェーブ1 (2027年1月施行): バッテリー、繊維、電子機器。ウェーブ2 (2027-28): 家具、タイヤ。ウェーブ3 (2028年末-29): 高度な材料トレーサビリティ。ウェーブ4 (2029-30): 鉄鋼、化学品。"
     },
     {
-      "q": "監査プロセスはどのように進みますか？",
-      "a": "監査では、現在の輸出インフラを分析し、ブロックチェーンの統合と製品へのハードウェアタグ付けのロードマップを作成します。"
+      "q": "監査プロセスはどのように機能しますか？",
+      "a": "戦略監査中に、現在の ERP/SAP インフラとコンプライアンスのギャップを分析します。8時間未満の統合時間で実行可能な、ゼロタッチ DPP 統合とハードウェア認証展開のロードマップを受け取ります。"
     },
     {
-      "q": "V-Ledgerは他のDPPプロバイダーとどう違いますか？",
-      "a": "V-Ledgerは、産業界の成熟度、法的確実性、および4層の収益化を組み合わせた唯一のプラットフォームです。多くのプロバイダーはデータを保存するだけですが、私たちはそれを収益化します。"
+      "q": "V-Ledger は他の DPP プロバイダーと何が違いますか？",
+      "a": "産業の成熟度 (V5.5スタック)、法的確実性 (CEN/CENELEC JTC 24)、ビジネス革新 (4レイヤー収益化) を組み合わせた唯一のプラットフォームです。多くの企業はデータを保存するだけですが、当社はそれを収益化します。"
     },
     {
-      "q": "ロイヤリティ・システムはどのプラットフォームで動作しますか？",
-      "a": "支払いは、V-Ledgerプロトコルと統合された認定再販プラットフォームでトリガーされます。未確認の個人売買は、認定エコシステムの対象外です。"
+      "q": "ロイヤリティシステムはどのプラットフォームで機能しますか？",
+      "a": "V-Ledger プロトコルと統合された認証済みの再販プラットフォームでトリガーされます。未確認のプライベートセールは対象外です。94/5/1 モデルは、ブランドが請求書なしで自動的に 5% を受け取ることを意味します。"
     },
     {
-      "q": "ESPRのタイムラインが変更された場合はどうなりますか？",
-      "a": "V-Ledgerは、ESPRとともに進化するCEN/CENELEC JTC 24フレームワーク上に構築されています。当社のモジュラーアーキテクチャにより、標準が確定した時点で自動的にコンプライアンスマッピングが更新されます。"
+      "q": "ESPR のタイムラインが変更された場合はどうなりますか？",
+      "a": "V-Ledger は、ESPR と並行して進化する CEN/CENELEC JTC 24 フレームワーク上に構築されています。当社のアーキテクチャはモジュール式で、標準が確定するとコンプライアンスマッピングが自動的に更新されます。"
     },
     {
-      "q": "2027年以降、どの製品カテゴリーがサポートされますか？",
-      "a": "フェーズ1（2026-27）：バッテリー、テキスタイル、電子機器。フェーズ2（2027-28）：家具、タイヤ、洗剤。フェーズ3（2029-30）：鉄鋼、アルミニウム、化学薬品。"
+      "q": "2027年以降、どの製品カテゴリがサポートされますか？",
+      "a": "フェーズ1: バッテリー、繊維。フェーズ2: 家具、タイヤ、塗料。フェーズ3: 鉄鋼、アルミ、化学。V-Ledger は、欧州委員会が定義するすべての優先セクター全体で水平方向にスケーリングします。"
     },
     {
-      "q": "D2Cライフサイクルポータルとは何ですか？",
-      "a": "収益化スタックのレイヤー2です。すべてのDPPは後続の製品所有者への直接マーケティングチャネルとなり、保証延長や認定スペアパーツの提供を可能にします。"
+      "q": "D2C ライフサイクルポータルとは何ですか？",
+      "a": "収益化スタックの第2レイヤー。所有権の変更が確認されると、新しい所有者にリアルタイムの保証延長、純正スペアパーツ、自動 MaaS 予約が提供され、ブランドに収益をもたらします。"
     },
     {
-      "q": "デジタル・グリーン・トークンとは何ですか？",
-      "a": "収益化スタックのレイヤー3です。消費者が検証済みのリサイクルのために製品を返品すると、デジタル報酬を受け取り、メーカーは資源の自律性を確保できます。"
+      "q": "デジタルグリーントークンとは何ですか？",
+      "a": "収益化スタックの第3レイヤー。確認済みのリサイクルのために消費者が製品を返却すると、デジタルグリーントークンを受け取ります。メーカーは二次原材料へのアクセスを回復し、資源の自律性を確保します。"
     }
   ],
   "legal": {
     "imprint": "法的通知",
     "privacy": "プライバシー",
-    "terms": "規約",
+    "terms": "利用規約",
     "back": "ホームに戻る",
-    "agree": "データ処理に同意する：",
+    "agree": "データ処理に同意します",
     "content": {
-      "imprint": "<h1>法的通知</h1><p>V-LEDGER<br>Albertstr. 7<br>47059 Duisburg<br>Email: info@V-Ledger.com</p>",
-      "privacy": "<h1>プライバシーポリシー (GDPR)</h1><p>データの安全性を重視しています...</p>",
-      "terms": "<h1>利用規約</h1><p>当社のサービスはB2B顧客専用です。</p>"
+      "imprint": "<h1>法的通知</h1><p>V-Ledger<br>Albertstr. 7, 47059 Duisburg<br>ドイツ</p>",
+      "privacy": "<h1>プライバシーポリシー</h1><p>GDPR に基づき、適切にデータを処理します...</p>",
+      "terms": "<h1>利用規約</h1><p>当社のサービスは、B2B の顧客のみを対象としています...</p>"
     }
   },
   "aboutUs": {
-    "nav": "会社概要",
-    "title": "欧州のゲートウェイ",
-    "subtitle": "テクノロジーとコンプライアンスの架け橋",
-    "content": "<h3>デュイスブルク港：欧州の玄関口</h3><p>V-Ledgerは、欧州最大の河川港であるデュイスブルクで物理的・法的な拠点として機能しています。欧州輸入規制（ESPR 2027）の壁を越えるインフラを提供します。</p><h3>テクノロジーとドイツの規制への適応</h3><p>アジアのパートナーが製造を担う一方で、当社はBase L2とNTAG 424 DNAを用いて、すべての製品に偽造不可能なDPPを発行します。</p><h3>お客様のコンプライアンスは当社のビジネスです</h3><p>技術的な複雑さと法的な責任を当社が引き受けます。遅延のない輸出と無限の拡張性を実現します。</p>"
+    "nav": "企業情報",
+    "title": "2030年 循環経済標準",
+    "subtitle": "信頼を収益化。資源を確保。混乱を排除。",
+    "content": "<h3>V-Ledger は、ヨーロッパ最大の河川港であるドゥイスブルクに本社を置いています。</h3><p>私たちは ESPR 2027 義務をコンプライアンスの負担とは見なしません。それを 4 レイヤーの収益エンジンと永続的な競争優位に変えるインフラを構築しました。</p><h3>組織的な混乱から戦略的な収益性へ。</h3><p>現在の DPP アプローチは、静的データに焦点を当てているため失敗しています。V-Ledger は、組織的な労力を技術的な自動化に置き換えます：8時間未満のゼロタッチ SAP/ERP 統合、自動化された JTC 24 マッピング、偽造責任を排除するハードウェアトラストアンカー。産業規模で。</p>"
   },
   "tech": {
     "nav": "テクノロジー",
-    "title": "次世代Web3テックスタック",
-    "subtitle": "改ざん不可能な輸出のための産業用SaaSインフラ",
-    "sidebar": "NXPハードウェアとBase L2スマートコントラクトを不可視ウォレットで完全抽象化。",
-    "content": "<h3>最先端アーキテクチャ</h3><p class='text-white/60 max-w-3xl mb-8'>Web3ソフトウェアと堅牢なハードウェアを融合。SaaSプロバイダーとしてバックエンドを管理し、お客様のコンプライアンスリスクを排除します。</p><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-1.png\" alt=\"NXP NTAG 424\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (ハードウェアアンカー)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">QRコードは偽造に無力です。NXPの暗号化NFCチップを使用し、ダイナミックなコードでDPPへの偽造不可能な橋渡しをします。</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-2.png\" alt=\"Base L2\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (セキュア・レジャー)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">製品アイデンティティはBase (Ethereum L2) に永久保存され、最小のコストで最高のセキュリティと拡張性を実現します。</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-3.png\" alt=\"ロイヤリティエンジン\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">ロイヤリティエンジン</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">独自のスマートコントラクトが再販のたびに自動的に支払いをトリガーし、オンチェーンで誰がコミッションを受け取るかを自律的に決定します。</p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <div class=\"w-full aspect-video rounded-[1.5rem] overflow-hidden mb-8 border border-white/10 shadow-lg\">\n                    <img src=\"/assets/tech-4.png\" alt=\"アカウント抽象化\" class=\"w-full h-full object-cover group-hover:scale-105 transition-transform duration-700\">\n                </div>\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">アカウント抽象化</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">ERC-4337標準を採用してフリクションを排除。シードフレーズなしで法定通貨またはUSDTでの直接支払いを実現し、エンタープライズ対応としました。</p>\n            </div>\n        </div>\n        </div>"
+    "title": "産業グレードの DPP インフラ",
+    "subtitle": "自動化された EU コンプライアンスとライフサイクル収益の背後にある技術スタック。",
+    "sidebar": "V-Ledger は、暗号化ハードウェア、不変のブロックチェーン記録、エンタープライズ ERP 統合を単一のコンプライアンス層に統合します。",
+    "content": "<h3>産業グレードの DPP インフラ</h3><div class=\"grid md:grid-cols-2 gap-6 mt-12 mb-12\">\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                1\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">NXP NTAG 424 (ハードウェアアンカー)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    QRコードはプロの海賊版に対して無力です。NXP の暗号的に安全な NFC チップを使用し、スキャンごとに一意の動的暗号コードを生成して、DPP への改ざん防止ブリッジを作成します。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                2\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">Base L2 (セキュア・レジャー)</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    デジタル製品アイデンティティは Base (Ethereum Layer 2) に刻まれます。これにより、非常に低いトランザクションコストで前例のない拡張性が保証されます。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                3\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">ロイヤリティエンジン</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    カスタムメイドのスマートコントラクトが、商品の再販のたびに自動的に支払機能をトリガーし、オンチェーンでロイヤリティ料の分配を指示します。\n                </p>\n            </div>\n        </div>\n        <div class=\"apple-glass p-8 md:p-10 rounded-[2.5rem] relative overflow-hidden group border border-white/5 hover:border-[#a88c5a]/40 transition-all duration-500 hover:shadow-[0_0_60px_rgba(168,140,90,0.15)] bg-black/40\">\n            <div class=\"absolute -right-4 -bottom-12 text-[180px] font-black text-white/5 opacity-40 group-hover:text-[#a88c5a]/10 group-hover:scale-110 transition-all duration-700 pointer-events-none leading-none z-0\">\n                4\n            </div>\n            <div class=\"relative z-10 flex flex-col h-full\">\n                <h4 class=\"text-xl font-bold text-white tracking-wide\">アカウント抽象化</h4>\n                <p class=\"text-white/50 text-sm leading-relaxed font-medium\">\n                    ERC-4337 標準を利用。シードフレーズは不要、法定通貨または USDT での直接支払いのみ。複雑な暗号化をエンタープライズ対応にします。\n                </p>\n            </div>\n        </div></div>"
   }
 }
