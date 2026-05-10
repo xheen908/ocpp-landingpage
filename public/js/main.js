@@ -1002,9 +1002,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "locationName": "Quality Control",
                     "latitude": 0,
                     "longitude": 0,
-                    "metadata": {
-                        "demo": true
-                    },
+                    "metadata": {},
                     "transactionHash": "0x9ec1aa2ec62a1fa632866b9c9f201f45bf3e1a0ed1a48ded8f528c67d07ac032",
                     "blockNumber": null,
                     "contractAddress": null,
@@ -1022,9 +1020,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "locationName": "Export Port",
                     "latitude": 0,
                     "longitude": 0,
-                    "metadata": {
-                        "demo": true
-                    },
+                    "metadata": {},
                     "transactionHash": "0xca2dddf8fff0d26777a481f2891f8e4de301566d20e22f168ed16b490cc2518d",
                     "blockNumber": null,
                     "contractAddress": null,
@@ -1042,9 +1038,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "locationName": "Import Hub",
                     "latitude": 0,
                     "longitude": 0,
-                    "metadata": {
-                        "demo": true
-                    },
+                    "metadata": {},
                     "transactionHash": "0x52e2535e36521d5f5a8944825c27ca39fc818adb24081cfc00263be20cc5e6d1",
                     "blockNumber": null,
                     "contractAddress": null,
@@ -1062,9 +1056,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "locationName": "Retail Arrival",
                     "latitude": 0,
                     "longitude": 0,
-                    "metadata": {
-                        "demo": true
-                    },
+                    "metadata": {},
                     "transactionHash": "0xb88e9a580eefaedb29bbf9f9f41d7dc85beb3408abe47f76adf5235337bdc254",
                     "blockNumber": null,
                     "contractAddress": null,
