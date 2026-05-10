@@ -2,7 +2,47 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('BUILD 7.0 (Strategic Overhaul) - Customs Highway & Revenue Engine Ready');
 
-    // Typewriter effect removed to allow nested HTML / Span rendering from SSR
+    // ── Robust HTML-Aware Typewriter Effect for H1 Hero Headline ────────────────
+    const h1Span = document.querySelector('#h1-text .gradient-text');
+    if (h1Span) {
+        const originalHTML = h1Span.innerHTML.trim();
+        h1Span.innerHTML = ''; 
+        
+        let idx = 0;
+        const startDelay = setTimeout(() => {
+            const typeInterval = setInterval(() => {
+                if (idx < originalHTML.length) {
+                    // If we hit an HTML tag opening, fast-forward past the entire tag instantly
+                    if (originalHTML[idx] === '<') {
+                        const tagEnd = originalHTML.indexOf('>', idx);
+                        if (tagEnd !== -1) {
+                            idx = tagEnd + 1;
+                        } else {
+                            idx++;
+                        }
+                    } else {
+                        idx++;
+                    }
+                    
+                    // Render the current slice. Browser's automatic DOM healing will handle 
+                    // temporary unclosed tags flawlessly step-by-step.
+                    h1Span.innerHTML = originalHTML.substring(0, idx) + '<span class="typewriter-cursor" aria-hidden="true"></span>';
+                } else {
+                    clearInterval(typeInterval);
+                    // Binking phase over, perform cursor teardown
+                    const cursor = h1Span.querySelector('.typewriter-cursor');
+                    if (cursor) {
+                        setTimeout(() => {
+                            cursor.style.transition = 'opacity 0.6s ease';
+                            cursor.style.opacity = '0';
+                            setTimeout(() => cursor.remove(), 700);
+                        }, 1500);
+                    }
+                }
+            }, 30); // 30ms per visual unit for dynamic feel
+        }, 300);
+    }
+    // ────────────────────────────────────────────────────────────────────────────
 
 
 
