@@ -321,28 +321,26 @@
                 <div class="lg:col-span-7 flex flex-col justify-between border border-white/10 rounded-[2.5rem] p-6 text-left relative overflow-hidden bg-black/85 shadow-2xl min-h-[550px]">
                     <div class="absolute inset-0 bg-radial-at-t from-white/[0.02] to-transparent pointer-events-none"></div>
                     
-                    <div>
-                        <!-- Header panel of console -->
-                        <div class="flex items-center justify-between border-b border-white/5 pb-4 mb-4">
-                            <div class="flex items-center gap-2">
-                                <span class="w-2.5 h-2.5 rounded-full bg-red-500/80 shadow-[0_0_8px_rgba(239,68,68,0.5)]"></span>
-                                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80 shadow-[0_0_8px_rgba(234,179,8,0.5)]"></span>
-                                <span class="w-2.5 h-2.5 rounded-full bg-green-500/80 shadow-[0_0_8px_rgba(34,197,94,0.5)]"></span>
-                                <span class="text-[9px] font-mono text-white/30 uppercase tracking-widest ml-3">v-ledger-core-node // active</span>
-                            </div>
-                            <div class="flex items-center gap-1.5 px-3 py-1 rounded-full border border-green-500/20 bg-green-500/5 text-green-400 text-[8px] uppercase tracking-widest font-mono">
-                                <span class="relative flex h-1.5 w-1.5">
-                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                                    <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-500"></span>
-                                </span>
-                                DUISBURG GATEWAY
-                            </div>
+                    <!-- Header panel of console -->
+                    <div class="flex items-center justify-between border-b border-white/5 pb-4 mb-4 relative z-10">
+                        <div class="flex items-center gap-2">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500/80 shadow-[0_0_8px_rgba(239,68,68,0.5)]"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80 shadow-[0_0_8px_rgba(234,179,8,0.5)]"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500/80 shadow-[0_0_8px_rgba(34,197,94,0.5)]"></span>
+                            <span class="text-[9px] font-mono text-white/30 uppercase tracking-widest ml-3">v-ledger-core-node // active</span>
                         </div>
+                        <div class="flex items-center gap-1.5 px-3 py-1 rounded-full border border-green-500/20 bg-green-500/5 text-green-400 text-[8px] uppercase tracking-widest font-mono">
+                            <span class="relative flex h-1.5 w-1.5">
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-500"></span>
+                            </span>
+                            DUISBURG GATEWAY
+                        </div>
+                    </div>
 
-                        <!-- Terminal Output Console -->
-                        <div id="demo-terminal-log" class="font-mono text-[10px] leading-relaxed text-[#e0cfb3] h-[450px] overflow-y-auto pr-2 space-y-2 select-text custom-scrollbar">
-                            <span class="text-white/30 block mt-2">Console initialized. Select a category on the left and click "EXECUTE CRYPTOGRAPHIC NXP SCAN" to verify hardware-backed digital product twins directly on Base Layer-2 ledger.</span>
-                        </div>
+                    <!-- Terminal Output Console -->
+                    <div id="demo-terminal-log" class="font-mono text-[10px] leading-relaxed text-[#e0cfb3] flex-1 overflow-y-auto pr-2 space-y-2 select-text custom-scrollbar relative z-10">
+                        <span class="text-white/30 block mt-2">Console initialized. Select a category on the left and click "EXECUTE CRYPTOGRAPHIC NXP SCAN" to verify hardware-backed digital product twins directly on Base Layer-2 ledger.</span>
                     </div>
                 </div>
             </div>
