@@ -2,51 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('BUILD 7.0 (Strategic Overhaul) - Customs Highway & Revenue Engine Ready');
 
-    // ── Typewriter Effect for H1 Hero Headline ──────────────────────────────
-    const h1Span = document.querySelector('#h1-text .gradient-text');
-    if (h1Span) {
-        const originalHTML = h1Span.innerHTML.trim();
-        // Split on <br> to preserve line breaks
-        const parts = originalHTML.split(/<br\s*\/?>/i);
-        // Build char array: strings interleaved with null (= line break marker)
-        const charQueue = [];
-        parts.forEach((part, i) => {
-            [...part].forEach(c => charQueue.push(c));
-            if (i < parts.length - 1) charQueue.push(null); // null = <br>
-        });
+    // Typewriter effect removed to allow nested HTML / Span rendering from SSR
 
-        // Clear and set up cursor
-        h1Span.innerHTML = '';
-        const cursor = document.createElement('span');
-        cursor.className = 'typewriter-cursor';
-        cursor.setAttribute('aria-hidden', 'true');
-        h1Span.appendChild(cursor);
-
-        let idx = 0;
-        // Small delay so the page paint completes first
-        const startDelay = setTimeout(() => {
-            const typeInterval = setInterval(() => {
-                if (idx < charQueue.length) {
-                    const ch = charQueue[idx];
-                    if (ch === null) {
-                        cursor.insertAdjacentHTML('beforebegin', '<br>');
-                    } else {
-                        cursor.insertAdjacentText('beforebegin', ch);
-                    }
-                    idx++;
-                } else {
-                    clearInterval(typeInterval);
-                    // Blink for 1.5 s then fade out cursor
-                    setTimeout(() => {
-                        cursor.style.transition = 'opacity 0.6s ease';
-                        cursor.style.opacity = '0';
-                        setTimeout(() => cursor.remove(), 700);
-                    }, 1500);
-                }
-            }, 35); // 35ms per char ≈ fast typewriter
-        }, 300);
-    }
-    // ────────────────────────────────────────────────────────────────────────
 
 
     const modal = document.getElementById('contact-modal');
