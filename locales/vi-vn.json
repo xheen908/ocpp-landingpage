@@ -11,7 +11,7 @@
   "resellName": "Chuyển đổi sở hữu & Bán lại",
   "recyclingName": "Tái chế & Hoàn tiền",
   "h1": "Cơ sở Hạ tầng Công nghiệp Toàn cầu<br>cho Kinh tế Tuần hoàn 2030.",
-  "sub": "V-Ledger V5.5 thay thế việc tuân thủ DPP thủ công bằng tự động hóa hoàn toàn — và biến mọi điểm chạm vòng đời thành sự kiện tạo doanh thu. Tiền tệ hóa Niềm tin. Bảo vệ Nguồn lực. Loại bỏ Sự hỗn loạn.",
+  "sub": "V-Ledger V1 thay thế việc tuân thủ DPP thủ công bằng tự động hóa hoàn toàn — và biến mọi điểm chạm vòng đời thành sự kiện tạo doanh thu. Tiền tệ hóa Niềm tin. Bảo vệ Nguồn lực. Loại bỏ Sự hỗn loạn.",
   "cta": "Yêu cầu Kiểm tra Chiến lược 2030",
   "madeInGermany": "Kỹ thuật Đức & Bảo mật Pháp lý",
   "mHeader": "Kiểm toán Đối tác Chiến lược",
@@ -39,9 +39,9 @@
   "p4t": "Lớp 4: Xuất sắc về OPEX",
   "p4h": "Loại bỏ Hỗn loạn Tuân thủ.",
   "p4d": "Tự động hóa loại bỏ chi phí hành chính tuân thủ DPP thủ công: không in ấn, không nhập dữ liệu thủ công, không tốn chi phí tài liệu pháp lý trên mỗi SKU.",
-  "quote": "\"V-Ledger V5.5 là cơ sở hạ tầng duy nhất kết hợp Sự trưởng thành Công nghiệp, Tính chắc chắn về Pháp lý và Đổi mới Mô hình Kinh doanh.\"",
-  "quotesub": "— V-LEDGER V5.5 // CON ĐƯỜNG ĐẾN TÍNH TUẦN HOÀN CÓ LỢI NHUẬN",
-  "badge": "Tiền tệ hóa Niềm tin · Bảo vệ Nguồn lực · Loại bỏ Hỗn loạn // V5.5",
+  "quote": "\"V-Ledger V1 là cơ sở hạ tầng duy nhất kết hợp Sự trưởng thành Công nghiệp, Tính chắc chắn về Pháp lý và Đổi mới Mô hình Kinh doanh.\"",
+  "quotesub": "— V-LEDGER V1 // CON ĐƯỜNG ĐẾN TÍNH TUẦN HOÀN CÓ LỢI NHUẬN",
+  "badge": "Tiền tệ hóa Niềm tin · Bảo vệ Nguồn lực · Loại bỏ Hỗn loạn // V1",
   "calcH": "Máy tính Lợi nhuận",
   "calcV": "Khối lượng Xuất khẩu (Đơn vị/Năm)",
   "calcR": "Tỷ lệ Bán lại (%)",
@@ -49,7 +49,7 @@
   "calcP": "Lợi nhuận Thụ động Hàng năm:",
   "lang": "vi-vn",
   "metaTitle": "V-LEDGER | Cơ sở Hạ tầng Kinh tế Tuần hoàn 2030 (DPP)",
-  "metaDesc": "V-Ledger V5.5 — Cơ sở hạ tầng công nghiệp phổ quát cho Hộ chiếu Sản phẩm Kỹ thuật số EU. Tích hợp SAP Zero-Touch, kiếm tiền 4 lớp, tuân thủ CEN/CENELEC JTC 24.",
+  "metaDesc": "V-Ledger V1 — Cơ sở hạ tầng công nghiệp phổ quát cho Hộ chiếu Sản phẩm Kỹ thuật số EU. Tích hợp SAP Zero-Touch, kiếm tiền 4 lớp, tuân thủ CEN/CENELEC JTC 24.",
   "cookie": {
     "title": "KIỂM TRA BẢO MẬT & TUÂN THỦ",
     "msg": "Để bảo mật quyền truy cập vào cơ sở hạ tầng V-Ledger và đảm bảo tuân thủ EU, chúng tôi sử dụng các định danh mật mã (Cookies). Xác minh danh tính và tùy chọn của bạn.",
@@ -86,7 +86,7 @@
     },
     {
       "q": "V-Ledger khác biệt như thế nào so với các nhà cung cấp DPP khác?",
-      "a": "Là nền tảng duy nhất kết hợp Sự trưởng thành Công nghiệp (V5.5), Sự chắc chắn về Pháp lý (JTC 24) và Đổi mới Mô hình Kinh doanh (kiếm tiền 4 lớp). Hầu hết chỉ lưu trữ dữ liệu, chúng tôi kiếm tiền từ nó."
+      "a": "Là nền tảng duy nhất kết hợp Sự trưởng thành Công nghiệp (V1), Sự chắc chắn về Pháp lý (JTC 24) và Đổi mới Mô hình Kinh doanh (kiếm tiền 4 lớp). Hầu hết chỉ lưu trữ dữ liệu, chúng tôi kiếm tiền từ nó."
     },
     {
       "q": "Hệ thống bản quyền hoạt động trên những nền tảng nào?",

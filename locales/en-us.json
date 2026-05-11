@@ -11,7 +11,7 @@
   "resellName": "Ownership Swap & Resell",
   "recyclingName": "Recycling & Refund",
   "h1": "The Universal Industrial Infrastructure<br>for the 2030 Circular Economy.",
-  "sub": "V-Ledger V5.5 replaces manual DPP compliance with full automation — and turns every product lifecycle touchpoint into a revenue event. Monetizing Trust. Securing Resources. Eliminating Chaos.",
+  "sub": "V-Ledger V1 replaces manual DPP compliance with full automation — and turns every product lifecycle touchpoint into a revenue event. Monetizing Trust. Securing Resources. Eliminating Chaos.",
   "cta": "Request Strategic Audit 2030",
   "madeInGermany": "German Engineering & Legal Security",
   "mHeader": "Strategic Partner Audit",
@@ -38,9 +38,9 @@
   "p4t": "Layer 4: OPEX Excellence",
   "p4h": "Eliminating Compliance Chaos.",
   "p4d": "Automation eliminates the administrative overhead of manual DPP compliance: no printing, no manual data entry, no legal documentation cost per SKU. Zero-Touch Integration saves enterprises millions over the 2030 horizon.",
-  "quote": "\"V-Ledger V5.5 is the only infrastructure combining Industrial Maturity, Legal Certainty, and Business Model Innovation. We are not just compliant. We are profitable.\"",
-  "quotesub": "— V-LEDGER V5.5 // THE PATHWAY TO PROFITABLE CIRCULARITY",
-  "badge": "Monetizing Trust · Securing Resources · Eliminating Chaos // V5.5",
+  "quote": "\"V-Ledger V1 is the only infrastructure combining Industrial Maturity, Legal Certainty, and Business Model Innovation. We are not just compliant. We are profitable.\"",
+  "quotesub": "— V-LEDGER V1 // THE PATHWAY TO PROFITABLE CIRCULARITY",
+  "badge": "Monetizing Trust · Securing Resources · Eliminating Chaos // V1",
   "calcH": "Profit Calculator",
   "calcV": "Export Volume (Units/Year)",
   "calcR": "Resale Rate (%)",
@@ -48,7 +48,7 @@
   "calcP": "Annual Passive Profit:",
   "lang": "en-us",
   "metaTitle": "V-LEDGER | The 2030 Circular Economy Infrastructure (DPP)",
-  "metaDesc": "V-Ledger V5.5 — The universal industrial infrastructure for the EU Digital Product Passport. Zero-Touch SAP integration, 4-layer monetization, CEN/CENELEC JTC 24 compliant. Engineered in Duisburg.",
+  "metaDesc": "V-Ledger V1 — The universal industrial infrastructure for the EU Digital Product Passport. Zero-Touch SAP integration, 4-layer monetization, CEN/CENELEC JTC 24 compliant. Engineered in Duisburg.",
   "cookie": {
     "title": "SECURITY & COMPLIANCE CHECK",
     "msg": "To secure access to the V-Ledger infrastructure and ensure EU compliance, we utilize cryptographic identifiers (Cookies). Verify your identity and preferences.",
@@ -85,7 +85,7 @@
     },
     {
       "q": "How does V-Ledger differ from other DPP providers?",
-      "a": "V-Ledger is the only platform combining Industrial Maturity (V5.5 stack, mass-deployment ready), Legal Certainty (CEN/CENELEC JTC 24, NTAG 424 DNA SUN — dismisses counterfeiting liability), and Business Model Innovation (4-layer monetization: royalties, D2C portal, Digital Green Tokens, OPEX savings). Most DPP providers store data. We monetize it."
+      "a": "V-Ledger is the only platform combining Industrial Maturity (V1 stack, mass-deployment ready), Legal Certainty (CEN/CENELEC JTC 24, NTAG 424 DNA SUN — dismisses counterfeiting liability), and Business Model Innovation (4-layer monetization: royalties, D2C portal, Digital Green Tokens, OPEX savings). Most DPP providers store data. We monetize it."
     },
     {
       "q": "On which platforms does the royalty system work?",
